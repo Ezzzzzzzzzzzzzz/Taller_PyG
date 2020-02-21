@@ -38,7 +38,11 @@ Las primeras dos líneas de nuestro primer programa son muy simples: **todo lo q
 
 >`pygame.init()` **le dice a Pygame que estamos listos para comenzar a usarlo.**
 
+Veamos la tercera línea de código:
+```python
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTYwNzEwMTAsLTc5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbMTE1MDU2MTU4MSwtNzk0ODgxNjEyXX0=
 -->
