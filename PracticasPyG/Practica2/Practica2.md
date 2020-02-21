@@ -7,9 +7,9 @@ Dibujaremos algunos cuadrados alrededor de la pantalla y analizaremos un poco su
 ```python
 while True:
 
-    pygame.draw.rect(window,(255, 0, 0), (100, 100, 50, 50))
-    pygame.draw.rect(window,(0, 255, 0), (150, 100, 50, 50))
-    pygame.draw.rect(window,(0, 0, 255), (200, 100, 50, 50))
+    pygame.draw.rect(window, (255, 0, 0), (100, 100, 50, 50))
+    pygame.draw.rect(window, (0, 255, 0), (150, 100, 50, 50))
+    pygame.draw.rect(window, (0, 0, 255), (200, 100, 50, 50))
     
     pygame.display.update()
 ```
@@ -19,14 +19,14 @@ while True:
 ```python
 while True:
     
-    pygame.draw.rect(window,(255, 0, 0), (0, 0, 50, 50))
-    pygame.draw.rect(window,(0, 255, 0), (40, 0, 50, 50))
-    pygame.draw.rect(window,(0, 0, 255), (80, 0, 50, 50))
+    pygame.draw.rect(window, (255, 0, 0), (0, 0, 50, 50))
+    pygame.draw.rect(window, (0, 255, 0), (40, 0, 50, 50))
+    pygame.draw.rect(window, (0, 0, 255), (80, 0, 50, 50))
     
     pygame.display.update()
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg2ODI2MzgsLTE1OTA1MjcyNjddfQ
+eyJoaXN0b3J5IjpbLTE5ODEyMDUxNzAsLTE1OTA1MjcyNjddfQ
 ==
 -->
