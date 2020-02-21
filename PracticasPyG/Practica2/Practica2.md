@@ -40,9 +40,9 @@ while True:
        
     pygame.display.update()
 ```
-
+**Ahora el código aparentemente produce rectángulo, cuadrado, rectángulo. Esto se debe a que los cuadrados rojo y azul se dibujaron primero y luego el cuadrado verde se dibujó sobre ellos. Los cuadrados rojo y azul todavía están allí en su totalidad, pero no podemos verlos todos, por lo que parecen rectángulos.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTczODgxMjgsLTk5MDI3MTA3MiwtMT
-U5MDUyNzI2N119
+eyJoaXN0b3J5IjpbMzQ5MTYzOTYyLC05OTAyNzEwNzIsLTE1OT
+A1MjcyNjddfQ==
 -->
