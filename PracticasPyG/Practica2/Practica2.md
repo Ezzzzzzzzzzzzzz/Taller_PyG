@@ -6,15 +6,14 @@ Dibujaremos algunos cuadrados alrededor de la pantalla y analizaremos un poco su
 **Edite el bucle while para que sea lo mismo que lo siguiente:**
 ```python
 while True:
-    pygame.draw.rect(window,(255, 0, 0), (100, 100, 50, 50))
-    
-    pygame.draw.rect(window,(0, 255, 0), (150, 100, 50, 50))
 
+    pygame.draw.rect(window,(255, 0, 0), (100, 100, 50, 50))
+    pygame.draw.rect(window,(0, 255, 0), (150, 100, 50, 50))
     pygame.draw.rect(window,(0, 0, 255), (200, 100, 50, 50))
     
     pygame.display.update()
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTA1MjcyNjddfQ==
+eyJoaXN0b3J5IjpbOTQwNjE0NzY3LC0xNTkwNTI3MjY3XX0=
 -->
