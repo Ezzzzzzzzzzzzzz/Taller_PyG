@@ -59,8 +59,10 @@ while True:
 
 
 
-**Es posible que hayas notado que en realidad no cerramos el triángulo: Pygame lo hizo por nosotros.** Justo antes de pasar los puntos de los que se va a dibujar nuestra forma, podemos pasar un valor `True` (Verdadero o Falso que le permitirá a Pygame saber que queremos que cierre nuestras formas por nosotros. Cámbielo a Falso y obtenemos las dos primeras líneas de nuestra forma, pero no la tercera. Si queremos hacer una forma más compleja, simplemente agregamos más puntos así:
+**Es posible que hayas notado que en realidad no cerramos el triángulo: Pygame lo hizo por nosotros.** Justo antes de pasar los puntos de los que se va a dibujar nuestra forma, podemos pasar un valor `true` (Verdadero) o `false`(Falso) que le permitirá a Pygame saber que queremos que cierre nuestras formas por nosotros. **Cámbielo a Falso y obtenemos las dos primeras líneas de nuestra forma, pero no la tercera.** 
+
+Si queremos hacer una forma más compleja, simplemente agregamos más puntos así:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE5MzgyMzcsLTQzNzU0MzI3OSwtMT
+eyJoaXN0b3J5IjpbLTE2MzAxNTc3NjYsLTQzNzU0MzI3OSwtMT
 M1ODM3MjE3MCwxNTgzNDE0MTg4XX0=
 -->
