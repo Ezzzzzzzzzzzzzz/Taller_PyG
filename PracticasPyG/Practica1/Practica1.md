@@ -72,8 +72,9 @@ Hacemos esto pasando una **tupla de cuatro números**.
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzI2NDgzNSwxNzEyNTI1MDU5LDM1Mz
+eyJoaXN0b3J5IjpbLTc4MjI4OTIzNywxNzEyNTI1MDU5LDM1Mz
 kxNjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgx
 NjEyXX0=
 -->
