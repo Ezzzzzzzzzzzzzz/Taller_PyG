@@ -40,9 +40,9 @@ Las primeras dos líneas de nuestro primer programa son muy simples: **todo lo q
 
 Veamos la tercera línea de código:
 ```python
-
+window = pygame.display.set_mode((500,300))
 ```
-
+**window** es el parámetro que vamos a usar para decirle a nuestro programa Pygame cómo debería verse cuando se ejecuta; cada parámetro afecta la forma y el tamaño de la ventana de la aplicación. Tenga en cuenta que aquí, el ancho siempre viene antes que la altura.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDU2MTU4MSwtNzk0ODgxNjEyXX0=
+eyJoaXN0b3J5IjpbMTI0MjUzNDEwMiwtNzk0ODgxNjEyXX0=
 -->
