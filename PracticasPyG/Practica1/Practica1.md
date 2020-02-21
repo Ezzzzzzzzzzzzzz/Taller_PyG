@@ -31,7 +31,7 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 **Acabamos de crear nuestro primer programa Pygame: vamos a verlo.**
 
-## Entendiendo `hello.py`
+# Entendiendo `hello.py`
 Las primeras dos líneas de nuestro primer programa son muy simples: **todo lo que hemos hecho es decirle a Python que queremos usar Pygame.** 
 
 > `import pygame` **carga todo el código Pygame en nuestro script, por lo que no tenemos que escribir todo ese código nosotros mismos.** Pygame está diseñado para facilitar la creación de juegos y software interactivo.
@@ -44,5 +44,5 @@ window = pygame.display.set_mode((500,300))
 ```
 `window` es el parámetro que vamos a usar para decirle a nuestro programa Pygame cómo debería verse cuando se ejecuta; cada parámetro afecta la forma y el tamaño de la ventana de la aplicación. Tenga en cuenta que aquí, el ancho siempre viene antes que la altura. `window` también es el parámetro que usaremos para indicar a otras líneas de código la superficie en la que deben dibujar formas y establecer colores. Con `window`, llamamos a la función `set_mode` del módulo de visualización de Pygame: este último es responsable de cómo se comporta la ventana y la superficie del juego *(un término informal para los píxeles que manipularemos)*. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjY3NDU1MSwtNzk0ODgxNjEyXX0=
+eyJoaXN0b3J5IjpbLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
 -->
