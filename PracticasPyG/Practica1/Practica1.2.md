@@ -15,6 +15,7 @@ while True:
     pygame.display.update()
 ```
 **Ahora deberíamos tener tres cuadrados: rojo, azul y verde**. Hasta ahora, esto es agradable y simple, pero esos cuadrados se colocan uno al lado del otro. 
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.2.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.2.JPG)
 
 **¿Qué pasaría si se superpusieran? Vamos a averiguar.** 
 
@@ -44,5 +45,5 @@ while True:
 **Ahora el código aparentemente produce rectángulo, cuadrado, rectángulo. Esto se debe a que los cuadrados rojo y azul se dibujaron primero y luego el cuadrado verde se dibujó sobre ellos. Los cuadrados rojo y azul todavía están allí en su totalidad, pero no podemos verlos todos, por lo que parecen rectángulos.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDA2OTA5Nl19
+eyJoaXN0b3J5IjpbNTY4MzUyNzA4LDIwNzAwNjkwOTZdfQ==
 -->
