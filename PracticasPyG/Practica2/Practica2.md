@@ -15,7 +15,7 @@ while True:
 ```
 **Ahora deberíamos tener tres cuadrados: rojo, azul y verde**. Hasta ahora, esto es agradable y simple, pero esos cuadrados se colocan uno al lado del otro. 
 
-**¿Qué pasaría si se superpusieran?** Vamos a averiguar. Cambie su código una vez más a lo siguiente:
+**¿Qué pasaría si se superpusieran? Vamos a averiguar. Cambie su código una vez más a lo siguiente:**
 ```python
 while True:
     
@@ -27,6 +27,5 @@ while True:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODEyMDUxNzAsLTE1OTA1MjcyNjddfQ
-==
+eyJoaXN0b3J5IjpbLTIxNTU4MjY0MiwtMTU5MDUyNzI2N119
 -->
