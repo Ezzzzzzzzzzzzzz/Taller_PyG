@@ -1,5 +1,5 @@
 
-# SHAPES (formas) & PATHS con PYGAME
+# SHAPES (formas) & PATHS (trayectorias) con PYGAME
 ### Vamos a aprender a hacer un juego desde cero. En las primeras practicas, aprendemos los conceptos básicos.
 
 En este curso, vamos a aprender a hacer juegos con Pygame. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada capítulo se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
@@ -82,7 +82,7 @@ Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTUwNzM3OSwxNjU4ODkyMDIzLDE3MT
+eyJoaXN0b3J5IjpbMTQ3OTk2MjkyMiwxNjU4ODkyMDIzLDE3MT
 I1MjUwNTksMzUzOTE2MzY1LC0xMDIzNTI3Mjc4LC0yMDY1MDI5
 OTMwLC03OTQ4ODE2MTJdfQ==
 -->
