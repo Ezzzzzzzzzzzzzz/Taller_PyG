@@ -45,10 +45,14 @@ window = pygame.display.set_mode((500,400))
 `window` es el parámetro que vamos a usar para decirle a nuestro programa Pygame cómo debería verse cuando se ejecuta; cada parámetro afecta la forma y el tamaño de la ventana de la aplicación. Tenga en cuenta que aquí, el ancho siempre viene antes que la altura. `window` también es el parámetro que usaremos para indicar a otras líneas de código la superficie en la que deben dibujar formas y establecer colores. Con `window`, llamamos a la función `set_mode` del módulo de visualización de Pygame: este último es responsable de cómo se comporta la ventana y la superficie del juego *(un término informal para los píxeles que manipularemos)*. 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG)
 
-En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 píxeles de alto. Si pasamos números que son más grandes, la ventana del juego será más grande; Si pasamos números que son más pequeños, la ventana del juego será más pequeña.
+En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 píxeles de alto. **Si pasamos números que son más grandes, la ventana del juego será más grande; Si pasamos números que son más pequeños, la ventana del juego será más pequeña.**
+
+Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran. Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MjI0NTg0LC0yMDY1MDI5OTMwLC03OT
-Q4ODE2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE0MjczNjI5MDIsLTIwNjUwMjk5MzAsLT
+c5NDg4MTYxMl19
 -->
