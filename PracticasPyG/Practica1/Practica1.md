@@ -73,11 +73,16 @@ Hacemos esto pasando una **tupla de cuatro números**.
 >
 >**El cuarto** número *define su altura*.
 
+Nuestra última línea en `hello.py` es agradable y simple: 
+```python
+
+```
+le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que nuestro Pi tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODg5MjAyMywxNzEyNTI1MDU5LDM1Mz
-kxNjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgx
-NjEyXX0=
+eyJoaXN0b3J5IjpbLTE5NTE5NjcyMTcsMTY1ODg5MjAyMywxNz
+EyNTI1MDU5LDM1MzkxNjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAy
+OTkzMCwtNzk0ODgxNjEyXX0=
 -->
