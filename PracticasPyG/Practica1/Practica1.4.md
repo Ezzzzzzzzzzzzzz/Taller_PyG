@@ -56,13 +56,18 @@ while True:
 **Deberías tener una imagen de un triángulo blanco con un borde de 1 px**. 
 
 *Sin embargo, este código es bastante largo: muchas cosas, como el color o el ancho de la línea, se escriben varias veces.* Sin embargo, hay una forma más concisa de lograr el resultado que queremos. Todo lo que necesitamos es `pygame.draw.lines()`. Mientras que `pygame.draw.line()` **nos permite dibujar una línea entre dos puntos**, `pygame.draw.lines()` **nos permite dibujar una secuencia de líneas entre numerosos puntos**. Cada punto de coordenadas **XY** se unirá al siguiente punto de coordenadas **XY**, que se unirá al siguiente punto de coordenadas **XY**, **y así sucesivamente**.
-
-
+```python
+while True:    
+    
+    pygame.draw.lines(window, (255, 255, 255), True, ((50, 50), (75, 75), (25, 75)), 1)
+        
+    pygame.display.update()
+```
 
 **Es posible que hayas notado que en realidad no cerramos el triángulo: Pygame lo hizo por nosotros.** Justo antes de pasar los puntos de los que se va a dibujar nuestra forma, podemos pasar un valor `true` (Verdadero) o `false`(Falso) que le permitirá a Pygame saber que queremos que cierre nuestras formas por nosotros. **Cámbielo a Falso y obtenemos las dos primeras líneas de nuestra forma, pero no la tercera.** 
 
 Si queremos hacer una forma más compleja, simplemente agregamos más puntos así:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAxNTc3NjYsLTQzNzU0MzI3OSwtMT
-M1ODM3MjE3MCwxNTgzNDE0MTg4XX0=
+eyJoaXN0b3J5IjpbMjA0NTE1MjA5OCwtMTYzMDE1Nzc2NiwtND
+M3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxODhdfQ==
 -->
