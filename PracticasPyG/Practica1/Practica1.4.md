@@ -69,8 +69,11 @@ while True:
 
 **Si queremos hacer una forma más compleja**, simplemente agregamos más puntos así:
 
+```python
 
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1MDk2NjAwLC0xNjMwMTU3NzY2LC00Mz
-c1NDMyNzksLTEzNTgzNzIxNzAsMTU4MzQxNDE4OF19
+eyJoaXN0b3J5IjpbMTMxNTc0MTAyMCw2MDUwOTY2MDAsLTE2Mz
+AxNTc3NjYsLTQzNzU0MzI3OSwtMTM1ODM3MjE3MCwxNTgzNDE0
+MTg4XX0=
 -->
