@@ -26,9 +26,11 @@ while True:
     
     pygame.display.update()
 ```
-**Esta vez tenemos dos rectángulos y un cuadrado**, pero eso no es lo que pedimos. **¿Entonces qué ha ido mal?** Cuando ejecutamos nuestro código, funciona a través de lo que tiene que dibujar y dónde tiene que ponerlo, línea por línea. **Si se dibuja un elemento y luego se dibuja otro sobre él o encima de parte de él, entonces ya no podemos ver qué hay debajo de esa segunda forma.**
+**Esta vez tenemos dos rectángulos y un cuadrado**, pero eso no es lo que pedimos. **¿Entonces qué ha ido mal?** Cuando ejecutamos nuestro código, funciona a través de lo que tiene que dibujar y dónde tiene que ponerlo, línea por línea. **Si se dibuja un elemento y luego se dibuja otro sobre él o encima de parte de él, entonces ya no podemos ver qué hay debajo de esa segunda forma.** Los píxeles de la forma dibujada primero se pierden cuando la superponemos con otra forma. Si cambiamos el orden de nuestro código, podemos ver este efecto en acción. 
+
+Corta y pega el código para el segundo cuadrado para que se convierta en el tercer cuadrado dibujado, así:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDMxNzg2MzYsLTE1OTA1MjcyNjddfQ
-==
+eyJoaXN0b3J5IjpbLTM2ODAyMzgzNSwtMTU5MDUyNzI2N119
 -->
