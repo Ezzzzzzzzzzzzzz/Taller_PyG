@@ -41,7 +41,19 @@ Si ejecuta este código ahora, **verá una línea blanca de un píxel de ancho q
 Con esto, ahora podemos crear formas definiendo puntos en nuestra ventana. 
 
 **Dibujemos ese triángulo del que hablamos anteriormente:**
-
+```python
+while True:    
+    
+    pygame.draw.line(window, (255, 255, 255), (50, 50), (75, 75), True)
+    
+    pygame.draw.line(window, (255, 255, 255), (75, 75), (25, 75), True)
+    
+    pygame.draw.line(window, (255, 255, 255), (25, 75), (50, 50), True)
+        
+    
+    pygame.display.update()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTgzNzIxNzAsMTU4MzQxNDE4OF19
+eyJoaXN0b3J5IjpbMzU0OTUzODkxLC0xMzU4MzcyMTcwLDE1OD
+M0MTQxODhdfQ==
 -->
