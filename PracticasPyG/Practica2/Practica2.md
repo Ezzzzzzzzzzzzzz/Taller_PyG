@@ -13,7 +13,11 @@ while True:
     
     pygame.display.update()
 ```
+**Ahora deberíamos tener tres cuadrados: rojo, azul y verde**. Hasta ahora, esto es agradable y simple, pero esos cuadrados se colocan uno al lado del otro. 
+**¿Qué pasaría si se superpusieran?** Vamos a averiguar. Cambie su código una vez más a lo siguiente:
+```python
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNjE0NzY3LC0xNTkwNTI3MjY3XX0=
+eyJoaXN0b3J5IjpbMjMyMDkxNDUyLC0xNTkwNTI3MjY3XX0=
 -->
