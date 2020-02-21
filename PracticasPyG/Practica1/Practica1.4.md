@@ -31,9 +31,12 @@ while True:
 ```
 Si ejecuta este código ahora, **verá una línea blanca de un píxel de ancho que va desde la parte superior izquierda a la parte inferior derecha de nuestra ventana de Pygame**. Los parámetros que pasamos a `pygame.draw.line` comienzan de la misma manera que los rectángulos y elipses. 
 > **Primero le decimos a Pygame dónde queremos dibujar la forma y luego elegimos un color**. Ahora, las cosas cambian un poco. 
+> 
 > El **siguiente argumento** es una **tupla con las coordenadas X e Y** para donde queremos que comience nuestra línea, 
+> 
 > El **tercer argumento** es una **tupla con las coordenadas X e Y** para donde queremos que nuestra línea termine. **Estos son los dos puntos entre los cuales se dibujará nuestra línea. **
+> 
 > **El argumento final es que el ancho de la línea se dibuja en píxeles**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzQxNDE4OF19
+eyJoaXN0b3J5IjpbLTU2NjIwNDQ0OCwxNTgzNDE0MTg4XX0=
 -->
