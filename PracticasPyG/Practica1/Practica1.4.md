@@ -77,8 +77,11 @@ while True:
         
     pygame.display.update()
 ```
+Ahí lo tienes: **tu propio pentágono**. 
+
+Si desea hacer un hexágono, un octágono o incluso un [triacontagon](), simplemente agregue más puntos, así de fácil. ¿Por qué no intentar experimentar con Pygame para producir algunos pixel art interesantes?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODcyNDExOTcsNjA1MDk2NjAwLC0xNj
-MwMTU3NzY2LC00Mzc1NDMyNzksLTEzNTgzNzIxNzAsMTU4MzQx
-NDE4OF19
+eyJoaXN0b3J5IjpbLTE2ODAyNzgyMCw2MDUwOTY2MDAsLTE2Mz
+AxNTc3NjYsLTQzNzU0MzI3OSwtMTM1ODM3MjE3MCwxNTgzNDE0
+MTg4XX0=
 -->
