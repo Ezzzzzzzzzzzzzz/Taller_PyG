@@ -18,7 +18,7 @@ pygame.init()
 window = pygame.display.set_mode((500,400))
 
 while True:
-	pygame.draw.rect(window, (255,0,0), (0,0,50,30))
+	pygame.draw.rect(window, (255, 0, 0),(0, 0, 50, 30))
 
 	pygame.display.update()
 ```
@@ -52,11 +52,13 @@ Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en e
 Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque **True** siempre es **True**, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
 
 **Lo primero que hacemos en nuestro ciclo `while` es dibujar un rectángulo.** Un rectángulo es la forma más simple que podemos dibujar en Pygame:
-
+```python
+pygame.draw.rect(window, (255, 0, 0),(0, 0, 50, 30))
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTAyNzM2OSwtMjA2NTAyOTkzMCwtNz
-k0ODgxNjEyXX0=
+eyJoaXN0b3J5IjpbLTIwNDY2MDc3NDksLTIwNjUwMjk5MzAsLT
+c5NDg4MTYxMl19
 -->
