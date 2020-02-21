@@ -51,11 +51,12 @@ Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en e
 
 Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque **True** siempre es **True**, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
 
+**Lo primero que hacemos en nuestro ciclo `while` es dibujar un rectángulo.** Un rectángulo es la forma más simple que podemos dibujar en Pygame:
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTA2MjU2MCwtMjA2NTAyOTkzMCwtNz
+eyJoaXN0b3J5IjpbLTE1NTAyNzM2OSwtMjA2NTAyOTkzMCwtNz
 k0ODgxNjEyXX0=
 -->
