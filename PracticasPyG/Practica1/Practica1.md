@@ -55,11 +55,11 @@ Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y
 ```python
 pygame.draw.rect(window, (255, 0, 0),(0, 0, 50, 30))
 ```
-Los parámetros al final le dicen a Pygame dónde queremos dibujar nuestro rectángulo, el color que queremos que sea nuestro rectángulo, cómo queremos dibujarlo y qué tan grande queremos que sea.
+Luego, le dijimos a Pygame qué color queríamos que fuera nuestro rectángulo pasándolo a través de una **tupla (una lista especial de números)** que representa la cantidad de **rojo**, **verde** y **azul** que debería tener el color final. Usamos rojo, verde y azul, ya que estos son los tres colores que combina su pantalla para crear cada tono que pueda ver en ella. `0`` significa que nada de ese color debe usarse en la forma; `255` significa que la cantidad máxima de color debe estar en esa forma.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM1MjcyNzgsLTIwNjUwMjk5MzAsLT
-c5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbMTI2NjkzNzAxMCwtMTAyMzUyNzI3OCwtMj
+A2NTAyOTkzMCwtNzk0ODgxNjEyXX0=
 -->
