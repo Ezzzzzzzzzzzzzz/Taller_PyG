@@ -13,6 +13,8 @@ while True:
     pygame.display.update()
 ```
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG)
+
+**Al igual que dibujar un rectángulo, le decimos a Pygame en qué superficie queremos dibujar nuestro círculo, de qué color queremos que sea y hacia dónde debe ir. El radio es específico para dibujar esta forma particular.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwNzkwNTc5LC01MTQzMTc0NjVdfQ==
+eyJoaXN0b3J5IjpbLTExMzY0MzYwNjIsLTUxNDMxNzQ2NV19
 -->
