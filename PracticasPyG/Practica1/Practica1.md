@@ -64,12 +64,16 @@ Le dijimos a nuestro rectángulo que debería ser el color `(255, 0, 0)`, que es
 
 Después de pasar por un color para que nuestro rectángulo sea, tenemos que decirle a dónde debe ir y qué tan grande debe ser. 
 
-Hacemos esto pasando una **tupla de cuatro números**. **El primer** número es una **coordenada X**, *que establece qué tan lejos del lado izquierdo de la ventana debe estar el borde izquierdo de nuestro rectángulo*. **El segundo** número es una **coordenada Y**; *esto le dice al rectángulo qué tan lejos de la parte superior de nuestra ventana debe quedar el borde superior*. *El tercer número da el ancho de nuestro rectángulo, y el cuarto número define su altura.
+Hacemos esto pasando una **tupla de cuatro números**. 
+>**El primer** número es una **coordenada X**, *que establece qué tan lejos del lado izquierdo de la ventana debe estar el borde izquierdo de nuestro rectángulo*. 
+>**El segundo** número es una **coordenada Y**; *esto le dice al rectángulo qué tan lejos de la parte superior de nuestra ventana debe quedar el borde superior*. 
+>**El tercer** número *da el ancho de nuestro rectángulo*. 
+>**El cuarto** número *define su altura*.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjAxOTYzODgsMTcxMjUyNTA1OSwzNT
-M5MTYzNjUsLTEwMjM1MjcyNzgsLTIwNjUwMjk5MzAsLTc5NDg4
-MTYxMl19
+eyJoaXN0b3J5IjpbLTQ2MzI2NDgzNSwxNzEyNTI1MDU5LDM1Mz
+kxNjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgx
+NjEyXX0=
 -->
