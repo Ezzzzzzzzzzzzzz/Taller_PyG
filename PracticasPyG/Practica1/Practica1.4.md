@@ -53,7 +53,10 @@ while True:
     
     pygame.display.update()
 ```
+**Deberías tener una imagen de un triángulo blanco con un borde de 1 px**. 
+
+Sin embargo, este código es bastante largo: muchas cosas, como el color o el ancho de la línea, se escriben varias veces. Sin embargo, hay una forma más concisa de lograr el resultado que queremos. Todo lo que necesitamos es pygame. draw.lines (). Mientras que pygame.draw.line () nos permite dibujar una línea entre dos puntos, pygame.draw.lines () nos permite dibujar una secuencia de líneas entre numerosos puntos. Cada punto de coordenadas XY se unirá al siguiente punto de coordenadas XY, que se unirá al siguiente punto de coordenadas XY, y así sucesivamente.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzU5NDc0NywtMTM1ODM3MjE3MCwxNT
-gzNDE0MTg4XX0=
+eyJoaXN0b3J5IjpbLTEwODAxNzgyMTksLTEzNTgzNzIxNzAsMT
+U4MzQxNDE4OF19
 -->
