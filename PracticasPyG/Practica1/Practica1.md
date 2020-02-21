@@ -55,10 +55,11 @@ Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y
 ```python
 pygame.draw.rect(window, (255, 0, 0),(0, 0, 50, 30))
 ```
+Los parámetros al final le dicen a Pygame dónde queremos dibujar nuestro rectángulo, el color que queremos que sea nuestro rectángulo, cómo queremos dibujarlo y qué tan grande queremos que sea.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODE3ODcxNSwtMjA2NTAyOTkzMCwtNz
-k0ODgxNjEyXX0=
+eyJoaXN0b3J5IjpbLTEwMjM1MjcyNzgsLTIwNjUwMjk5MzAsLT
+c5NDg4MTYxMl19
 -->
