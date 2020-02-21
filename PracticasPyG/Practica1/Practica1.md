@@ -30,6 +30,8 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG)
 
 **Acabamos de crear nuestro primer programa Pygame: vamos a verlo.**
+
+## Entendiendo hello.py
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTg3NjEyLC03OTQ4ODE2MTJdfQ==
+eyJoaXN0b3J5IjpbMzMzMzkxMDEyLC03OTQ4ODE2MTJdfQ==
 -->
