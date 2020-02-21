@@ -27,7 +27,9 @@ Ejecutemos ese código y veamos qué hace. En su ventana de terminal, ingrese `p
 
 Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado rojo sobre un fondo negro en la esquina superior izquierda de la ventana. 
 
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG)
+
 **Acabamos de crear nuestro primer programa Pygame: vamos a verlo.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbMTU2OTg3NjEyLC03OTQ4ODE2MTJdfQ==
 -->
