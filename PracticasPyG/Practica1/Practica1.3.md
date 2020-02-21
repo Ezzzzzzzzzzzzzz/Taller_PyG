@@ -12,7 +12,7 @@ while True:
     
     pygame.display.update()
 ```
-
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDMxNzQ2NV19
+eyJoaXN0b3J5IjpbOTMwNzkwNTc5LC01MTQzMTc0NjVdfQ==
 -->
