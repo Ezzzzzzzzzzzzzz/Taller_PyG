@@ -53,7 +53,7 @@ Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y
 
 **Lo primero que hacemos en nuestro ciclo `while` es dibujar un rectángulo.** Un rectángulo es la forma más simple que podemos dibujar en Pygame:
 ```python
-pygame.draw.rect(window, (255, 0, 0), (0, 0, 50, 30))
+	pygame.draw.rect(window, (255, 0, 0), (0, 0, 50, 30))
 ```
 Luego, le dijimos a Pygame qué color queríamos que fuera nuestro rectángulo pasándolo a través de una **tupla (una lista especial de números)** que representa la cantidad de **rojo**, **verde** y **azul** que debería tener el color final. Usamos rojo, verde y azul, ya que estos son los tres colores que combina su pantalla para crear cada tono que pueda ver en ella. 
 >`0` significa que nada de ese color debe usarse en la forma.
@@ -75,14 +75,14 @@ Hacemos esto pasando una **tupla de cuatro números**.
 
 Nuestra última línea en `hello.py` es agradable y simple: 
 ```python
-
+	pygame.display.update()
 ```
-le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que nuestro Pi tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
+Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que nuestro Pi tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE5NjcyMTcsMTY1ODg5MjAyMywxNz
-EyNTI1MDU5LDM1MzkxNjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAy
-OTkzMCwtNzk0ODgxNjEyXX0=
+eyJoaXN0b3J5IjpbOTY3MzYwOTkyLDE2NTg4OTIwMjMsMTcxMj
+UyNTA1OSwzNTM5MTYzNjUsLTEwMjM1MjcyNzgsLTIwNjUwMjk5
+MzAsLTc5NDg4MTYxMl19
 -->
