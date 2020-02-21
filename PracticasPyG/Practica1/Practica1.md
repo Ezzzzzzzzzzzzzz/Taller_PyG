@@ -33,7 +33,8 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 ## Entendiendo `hello.py`
 Las primeras dos líneas de nuestro primer programa son muy simples: **todo lo que hemos hecho es decirle a Python que queremos usar Pygame.** `import pygame` **carga todo el código Pygame en nuestro script, por lo que no tenemos que escribir todo ese código nosotros mismos.** 
-Pygame está diseñado para facilitar la creación de juegos y software interactivo. pygame.init () le dice a Pygame que estamos listos para comenzar a usarlo.
+
+Pygame está diseñado para facilitar la creación de juegos y software interactivo.`pygame.init()` **le dice a Pygame que estamos listos para comenzar a usarlo.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTMxMjM1MiwtNzk0ODgxNjEyXX0=
+eyJoaXN0b3J5IjpbMTAyMTE5NjAwLC03OTQ4ODE2MTJdfQ==
 -->
