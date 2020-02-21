@@ -63,11 +63,12 @@ while True:
         
     pygame.display.update()
 ```
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.4.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.4.JPG)
 
 **Es posible que hayas notado que en realidad no cerramos el triángulo: Pygame lo hizo por nosotros.** Justo antes de pasar los puntos de los que se va a dibujar nuestra forma, podemos pasar un valor `true` (Verdadero) o `false`(Falso) que le permitirá a Pygame saber que queremos que cierre nuestras formas por nosotros. **Cámbielo a Falso y obtenemos las dos primeras líneas de nuestra forma, pero no la tercera.** 
 
 Si queremos hacer una forma más compleja, simplemente agregamos más puntos así:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTE1MjA5OCwtMTYzMDE1Nzc2NiwtND
+eyJoaXN0b3J5IjpbLTU0MTk3OTE0MCwtMTYzMDE1Nzc2NiwtND
 M3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxODhdfQ==
 -->
