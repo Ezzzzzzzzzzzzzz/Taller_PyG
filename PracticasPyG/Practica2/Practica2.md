@@ -25,7 +25,7 @@ while True:
     
     pygame.display.update()
 ```
-
+**Esta vez tenemos dos rectángulos y un cuadrado**, pero eso no es lo que pedimos. **¿Entonces qué ha ido mal?** Cuando ejecutamos nuestro código, funciona a través de lo que tiene que dibujar y dónde tiene que ponerlo, línea por línea. Si se dibuja un elemento y luego se dibuja otro sobre él o encima de parte de él, entonces ya no podemos ver qué hay debajo de esa segunda forma.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTU4MjY0MiwtMTU5MDUyNzI2N119
+eyJoaXN0b3J5IjpbNTIxNzkxMjIwLC0xNTkwNTI3MjY3XX0=
 -->
