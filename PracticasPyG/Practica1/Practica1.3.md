@@ -18,6 +18,7 @@ while True:
 
 **Es posible que haya notado que ponemos un 0 después de nuestro radio; Este es un valor utilizado para determinar el ancho de la línea que dibuja nuestro círculo.** 
 >Si pasamos `0`, el **círculo se llena**.
+>
 > Si pasamos `2`, por ejemplo, **obtenemos una línea de 2 píxeles de ancho con un centro vacío**
 
 ```python
@@ -33,5 +34,5 @@ while True:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Nzc1NTQ5NSwtNTE0MzE3NDY1XX0=
+eyJoaXN0b3J5IjpbMTU3ODIxMzU3NSwtNTE0MzE3NDY1XX0=
 -->
