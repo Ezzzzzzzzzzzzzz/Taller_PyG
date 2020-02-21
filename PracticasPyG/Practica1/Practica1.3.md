@@ -23,10 +23,14 @@ while True:
 ```python
 while True:
  
-    pygame.draw.circle(window, (255, 255, 0), (250, 200), 20, 0)
+    # Relleno
+    pygame.draw.circle(window, (255, 255, 0), (200, 200), 20, 0)
+    
+    #No relleno
+    pygame.draw.circle(window, (255, 255, 0), (300, 200), 20, 2)
     
     pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3OTU4MzAsLTUxNDMxNzQ2NV19
+eyJoaXN0b3J5IjpbLTEyMTIxODcyNzEsLTUxNDMxNzQ2NV19
 -->
