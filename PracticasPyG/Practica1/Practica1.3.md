@@ -1,4 +1,4 @@
-# Dibujando CIRCULOS
+# Dibujando CÍRCULOS y ELIPSES
 El proceso de dibujar un círculo es muy parecido a dibujar un cuadrado, excepto que, **en lugar de pasar un ancho y una altura, pasamos un radio y un punto, alrededor del cual dibujamos nuestro círculo**. 
 
 Entonces, por ejemplo, *si quisiéramos dibujar un círculo amarillo en el centro de nuestra ventana con un diámetro de 40 píxeles, usaríamos el siguiente código* para reemplazar el código en el ciclo `while` original en `hello.py`: 
@@ -34,5 +34,5 @@ while True:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODIxMzU3NSwtNTE0MzE3NDY1XX0=
+eyJoaXN0b3J5IjpbLTE1NDg0MTI1ODUsLTUxNDMxNzQ2NV19
 -->
