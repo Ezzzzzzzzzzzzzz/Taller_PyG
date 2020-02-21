@@ -46,7 +46,9 @@ while True:
     
     pygame.display.update()
 ```
+
+**Ahora debería ver tres elipses: una roja, una verde y una azul. Cada uno debe ser de un tamaño diferente.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1MTExNDEzLC0xNzI2OTkwNDE4LC01MT
-QzMTc0NjVdfQ==
+eyJoaXN0b3J5IjpbMjA1NjEwODQ2MywtMTcyNjk5MDQxOCwtNT
+E0MzE3NDY1XX0=
 -->
