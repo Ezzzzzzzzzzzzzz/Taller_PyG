@@ -70,10 +70,15 @@ while True:
 **Si queremos hacer una forma más compleja**, simplemente agregamos más puntos así:
 
 ```python
-
-``
+while True:    
+    
+    #pygame.draw.lines(DONDE DIBUJAREMOS, COLOR, ¿CERRAR LA FORMA PARA NOSOSTROS?, LOS PUNTOS PARA DIBUJAR, ANCHO DE LA LINEA)
+    pygame.draw.lines(window, (255, 255, 255), True, ((50, 50), (75, 75), (63, 100), (38, 100), (25, 75)), 1)
+        
+    pygame.display.update()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTc0MTAyMCw2MDUwOTY2MDAsLTE2Mz
-AxNTc3NjYsLTQzNzU0MzI3OSwtMTM1ODM3MjE3MCwxNTgzNDE0
-MTg4XX0=
+eyJoaXN0b3J5IjpbLTExODcyNDExOTcsNjA1MDk2NjAwLC0xNj
+MwMTU3NzY2LC00Mzc1NDMyNzksLTEzNTgzNzIxNzAsMTU4MzQx
+NDE4OF19
 -->
