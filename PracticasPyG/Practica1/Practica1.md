@@ -15,10 +15,10 @@ import pygame
 
 pygame.init()
 
-window = pygame.display.set_mode((500,400))
+window = pygame.display.set_mode((500, 400))
 
 while True:
-	pygame.draw.rect(window,(255, 0, 0),(0, 0, 50, 30))
+	pygame.draw.rect(window,(255, 0, 0), (0, 0, 50, 30))
 
 	pygame.display.update()
 ```
@@ -40,7 +40,7 @@ Las primeras dos líneas de nuestro primer programa son muy simples: **todo lo q
 
 Veamos la tercera línea de código:
 ```python
-window = pygame.display.set_mode((500,400))
+window = pygame.display.set_mode((500, 400))
 ```
 `window` es el parámetro que vamos a usar para decirle a nuestro programa Pygame cómo debería verse cuando se ejecuta; cada parámetro afecta la forma y el tamaño de la ventana de la aplicación. Tenga en cuenta que aquí, el ancho siempre viene antes que la altura. `window` también es el parámetro que usaremos para indicar a otras líneas de código la superficie en la que deben dibujar formas y establecer colores. Con `window`, llamamos a la función `set_mode` del módulo de visualización de Pygame: este último es responsable de cómo se comporta la ventana y la superficie del juego *(un término informal para los píxeles que manipularemos)*. 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG)
@@ -53,7 +53,7 @@ Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y
 
 **Lo primero que hacemos en nuestro ciclo `while` es dibujar un rectángulo.** Un rectángulo es la forma más simple que podemos dibujar en Pygame:
 ```python
-pygame.draw.rect(window, (255, 0, 0),(0, 0, 50, 30))
+pygame.draw.rect(window, (255, 0, 0), (0, 0, 50, 30))
 ```
 Luego, le dijimos a Pygame qué color queríamos que fuera nuestro rectángulo pasándolo a través de una **tupla (una lista especial de números)** que representa la cantidad de **rojo**, **verde** y **azul** que debería tener el color final. Usamos rojo, verde y azul, ya que estos son los tres colores que combina su pantalla para crear cada tono que pueda ver en ella. 
 >`0` significa que nada de ese color debe usarse en la forma.
@@ -67,6 +67,7 @@ Le dijimos a nuestro rectángulo que debería ser el color `(255, 0, 0)`, que es
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjUyNTA1OSwzNTM5MTYzNjUsLTEwMj
-M1MjcyNzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbMTAzNzgxNzM4MywxNzEyNTI1MDU5LDM1Mz
+kxNjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgx
+NjEyXX0=
 -->
