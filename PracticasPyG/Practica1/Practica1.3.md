@@ -41,7 +41,9 @@ Dibujemos una elipse o dos.
 while True:
 
     pygame.draw.ellipse(window, (255, 0, 0), (100, 100, 100, 50))
+    
     pygame.draw.ellipse(window, (0, 255, 0), (100, 150, 80, 40))
+    
     pygame.draw.ellipse(window, (0, 0, 255), (100, 190, 60, 30))
     
     pygame.display.update()
@@ -78,6 +80,6 @@ while True:
     pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzg4MDUyOSwtMTg4NjkxNDU5MiwtMj
-gzNDA3NjI0LC0xNzI2OTkwNDE4LC01MTQzMTc0NjVdfQ==
+eyJoaXN0b3J5IjpbNTA4NzY3NjM1LC0xODg2OTE0NTkyLC0yOD
+M0MDc2MjQsLTE3MjY5OTA0MTgsLTUxNDMxNzQ2NV19
 -->
