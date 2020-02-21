@@ -58,7 +58,9 @@ while True:
 *Sin embargo, este código es bastante largo: muchas cosas, como el color o el ancho de la línea, se escriben varias veces.* Sin embargo, hay una forma más concisa de lograr el resultado que queremos. Todo lo que necesitamos es `pygame.draw.lines()`. Mientras que `pygame.draw.line()` **nos permite dibujar una línea entre dos puntos**, `pygame.draw.lines()` **nos permite dibujar una secuencia de líneas entre numerosos puntos**. Cada punto de coordenadas **XY** se unirá al siguiente punto de coordenadas **XY**, que se unirá al siguiente punto de coordenadas **XY**, **y así sucesivamente**.
 
 
+
+**Es posible que hayas notado que en realidad no cerramos el triángulo: Pygame lo hizo por nosotros.** Justo antes de pasar los puntos de los que se va a dibujar nuestra forma, podemos pasar un valor `True` (Verdadero o Falso que le permitirá a Pygame saber que queremos que cierre nuestras formas por nosotros. Cámbielo a Falso y obtenemos las dos primeras líneas de nuestra forma, pero no la tercera. Si queremos hacer una forma más compleja, simplemente agregamos más puntos así:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzU0MzI3OSwtMTM1ODM3MjE3MCwxNT
-gzNDE0MTg4XX0=
+eyJoaXN0b3J5IjpbLTE1NTE5MzgyMzcsLTQzNzU0MzI3OSwtMT
+M1ODM3MjE3MCwxNTgzNDE0MTg4XX0=
 -->
