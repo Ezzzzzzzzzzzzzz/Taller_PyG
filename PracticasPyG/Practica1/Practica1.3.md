@@ -36,6 +36,17 @@ while True:
 Son un cruce ligeramente extraño entre dibujar rectángulos y círculos. Como hicimos cuando dibujamos un rectángulo, pasamos una coordenada X, una coordenada Y, un ancho y una altura, pero terminamos con una forma elíptica. 
 
 Dibujemos una elipse o dos.
+
+```python
+while True:
+
+    pygame.draw.ellipse(window, (255, 0, 0), (100, 100, 100, 50))
+    pygame.draw.ellipse(window, (0, 255, 0), (100, 150, 80, 40))
+    pygame.draw.ellipse(window, (0, 0, 255), (100, 190, 60, 30))
+    
+    pygame.display.update()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY5OTA0MTgsLTUxNDMxNzQ2NV19
+eyJoaXN0b3J5IjpbMjM1MTExNDEzLC0xNzI2OTkwNDE4LC01MT
+QzMTc0NjVdfQ==
 -->
