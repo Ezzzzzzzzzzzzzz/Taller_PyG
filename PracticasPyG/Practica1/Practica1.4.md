@@ -37,6 +37,11 @@ Si ejecuta este código ahora, **verá una línea blanca de un píxel de ancho q
 > El **tercer argumento** es una **tupla con las coordenadas X e Y** para donde queremos que nuestra línea termine. **Estos son los dos puntos entre los cuales se dibujará nuestra línea. **
 > 
 > **El argumento final es que el ancho de la línea se dibuja en píxeles**.
+
+Con esto, ahora podemos crear formas definiendo puntos en nuestra ventana. 
+
+**Dibujemos ese triángulo del que hablamos anteriormente:**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjIwNDQ0OCwxNTgzNDE0MTg4XX0=
+eyJoaXN0b3J5IjpbLTEzNTgzNzIxNzAsMTU4MzQxNDE4OF19
 -->
