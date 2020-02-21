@@ -31,6 +31,7 @@ while True:
     
     pygame.display.update()
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTIxODcyNzEsLTUxNDMxNzQ2NV19
+eyJoaXN0b3J5IjpbMTA1Nzc1NTQ5NSwtNTE0MzE3NDY1XX0=
 -->
