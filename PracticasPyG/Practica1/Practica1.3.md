@@ -14,7 +14,10 @@ while True:
 ```
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG)
 
-**Al igual que dibujar un rectángulo, le decimos a Pygame en qué superficie queremos dibujar nuestro círculo, de qué color queremos que sea y hacia dónde debe ir. El radio es específico para dibujar esta forma particular.
+**Al igual que dibujar un rectángulo, le decimos a Pygame en qué superficie queremos dibujar nuestro círculo, de qué color queremos que sea y hacia dónde debe ir**. El radio es específico para dibujar esta forma particular. 
+**Es posible que haya notado que ponemos un 0 después de nuestro radio; Este es un valor utilizado para determinar el ancho de la línea que dibuja nuestro círculo.**
+
+ Si pasamos `0`, el círculo se llena; pero si pasamos 2, por ejemplo, obtenemos una línea de 2 píxeles de ancho con un centro vacío:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY0MzYwNjIsLTUxNDMxNzQ2NV19
+eyJoaXN0b3J5IjpbOTU5NTA1NTE4LC01MTQzMTc0NjVdfQ==
 -->
