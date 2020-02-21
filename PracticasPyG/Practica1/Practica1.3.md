@@ -48,7 +48,12 @@ while True:
 ```
 
 **Ahora debería ver tres elipses: una roja, una verde y una azul. Cada uno debe ser de un tamaño diferente.**
+
+Si desea visualizar cómo se generaron estas formas, podría dibujar rectángulos utilizando las mismas coordenadas que utilizó para dibujar una elipse y encajaría perfectamente dentro de ese cuadro. 
+
+Como habrás adivinado, esto significa que también puedes hacer círculos usando `pygame.draw.ellipse` **si los parámetros ancho y alto son los mismos**.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjEwODQ2MywtMTcyNjk5MDQxOCwtNT
-E0MzE3NDY1XX0=
+eyJoaXN0b3J5IjpbNjE2NzgwMjYsLTE3MjY5OTA0MTgsLTUxND
+MxNzQ2NV19
 -->
