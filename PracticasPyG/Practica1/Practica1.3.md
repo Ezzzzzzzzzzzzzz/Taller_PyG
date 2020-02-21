@@ -54,9 +54,30 @@ Si desea visualizar cómo se generaron estas formas, podría dibujar rectángulo
 Como habrás adivinado, esto significa que también puedes hacer círculos usando `pygame.draw.ellipse` **si los parámetros ancho y alto son los mismos**.
 
 ```python
+while True:
 
+    pygame.draw.rect(window, (255, 0, 0), (100, 100, 100, 50), 2)
+    
+    pygame.draw.ellipse(window, (255, 0, 0), (100, 100, 100, 50))
+    
+    
+    pygame.draw.rect(window, (0, 255, 0), (100, 150, 80, 40), 2)
+    
+    pygame.draw.ellipse(window, (0, 255, 0), (100, 150, 80, 40))
+    
+    
+    pygame.draw.rect(window, (0, 0, 255), (100, 190, 60, 30), 2)
+    
+    pygame.draw.ellipse(window, (0, 0, 255), (100, 190, 60, 30))
+    
+    
+    #Circulo   
+    pygame.draw.ellipse(window, (0, 0, 255), (100, 250, 40, 40))
+    
+    
+    pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzQwNzYyNCwtMTcyNjk5MDQxOCwtNT
-E0MzE3NDY1XX0=
+eyJoaXN0b3J5IjpbLTE4ODY5MTQ1OTIsLTI4MzQwNzYyNCwtMT
+cyNjk5MDQxOCwtNTE0MzE3NDY1XX0=
 -->
