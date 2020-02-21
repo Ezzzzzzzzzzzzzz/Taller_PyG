@@ -34,7 +34,7 @@ Si ejecuta este código ahora, **verá una línea blanca de un píxel de ancho q
 > 
 > El **siguiente argumento** es una **tupla con las coordenadas X e Y** para donde queremos que comience nuestra línea, 
 > 
-> El **tercer argumento** es una **tupla con las coordenadas X e Y** para donde queremos que nuestra línea termine. **Estos son los dos puntos entre los cuales se dibujará nuestra línea. **
+> El **tercer argumento** es una **tupla con las coordenadas X e Y** para donde queremos que nuestra línea termine. **Estos son los dos puntos entre los cuales se dibujará nuestra línea.**
 > 
 > **El argumento final es que el ancho de la línea se dibuja en píxeles**.
 
@@ -54,6 +54,6 @@ while True:
     pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0OTUzODkxLC0xMzU4MzcyMTcwLDE1OD
-M0MTQxODhdfQ==
+eyJoaXN0b3J5IjpbLTk0NzU5NDc0NywtMTM1ODM3MjE3MCwxNT
+gzNDE0MTg4XX0=
 -->
