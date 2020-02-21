@@ -18,7 +18,7 @@ pygame.init()
 window = pygame.display.set_mode((500,400))
 
 while True:
-	pygame.draw.rect(window, (255, 0, 0),(0, 0, 50, 30))
+	pygame.draw.rect(window,(255, 0, 0),(0, 0, 50, 30))
 
 	pygame.display.update()
 ```
@@ -59,6 +59,6 @@ pygame.draw.rect(window, (255, 0, 0),(0, 0, 50, 30))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY2MDc3NDksLTIwNjUwMjk5MzAsLT
-c5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbMTIyODE3ODcxNSwtMjA2NTAyOTkzMCwtNz
+k0ODgxNjEyXX0=
 -->
