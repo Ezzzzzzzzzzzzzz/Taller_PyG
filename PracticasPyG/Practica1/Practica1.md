@@ -49,10 +49,12 @@ En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 p
 
 Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran. Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
 
+Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque True siempre es True, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjczNjI5MDIsLTIwNjUwMjk5MzAsLT
-c5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbLTk2NDIyNzAyMiwtMjA2NTAyOTkzMCwtNz
+k0ODgxNjEyXX0=
 -->
