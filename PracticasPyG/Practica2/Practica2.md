@@ -62,8 +62,11 @@ while True:
     #greenSquareY += 0.01
 ```
 Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la primera practica, dibujábamos formas como esta usando números que pasaríamos a Pygame, como `pygame.draw.rect(surface, (255,0,0), (20, 50, 40, 30))`, y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
+
+¿Qué pasaría si quisiéramos cambiar la altura, el ancho o el color de esta forma? ¿Cómo podríamos decirle a Pygame que cambie los números que ya ingresamos? Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjgzNTMyLC03NTQ3MjA3NDEsLTExNT
-k0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0NjAsLTI3NDQ0MjY1
-NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
+eyJoaXN0b3J5IjpbMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMT
+U5NDM5OTU2LC0yMjczMzgxNCwtMjk0NTYyNDYwLC0yNzQ0NDI2
+NTcsMTgyODI2NzU4NiwxOTM2MzMzNTI5XX0=
 -->
