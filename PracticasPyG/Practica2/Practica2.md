@@ -56,11 +56,13 @@ Pero eso no es muy útil, ¿verdad? Reemplacemos el código del `fragmento 01` c
 ### Fragmento 02
 ```python
 while True:
-    surface.fill((0,0,0))
-    pygame.draw.rect(surface, (255,0,0), (random.randint(0, windowWidth), random.randint(0, windowHeight), 10, 10))
+    surface.fill((0, 0, 0))
+    pygame.draw.rect(surface, (0, 255, 0), (greenSquareX, greenSquareY, 10, 10))
+    greenSquareX += 0.01
+    #greenSquareY += 0.01
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDcyMDc0MSwtMTE1OTQzOTk1NiwtMj
-I3MzM4MTQsLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LDE4MjgyNjc1
-ODYsMTkzNjMzMzUyOV19
+eyJoaXN0b3J5IjpbLTIwNjk4MzU3OTksLTc1NDcyMDc0MSwtMT
+E1OTQzOTk1NiwtMjI3MzM4MTQsLTI5NDU2MjQ2MCwtMjc0NDQy
+NjU3LDE4MjgyNjc1ODYsMTkzNjMzMzUyOV19
 -->
