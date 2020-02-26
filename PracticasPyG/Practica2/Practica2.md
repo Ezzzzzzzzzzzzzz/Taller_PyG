@@ -21,12 +21,17 @@ No es diferente con las computadoras: cada vez que mueves un mouse o minimizas u
 ### Código TOP
 ```python
 import pygame, sys, random
-import pygame
+import pygame.locals as GAME_GLOBALS
+import pygame.event as GAME_EVENTS
+
+pygame.init()
+windowWidth = 640
+windowHeigh
 ```
 
 Si ejecuta el fragmento 01 (coloque el código superior, el código 01 y el código inferior juntos en un archivo) sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Njk1MjMyOSwxODI4MjY3NTg2LDE5Mz
-YzMzM1MjldfQ==
+eyJoaXN0b3J5IjpbLTE1MjUzMzQzODIsMTgyODI2NzU4NiwxOT
+M2MzMzNTI5XX0=
 -->
