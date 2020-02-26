@@ -35,9 +35,9 @@ pygame.display.set_caption("Pygame Shapes!")
 ```python
 
 ```
-Si ejecuta el código `Fragmento 01` (coloque el código `TOP`, el `Fragmento 01 y el código inferior juntos en un archivo) sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
+Si ejecuta el código `Fragmento 01` (coloque el código `TOP` y el `Fragmento 01``  juntos en un archivo)  sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1NDk3MDk5LC0yOTQ1NjI0NjAsLTI3ND
-Q0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
+eyJoaXN0b3J5IjpbLTExOTcyNDc1MjcsLTI5NDU2MjQ2MCwtMj
+c0NDQyNjU3LDE4MjgyNjc1ODYsMTkzNjMzMzUyOV19
 -->
