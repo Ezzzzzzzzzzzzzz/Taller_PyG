@@ -67,11 +67,10 @@ Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la p
 
 Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `0.01` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
 
-Si cambiamos esa línea para leer `greenSquareX += 0.05`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-5`, se movería hacia atrás.
+Si cambiamos esa línea para leer `greenSquareX += 0.05`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-0.05`, se movería hacia atrás.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mzg1Njg1OSwxMDI1NzQ2MTU5LC03NT
-Q3MjA3NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0
-NjAsLTI3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ
-==
+eyJoaXN0b3J5IjpbMTU2NjU5MzQ3LDEwMjU3NDYxNTksLTc1ND
+cyMDc0MSwtMTE1OTQzOTk1NiwtMjI3MzM4MTQsLTI5NDU2MjQ2
+MCwtMjc0NDQyNjU3LDE4MjgyNjc1ODYsMTkzNjMzMzUyOV19
 -->
