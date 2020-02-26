@@ -18,9 +18,15 @@ import pygame.event as GAME_EVENTS
 Cuando pensamos en la animación, nuestras mentes pueden convertir dibujos en películas animadas: aquí, cambios sutiles en la forma y el color engañan a nuestros cerebros para que vean movimientos donde no los hay. 
 No es diferente con las computadoras: cada vez que mueves un mouse o minimizas una ventana, nada se ha movido; en cambio, los píxeles se han dibujado, actualizado, actualizado y luego dibujado nuevamente, con todo en su nuevo lugar.
 
+### Código TOP
+```python
+import pygame, sys, random
+import pygame
+```
+
 Si ejecuta el fragmento 01 (coloque el código superior, el código 01 y el código inferior juntos en un archivo) sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjkzNzgyNCwxODI4MjY3NTg2LDE5Mz
+eyJoaXN0b3J5IjpbMTM3Njk1MjMyOSwxODI4MjY3NTg2LDE5Mz
 YzMzM1MjldfQ==
 -->
