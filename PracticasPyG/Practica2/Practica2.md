@@ -49,11 +49,11 @@ while True:
     surface.fill((0,0,0))
     pygame.draw.rect(surface, (255,0,0), (random.randint(0, windowWidth), random.randint(0, windowHeight), 10, 10))
 ```
-¡No te preocupes, nada está roto! Esto es solo para demostrar que Pygame dibuja, destruye y vuelve a dibujar cosas en una ventana. Agregue un `#` al comienzo de la línea que comienza con `surface.fill ()`.
+¡No te preocupes, nada está roto! Esto es solo para demostrar que Pygame dibuja, destruye y vuelve a dibujar cosas en una ventana. Agregue un `#` al comienzo de la línea que comienza con `surface.fill()`. Usamos este código para borrar los datos de píxeles del marco (frame) anterior. Sin él, lo que vemos son todos los diferentes marcos (frames) construidos uno encima del otro a medida que pasa el tiempo. `surface.fill()` es como la pintura que usamos para cubrir el fondo de pantalla antiguo antes de agregar el nuevo: crea una pizarra en blanco con la que podemos trabajar.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjMwMjgzOSwtMTE1OTQzOTk1NiwtMj
+eyJoaXN0b3J5IjpbLTk5MDA0ODUzNiwtMTE1OTQzOTk1NiwtMj
 I3MzM4MTQsLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LDE4MjgyNjc1
 ODYsMTkzNjMzMzUyOV19
 -->
