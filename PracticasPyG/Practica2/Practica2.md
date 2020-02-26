@@ -26,14 +26,18 @@ import pygame.event as GAME_EVENTS
 
 pygame.init()
 windowWidth = 640
-windowHeigh = 480
+windowHeight = 480
 surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption("Pygame Shapes!")
 ```
 
+### Fragmento 1
+```python
+
+```
 Si ejecuta el fragmento 01 (coloque el código superior, el código 01 y el código inferior juntos en un archivo) sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDQ0MjY1NywxODI4MjY3NTg2LDE5Mz
-YzMzM1MjldfQ==
+eyJoaXN0b3J5IjpbLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LDE4Mj
+gyNjc1ODYsMTkzNjMzMzUyOV19
 -->
