@@ -31,13 +31,13 @@ surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption("Pygame Shapes!")
 ```
 
-### Fragmento 1
+### Fragmento 01
 ```python
 
 ```
-Si ejecuta el `cófragmento 01 (coloque el código superior, el código 01 y el código inferior juntos en un archivo) sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
+Si ejecuta el código `Fragmento 01` (coloque el código `TOP`, el `Fragmento 01 y el código inferior juntos en un archivo) sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODMzMDMzMCwtMjk0NTYyNDYwLC0yNz
-Q0NDI2NTcsMTgyODI2NzU4NiwxOTM2MzMzNTI5XX0=
+eyJoaXN0b3J5IjpbNzE1NDk3MDk5LC0yOTQ1NjI0NjAsLTI3ND
+Q0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
 -->
