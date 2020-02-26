@@ -61,9 +61,9 @@ while True:
     greenSquareX += 0.01
     #greenSquareY += 0.01
 ```
-Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando seguíamos el primer tutorial, dibujábamos formas como esta usando números que pasaríamos a Pygame, como pygame.draw.rect (surface, (255,0,0), (20, 50, 40, 30) ), y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
+Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la primera practica, dibujábamos formas como esta usando números que pasaríamos a Pygame, como `pygame.draw.rect(surface, (255,0,0), (20, 50, 40, 30))`, y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODYzNjU2MzMsLTc1NDcyMDc0MSwtMT
-E1OTQzOTk1NiwtMjI3MzM4MTQsLTI5NDU2MjQ2MCwtMjc0NDQy
-NjU3LDE4MjgyNjc1ODYsMTkzNjMzMzUyOV19
+eyJoaXN0b3J5IjpbMTI2MjgzNTMyLC03NTQ3MjA3NDEsLTExNT
+k0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0NjAsLTI3NDQ0MjY1
+NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
 -->
