@@ -6,11 +6,16 @@ Estas son variables especiales que Pygame incluye para ayudarnos a escribir cód
 
 >`pygame.locals` contiene principalmente propiedades que describen el sistema y el estado del juego, por lo que lo llamamos **GAME_GLOBALS** para reflejar esto.
 ```python
-import pygame.locals
+import pygame.locals as GAME_GLOBALS
 ```
 > 
 >`pygame.events` incluye una lista de eventos, como eventos de teclado o eventos del sistema que ocurrieron desde la última vez que Pygame actualizó su vista; por eso lo importamos como **GAME_EVENTS**.
+```python
+import pygame.event as GAME_EVENTS
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNDYxMDE4LDE4MjgyNjc1ODYsMTkzNj
-MzMzUyOV19
+eyJoaXN0b3J5IjpbLTE3NTY3NjI5NjUsMTgyODI2NzU4NiwxOT
+M2MzMzNTI5XX0=
 -->
