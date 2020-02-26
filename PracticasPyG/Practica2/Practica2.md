@@ -15,9 +15,11 @@ import pygame.event as GAME_EVENTS
 ```
 ## Moviendo SHAPES en el tiempo y el espacio
 
-Cuando pensamos en la animación, nuestras mentes pueden convertir dibujos animados y películas animadas: aquí, cambios sutiles en la forma y el color engañan a nuestros cerebros para que vean movimientos donde no los hay. No es diferente con las computadoras: cada vez que mueves un mouse o minimizas una ventana, nada se ha movido; en cambio, los píxeles se han dibujado, actualizado, actualizado y luego dibujado nuevamente, con todo en su nuevo lugar.
+Cuando pensamos en la animación, nuestras mentes pueden convertir dibujos en películas animadas: aquí, cambios sutiles en la forma y el color engañan a nuestros cerebros para que vean movimientos donde no los hay. 
+No es diferente con las computadoras: cada vez que mueves un mouse o minimizas una ventana, nada se ha movido; en cambio, los píxeles se han dibujado, actualizado, actualizado y luego dibujado nuevamente, con todo en su nuevo lugar.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4NTQxNzUxLDE4MjgyNjc1ODYsMTkzNj
-MzMzUyOV19
+eyJoaXN0b3J5IjpbLTcwMTc0ODY0NSwxODI4MjY3NTg2LDE5Mz
+YzMzM1MjldfQ==
 -->
