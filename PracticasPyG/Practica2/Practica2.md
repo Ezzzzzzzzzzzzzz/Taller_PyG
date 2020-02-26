@@ -33,11 +33,13 @@ pygame.display.set_caption("Pygame Shapes!")
 
 ### Fragmento 01
 ```python
-
+while True:
+    surface.fill((0,0,0))
+    pygame.draw.rect(surface, (255,0,0), (random.randint(0, windowWidth), random.randint(0, windowHeight), 10, 10))
 ```
 Si ejecuta el código `Fragmento 01` (coloque el código `TOP` y el `Fragmento 01``  juntos en un archivo)  sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTcyNDc1MjcsLTI5NDU2MjQ2MCwtMj
-c0NDQyNjU3LDE4MjgyNjc1ODYsMTkzNjMzMzUyOV19
+eyJoaXN0b3J5IjpbLTIyNzMzODE0LC0yOTQ1NjI0NjAsLTI3ND
+Q0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
 -->
