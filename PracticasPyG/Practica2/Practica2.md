@@ -65,8 +65,11 @@ Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la p
 
 ¿Qué pasaría si quisiéramos cambiar la altura, el ancho o el color de esta forma? ¿Cómo podríamos decirle a Pygame que cambie los números que ya ingresamos? Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
 
+Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `0.01` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMT
-U5NDM5OTU2LC0yMjczMzgxNCwtMjk0NTYyNDYwLC0yNzQ0NDI2
-NTcsMTgyODI2NzU4NiwxOTM2MzMzNTI5XX0=
+eyJoaXN0b3J5IjpbMTU2NTQ4MjI0MywxMDI1NzQ2MTU5LC03NT
+Q3MjA3NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0
+NjAsLTI3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ
+==
 -->
