@@ -53,14 +53,14 @@ while True:
 
 Pero eso no es muy útil, ¿verdad? Reemplacemos el código del `fragmento 01` con el `fragmento 02` y verá un cuadrado verde moviéndose lentamente a la derecha de la pantalla.
 
-### Fragmento 01
+### Fragmento 02
 ```python
 while True:
     surface.fill((0,0,0))
     pygame.draw.rect(surface, (255,0,0), (random.randint(0, windowWidth), random.randint(0, windowHeight), 10, 10))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE2NDM0MzAsLTExNTk0Mzk5NTYsLT
-IyNzMzODE0LC0yOTQ1NjI0NjAsLTI3NDQ0MjY1NywxODI4MjY3
-NTg2LDE5MzYzMzM1MjldfQ==
+eyJoaXN0b3J5IjpbLTc1NDcyMDc0MSwtMTE1OTQzOTk1NiwtMj
+I3MzM4MTQsLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LDE4MjgyNjc1
+ODYsMTkzNjMzMzUyOV19
 -->
