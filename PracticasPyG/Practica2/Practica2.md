@@ -91,14 +91,16 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es suficiente libertad para hacer tantos juegos clásicos: [Pokémon](https://www.youtube.com/watch?v=s_4zaj8EbFI), [Legend Of Zelda](https://www.zelda.com/), [Space Invaders](https://elgoog.im/space-invaders/) y más. **Estos juegos solo moverían cosas horizontal y verticalmente, pero nunca al mismo tiempo**. 
 
+![](https://media.giphy.com/media/xyKxclKcUXfaM/giphy.gif)
+
 El próximo desafío sería cómo hacer que las cosas se muevan en diagonal. Afortunadamente, este es un proceso bastante simple también.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OT
-IwMzQyNywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3
-LC0xOTM4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NT
-Q3MjA3NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0
-NjAsLTI3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ
-==
+eyJoaXN0b3J5IjpbMTA0NzgyMzIwNSwtNzEwNDc2NDI0LDcyMD
+A5NzYwNSwyMDU5MjAzNDI3LC03NDU2NjY5LDE5MjU1MTY4ODEs
+LTE5NjAwMTE2MjcsLTE5MzgyMDc1MTksMTU2NjU5MzQ3LDEwMj
+U3NDYxNTksLTc1NDcyMDc0MSwtMTE1OTQzOTk1NiwtMjI3MzM4
+MTQsLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LDE4MjgyNjc1ODYsMT
+kzNjMzMzUyOV19
 -->
