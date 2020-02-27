@@ -6,6 +6,8 @@ En este curso, vamos a aprender a hacer juegos con Pygame. Examinaremos los cont
 
 **Este curso no es para principiantes de programación, pero no está lejos de eso: vamos a suponer que ha escrito algunos programas simples de Python (o similares) en el pasado, y que puede hacer cosas como crear archivos y moverse por el sistema de archivos sin demasiada dificultad**.
 
+![](https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif)
+
 En la primera practica, veremos cómo dibujar y colorear varias formas en una ventana. No se trata de Grand Theft Auto V, sin duda, pero dibujar formas es el primer paso para construir casi cualquier cosa.
 
 Para comenzar, abra su editor de texto preferido *(sublime text, gedit, blog de notas, etc.)*, cree un nuevo archivo, inserte el siguiente código y guárdelo como `hello.py`
@@ -82,7 +84,7 @@ Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMDE3ODk4LDE2NTg4OTIwMjMsMTcxMj
-UyNTA1OSwzNTM5MTYzNjUsLTEwMjM1MjcyNzgsLTIwNjUwMjk5
-MzAsLTc5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbLTE4NDY4NTE3NTQsMzkzMDE3ODk4LDE2NT
+g4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYzNjUsLTEwMjM1Mjcy
+NzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
 -->
