@@ -62,6 +62,8 @@ Pero eso no es muy útil, ¿verdad? Reemplacemos el código del `fragmento 01` c
 
 ### Fragmento 02
 ```python
+
+
 while True:
     surface.fill((0, 0, 0))
     pygame.draw.rect(surface, (0, 255, 0), (greenSquareX, greenSquareY, 10, 10))
@@ -77,8 +79,8 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 Si cambiamos esa línea para leer `greenSquareX += 0.05`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-0.05`, se movería hacia atrás.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAwMTE2MjcsLTE5MzgyMDc1MTksMT
-U2NjU5MzQ3LDEwMjU3NDYxNTksLTc1NDcyMDc0MSwtMTE1OTQz
-OTk1NiwtMjI3MzM4MTQsLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LD
-E4MjgyNjc1ODYsMTkzNjMzMzUyOV19
+eyJoaXN0b3J5IjpbODM3NTk0NjgxLC0xOTYwMDExNjI3LC0xOT
+M4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3
+NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0NjAsLT
+I3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
 -->
