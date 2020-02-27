@@ -5,7 +5,7 @@
 Cuando pensamos en la animación, nuestras mentes pueden convertir dibujos en películas animadas: aquí, cambios sutiles en la forma y el color engañan a nuestros cerebros para que vean movimientos donde no los hay. 
 No es diferente con las computadoras: cada vez que mueves un mouse o minimizas una ventana, nada se ha movido; en cambio, los píxeles se han dibujado, actualizado, actualizado y luego dibujado nuevamente, con todo en su nuevo lugar.
 
-![](https://gph.is/12uYb2L)
+![](https://media.giphy.com/media/YTEAn0boXGmY0/giphy.gif)
 
 ## Algunas cosas que notar
 A partir de ahora, vamos a incluir `pygame.locals`y las `pygame.events` de Pygame. 
@@ -84,9 +84,9 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 **Si cambiamos esa línea para leer `greenSquareX += 0.05`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-0.05`, se movería hacia atrás.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjk2NTYzOSwyMDU5MjAzNDI3LC03ND
-U2NjY5LDE5MjU1MTY4ODEsLTE5NjAwMTE2MjcsLTE5MzgyMDc1
-MTksMTU2NjU5MzQ3LDEwMjU3NDYxNTksLTc1NDcyMDc0MSwtMT
-E1OTQzOTk1NiwtMjI3MzM4MTQsLTI5NDU2MjQ2MCwtMjc0NDQy
-NjU3LDE4MjgyNjc1ODYsMTkzNjMzMzUyOV19
+eyJoaXN0b3J5IjpbNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NT
+Y2NjksMTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUx
+OSwxNTY2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMT
+U5NDM5OTU2LC0yMjczMzgxNCwtMjk0NTYyNDYwLC0yNzQ0NDI2
+NTcsMTgyODI2NzU4NiwxOTM2MzMzNTI5XX0=
 -->
