@@ -89,16 +89,16 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 **Comente la línea `greenSquareX` del `fragmento 02` y elimine el comentario de la línea de abajo quitando el `#`**. Nuestro cuadrado comenzará a viajar hacia la parte inferior de la pantalla. Al igual que antes, estamos cambiando la variable que le dice a nuestra forma a dónde ir, `greenSquareY`(tenga en cuenta que ahora estamos cambiando `Y`, no `X`), solo un poco cada vez para que se mueva. Y, tal como vimos al cambiar la variable `X`, **podemos hacer que el cuadrado verde suba agregando un número negativo**.
 
-Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es suficiente libertad para hacer tantos juegos clásicos: (Pokémon)[], (Legend Of Zelda)[], (Space Invaders)[] y más. **Estos juegos solo moverían cosas horizontal y verticalmente, pero nunca al mismo tiempo**. 
+Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es suficiente libertad para hacer tantos juegos clásicos: [Pokémon](https://www.youtube.com/watch?v=s_4zaj8EbFI)], (Legend Of Zelda)[], (Space Invaders)[] y más. **Estos juegos solo moverían cosas horizontal y verticalmente, pero nunca al mismo tiempo**. 
 
 El próximo desafío sería cómo hacer que las cosas se muevan en diagonal. Afortunadamente, este es un proceso bastante simple también.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc5MTU4MzQsNzIwMDk3NjA1LDIwNT
-kyMDM0MjcsLTc0NTY2NjksMTkyNTUxNjg4MSwtMTk2MDAxMTYy
-NywtMTkzODIwNzUxOSwxNTY2NTkzNDcsMTAyNTc0NjE1OSwtNz
-U0NzIwNzQxLC0xMTU5NDM5OTU2LC0yMjczMzgxNCwtMjk0NTYy
-NDYwLC0yNzQ0NDI2NTcsMTgyODI2NzU4NiwxOTM2MzMzNTI5XX
-0=
+eyJoaXN0b3J5IjpbLTU4NjA3MzQ3NCw3MjAwOTc2MDUsMjA1OT
+IwMzQyNywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3
+LC0xOTM4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NT
+Q3MjA3NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0
+NjAsLTI3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ
+==
 -->
