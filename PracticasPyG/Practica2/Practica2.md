@@ -62,7 +62,8 @@ Pero eso no es muy útil, ¿verdad? Reemplacemos el código del `fragmento 01` c
 
 ### Fragmento 02
 ```python
-
+greenSquareX = windowWidth / 2
+greenSquareY = windowHeight / 2
 
 while True:
     surface.fill((0, 0, 0))
@@ -79,8 +80,8 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 Si cambiamos esa línea para leer `greenSquareX += 0.05`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-0.05`, se movería hacia atrás.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3NTk0NjgxLC0xOTYwMDExNjI3LC0xOT
-M4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3
-NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0NjAsLT
-I3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
+eyJoaXN0b3J5IjpbMTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMT
+kzODIwNzUxOSwxNTY2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIw
+NzQxLC0xMTU5NDM5OTU2LC0yMjczMzgxNCwtMjk0NTYyNDYwLC
+0yNzQ0NDI2NTcsMTgyODI2NzU4NiwxOTM2MzMzNTI5XX0=
 -->
