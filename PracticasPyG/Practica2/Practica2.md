@@ -51,6 +51,7 @@ while True:
 ```
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Py2.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Py2.JPG)
+
 ¡No te preocupes, nada está roto! Esto es solo para demostrar que Pygame dibuja, destruye y vuelve a dibujar cosas en una ventana. Agregue un `#` al comienzo de la línea que comienza con `surface.fill()`. Usamos este código para borrar los datos de píxeles del marco (frame) anterior. Sin él, lo que vemos son todos los diferentes marcos (frames) construidos uno encima del otro a medida que pasa el tiempo. `surface.fill()` es como la pintura que usamos para cubrir el fondo de pantalla antiguo antes de agregar el nuevo: crea una pizarra en blanco con la que podemos trabajar.
 
 Pero eso no es muy útil, ¿verdad? Reemplacemos el código del `fragmento 01` con el `fragmento 02` y verá un cuadrado verde moviéndose lentamente a la derecha de la pantalla.
@@ -72,8 +73,8 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 Si cambiamos esa línea para leer `greenSquareX += 0.05`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-0.05`, se movería hacia atrás.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjMxNjcyMSwxNTY2NTkzNDcsMTAyNT
-c0NjE1OSwtNzU0NzIwNzQxLC0xMTU5NDM5OTU2LC0yMjczMzgx
-NCwtMjk0NTYyNDYwLC0yNzQ0NDI2NTcsMTgyODI2NzU4NiwxOT
-M2MzMzNTI5XX0=
+eyJoaXN0b3J5IjpbLTE5MzgyMDc1MTksMTU2NjU5MzQ3LDEwMj
+U3NDYxNTksLTc1NDcyMDc0MSwtMTE1OTQzOTk1NiwtMjI3MzM4
+MTQsLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LDE4MjgyNjc1ODYsMT
+kzNjMzMzUyOV19
 -->
