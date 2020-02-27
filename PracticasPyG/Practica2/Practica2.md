@@ -60,6 +60,8 @@ Agregue un `#` al comienzo de la línea que comienza con `surface.fill()`. Usamo
 
 Pero eso no es muy útil, ¿verdad? Reemplacemos el código del `fragmento 01` con el `fragmento 02` y verá un cuadrado verde moviéndose lentamente a la derecha de la pantalla.
 
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/p2.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/p2.3.JPG)
+
 ### Fragmento 02
 ```python
 greenSquareX = windowWidth / 2
@@ -80,8 +82,9 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 Si cambiamos esa línea para leer `greenSquareX += 0.05`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-0.05`, se movería hacia atrás.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMT
-kzODIwNzUxOSwxNTY2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIw
-NzQxLC0xMTU5NDM5OTU2LC0yMjczMzgxNCwtMjk0NTYyNDYwLC
-0yNzQ0NDI2NTcsMTgyODI2NzU4NiwxOTM2MzMzNTI5XX0=
+eyJoaXN0b3J5IjpbLTc0NTY2NjksMTkyNTUxNjg4MSwtMTk2MD
+AxMTYyNywtMTkzODIwNzUxOSwxNTY2NTkzNDcsMTAyNTc0NjE1
+OSwtNzU0NzIwNzQxLC0xMTU5NDM5OTU2LC0yMjczMzgxNCwtMj
+k0NTYyNDYwLC0yNzQ0NDI2NTcsMTgyODI2NzU4NiwxOTM2MzMz
+NTI5XX0=
 -->
