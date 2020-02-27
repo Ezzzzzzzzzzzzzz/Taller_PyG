@@ -85,9 +85,9 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 ¿Seguramente también podemos subir y bajar? 
 
-Comente la línea greenSquareX del fragmento 02 y elimine el comentario de la línea de abajo quitando el #. Nuestro cuadrado comenzará a viajar hacia la parte inferior de la pantalla. Al igual que antes, estamos cambiando la variable que le dice a nuestra forma a dónde ir, greenSquareY (tenga en cuenta que ahora estamos cambiando Y, no X), solo un poco cada vez para que se mueva. Y, tal como vimos al cambiar la variable X, podemos hacer que el cuadrado verde suba agregando un número negativo.
+**Comente la línea `greenSquareX` del `fragmento 02` y elimine el comentario de la línea de abajo quitando el `#` **. Nuestro cuadrado comenzará a viajar hacia la parte inferior de la pantalla. Al igual que antes, estamos cambiando la variable que le dice a nuestra forma a dónde ir, `greenSquareY`(tenga en cuenta que ahora estamos cambiando `Y`, no `X`), solo un poco cada vez para que se mueva. Y, tal como vimos al cambiar la variable `X`, podemos hacer que el cuadrado verde suba agregando un número negativo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODM5OTU2Nyw3MjAwOTc2MDUsMjA1OT
+eyJoaXN0b3J5IjpbMTA4MTU5OTMwOSw3MjAwOTc2MDUsMjA1OT
 IwMzQyNywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3
 LC0xOTM4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NT
 Q3MjA3NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0
