@@ -74,11 +74,11 @@ while True:
 	blueSquareX += blueSquareVX
 	blueSquareY += blueSquareVY
 	blueSquareVX += 0.1
-	blueSquareVY 
+	blueSquareVY += 0.1
 ```
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkyNDYxMTgsMzcxNzA3Mzc3LDEzOT
-Q1ODk0NSwtNDM1NTA0NTk4LC0xODY1NjY4ODE4LDk4MTUyMDA3
-NV19
+eyJoaXN0b3J5IjpbMTk3NjgyNzEyNSwzNzE3MDczNzcsMTM5ND
+U4OTQ1LC00MzU1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1
+XX0=
 -->
