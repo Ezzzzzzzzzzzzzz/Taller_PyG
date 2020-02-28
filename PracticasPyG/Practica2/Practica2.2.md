@@ -55,8 +55,10 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 
 Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores `X` e `Y`, y utilizamos **flotantes** *(que son números con un decimal, como 2.3 o 3.141)* en lugar de **enteros** *(números enteros)*, podríamos lograr un movimiento completo de 360 grados.
 
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.4.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.4.JPG)
+
 Juguemos un poco más con números y decimales. Hasta ahora, los valores que hemos usado para animar nuestras formas en la pantalla han sido enteros que permanecen constantes. Con cada cuadro, siempre agregaríamos 1 (o algún otro valor arbitrario) para mover nuestro objeto. Pero, **¿qué sucede si cambiamos los valores que usamos para animar cosas? ¿Qué pasa si, en lugar de agregar `1` a las coordenadas `X` / `Y`, agregamos `1`, luego `1.1`, luego `1.2`, y así sucesivamente?**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDU4OTQ1LC00MzU1MDQ1OTgsLTE4Nj
-U2Njg4MTgsOTgxNTIwMDc1XX0=
+eyJoaXN0b3J5IjpbMzcxNzA3Mzc3LDEzOTQ1ODk0NSwtNDM1NT
+A0NTk4LC0xODY1NjY4ODE4LDk4MTUyMDA3NV19
 -->
