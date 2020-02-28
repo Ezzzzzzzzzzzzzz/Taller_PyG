@@ -70,11 +70,15 @@ blueSquareVY = 1
 
 while True:
 	surface.fill((0, 0, 0))
-	pygame.draw.rect(surface, (0, 0, 255), 
+	pygame.draw.rect(surface, (0, 0, 255), (blueSquareX, blueSquareY, 10, 10)
+	blueSquareX += blueSquareVX
+	blueSquareY += blueSquareVY
+	blueSquareVX += 0.1
+	blueSquareVY 
 ```
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzE5NzQ4LDM3MTcwNzM3NywxMzk0NT
-g5NDUsLTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5ODE1MjAwNzVd
-fQ==
+eyJoaXN0b3J5IjpbLTIwMDkyNDYxMTgsMzcxNzA3Mzc3LDEzOT
+Q1ODk0NSwtNDM1NTA0NTk4LC0xODY1NjY4ODE4LDk4MTUyMDA3
+NV19
 -->
