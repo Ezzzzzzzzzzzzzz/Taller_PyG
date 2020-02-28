@@ -64,11 +64,17 @@ Reemplace el código del `fragmento 02` con el código del `fragmento 03` (o cre
 ### Fragmento 03
 ```python
 blueSquareX = 0.0
-blueS
+blueSquareY = 0.0
+blueSquareVX = 1
+blueSquareVY = 1
+
+while True:
+	surface.fill((0, 0, 0))
+	pygame.draw.rect(surface, (0, 0, 255), 
 ```
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDUxODUwMSwzNzE3MDczNzcsMTM5ND
-U4OTQ1LC00MzU1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1
-XX0=
+eyJoaXN0b3J5IjpbMTE3NzE5NzQ4LDM3MTcwNzM3NywxMzk0NT
+g5NDUsLTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5ODE1MjAwNzVd
+fQ==
 -->
