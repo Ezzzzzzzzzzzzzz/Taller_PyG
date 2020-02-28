@@ -3,7 +3,7 @@
 ## Moviendo SHAPES en el tiempo y el espacio
 
 Cuando pensamos en la animación, nuestras mentes pueden convertir dibujos en películas animadas: aquí, cambios sutiles en la forma y el color engañan a nuestros cerebros para que vean movimientos donde no los hay. 
-No es diferente con las computadoras: cada vez que mueves un mouse o minimizas una ventana, nada se ha movido; en cambio, los píxeles se han dibujado, actualizado, actualizado y luego dibujado nuevamente, con todo en su nuevo lugar.
+**No es diferente con las computadoras:** cada vez que mueves un mouse o minimizas una ventana, nada se ha movido; en cambio, **los píxeles se han dibujado, actualizado, actualizado y luego dibujado nuevamente, con todo en su nuevo lugar.**
 
 ![](https://media.giphy.com/media/YTEAn0boXGmY0/giphy.gif)
 
@@ -33,7 +33,7 @@ windowHeight = 480
 surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption("Pygame Shapes!")
 ```
-Lo vamos a usar en el código `Bottom` para verificar si nuestro jugador intentó o no abandonar el juego mientras se estaba ejecutando (en este caso, tratando de cerrar la ventana), y luego cerrar nuestro programa correctamente.
+Lo v**Vamos a usar en el código `Bottom` para verificar si nuestro jugador intentó o no abandonar el juego mientras se estaba ejecutando (en este caso, tratando de cerrar la ventana), y luego cerrar nuestro programa correctamente.**
 
 ### Código BOTTOM (Pie de código)
 ```python
@@ -77,7 +77,9 @@ while True:
 ```
 Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la primera practica, dibujábamos formas como esta usando números que pasaríamos a Pygame, como `pygame.draw.rect(surface, (255,0,0), (20, 50, 40, 30))`, y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
 
-¿Qué pasaría si quisiéramos cambiar la altura, el ancho o el color de esta forma? ¿Cómo podríamos decirle a Pygame que cambie los números que ya ingresamos? Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
+**¿Qué pasaría si quisiéramos cambiar la altura, el ancho o el color de esta forma? ¿Cómo podríamos decirle a Pygame que cambie los números que ya ingresamos? ** 
+
+Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
 
 Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `0.01` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
 
@@ -93,14 +95,26 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 
 ![](https://media.giphy.com/media/xyKxclKcUXfaM/giphy.gif)
 
-El próximo desafío sería cómo hacer que las cosas se muevan en diagonal. Afortunadamente, este es un proceso bastante simple también.
+**El próximo desafío sería cómo hacer que las cosas se muevan en diagonal. ** 
 
+Afortunadamente, este es un proceso bastante simple también.
 
+ Si **descomentamos** `greenSquareX` y `greenSquareY` en nuestro código, nuestra forma se moverá hacia la derecha y hacia abajo cada vez que Pygame actualice la pantalla. 
+
+>Si **sumamos a nuestros valores** `X` e `Y`, **nuestras formas se moverán hacia la derecha y hacia abajo**. 
+>
+>Si **sumamos** a nuestro valor `X` y **restamos** de nuestro valor `Y`, **nuestras formas se moverán hacia la derecha y hacia arriba**. 
+>
+>Si **restamos** de nuestro valor `X` y **sumamos** a nuestro valor `Y`, **nuestras formas se moverán hacia la izquierda y hacia abajo**. 
+>
+>Finalmente, si **restamos nuestros valores** `X` e `Y`, **nuestra forma se moverá hacia la izquierda y hacia arriba**. 
+
+Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, suponiendo, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores X e Y, y utilizamos flotantes (que son números con un decimal, como 2.3 o 3.141) en lugar de enteros (números enteros), podríamos lograr un movimiento completo de 360 grados.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzgyMzIwNSwtNzEwNDc2NDI0LDcyMD
-A5NzYwNSwyMDU5MjAzNDI3LC03NDU2NjY5LDE5MjU1MTY4ODEs
-LTE5NjAwMTE2MjcsLTE5MzgyMDc1MTksMTU2NjU5MzQ3LDEwMj
-U3NDYxNTksLTc1NDcyMDc0MSwtMTE1OTQzOTk1NiwtMjI3MzM4
-MTQsLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LDE4MjgyNjc1ODYsMT
-kzNjMzMzUyOV19
+eyJoaXN0b3J5IjpbMTIzOTA5ODY1LDEwNDc4MjMyMDUsLTcxMD
+Q3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQyNywtNzQ1NjY2OSwx
+OTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOTM4MjA3NTE5LDE1Nj
+Y1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3NDEsLTExNTk0Mzk5
+NTYsLTIyNzMzODE0LC0yOTQ1NjI0NjAsLTI3NDQ0MjY1NywxOD
+I4MjY3NTg2LDE5MzYzMzM1MjldfQ==
 -->
