@@ -33,6 +33,8 @@ while True:
 
 **Comente la línea `greenSquareX` del `fragmento 02` y elimine el comentario de la línea de abajo quitando el `#`. Nuestro cuadrado comenzará a viajar hacia la parte inferior de la pantalla**. Al igual que antes, estamos cambiando la variable que le dice a nuestra forma a dónde ir, `greenSquareY`(tenga en cuenta que ahora estamos cambiando `Y`, no `X`), solo un poco cada vez para que se mueva. Y, tal como vimos al cambiar la variable `X`, **podemos hacer que el cuadrado verde suba agregando un número negativo**.
 
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.3.JPG)
+
 Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es suficiente libertad para hacer tantos juegos clásicos: [Pokémon](https://www.youtube.com/watch?v=s_4zaj8EbFI), [Legend Of Zelda](https://www.zelda.com/), [Space Invaders](https://elgoog.im/space-invaders/) y más. **Estos juegos solo moverían cosas horizontal y verticalmente, pero nunca al mismo tiempo**. 
 
 ![](https://media.giphy.com/media/xyKxclKcUXfaM/giphy.gif)
@@ -55,5 +57,6 @@ Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden mo
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU2Njg4MTgsOTgxNTIwMDc1XX0=
+eyJoaXN0b3J5IjpbLTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5OD
+E1MjAwNzVdfQ==
 -->
