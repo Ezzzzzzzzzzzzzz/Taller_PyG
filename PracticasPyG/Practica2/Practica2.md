@@ -107,9 +107,9 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 >
 >Finalmente, si **restamos nuestros valores** `X` e `Y`, **nuestra forma se moverá hacia la izquierda y hacia arriba**. 
 
-Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, suponiendo, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores X e Y, y utilizamos flotantes (que son números con un decimal, como 2.3 o 3.141) en lugar de enteros (números enteros), podríamos lograr un movimiento completo de 360 grados.
+Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores `X` e `Y`, y utilizamos **flotantes** *(que son números con un decimal, como 2.3 o 3.141)* en lugar de **enteros** *(números enteros)*, podríamos lograr un movimiento completo de 360 grados.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Nzc0MTg0MSwxMDQ3ODIzMjA1LC03MT
+eyJoaXN0b3J5IjpbMTQ1OTgxMDc2MywxMDQ3ODIzMjA1LC03MT
 A0NzY0MjQsNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2Njks
 MTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUxOSwxNT
 Y2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMTU5NDM5
