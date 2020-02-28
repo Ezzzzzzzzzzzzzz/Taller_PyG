@@ -1,7 +1,7 @@
 # Moviéndose en todas direcciones
+```python
 
-¿Seguramente también podemos subir y bajar? 
-
+```
 **Comente la línea `greenSquareX` del `fragmento 02` y elimine el comentario de la línea de abajo quitando el `#`**. Nuestro cuadrado comenzará a viajar hacia la parte inferior de la pantalla. Al igual que antes, estamos cambiando la variable que le dice a nuestra forma a dónde ir, `greenSquareY`(tenga en cuenta que ahora estamos cambiando `Y`, no `X`), solo un poco cada vez para que se mueva. Y, tal como vimos al cambiar la variable `X`, **podemos hacer que el cuadrado verde suba agregando un número negativo**.
 
 Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es suficiente libertad para hacer tantos juegos clásicos: [Pokémon](https://www.youtube.com/watch?v=s_4zaj8EbFI), [Legend Of Zelda](https://www.zelda.com/), [Space Invaders](https://elgoog.im/space-invaders/) y más. **Estos juegos solo moverían cosas horizontal y verticalmente, pero nunca al mismo tiempo**. 
@@ -26,5 +26,5 @@ Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden mo
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxNTIwMDc1XX0=
+eyJoaXN0b3J5IjpbMTUyNjkyNzc4MCw5ODE1MjAwNzVdfQ==
 -->
