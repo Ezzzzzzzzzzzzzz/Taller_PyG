@@ -1,4 +1,5 @@
 # Moviéndose en todas direcciones
+### Código TOP (Cabecera)
 ```python
 import pygame, sys, random
 import pygame.locals as GAME_GLOBALS
@@ -9,17 +10,10 @@ windowWidth = 640
 windowHeight = 480
 surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption("Pygame Shapes!")
-
-greenSquareX = windowWidth / 2
-greenSquareY = windowHeight / 2
-
-while True:
-    surface.fill((0, 0, 0))
-    pygame.draw.rect(surface, (0, 255, 0), (greenSquareX, greenSquareY, 10, 10))
-    greenSquareX += 0.01
-    #greenSquareY += 0.01
-    
-    for event in GAME_EVENTS.get():
+```
+### Código BOTTOM (Pie de código)
+```python
+for event in GAME_EVENTS.get():
         if event.type == GAME_GLOBALS.QUIT:
             pygame.quit()
             sys.exit()
@@ -50,5 +44,5 @@ Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden mo
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTg2ODc3Niw5ODE1MjAwNzVdfQ==
+eyJoaXN0b3J5IjpbMjA0NDUyNzM1Myw5ODE1MjAwNzVdfQ==
 -->
