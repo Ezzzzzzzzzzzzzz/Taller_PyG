@@ -95,9 +95,7 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 
 ![](https://media.giphy.com/media/xyKxclKcUXfaM/giphy.gif)
 
-**El próximo desafío sería cómo hacer que las cosas se muevan en diagonal.** 
-
-Afortunadamente, este es un proceso bastante simple también.
+**El próximo desafío sería cómo hacer que las cosas se muevan en diagonal.** Afortunadamente, este es un proceso bastante simple también.
 
  Si **descomentamos** `greenSquareX` y `greenSquareY` en nuestro código, nuestra forma se moverá hacia la derecha y hacia abajo cada vez que Pygame actualice la pantalla. 
 
@@ -111,10 +109,10 @@ Afortunadamente, este es un proceso bastante simple también.
 
 Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, suponiendo, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores X e Y, y utilizamos flotantes (que son números con un decimal, como 2.3 o 3.141) en lugar de enteros (números enteros), podríamos lograr un movimiento completo de 360 grados.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYzMjIxMjMsMTA0NzgyMzIwNSwtNz
-EwNDc2NDI0LDcyMDA5NzYwNSwyMDU5MjAzNDI3LC03NDU2NjY5
-LDE5MjU1MTY4ODEsLTE5NjAwMTE2MjcsLTE5MzgyMDc1MTksMT
-U2NjU5MzQ3LDEwMjU3NDYxNTksLTc1NDcyMDc0MSwtMTE1OTQz
-OTk1NiwtMjI3MzM4MTQsLTI5NDU2MjQ2MCwtMjc0NDQyNjU3LD
-E4MjgyNjc1ODYsMTkzNjMzMzUyOV19
+eyJoaXN0b3J5IjpbMTg0Nzc0MTg0MSwxMDQ3ODIzMjA1LC03MT
+A0NzY0MjQsNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2Njks
+MTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUxOSwxNT
+Y2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMTU5NDM5
+OTU2LC0yMjczMzgxNCwtMjk0NTYyNDYwLC0yNzQ0NDI2NTcsMT
+gyODI2NzU4NiwxOTM2MzMzNTI5XX0=
 -->
