@@ -70,8 +70,8 @@ greenSquareY = windowHeight / 2
 while True:
     surface.fill((0, 0, 0))
     pygame.draw.rect(surface, (0, 255, 0), (greenSquareX, greenSquareY, 10, 10))
-    greenSquareX += 0.01
-    #greenSquareY += 0.01
+    greenSquareX += 1
+    #greenSquareY += 1
 ```
 Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la primera practica, dibujábamos formas como esta usando números que pasaríamos a Pygame, como `pygame.draw.rect(surface, (255,0,0), (20, 50, 40, 30))`, y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
 
@@ -79,17 +79,18 @@ Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la p
 
 Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
 
-Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `0.01` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
+Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `1` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
 
-**Si cambiamos esa línea para leer `greenSquareX += 0.05`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-0.05`, se movería hacia atrás.**
+**Si cambiamos esa línea para leer `greenSquareX += 5`, cada vez que dibujemos nuestro cuadrado, será 0.05 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; y si lo cambiamos a `-5`, se movería hacia atrás.**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzIxMDE0MywxNDU5ODEwNzYzLDEwND
-c4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQy
-NywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOT
-M4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3
-NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0NjAsLT
-I3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
+eyJoaXN0b3J5IjpbMzg4OTM1MTMsLTEwMzIxMDE0MywxNDU5OD
+EwNzYzLDEwNDc4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUs
+MjA1OTIwMzQyNywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMD
+ExNjI3LC0xOTM4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5
+LC03NTQ3MjA3NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOT
+Q1NjI0NjAsLTI3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1
+MjldfQ==
 -->
