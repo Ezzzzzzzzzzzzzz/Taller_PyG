@@ -107,12 +107,14 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 >
 >Finalmente, si **restamos nuestros valores** `X` e `Y`, **nuestra forma se moverá hacia la izquierda y hacia arriba**. 
 
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Py2.2.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Py2.2.JPG)
+
 Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores `X` e `Y`, y utilizamos **flotantes** *(que son números con un decimal, como 2.3 o 3.141)* en lugar de **enteros** *(números enteros)*, podríamos lograr un movimiento completo de 360 grados.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTgxMDc2MywxMDQ3ODIzMjA1LC03MT
-A0NzY0MjQsNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2Njks
-MTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUxOSwxNT
-Y2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMTU5NDM5
-OTU2LC0yMjczMzgxNCwtMjk0NTYyNDYwLC0yNzQ0NDI2NTcsMT
-gyODI2NzU4NiwxOTM2MzMzNTI5XX0=
+eyJoaXN0b3J5IjpbLTI0NjQ5MjE0MywxNDU5ODEwNzYzLDEwND
+c4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQy
+NywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOT
+M4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3
+NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0NjAsLT
+I3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1MjldfQ==
 -->
