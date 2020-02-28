@@ -27,8 +27,8 @@ greenSquareY = windowHeight / 2
 while True:
     surface.fill((0, 0, 0))
     pygame.draw.rect(surface, (0, 255, 0), (greenSquareX, greenSquareY, 10, 10))
-    greenSquareX += 0.01
-    #greenSquareY += 0.01
+    greenSquareX += 1
+    #greenSquareY += 1
 ```
 
 **Comente la línea `greenSquareX` del `fragmento 02` y elimine el comentario de la línea de abajo quitando el `#`. Nuestro cuadrado comenzará a viajar hacia la parte inferior de la pantalla**. Al igual que antes, estamos cambiando la variable que le dice a nuestra forma a dónde ir, `greenSquareY`(tenga en cuenta que ahora estamos cambiando `Y`, no `X`), solo un poco cada vez para que se mueva. Y, tal como vimos al cambiar la variable `X`, **podemos hacer que el cuadrado verde suba agregando un número negativo**.
@@ -57,6 +57,6 @@ Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden mo
 
 Juguemos un poco más con números y decimales. Hasta ahora, los valores que hemos usado para animar nuestras formas en la pantalla han sido enteros que permanecen constantes. Con cada cuadro, siempre agregaríamos 1 (o algún otro valor arbitrario) para mover nuestro objeto. Pero, ¿qué sucede si cambiamos los valores que usamos para animar cosas? ¿Qué pasa si, en lugar de agregar 1 a las coordenadas X / Y, agregamos 1, luego 1.1, luego 1.2, y así sucesivamente?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE0MDU2MTcsLTQzNTUwNDU5OCwtMT
-g2NTY2ODgxOCw5ODE1MjAwNzVdfQ==
+eyJoaXN0b3J5IjpbMTkyNTkxOTAwOSwtNDM1NTA0NTk4LC0xOD
+Y1NjY4ODE4LDk4MTUyMDA3NV19
 -->
