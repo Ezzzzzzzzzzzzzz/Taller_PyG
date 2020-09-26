@@ -32,7 +32,7 @@ while True:
     
     pygame.display.update()
 ```
-### ¿Qué pasa con las elipses? 
+## ¿Qué pasa con las elipses? 
 Son un cruce ligeramente extraño entre dibujar rectángulos y círculos. Como hicimos cuando dibujamos un rectángulo, pasamos una coordenada X, una coordenada Y, un ancho y una altura, pero terminamos con una forma elíptica. 
 
 Dibujemos una elipse o dos.
@@ -80,6 +80,7 @@ while True:
     pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4NzY3NjM1LC0xODg2OTE0NTkyLC0yOD
-M0MDc2MjQsLTE3MjY5OTA0MTgsLTUxNDMxNzQ2NV19
+eyJoaXN0b3J5IjpbMjA5NDc4Njk0Niw1MDg3Njc2MzUsLTE4OD
+Y5MTQ1OTIsLTI4MzQwNzYyNCwtMTcyNjk5MDQxOCwtNTE0MzE3
+NDY1XX0=
 -->
