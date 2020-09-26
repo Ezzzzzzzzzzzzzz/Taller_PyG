@@ -38,7 +38,7 @@ pygame.display.set_caption("Pygame Shapes!")
 
 ### Código BOTTOM (Pie de código)
 ```python
-for event in GAME_EVENTS.get():
+	for event in GAME_EVENTS.get():
         if event.type == GAME_GLOBALS.QUIT:
             pygame.quit()
             sys.exit()
@@ -87,11 +87,11 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg0OTMyMzIsMzg4OTM1MTMsLTEwMz
-IxMDE0MywxNDU5ODEwNzYzLDEwNDc4MjMyMDUsLTcxMDQ3NjQy
-NCw3MjAwOTc2MDUsMjA1OTIwMzQyNywtNzQ1NjY2OSwxOTI1NT
-E2ODgxLC0xOTYwMDExNjI3LC0xOTM4MjA3NTE5LDE1NjY1OTM0
-NywxMDI1NzQ2MTU5LC03NTQ3MjA3NDEsLTExNTk0Mzk5NTYsLT
-IyNzMzODE0LC0yOTQ1NjI0NjAsLTI3NDQ0MjY1NywxODI4MjY3
-NTg2XX0=
+eyJoaXN0b3J5IjpbNjE3NTA5MzY4LC0xNTU4NDkzMjMyLDM4OD
+kzNTEzLC0xMDMyMTAxNDMsMTQ1OTgxMDc2MywxMDQ3ODIzMjA1
+LC03MTA0NzY0MjQsNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NT
+Y2NjksMTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUx
+OSwxNTY2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMT
+U5NDM5OTU2LC0yMjczMzgxNCwtMjk0NTYyNDYwLC0yNzQ0NDI2
+NTddfQ==
 -->
