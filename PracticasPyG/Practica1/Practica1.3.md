@@ -59,12 +59,11 @@ Como habrás adivinado, esto significa que también puedes hacer círculos usand
 while True:
 
     pygame.draw.rect(window, (255, 0, 0), (100, 100, 100, 50), 2)
-    
+ 
     pygame.draw.ellipse(window, (255, 0, 0), (100, 100, 100, 50))
     
     
     pygame.draw.rect(window, (0, 255, 0), (100, 150, 80, 40), 2)
-    
     pygame.draw.ellipse(window, (0, 255, 0), (100, 150, 80, 40))
     
     
@@ -80,7 +79,7 @@ while True:
     pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDc4Njk0Niw1MDg3Njc2MzUsLTE4OD
-Y5MTQ1OTIsLTI4MzQwNzYyNCwtMTcyNjk5MDQxOCwtNTE0MzE3
-NDY1XX0=
+eyJoaXN0b3J5IjpbMzgxMTEzMjAyLDIwOTQ3ODY5NDYsNTA4Nz
+Y3NjM1LC0xODg2OTE0NTkyLC0yODM0MDc2MjQsLTE3MjY5OTA0
+MTgsLTUxNDMxNzQ2NV19
 -->
