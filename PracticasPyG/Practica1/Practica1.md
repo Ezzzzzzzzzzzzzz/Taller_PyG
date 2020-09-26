@@ -49,7 +49,7 @@ window = pygame.display.set_mode((500, 400))
 
 En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 píxeles de alto. **Si pasamos números que son más grandes, la ventana del juego será más grande; Si pasamos números que son más pequeños, la ventana del juego será más pequeña.**
 
-Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran. Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
+Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. **Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran.** Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
 
 Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque **True** siempre es **True**, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
 
@@ -84,7 +84,8 @@ Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ4NDM5OTQsMzkzMDE3ODk4LDE2NT
-g4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYzNjUsLTEwMjM1Mjcy
-NzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbLTYzNTQ0MTc1NCwtMTg5NDg0Mzk5NCwzOT
+MwMTc4OTgsMTY1ODg5MjAyMywxNzEyNTI1MDU5LDM1MzkxNjM2
+NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgxNjEyXX
+0=
 -->
