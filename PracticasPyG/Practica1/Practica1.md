@@ -83,13 +83,13 @@ Nuestra última línea en `hello.py` es agradable y simple:
 ```python
 pygame.display.update()
 ```
-Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que nuestro Pi tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
+Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que  tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY4MjQyODIsMTgwNzI2MDUxOCwtNj
-M1NDQxNzU0LC0xODk0ODQzOTk0LDM5MzAxNzg5OCwxNjU4ODky
-MDIzLDE3MTI1MjUwNTksMzUzOTE2MzY1LC0xMDIzNTI3Mjc4LC
-0yMDY1MDI5OTMwLC03OTQ4ODE2MTJdfQ==
+eyJoaXN0b3J5IjpbNDU0NzU3MjEsLTE0NTY4MjQyODIsMTgwNz
+I2MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LDM5MzAxNzg5
+OCwxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2MzY1LC0xMD
+IzNTI3Mjc4LC0yMDY1MDI5OTMwLC03OTQ4ODE2MTJdfQ==
 -->
