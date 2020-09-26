@@ -3,6 +3,7 @@
 ## Moviendo SHAPES en el tiempo y el espacio
 
 Cuando pensamos en la animación, nuestras mentes pueden convertir dibujos en películas animadas: aquí, cambios sutiles en la forma y el color engañan a nuestros cerebros para que vean movimientos donde no los hay. 
+
 **No es diferente con las computadoras:** cada vez que mueves un mouse o minimizas una ventana, nada se ha movido; en cambio, **los píxeles se han dibujado, actualizado, actualizado y luego dibujado nuevamente, con todo en su nuevo lugar.**
 
 ![](https://media.giphy.com/media/YTEAn0boXGmY0/giphy.gif)
@@ -86,11 +87,11 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4OTM1MTMsLTEwMzIxMDE0MywxNDU5OD
-EwNzYzLDEwNDc4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUs
-MjA1OTIwMzQyNywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMD
-ExNjI3LC0xOTM4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5
-LC03NTQ3MjA3NDEsLTExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOT
-Q1NjI0NjAsLTI3NDQ0MjY1NywxODI4MjY3NTg2LDE5MzYzMzM1
-MjldfQ==
+eyJoaXN0b3J5IjpbNzQxODUzNDk1LDM4ODkzNTEzLC0xMDMyMT
+AxNDMsMTQ1OTgxMDc2MywxMDQ3ODIzMjA1LC03MTA0NzY0MjQs
+NzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2NjksMTkyNTUxNj
+g4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUxOSwxNTY2NTkzNDcs
+MTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMTU5NDM5OTU2LC0yMj
+czMzgxNCwtMjk0NTYyNDYwLC0yNzQ0NDI2NTcsMTgyODI2NzU4
+Nl19
 -->
