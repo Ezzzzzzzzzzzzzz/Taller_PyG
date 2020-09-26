@@ -18,7 +18,7 @@ while True:
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.2.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.2.JPG)
 
-**¿Qué pasaría si se superpusieran? Vamos a averiguar.** 
+## **¿Qué pasaría si se superpusieran? Vamos a averiguar.** 
 
 **Cambie su código una vez más a lo siguiente:**
 ```python
@@ -46,6 +46,6 @@ while True:
 **Ahora el código aparentemente produce rectángulo, cuadrado, rectángulo. Esto se debe a que los cuadrados rojo y azul se dibujaron primero y luego el cuadrado verde se dibujó sobre ellos. Los cuadrados rojo y azul todavía están allí en su totalidad, pero no podemos verlos todos, por lo que parecen rectángulos.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODYyNTU2OSwtMTk5MDQ5NDc2MiwyMD
-cwMDY5MDk2XX0=
+eyJoaXN0b3J5IjpbLTEzMTgwNTY2OSwxNDk4NjI1NTY5LC0xOT
+kwNDk0NzYyLDIwNzAwNjkwOTZdfQ==
 -->
