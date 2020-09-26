@@ -1,12 +1,14 @@
 
 # SHAPES (formas) & PATHS (trayectorias) con PYGAME
-### Vamos a aprender a hacer un juego desde cero. En las primeras practicas, aprendemos los conceptos básicos.
+## Vamos a aprender a hacer un juego desde cero. En las primeras practicas, aprendemos los conceptos básicos.
 
-En este curso, vamos a aprender a hacer juegos con Pygame. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada capítulo se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
+En este curso, vamos a aprender a hacer juegos con **Pygame**. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada capítulo se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
 
 **Este curso no es para principiantes de programación, pero no está lejos de eso: vamos a suponer que ha escrito algunos programas simples de Python (o similares) en el pasado, y que puede hacer cosas como crear archivos y moverse por el sistema de archivos sin demasiada dificultad**.
 
 ![](https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif)
+
+# hello.py
 
 En la primera practica, veremos cómo dibujar y colorear varias formas en una ventana. No se trata de [**Grand Theft Auto V**](https://www.rockstargames.com/V/es), sin duda, pero dibujar formas es el primer paso para construir casi cualquier cosa.
 
@@ -47,9 +49,12 @@ window = pygame.display.set_mode((500, 400))
 `window` es el parámetro que vamos a usar para decirle a nuestro programa Pygame cómo debería verse cuando se ejecuta; cada parámetro afecta la forma y el tamaño de la ventana de la aplicación. Tenga en cuenta que aquí, el ancho siempre viene antes que la altura. `window` también es el parámetro que usaremos para indicar a otras líneas de código la superficie en la que deben dibujar formas y establecer colores. Con `window`, llamamos a la función `set_mode` del módulo de visualización de Pygame: este último es responsable de cómo se comporta la ventana y la superficie del juego *(un término informal para los píxeles que manipularemos)*. 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG)
 
-En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 píxeles de alto. **Si pasamos números que son más grandes, la ventana del juego será más grande; Si pasamos números que son más pequeños, la ventana del juego será más pequeña.**
+En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 píxeles de alto. 
 
-Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran. Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
+>**Si pasamos números que son más grandes, la ventana del juego será más grande.**
+>**Si pasamos números que son más pequeños, la ventana del juego será más pequeña.**
+
+Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. **Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran.** Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
 
 Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque **True** siempre es **True**, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
 
@@ -62,7 +67,11 @@ Luego, le dijimos a Pygame qué color queríamos que fuera nuestro rectángulo p
 >
 >`255` significa que la cantidad máxima de color debe estar en esa forma.
 
-Le dijimos a nuestro rectángulo que debería ser el color `(255, 0, 0)`, que es **rojo puro**. Si le hubiéramos dicho que fuera `(255, 0, 255)`, habría sido de un color **púrpura brillante**, porque se dibuja con la cantidad máxima de rojo y la cantidad máxima de azul. Si le hubiéramos dicho a nuestro rectángulo que se coloreara `(100, 100, 100)`, sería un **gris oscuro**, porque todos los colores serían iguales.
+Le dijimos a nuestro rectángulo que debería ser el color `(255, 0, 0)`, que es **rojo puro**. 
+
+Si le hubiéramos dicho que fuera `(255, 0, 255)`, habría sido de un color **púrpura brillante**, porque se dibuja con la cantidad máxima de rojo y la cantidad máxima de azul. 
+
+Si le hubiéramos dicho a nuestro rectángulo que se coloreara `(100, 100, 100)`, sería un **gris oscuro**, porque todos los colores serían iguales.
 
 Después de pasar por un color para que nuestro rectángulo sea, tenemos que decirle a dónde debe ir y qué tan grande debe ser. 
 
@@ -79,12 +88,14 @@ Nuestra última línea en `hello.py` es agradable y simple:
 ```python
 pygame.display.update()
 ```
-Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que nuestro Pi tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
+Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que  tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ4NDM5OTQsMzkzMDE3ODk4LDE2NT
-g4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYzNjUsLTEwMjM1Mjcy
-NzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbMTkwMDI3Mjg2NSwxOTAwMjcyODY1LC0xND
+U2ODI0MjgyLDE4MDcyNjA1MTgsLTYzNTQ0MTc1NCwtMTg5NDg0
+Mzk5NCwzOTMwMTc4OTgsMTY1ODg5MjAyMywxNzEyNTI1MDU5LD
+M1MzkxNjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0
+ODgxNjEyXX0=
 -->
