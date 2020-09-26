@@ -39,10 +39,10 @@ pygame.display.set_caption("Pygame Shapes!")
 ### Código BOTTOM (Pie de código)
 ```python
 	for event in GAME_EVENTS.get():
-        if event.type == GAME_GLOBALS.QUIT:
-            pygame.quit()
-            sys.exit()
-    pygame.display.update()
+	    if event.type == GAME_GLOBALS.QUIT:
+	        pygame.quit()
+	        sys.exit()
+pygame.display.update()
 ```
 Si ejecuta el código `Fragmento 01` (coloque el código `TOP` y el `Fragmento 01``  juntos en un archivo)  sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
 
@@ -87,7 +87,7 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NTA5MzY4LC0xNTU4NDkzMjMyLDM4OD
+eyJoaXN0b3J5IjpbNTA0NTU5Njk2LC0xNTU4NDkzMjMyLDM4OD
 kzNTEzLC0xMDMyMTAxNDMsMTQ1OTgxMDc2MywxMDQ3ODIzMjA1
 LC03MTA0NzY0MjQsNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NT
 Y2NjksMTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUx
