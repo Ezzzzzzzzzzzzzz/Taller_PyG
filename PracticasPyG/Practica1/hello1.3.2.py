@@ -13,7 +13,7 @@ window = pygame.display.set_mode((500,400)) #((ancho, alto))
 #nuestro código adentro. El ciclo nunca terminara porque True siempre es True
 while True:
    
-    #pygame.draw-ellipse(¿Donde dibujo?,(Rojo,Verde,Azul),(coordenadaX,coordenadaY,largo,ancho))
+    #pygame.draw-ellipse(¿Donde dibujo?,(Rojo,Verde,Azul),(coordenadaX,coordenadaY,largoElipse,anchoElipse))
     pygame.draw.ellipse(window,(255,0,0), (100,100,100,50))
     pygame.draw.ellipse(window,(0,255,0), (100,150,80,40))
     pygame.draw.ellipse(window,(0,0,255), (100,190,60,30))
