@@ -34,7 +34,7 @@ windowHeight = 480
 surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption("Pygame Shapes!")
 ```
-Lo v**Vamos a usar en el código `Bottom` para verificar si nuestro jugador intentó o no abandonar el juego mientras se estaba ejecutando (en este caso, tratando de cerrar la ventana), y luego cerrar nuestro programa correctamente.**
+**Vamos a usar en el código `Bottom` para verificar si nuestro jugador intentó o no abandonar el juego mientras se estaba ejecutando (en este caso, tratando de cerrar la ventana), y luego cerrar nuestro programa correctamente.**
 
 ### Código BOTTOM (Pie de código)
 ```python
@@ -87,11 +87,11 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxODUzNDk1LDM4ODkzNTEzLC0xMDMyMT
-AxNDMsMTQ1OTgxMDc2MywxMDQ3ODIzMjA1LC03MTA0NzY0MjQs
-NzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2NjksMTkyNTUxNj
-g4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUxOSwxNTY2NTkzNDcs
-MTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMTU5NDM5OTU2LC0yMj
-czMzgxNCwtMjk0NTYyNDYwLC0yNzQ0NDI2NTcsMTgyODI2NzU4
-Nl19
+eyJoaXN0b3J5IjpbLTE1NTg0OTMyMzIsMzg4OTM1MTMsLTEwMz
+IxMDE0MywxNDU5ODEwNzYzLDEwNDc4MjMyMDUsLTcxMDQ3NjQy
+NCw3MjAwOTc2MDUsMjA1OTIwMzQyNywtNzQ1NjY2OSwxOTI1NT
+E2ODgxLC0xOTYwMDExNjI3LC0xOTM4MjA3NTE5LDE1NjY1OTM0
+NywxMDI1NzQ2MTU5LC03NTQ3MjA3NDEsLTExNTk0Mzk5NTYsLT
+IyNzMzODE0LC0yOTQ1NjI0NjAsLTI3NDQ0MjY1NywxODI4MjY3
+NTg2XX0=
 -->
