@@ -8,6 +8,8 @@ En este curso, vamos a aprender a hacer juegos con **Pygame**. Examinaremos los 
 
 ![](https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif)
 
+# hello.py
+
 En la primera practica, veremos cómo dibujar y colorear varias formas en una ventana. No se trata de [**Grand Theft Auto V**](https://www.rockstargames.com/V/es), sin duda, pero dibujar formas es el primer paso para construir casi cualquier cosa.
 
 Para comenzar, abra su editor de texto preferido *(sublime text, gedit, blog de notas, etc.)*, cree un nuevo archivo, inserte el siguiente código y guárdelo como `hello.py`
@@ -88,7 +90,7 @@ Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjU2NzM2OCwtMTQ1NjgyNDI4MiwxOD
+eyJoaXN0b3J5IjpbMjE0NzIyNjQxNCwtMTQ1NjgyNDI4MiwxOD
 A3MjYwNTE4LC02MzU0NDE3NTQsLTE4OTQ4NDM5OTQsMzkzMDE3
 ODk4LDE2NTg4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYzNjUsLT
 EwMjM1MjcyNzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
