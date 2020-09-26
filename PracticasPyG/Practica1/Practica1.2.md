@@ -1,6 +1,6 @@
 
 # Añadiendo más SHAPES (formas)
-### Hemos dibujado con éxito una forma, así que dibujemos algunas más. 
+## Hemos dibujado con éxito una forma, así que dibujemos algunas más. 
 
 Dibujaremos algunos cuadrados alrededor de la pantalla y analizaremos un poco sus propiedades. **No es necesario crear un nuevo archivo, por lo que nos quedaremos con `hello.py` por ahora.**
 
@@ -46,5 +46,6 @@ while True:
 **Ahora el código aparentemente produce rectángulo, cuadrado, rectángulo. Esto se debe a que los cuadrados rojo y azul se dibujaron primero y luego el cuadrado verde se dibujó sobre ellos. Los cuadrados rojo y azul todavía están allí en su totalidad, pero no podemos verlos todos, por lo que parecen rectángulos.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA0OTQ3NjIsMjA3MDA2OTA5Nl19
+eyJoaXN0b3J5IjpbMTQ5ODYyNTU2OSwtMTk5MDQ5NDc2MiwyMD
+cwMDY5MDk2XX0=
 -->
