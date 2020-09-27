@@ -83,12 +83,15 @@ Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.r
 Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `1` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
 
 >**Si cambiamos esa línea para leer `greenSquareX += 5`, cada vez que dibujemos nuestro cuadrado, será 5 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes. 
->Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; >Si lo cambiamos a `-5`, se movería hacia atrás.**
+>
+>Si cambiamos el número que ajustamos a `greenSquareX` a `0`, nuestra forma nunca se movería; 
+>
+>Si lo cambiamos a `-5`, se movería hacia atrás.**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjgzMjM2MSwxNzA0NzQwMDU4LC0xNj
+eyJoaXN0b3J5IjpbMTIzNzg1NzA2MywxNzA0NzQwMDU4LC0xNj
 g1MzA4MTIwLC0xNTU4NDkzMjMyLDM4ODkzNTEzLC0xMDMyMTAx
 NDMsMTQ1OTgxMDc2MywxMDQ3ODIzMjA1LC03MTA0NzY0MjQsNz
 IwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2NjksMTkyNTUxNjg4
