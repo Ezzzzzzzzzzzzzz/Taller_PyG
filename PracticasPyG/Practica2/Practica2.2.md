@@ -82,10 +82,14 @@ while True:
 	blueSquareVX += 0.1
 	blueSquareVY += 0.1
 ```
- Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: **a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.**
+ Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: **a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores. Se está acelerando. Esto se debe a que utilizamos variables que almacenan una medida básica de velocidad.** 
+
+Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos aumentar la cantidad de distancia que se agrega en cada cuadro, lo que da la ilusión de aceleración. 
+
+**Si cambiamos nuestro código para que aumente nuestras variables de velocidad (blueSquareVX / blueSquareVY en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzMzOTQzNiwxMDk0NzYyMzg4LC0zOT
-U4MDg5MDcsMTAxNjk3NzU2MSwxOTc2ODI3MTI1LDM3MTcwNzM3
-NywxMzk0NTg5NDUsLTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5OD
-E1MjAwNzVdfQ==
+eyJoaXN0b3J5IjpbMTQyNDc2Mjk2OCwtNTczMzM5NDM2LDEwOT
+Q3NjIzODgsLTM5NTgwODkwNywxMDE2OTc3NTYxLDE5NzY4Mjcx
+MjUsMzcxNzA3Mzc3LDEzOTQ1ODk0NSwtNDM1NTA0NTk4LC0xOD
+Y1NjY4ODE4LDk4MTUyMDA3NV19
 -->
