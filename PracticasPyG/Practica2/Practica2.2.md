@@ -37,7 +37,9 @@ Al igual que antes, estamos cambiando la variable que le dice a nuestra forma a 
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.3.JPG)
 
-Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es suficiente libertad para hacer tantos juegos clásicos: [Pokémon](https://www.youtube.com/watch?v=s_4zaj8EbFI), [Legend Of Zelda](https://www.zelda.com/), [Space Invaders](https://elgoog.im/space-invaders/) y más. **Estos juegos solo moverían cosas horizontal y verticalmente, pero nunca al mismo tiempo**. 
+Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es suficiente libertad para hacer tantos juegos clásicos: [Pokémon](https://www.youtube.com/watch?v=s_4zaj8EbFI), [Legend Of Zelda](https://www.zelda.com/), [Space Invaders](https://elgoog.im/space-invaders/) y más. 
+
+**Estos juegos solo moverían cosas horizontal y verticalmente, pero nunca al mismo tiempo**. 
 
 ![](https://media.giphy.com/media/xyKxclKcUXfaM/giphy.gif)
 
@@ -80,7 +82,7 @@ while True:
 ```
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjk3NzU2MSwxOTc2ODI3MTI1LDM3MT
-cwNzM3NywxMzk0NTg5NDUsLTQzNTUwNDU5OCwtMTg2NTY2ODgx
-OCw5ODE1MjAwNzVdfQ==
+eyJoaXN0b3J5IjpbLTM5NTgwODkwNywxMDE2OTc3NTYxLDE5Nz
+Y4MjcxMjUsMzcxNzA3Mzc3LDEzOTQ1ODk0NSwtNDM1NTA0NTk4
+LC0xODY1NjY4ODE4LDk4MTUyMDA3NV19
 -->
