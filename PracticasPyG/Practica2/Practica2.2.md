@@ -57,7 +57,7 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Py2.2.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Py2.2.JPG)
 
-Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores `X` e `Y`, y utilizamos **flotantes** *(que son números con un decimal, como 2.3 o 3.141)* en lugar de **enteros** *(números enteros)*, podríamos lograr un movimiento completo de 360 grados.
+**Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores `X` e `Y`, y utilizamos **flotantes** *(que son números con un decimal, como 2.3 o 3.141)* en lugar de **enteros** *(números enteros)*, podríamos lograr un movimiento completo de 360 grados.**
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.4.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.4.JPG)
 
@@ -82,7 +82,7 @@ while True:
 ```
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwOTQ2NTgxLC0zOTU4MDg5MDcsMTAxNj
-k3NzU2MSwxOTc2ODI3MTI1LDM3MTcwNzM3NywxMzk0NTg5NDUs
-LTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5ODE1MjAwNzVdfQ==
+eyJoaXN0b3J5IjpbMTM4MTY5OTIyMSwtMzk1ODA4OTA3LDEwMT
+Y5Nzc1NjEsMTk3NjgyNzEyNSwzNzE3MDczNzcsMTM5NDU4OTQ1
+LC00MzU1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1XX0=
 -->
