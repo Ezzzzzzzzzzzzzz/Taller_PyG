@@ -57,7 +57,7 @@ while True:
 
 **¡No te preocupes, nada está roto!** Esto es solo para demostrar que Pygame dibuja, destruye y vuelve a dibujar cosas en una ventana. 
 
-**Agregue un `#`** al comienzo de la línea que comienza con `surface.fill()`. Usamos este código para borrar los datos de píxeles del marco (frame) anterior. Sin él, lo que vemos son todos los diferentes marcos (frames) construidos uno encima del otro a medida que pasa el tiempo. `surface.fill()` es como la pintura que usamos para cubrir el fondo de pantalla antiguo antes de agregar el nuevo: crea una pizarra en blanco con la que podemos trabajar.
+### **Agregue un `#`** al comienzo de la línea que comienza con `surface.fill()`. Usamos este código para borrar los datos de píxeles del marco (frame) anterior. Sin él, lo que vemos son todos los diferentes marcos (frames) construidos uno encima del otro a medida que pasa el tiempo. `surface.fill()` es como la pintura que usamos para cubrir el fondo de pantalla antiguo antes de agregar el nuevo: crea una pizarra en blanco con la que podemos trabajar.
 
 **Pero eso no es muy útil, ¿verdad? Reemplacemos el código del `fragmento 01` con el `fragmento 02` y verá un cuadrado verde moviéndose lentamente a la derecha de la pantalla.**
 
@@ -91,11 +91,11 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Mzk3NDIyLDE3MDQ3NDAwNTgsLTE2OD
-UzMDgxMjAsLTE1NTg0OTMyMzIsMzg4OTM1MTMsLTEwMzIxMDE0
-MywxNDU5ODEwNzYzLDEwNDc4MjMyMDUsLTcxMDQ3NjQyNCw3Mj
-AwOTc2MDUsMjA1OTIwMzQyNywtNzQ1NjY2OSwxOTI1NTE2ODgx
-LC0xOTYwMDExNjI3LC0xOTM4MjA3NTE5LDE1NjY1OTM0NywxMD
-I1NzQ2MTU5LC03NTQ3MjA3NDEsLTExNTk0Mzk5NTYsLTIyNzMz
-ODE0XX0=
+eyJoaXN0b3J5IjpbLTEyNjgwNTczMjcsMTE0Mzk3NDIyLDE3MD
+Q3NDAwNTgsLTE2ODUzMDgxMjAsLTE1NTg0OTMyMzIsMzg4OTM1
+MTMsLTEwMzIxMDE0MywxNDU5ODEwNzYzLDEwNDc4MjMyMDUsLT
+cxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQyNywtNzQ1NjY2
+OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOTM4MjA3NTE5LD
+E1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3NDEsLTExNTk0
+Mzk5NTZdfQ==
 -->
