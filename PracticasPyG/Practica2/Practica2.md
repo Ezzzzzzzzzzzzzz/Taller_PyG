@@ -76,7 +76,7 @@ while True:
 ```
 Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la primera practica, dibujábamos formas como esta usando números que pasaríamos a Pygame, como `pygame.draw.rect(surface, (255,0,0), (20, 50, 40, 30))`, y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
 
-**¿Qué pasaría si quisiéramos cambiar la altura, el ancho o el color de esta forma? ¿Cómo podríamos decirle a Pygame que cambie los números que ya ingresamos? ** 
+**¿Qué pasaría si quisiéramos cambiar la altura, el ancho o el color de esta forma? ¿Cómo podríamos decirle a Pygame que cambie los números que ya ingresamos?** 
 
 Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
 
@@ -87,11 +87,11 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUzMDgxMjAsLTE1NTg0OTMyMzIsMz
-g4OTM1MTMsLTEwMzIxMDE0MywxNDU5ODEwNzYzLDEwNDc4MjMy
-MDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQyNywtNz
-Q1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOTM4MjA3
-NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3NDEsLT
-ExNTk0Mzk5NTYsLTIyNzMzODE0LC0yOTQ1NjI0NjAsLTI3NDQ0
-MjY1N119
+eyJoaXN0b3J5IjpbMTcwNDc0MDA1OCwtMTY4NTMwODEyMCwtMT
+U1ODQ5MzIzMiwzODg5MzUxMywtMTAzMjEwMTQzLDE0NTk4MTA3
+NjMsMTA0NzgyMzIwNSwtNzEwNDc2NDI0LDcyMDA5NzYwNSwyMD
+U5MjAzNDI3LC03NDU2NjY5LDE5MjU1MTY4ODEsLTE5NjAwMTE2
+MjcsLTE5MzgyMDc1MTksMTU2NjU5MzQ3LDEwMjU3NDYxNTksLT
+c1NDcyMDc0MSwtMTE1OTQzOTk1NiwtMjI3MzM4MTQsLTI5NDU2
+MjQ2MF19
 -->
