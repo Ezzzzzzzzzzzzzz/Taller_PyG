@@ -31,7 +31,7 @@ while True:
     #greenSquareY += 1
 ```
 
-**Comente la línea `greenSquareX` del `fragmento 02` y elimine el comentario de la línea de abajo quitando el `#`. Nuestro cuadrado comenzará a viajar hacia la parte inferior de la pantalla**. 
+### **Comente la línea `greenSquareX` del `fragmento 02` y elimine el comentario de la línea de abajo quitando el `#`. Nuestro cuadrado comenzará a viajar hacia la parte inferior de la pantalla**. 
 
 Al igual que antes, estamos cambiando la variable que le dice a nuestra forma a dónde ir, `greenSquareY`(tenga en cuenta que ahora estamos cambiando `Y`, no `X`), solo un poco cada vez para que se mueva. Y, tal como vimos al cambiar la variable `X`, **podemos hacer que el cuadrado verde suba agregando un número negativo**.
 
@@ -82,7 +82,7 @@ while True:
 ```
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Nzg3NDg2NiwtMzk1ODA4OTA3LDEwMT
-Y5Nzc1NjEsMTk3NjgyNzEyNSwzNzE3MDczNzcsMTM5NDU4OTQ1
-LC00MzU1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1XX0=
+eyJoaXN0b3J5IjpbMjYwOTQ2NTgxLC0zOTU4MDg5MDcsMTAxNj
+k3NzU2MSwxOTc2ODI3MTI1LDM3MTcwNzM3NywxMzk0NTg5NDUs
+LTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5ODE1MjAwNzVdfQ==
 -->
