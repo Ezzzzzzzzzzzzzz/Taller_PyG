@@ -61,7 +61,9 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.4.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.4.JPG)
 
-Juguemos un poco más con números y decimales. Hasta ahora, los valores que hemos usado para animar nuestras formas en la pantalla han sido enteros que permanecen constantes. Con cada cuadro, siempre agregaríamos 1 (o algún otro valor arbitrario) para mover nuestro objeto. Pero, **¿qué sucede si cambiamos los valores que usamos para animar cosas? ¿Qué pasa si, en lugar de agregar `1` a las coordenadas `X` / `Y`, agregamos `1`, luego `1.1`, luego `1.2`, y así sucesivamente?**
+Juguemos un poco más con números y decimales. Hasta ahora, los valores que hemos usado para animar nuestras formas en la pantalla han sido enteros que permanecen constantes. Con cada cuadro, siempre agregaríamos 1 (o algún otro valor arbitrario) para mover nuestro objeto. 
+
+### Pero, **¿qué sucede si cambiamos los valores que usamos para animar cosas? ¿Qué pasa si, en lugar de agregar `1` a las coordenadas `X` / `Y`, agregamos `1`, luego `1.1`, luego `1.2`, y así sucesivamente?**
 
 Reemplace el código del `fragmento 02` con el código del `fragmento 03` (o cree un nuevo archivo con el código `TOP (superior)` + `fragmento 03` + `BOTTOM`). **Ahora, si corremos eso, ¿qué vemos?**
 
@@ -82,7 +84,7 @@ while True:
 ```
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTY5OTIyMSwtMzk1ODA4OTA3LDEwMT
+eyJoaXN0b3J5IjpbMTA5NDc2MjM4OCwtMzk1ODA4OTA3LDEwMT
 Y5Nzc1NjEsMTk3NjgyNzEyNSwzNzE3MDczNzcsMTM5NDU4OTQ1
 LC00MzU1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1XX0=
 -->
