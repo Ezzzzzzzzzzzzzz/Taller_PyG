@@ -80,7 +80,7 @@ Entonces, ¿qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la p
 
 Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
 
-Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `1` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
+### Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `1` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
 
 >**Si cambiamos esa línea para leer `greenSquareX += 5`, cada vez que dibujemos nuestro cuadrado, será 5 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes.** 
 >
@@ -91,11 +91,11 @@ Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjgwNTczMjcsMTE0Mzk3NDIyLDE3MD
-Q3NDAwNTgsLTE2ODUzMDgxMjAsLTE1NTg0OTMyMzIsMzg4OTM1
-MTMsLTEwMzIxMDE0MywxNDU5ODEwNzYzLDEwNDc4MjMyMDUsLT
-cxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQyNywtNzQ1NjY2
-OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOTM4MjA3NTE5LD
-E1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3NDEsLTExNTk0
-Mzk5NTZdfQ==
+eyJoaXN0b3J5IjpbNzQwODU2Mzk4LDExNDM5NzQyMiwxNzA0Nz
+QwMDU4LC0xNjg1MzA4MTIwLC0xNTU4NDkzMjMyLDM4ODkzNTEz
+LC0xMDMyMTAxNDMsMTQ1OTgxMDc2MywxMDQ3ODIzMjA1LC03MT
+A0NzY0MjQsNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2Njks
+MTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUxOSwxNT
+Y2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMTU5NDM5
+OTU2XX0=
 -->
