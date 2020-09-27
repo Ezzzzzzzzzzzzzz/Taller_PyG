@@ -43,7 +43,7 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 
 ![](https://media.giphy.com/media/xyKxclKcUXfaM/giphy.gif)
 
-**El próximo desafío sería cómo hacer que las cosas se muevan en diagonal.** Afortunadamente, este es un proceso bastante simple también.
+### **El próximo desafío sería cómo hacer que las cosas se muevan en diagonal.** Afortunadamente, este es un proceso bastante simple también.
 
 > Si **descomentamos** `greenSquareX` y `greenSquareY` en nuestro código, nuestra forma se moverá hacia la derecha y hacia abajo cada vez que Pygame actualice la pantalla. 
 >
@@ -82,7 +82,7 @@ while True:
 ```
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTgwODkwNywxMDE2OTc3NTYxLDE5Nz
-Y4MjcxMjUsMzcxNzA3Mzc3LDEzOTQ1ODk0NSwtNDM1NTA0NTk4
-LC0xODY1NjY4ODE4LDk4MTUyMDA3NV19
+eyJoaXN0b3J5IjpbMTk0Nzg3NDg2NiwtMzk1ODA4OTA3LDEwMT
+Y5Nzc1NjEsMTk3NjgyNzEyNSwzNzE3MDczNzcsMTM5NDU4OTQ1
+LC00MzU1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1XX0=
 -->
