@@ -15,10 +15,12 @@ Ahora, cuando ejecutamos el `fragmento 03` por última vez, vemos que nuestro cu
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Captura.JPG)
 
-Esto se debe a que la variable `blueSquareVX` ha ingresado números negativos, pero la variable `blueSquareVY` continúa aumentando. Si hubiéramos restado las variables VX y VY en valores iguales, con velocidades iniciales iguales (tanto VX como VY son 8, por ejemplo), nuestras formas habrían continuado a lo largo de su camino, se detuvieron y luego se habrían invertido exactamente en el mismo camino, con la misma tasa de aceleración que desaceleró. Juega con estos valores para ver qué efecto tienen en cómo se mueve nuestra forma. Si lo desea, puede comentar la línea surface.fill y verá el camino que toma nuestra forma detrás de ella.
+**Esto se debe a que la variable `blueSquareVX` ha ingresado números negativos, pero la variable `blueSquareVY` continúa aumentando**. 
+
+Si hubiéramos restado las variables `VX` y `VY` en valores iguales, con velocidades iniciales iguales (tanto `VX` como `VY` iguales a 8, por ejemplo), **nuestras formas habrían continuado a lo largo de su camino**, se detuvieron y luego se habrían invertido exactamente en el mismo camino, con la misma tasa de aceleración que desaceleró. Juega con estos valores para ver qué efecto tienen en cómo se mueve nuestra forma. Si lo desea, puede comentar la línea surface.fill y verá el camino que toma nuestra forma detrás de ella.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTgzNDYzMywxOTQxNjczMzc3LDY0Nj
-YyNTU4NF19
+eyJoaXN0b3J5IjpbLTE4NTcwODQyOTQsMTk0MTY3MzM3Nyw2ND
+Y2MjU1ODRdfQ==
 -->
