@@ -27,7 +27,7 @@ while True:
     else:
         squaresBlue += 1
 ```
-Al igual que nuestros fragmentos de código anteriores, estamos usando variables en lugar de valores para definir cómo se verán nuestras formas con `pygame.draw.rect.` 
+Al igual que nuestros fragmentos de código anteriores, estamos usando variables en lugar de valores para definir cómo se verán nuestras formas con `pygame.draw.rect` 
 
 Aquí, no solo estamos sumando y restando valores cada vez que dibujamos nuestras formas; **en cambio, estamos verificando los valores que tenemos antes de cambiarlos, usando una declaración `if`, `else`.**
 
@@ -47,6 +47,6 @@ El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente 
 
 Además de ser un gran dispositivo de aprendizaje, también se ve bastante impresionante.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MjQwOTQ5LC04OTgwNjc3NjksOTQ2MT
-MwNDQyXX0=
+eyJoaXN0b3J5IjpbMjA2ODgzNjk0OSwtODk4MDY3NzY5LDk0Nj
+EzMDQ0Ml19
 -->
