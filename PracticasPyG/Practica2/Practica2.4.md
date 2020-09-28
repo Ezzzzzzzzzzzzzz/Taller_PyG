@@ -51,9 +51,9 @@ rectWidth = 10
 
 Entonces, **cuando dibujamos una forma con un ancho negativo y luego la compensamos con un número negativo, nuestros puntos de partida se vuelven números positivos nuevamente**, aunque reflejados. 
 
-**No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés**. 
+### No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDcwMzA1MjksLTU1MTUxNDE1MiwtMT
+eyJoaXN0b3J5IjpbLTE3MzU0OTY5MjYsLTU1MTUxNDE1MiwtMT
 c1MzgzODE3MywtMTkzOTM5ODk3NywtMTMwMDU2OTQwMiwxNjE0
 OTcyMjYxLDg1OTY3NTM2OSwtMjA5OTA2NTU2OCwtMjA2NDY5Nj
 I2OSw0NDAyODY0NzksLTU0NDUzODIyMiwyNzY1NzQ4MTIsMjA4
