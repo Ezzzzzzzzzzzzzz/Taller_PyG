@@ -19,8 +19,8 @@ Ahora, cuando ejecutamos el `fragmento 03` por última vez, vemos que nuestro cu
 
 Si hubiéramos restado las variables `VX` y `VY` en valores iguales, con velocidades iniciales iguales (tanto `VX` como `VY` iguales a 8, por ejemplo), **nuestras formas habrían continuado a lo largo de su camino**, se detuvieron y luego se habrían invertido exactamente en el mismo camino, con la misma tasa de aceleración que desaceleró. 
 
-**Juega con estos valores para ver qué efecto tienen en cómo se mueve nuestra forma. Si lo desea, puede comentar la línea `surface.fill` y verá el camino que toma nuestra forma detrás de ella.**
+## Juega con estos valores para ver qué efecto tienen en cómo se mueve nuestra forma. Si lo desea, puede comentar la línea `surface.fill` y verá el camino que toma nuestra forma detrás de ella.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2NDQxMjgyLDE5NDE2NzMzNzcsNjQ2Nj
-I1NTg0XX0=
+eyJoaXN0b3J5IjpbMTk5OTc3OTAzOCwyOTY0NDEyODIsMTk0MT
+Y3MzM3Nyw2NDY2MjU1ODRdfQ==
 -->
