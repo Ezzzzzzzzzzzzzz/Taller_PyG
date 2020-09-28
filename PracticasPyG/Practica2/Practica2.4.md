@@ -57,12 +57,38 @@ Esa es solo una de las muchas pequeñas peculiaridades que exploraremos en detal
 
 ### Fragmento 05
 ```python
+#Creamos tres variables
+squaresRed = random.randint(0, 255)
+squaresBlue = random.randint(0, 255)
+squaresGreen = random.randint(0, 255)
 
+while True:
+    #Borramos la informacion del frame anterior
+    surface.fill((0, 0, 0))
+    
+    #Dibujamos una forma
+    pygame.draw.rect(surface, (squaresRed, squaresGreen, squaresBlue), (50, 50, windowWidth /2, windowHeight /2))
+    
+    #Condicional if
+    if squaresRed >= 255:
+        squaresRed = random.randint(0, 255)
+    else:
+        squaresRed += 1
+    
+    if squaresGreen >= 255:
+        squaresGreen = random.randint(0, 255)
+    else:
+        squaresGreen += 1
+    
+    if squaresBlue >= 255:
+        squaresBlue = random.randint(0, 255)
+    else:
+        squaresBlue += 1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM4MzgxNzMsLTE5MzkzOTg5NzcsLT
-EzMDA1Njk0MDIsMTYxNDk3MjI2MSw4NTk2NzUzNjksLTIwOTkw
-NjU1NjgsLTIwNjQ2OTYyNjksNDQwMjg2NDc5LC01NDQ1MzgyMj
-IsMjc2NTc0ODEyLDIwODM0NTE4MTAsLTExODM4MzIyOTQsLTE4
-NzYxMjM3MzhdfQ==
+eyJoaXN0b3J5IjpbMjQzNzMxNzQzLC0xNzUzODM4MTczLC0xOT
+M5Mzk4OTc3LC0xMzAwNTY5NDAyLDE2MTQ5NzIyNjEsODU5Njc1
+MzY5LC0yMDk5MDY1NTY4LC0yMDY0Njk2MjY5LDQ0MDI4NjQ3OS
+wtNTQ0NTM4MjIyLDI3NjU3NDgxMiwyMDgzNDUxODEwLC0xMTgz
+ODMyMjk0LC0xODc2MTIzNzM4XX0=
 -->
