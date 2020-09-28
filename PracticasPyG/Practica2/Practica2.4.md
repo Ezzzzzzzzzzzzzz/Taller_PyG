@@ -55,23 +55,14 @@ Entonces, **cuando dibujamos una forma con un ancho negativo y luego la compensa
 
 Esa es solo una de las muchas pequeñas peculiaridades que exploraremos en detalle más adelante, pero por ahora, vamos a terminar cambiando los colores de nuestras formas a lo largo del tiempo, pasando a nuestra última sección de código, `fragmento 05`.
 
-### Fragmento 04
+### Fragmento 05
 ```python
-rectX = windowWith / 2
-rectY = windowHeight / 2
-rectWidth = 50
-rectHeight = 50
 
-while True:
-    surface.fill((0, 0, 0))
-    pygame.draw.rect(surface, (255, 255, 0), (rectX-rectWidth /2, rectY-rectHeight /2, rectWidth, rectHeight))
-    
-    rectWidth += 1
-    rectHeight += 1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjM2MTExMSwtMTMwMDU2OTQwMiwxNj
-E0OTcyMjYxLDg1OTY3NTM2OSwtMjA5OTA2NTU2OCwtMjA2NDY5
-NjI2OSw0NDAyODY0NzksLTU0NDUzODIyMiwyNzY1NzQ4MTIsMj
-A4MzQ1MTgxMCwtMTE4MzgzMjI5NCwtMTg3NjEyMzczOF19
+eyJoaXN0b3J5IjpbLTE5MzkzOTg5NzcsLTEzMDA1Njk0MDIsMT
+YxNDk3MjI2MSw4NTk2NzUzNjksLTIwOTkwNjU1NjgsLTIwNjQ2
+OTYyNjksNDQwMjg2NDc5LC01NDQ1MzgyMjIsMjc2NTc0ODEyLD
+IwODM0NTE4MTAsLTExODM4MzIyOTQsLTE4NzYxMjM3MzhdfQ==
+
 -->
