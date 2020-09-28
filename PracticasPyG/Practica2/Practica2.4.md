@@ -8,7 +8,7 @@ Hasta ahora, hemos estado animando formas moviéndolas, pero podemos usar el mis
 
 ### Fragmento 04
 ```python
-rectX = windowWith / 2
+rectX = windowWidth / 2
 rectY = windowHeight / 2
 rectWidth = 50
 rectHeight = 50
@@ -45,10 +45,46 @@ rectWidth = 10
     rectHeight -= 1
 ```
 
-Algo curioso ocurre cuando nuestra forma alcanza un ancho y un alto de 0: comienza a crecer nuevamente. ¿Por qué? Cuando llegamos a 0, comenzamos a dibujar nuestro rectángulo con números negativos, contra los cuales estamos compensando con nuestras matemáticas. Entonces, cuando dibujamos una forma con un ancho negativo y luego la compensamos con un número negativo, nuestros puntos de partida se vuelven números positivos nuevamente, aunque reflejados. No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión / contracción con una imagen, se voltearía al revés y al revés. Esa es solo una de las muchas pequeñas peculiaridades que exploraremos en detalle más adelante, pero por ahora, vamos a terminar cambiando los colores de nuestras formas a lo largo del tiempo, pasando a nuestra última sección de código, fragmento 05.
+### Algo curioso ocurre cuando nuestra forma alcanza un ancho y un alto de 0: comienza a crecer nuevamente. 
+
+¿Por qué? Cuando llegamos a 0, comenzamos a dibujar nuestro rectángulo con números negativos, contra los cuales estamos compensando con nuestras matemáticas. 
+
+Entonces, **cuando dibujamos una forma con un ancho negativo y luego la compensamos con un número negativo, nuestros puntos de partida se vuelven números positivos nuevamente**, aunque reflejados. 
+
+**No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés**. 
+
+Esa es solo una de las muchas pequeñas peculiaridades que exploraremos en detalle más adelante, pero por ahora, vamos a terminar cambiando los colores de nuestras formas a lo largo del tiempo, pasando a nuestra última sección de código, `fragmento 05`.
+
+### Fragmento 05
+```python
+squaresRed = random.randint(0, 255)
+squaresBlue = random.randint(0, 255)
+squaresGreen = random.randint(0, 255)
+
+while True:
+    surface.fill((0, 0, 0))
+    
+    pygame.draw.rect(surface, (squaresRed, squaresGreen, squaresBlue), (50, 50, windowWidth /2, windowHeight /2))
+    
+    if squaresRed >= 255:
+        squaresRed = random.randint(0, 255)
+    else:
+        squaresRed += 1
+    
+    if squaresGreen >= 255:
+        squaresGreen = random.randint(0, 255)
+    else:
+        squaresGreen += 1
+    
+    if squaresBlue >= 255:
+        squaresBlue = random.randint(0, 255)
+    else:
+        squaresBlue += 1
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDk3MjI2MSw4NTk2NzUzNjksLTIwOT
-kwNjU1NjgsLTIwNjQ2OTYyNjksNDQwMjg2NDc5LC01NDQ1Mzgy
-MjIsMjc2NTc0ODEyLDIwODM0NTE4MTAsLTExODM4MzIyOTQsLT
-E4NzYxMjM3MzhdfQ==
+eyJoaXN0b3J5IjpbLTU1MTUxNDE1MiwtMTc1MzgzODE3MywtMT
+kzOTM5ODk3NywtMTMwMDU2OTQwMiwxNjE0OTcyMjYxLDg1OTY3
+NTM2OSwtMjA5OTA2NTU2OCwtMjA2NDY5NjI2OSw0NDAyODY0Nz
+ksLTU0NDUzODIyMiwyNzY1NzQ4MTIsMjA4MzQ1MTgxMCwtMTE4
+MzgzMjI5NCwtMTg3NjEyMzczOF19
 -->
