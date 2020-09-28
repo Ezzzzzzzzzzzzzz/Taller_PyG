@@ -27,8 +27,10 @@ while True:
     #Dibujamos una forma
     pygame.draw.rect(surface, (squaresRed, squaresGreen, squaresBlue), (50, 50, windowWidth /2, windowHeight /2))
     
-    #Condicional if
+    #Condicional if & else
+    #Operador aritmetico >= (Mayor o igual que)
     if squaresRed >= 255:
+        # utilizamos random.randint(numMin, NumMax) para generar numeros enteros aleatoreos entre el numMin y numMax
         squaresRed = random.randint(0, 255)
     else:
         squaresRed += 1
