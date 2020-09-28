@@ -10,7 +10,6 @@ squaresGreen = random.randint(0, 255)
 
 while True:
     surface.fill((0, 0, 0))
-    
     pygame.draw.rect(surface, (squaresRed, squaresGreen, squaresBlue), (50, 50, windowWidth /2, windowHeight /2))
     
     if squaresRed >= 255:
@@ -48,5 +47,6 @@ El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente 
 
 Además de ser un gran dispositivo de aprendizaje, también se ve bastante impresionante.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODA2Nzc2OSw5NDYxMzA0NDJdfQ==
+eyJoaXN0b3J5IjpbNDQ4MjQwOTQ5LC04OTgwNjc3NjksOTQ2MT
+MwNDQyXX0=
 -->
