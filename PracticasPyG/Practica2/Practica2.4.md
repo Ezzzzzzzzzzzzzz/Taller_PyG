@@ -26,6 +26,8 @@ También hacemos un poco de matemáticas en nuestro código.
 
 A medida que el cuadrado se agranda, el punto desde el que se dibuja no cambiará, por lo que la forma se agrandará, pero lo hará fuera del centro del resto de la ventana. Al restar la mitad del ancho y la mitad de la altura de las coordenadas en las que dibujamos nuestra forma, nuestro cuadrado permanecerá en el centro de la ventana a medida que se hace más grande. 
 
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Cap2.2.5.JPG)
+
 Lo bueno de usar variables en nuestras matemáticas es que no importa cómo cambiemos nuestras variables, la forma creada siempre estará en el centro de la ventana. 
 
 ### Cambie el número en la línea `rectWidth` a cualquier otro número entre `2` y `10`. Ahora, cuando nuestro cuadrado se agranda, se convierte en un rectángulo, porque su ancho aumenta más rápido que su altura, pero aún permanece en el centro.
@@ -53,9 +55,10 @@ Entonces, **cuando dibujamos una forma con un ancho negativo y luego la compensa
 
 ### No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU0OTY5MjYsLTU1MTUxNDE1MiwtMT
-c1MzgzODE3MywtMTkzOTM5ODk3NywtMTMwMDU2OTQwMiwxNjE0
-OTcyMjYxLDg1OTY3NTM2OSwtMjA5OTA2NTU2OCwtMjA2NDY5Nj
-I2OSw0NDAyODY0NzksLTU0NDUzODIyMiwyNzY1NzQ4MTIsMjA4
-MzQ1MTgxMCwtMTE4MzgzMjI5NCwtMTg3NjEyMzczOF19
+eyJoaXN0b3J5IjpbMTQ2ODY3NDg2NiwtMTczNTQ5NjkyNiwtNT
+UxNTE0MTUyLC0xNzUzODM4MTczLC0xOTM5Mzk4OTc3LC0xMzAw
+NTY5NDAyLDE2MTQ5NzIyNjEsODU5Njc1MzY5LC0yMDk5MDY1NT
+Y4LC0yMDY0Njk2MjY5LDQ0MDI4NjQ3OSwtNTQ0NTM4MjIyLDI3
+NjU3NDgxMiwyMDgzNDUxODEwLC0xMTgzODMyMjk0LC0xODc2MT
+IzNzM4XX0=
 -->
