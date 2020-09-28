@@ -16,11 +16,12 @@ rectHeight = 50
 while True:
     surface.fill((0, 0, 0))
 
-    pygame.draw.rect(surface, (255, 255, 0), (rectX-rectWidth /2,rectY-rectHeight /2, rectWidth, rectHeight))
+    pygame.draw.rect(surface, (255, 255, 0), (rectX-rectWidth /2, rectY-rectHeight /2, rectWidth, rectHeight))
     
     rectWidth += 1
     rectHeight += 1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzYxMjM3MzhdfQ==
+eyJoaXN0b3J5IjpbLTExODM4MzIyOTQsLTE4NzYxMjM3MzhdfQ
+==
 -->
