@@ -6,7 +6,7 @@ La respuesta es **no**.
 
 Puede pensar en nuestra ventana como una ventana real en su casa. Si miras por la ventana y ves a un peatón que luego se mueve más abajo en la calle para que ya no puedas verlo, no ha dejado de existir. Están más allá de su línea de visión. 
 
-!
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/P2.3.3.JPG)
 
 **Si nuestras formas se mueven más a lo largo de nuestra pantalla para que ya no podamos verlas, no dejan de moverse ni desaparecen, siguen adelante para siempre o hasta que les dices que se detengan y regresen.**
 
@@ -17,5 +17,5 @@ Esto se debe a que la variable blueSquareVX ha ingresado números negativos, per
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjcwODAwMSw2NDY2MjU1ODRdfQ==
+eyJoaXN0b3J5IjpbMTk0MTY3MzM3Nyw2NDY2MjU1ODRdfQ==
 -->
