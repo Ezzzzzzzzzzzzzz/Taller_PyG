@@ -7,16 +7,16 @@ import pygame.locals as GAME_GLOBALS
 import pygame.event as GAME_EVENTS
 
 pygame.init()
-windowWith = 640
+windowWidth = 640
 windowHeight = 480
-surface = pygame.display.set_mode((windowWith, windowHeight))
+surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption("Pygame Shapes!")
 
 
 #### FRAGMENTO 04
 
 #Creamos cuatro variables
-rectX = windowWith / 2
+rectX = windowWidth / 2
 rectY = windowHeight / 2
 rectWidth = 50
 rectHeight = 50
