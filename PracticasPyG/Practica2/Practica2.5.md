@@ -40,7 +40,11 @@ Si nuestros valores están a punto de superar los 255, les asignamos un valor al
 
 El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente a través de la paleta de colores RGB agregando 1 a nuestras variables R, G , y  B (`squaresRed`, `squaresGreen` y `squaresBlue`) mientras se ejecuta nuestro programa Pygame. 
 
-Al igual que antes, si agregamos un número mayor a cada una de nuestras variables, pasaríamos por los colores disponibles más rápidamente. De manera similar, si agregamos menos a cada valor RGB cada vez que Pygame se actualiza, pasaríamos por todos los colores disponibles más lentamente. Además de ser un gran dispositivo de aprendizaje, también se ve bastante impresionante.
+>Al igual que antes, si agregamos un número mayor a cada una de nuestras variables, pasaríamos por los colores disponibles más rápidamente. 
+>
+>De manera similar, si agregamos menos a cada valor RGB cada vez que Pygame se actualiza, pasaríamos por todos los colores disponibles más lentamente. 
+
+Además de ser un gran dispositivo de aprendizaje, también se ve bastante impresionante.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY1OTkzMjIsOTQ2MTMwNDQyXX0=
+eyJoaXN0b3J5IjpbLTIwMTY3ODUyODgsOTQ2MTMwNDQyXX0=
 -->
