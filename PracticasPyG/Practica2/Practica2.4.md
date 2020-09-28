@@ -51,40 +51,11 @@ rectWidth = 10
 
 Entonces, **cuando dibujamos una forma con un ancho negativo y luego la compensamos con un número negativo, nuestros puntos de partida se vuelven números positivos nuevamente**, aunque reflejados. 
 
-**No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés**. 
-
-Esa es solo una de las muchas pequeñas peculiaridades que exploraremos en detalle más adelante, pero por ahora, vamos a terminar cambiando los colores de nuestras formas a lo largo del tiempo, pasando a nuestra última sección de código, `fragmento 05`.
-
-### Fragmento 05
-```python
-squaresRed = random.randint(0, 255)
-squaresBlue = random.randint(0, 255)
-squaresGreen = random.randint(0, 255)
-
-while True:
-    surface.fill((0, 0, 0))
-    
-    pygame.draw.rect(surface, (squaresRed, squaresGreen, squaresBlue), (50, 50, windowWidth /2, windowHeight /2))
-    
-    if squaresRed >= 255:
-        squaresRed = random.randint(0, 255)
-    else:
-        squaresRed += 1
-    
-    if squaresGreen >= 255:
-        squaresGreen = random.randint(0, 255)
-    else:
-        squaresGreen += 1
-    
-    if squaresBlue >= 255:
-        squaresBlue = random.randint(0, 255)
-    else:
-        squaresBlue += 1
-```
+### No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTUxNDE1MiwtMTc1MzgzODE3MywtMT
-kzOTM5ODk3NywtMTMwMDU2OTQwMiwxNjE0OTcyMjYxLDg1OTY3
-NTM2OSwtMjA5OTA2NTU2OCwtMjA2NDY5NjI2OSw0NDAyODY0Nz
-ksLTU0NDUzODIyMiwyNzY1NzQ4MTIsMjA4MzQ1MTgxMCwtMTE4
-MzgzMjI5NCwtMTg3NjEyMzczOF19
+eyJoaXN0b3J5IjpbLTE3MzU0OTY5MjYsLTU1MTUxNDE1MiwtMT
+c1MzgzODE3MywtMTkzOTM5ODk3NywtMTMwMDU2OTQwMiwxNjE0
+OTcyMjYxLDg1OTY3NTM2OSwtMjA5OTA2NTU2OCwtMjA2NDY5Nj
+I2OSw0NDAyODY0NzksLTU0NDUzODIyMiwyNzY1NzQ4MTIsMjA4
+MzQ1MTgxMCwtMTE4MzgzMjI5NCwtMTg3NjEyMzczOF19
 -->
