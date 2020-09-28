@@ -43,11 +43,10 @@ rectWidth = 10
 #Toma el valor actual y restale el valor que viene después
     rectWidth -= 1
     rectHeight -= 1
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTIwNDE2NSwtMjA5OTA2NTU2OCwtMj
-A2NDY5NjI2OSw0NDAyODY0NzksLTU0NDUzODIyMiwyNzY1NzQ4
-MTIsMjA4MzQ1MTgxMCwtMTE4MzgzMjI5NCwtMTg3NjEyMzczOF
-19
+eyJoaXN0b3J5IjpbODU5Njc1MzY5LC0yMDk5MDY1NTY4LC0yMD
+Y0Njk2MjY5LDQ0MDI4NjQ3OSwtNTQ0NTM4MjIyLDI3NjU3NDgx
+MiwyMDgzNDUxODEwLC0xMTgzODMyMjk0LC0xODc2MTIzNzM4XX
+0=
 -->
