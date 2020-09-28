@@ -40,10 +40,14 @@ rectWidth = 10
 ### Si comenzamos con un cuadrado que tiene un ancho y una altura de `50`, lo que podemos hacer estableciendo las variables `rectWidth` y `rectHeight` en `50` y cambiamos el `+=` en esas líneas a `-=`, nuestro cuadrado disminuirá de tamaño mientras permanece central a nuestra ventana.
 
 ```python
+#Toma el valor actual y restale el valor que viene después
+    rectWidth -= 1
+    rectHeight -= 1
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkwNjU1NjgsLTIwNjQ2OTYyNjksND
-QwMjg2NDc5LC01NDQ1MzgyMjIsMjc2NTc0ODEyLDIwODM0NTE4
-MTAsLTExODM4MzIyOTQsLTE4NzYxMjM3MzhdfQ==
+eyJoaXN0b3J5IjpbLTczNTIwNDE2NSwtMjA5OTA2NTU2OCwtMj
+A2NDY5NjI2OSw0NDAyODY0NzksLTU0NDUzODIyMiwyNzY1NzQ4
+MTIsMjA4MzQ1MTgxMCwtMTE4MzgzMjI5NCwtMTg3NjEyMzczOF
+19
 -->
