@@ -1,6 +1,6 @@
 # Animando otras propiedades
 
-La animación no se trata solo de hacer que las cosas se muevan: también se trata de hacer que las cosas cambien. 
+La animación no se trata solo de hacer que las cosas se muevan: *también se trata de hacer que las cosas cambien.* 
 
 Hasta ahora, hemos estado animando formas moviéndolas, pero podemos usar el mismo enfoque de cambiar variables a lo largo del tiempo para afectar otras propiedades, como las dimensiones de nuestras formas. 
 
@@ -21,6 +21,6 @@ while True:
     rectHeight += 1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2ODE0NjM2LC0xMTgzODMyMjk0LC0xOD
-c2MTIzNzM4XX0=
+eyJoaXN0b3J5IjpbMjA4MzQ1MTgxMCwtMTE4MzgzMjI5NCwtMT
+g3NjEyMzczOF19
 -->
