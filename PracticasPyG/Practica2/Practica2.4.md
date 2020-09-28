@@ -20,7 +20,8 @@ while True:
     rectWidth += 1
     rectHeight += 1
 ```
+### Aquí, `pygame.draw.rect` dibuja un rectángulo de la misma forma que lo hicimos antes, pero, como en otros ejemplos, reemplazamos los parámetros que determinan el ancho y la altura de nuestro rectángulo con variables que cambiamos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzQ1MTgxMCwtMTE4MzgzMjI5NCwtMT
-g3NjEyMzczOF19
+eyJoaXN0b3J5IjpbMjc2NTc0ODEyLDIwODM0NTE4MTAsLTExOD
+M4MzIyOTQsLTE4NzYxMjM3MzhdfQ==
 -->
