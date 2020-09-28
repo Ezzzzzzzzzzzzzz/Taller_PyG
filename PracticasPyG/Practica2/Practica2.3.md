@@ -1,6 +1,6 @@
 # Moviéndose en todas direcciones P.2
 
-**¿Qué pasa con nuestras formas cuando se salen de un borde y ya no están en nuestra pantalla? ¿Han desaparecido para siempre?**
+### ¿Qué pasa con nuestras formas cuando se salen de un borde y ya no están en nuestra pantalla? ¿Han desaparecido para siempre?
 
 La respuesta es **no**. 
 
@@ -17,5 +17,6 @@ Esto se debe a que la variable blueSquareVX ha ingresado números negativos, per
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTY3MzM3Nyw2NDY2MjU1ODRdfQ==
+eyJoaXN0b3J5IjpbMTI5Nzk5Mjg2MiwxOTQxNjczMzc3LDY0Nj
+YyNTU4NF19
 -->
