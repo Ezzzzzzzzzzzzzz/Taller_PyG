@@ -45,10 +45,12 @@ rectWidth = 10
     rectHeight -= 1
 ```
 
-Algo curioso ocurre cuando nuestra forma alcanza un ancho y un alto de 0: comienza a crecer nuevamente. ¿Por qué? Cuando llegamos a 0, comenzamos a dibujar nuestro rectángulo con números negativos, contra los cuales estamos compensando con nuestras matemáticas. Entonces, cuando dibujamos una forma con un ancho negativo y luego la compensamos con un número negativo, nuestros puntos de partida se vuelven números positivos nuevamente, aunque reflejados. No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión / contracción con una imagen, se voltearía al revés y al revés. Esa es solo una de las muchas pequeñas peculiaridades que exploraremos en detalle más adelante, pero por ahora, vamos a terminar cambiando los colores de nuestras formas a lo largo del tiempo, pasando a nuestra última sección de código, fragmento 05.
+### Algo curioso ocurre cuando nuestra forma alcanza un ancho y un alto de 0: comienza a crecer nuevamente. 
+
+¿Por qué? Cuando llegamos a 0, comenzamos a dibujar nuestro rectángulo con números negativos, contra los cuales estamos compensando con nuestras matemáticas. Entonces, cuando dibujamos una forma con un ancho negativo y luego la compensamos con un número negativo, nuestros puntos de partida se vuelven números positivos nuevamente, aunque reflejados. No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión / contracción con una imagen, se voltearía al revés y al revés. Esa es solo una de las muchas pequeñas peculiaridades que exploraremos en detalle más adelante, pero por ahora, vamos a terminar cambiando los colores de nuestras formas a lo largo del tiempo, pasando a nuestra última sección de código, fragmento 05.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDk3MjI2MSw4NTk2NzUzNjksLTIwOT
-kwNjU1NjgsLTIwNjQ2OTYyNjksNDQwMjg2NDc5LC01NDQ1Mzgy
-MjIsMjc2NTc0ODEyLDIwODM0NTE4MTAsLTExODM4MzIyOTQsLT
-E4NzYxMjM3MzhdfQ==
+eyJoaXN0b3J5IjpbLTEzMDA1Njk0MDIsMTYxNDk3MjI2MSw4NT
+k2NzUzNjksLTIwOTkwNjU1NjgsLTIwNjQ2OTYyNjksNDQwMjg2
+NDc5LC01NDQ1MzgyMjIsMjc2NTc0ODEyLDIwODM0NTE4MTAsLT
+ExODM4MzIyOTQsLTE4NzYxMjM3MzhdfQ==
 -->
