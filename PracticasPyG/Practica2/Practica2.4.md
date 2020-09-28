@@ -8,7 +8,7 @@ Hasta ahora, hemos estado animando formas moviéndolas, pero podemos usar el mis
 
 ### Fragmento 04
 ```python
-rectX = windowWith / 2
+rectX = windowWidth / 2
 rectY = windowHeight / 2
 rectWidth = 50
 rectHeight = 50
@@ -60,9 +60,9 @@ Esa es solo una de las muchas pequeñas peculiaridades que exploraremos en detal
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkzOTg5NzcsLTEzMDA1Njk0MDIsMT
-YxNDk3MjI2MSw4NTk2NzUzNjksLTIwOTkwNjU1NjgsLTIwNjQ2
-OTYyNjksNDQwMjg2NDc5LC01NDQ1MzgyMjIsMjc2NTc0ODEyLD
-IwODM0NTE4MTAsLTExODM4MzIyOTQsLTE4NzYxMjM3MzhdfQ==
-
+eyJoaXN0b3J5IjpbLTE3NTM4MzgxNzMsLTE5MzkzOTg5NzcsLT
+EzMDA1Njk0MDIsMTYxNDk3MjI2MSw4NTk2NzUzNjksLTIwOTkw
+NjU1NjgsLTIwNjQ2OTYyNjksNDQwMjg2NDc5LC01NDQ1MzgyMj
+IsMjc2NTc0ODEyLDIwODM0NTE4MTAsLTExODM4MzIyOTQsLTE4
+NzYxMjM3MzhdfQ==
 -->
