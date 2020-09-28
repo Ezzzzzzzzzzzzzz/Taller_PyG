@@ -31,6 +31,7 @@ Lo bueno de usar variables en nuestras matemáticas es que no importa cómo camb
 ### Cambie el número en la línea `rectWidth` a cualquier otro número entre `2` y `10`. Ahora, cuando nuestro cuadrado se agranda, se convierte en un rectángulo, porque su ancho aumenta más rápido que su altura, pero aún permanece en el centro.
 
 ```python
+#Ejemplo
 rectWidth = 10
 ```
 
@@ -42,7 +43,7 @@ rectWidth = 10
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjAyMzg5MywtMjA2NDY5NjI2OSw0ND
-AyODY0NzksLTU0NDUzODIyMiwyNzY1NzQ4MTIsMjA4MzQ1MTgx
-MCwtMTE4MzgzMjI5NCwtMTg3NjEyMzczOF19
+eyJoaXN0b3J5IjpbLTIwOTkwNjU1NjgsLTIwNjQ2OTYyNjksND
+QwMjg2NDc5LC01NDQ1MzgyMjIsMjc2NTc0ODEyLDIwODM0NTE4
+MTAsLTExODM4MzIyOTQsLTE4NzYxMjM3MzhdfQ==
 -->
