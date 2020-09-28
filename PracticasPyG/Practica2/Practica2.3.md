@@ -19,10 +19,13 @@ Ahora, cuando ejecutamos el `fragmento 03` por última vez, vemos que nuestro cu
 
 Si hubiéramos restado las variables `VX` y `VY` en valores iguales, con velocidades iniciales iguales (tanto `VX` como `VY` iguales a 8, por ejemplo), **nuestras formas habrían continuado a lo largo de su camino**, se detuvieron y luego se habrían invertido exactamente en el mismo camino, con la misma tasa de aceleración que desaceleró. 
 
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/raw/master/PracticasPyG/Practica2/py2.4.JPG)
+
 ### Juega con estos valores para ver qué efecto tienen en cómo se mueve nuestra forma. Si lo desea, puede comentar la línea `surface.fill` y verá el camino que toma nuestra forma detrás de ella.
 
-![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/raw/master/PracticasPyG/Practica2/py2.4.JPG)
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Cap2.3.3.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2MDg0MzQ0LDExOTkxNTM2MzcsMjk2ND
-QxMjgyLDE5NDE2NzMzNzcsNjQ2NjI1NTg0XX0=
+eyJoaXN0b3J5IjpbLTE1NDk1MzQ3NzcsODI2MDg0MzQ0LDExOT
+kxNTM2MzcsMjk2NDQxMjgyLDE5NDE2NzMzNzcsNjQ2NjI1NTg0
+XX0=
 -->
