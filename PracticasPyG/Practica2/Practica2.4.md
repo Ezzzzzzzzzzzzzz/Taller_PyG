@@ -27,9 +27,14 @@ También hacemos un poco de matemáticas en nuestro código.
 A medida que el cuadrado se agranda, el punto desde el que se dibuja no cambiará, por lo que la forma se agrandará, pero lo hará fuera del centro del resto de la ventana. Al restar la mitad del ancho y la mitad de la altura de las coordenadas en las que dibujamos nuestra forma, nuestro cuadrado permanecerá en el centro de la ventana a medida que se hace más grande. 
 
 Lo bueno de usar variables en nuestras matemáticas es que no importa cómo cambiemos nuestras variables, la forma creada siempre estará en el centro de la ventana. 
+
 ### Cambie el número en la línea `rectWidth` a cualquier otro número entre `2` y `10`. Ahora, cuando nuestro cuadrado se agranda, se convierte en un rectángulo, porque su ancho aumenta más rápido que su altura, pero aún permanece en el centro.
+
+**El mismo efecto funciona en la dirección opuesta.**
+
+Si comenzamos con un cuadrado que tiene un ancho y una altura de 50, lo que podemos hacer estableciendo las variables rectWidth y rectHeight en 50 y cambiamos el + = en esas líneas a - =, nuestro cuadrado disminuirá de tamaño mientras permanece central a nuestra ventana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMjg2NDc5LC01NDQ1MzgyMjIsMjc2NT
-c0ODEyLDIwODM0NTE4MTAsLTExODM4MzIyOTQsLTE4NzYxMjM3
-MzhdfQ==
+eyJoaXN0b3J5IjpbMTExOTg1MDY3Niw0NDAyODY0NzksLTU0ND
+UzODIyMiwyNzY1NzQ4MTIsMjA4MzQ1MTgxMCwtMTE4MzgzMjI5
+NCwtMTg3NjEyMzczOF19
 -->
