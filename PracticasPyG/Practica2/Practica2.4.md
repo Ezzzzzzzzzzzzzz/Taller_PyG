@@ -32,9 +32,9 @@ Lo bueno de usar variables en nuestras matemáticas es que no importa cómo camb
 
 **El mismo efecto funciona en la dirección opuesta.**
 
-Si comenzamos con un cuadrado que tiene un ancho y una altura de 50, lo que podemos hacer estableciendo las variables rectWidth y rectHeight en 50 y cambiamos el + = en esas líneas a - =, nuestro cuadrado disminuirá de tamaño mientras permanece central a nuestra ventana.
+### Si comenzamos con un cuadrado que tiene un ancho y una altura de `50`, lo que podemos hacer estableciendo las variables `rectWidth` y `rectHeight` en `50` y cambiamos el `+=` en esas líneas a `-=`, nuestro cuadrado disminuirá de tamaño mientras permanece central a nuestra ventana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTg1MDY3Niw0NDAyODY0NzksLTU0ND
-UzODIyMiwyNzY1NzQ4MTIsMjA4MzQ1MTgxMCwtMTE4MzgzMjI5
-NCwtMTg3NjEyMzczOF19
+eyJoaXN0b3J5IjpbLTIwNjQ2OTYyNjksNDQwMjg2NDc5LC01ND
+Q1MzgyMjIsMjc2NTc0ODEyLDIwODM0NTE4MTAsLTExODM4MzIy
+OTQsLTE4NzYxMjM3MzhdfQ==
 -->
