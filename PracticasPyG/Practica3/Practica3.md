@@ -4,7 +4,9 @@
 
 En las dos primeras practicas, nos familiarizamos con los conceptos básicos de dibujar y mover formas de todo tipo, tamaño y color con Pygame. 
 
-### Ahora que conocemos Pygame, vamos a empezar a hacer cosas con las que podamos jugar y que sean más interactivas. Nos estamos centrando en la dinámica del juego en este punto, pero no se preocupe, ¡las practicas posteriores explorarán los aspectos más estéticos del diseño del juego!
+### Ahora que conocemos Pygame, vamos a empezar a hacer cosas con las que podamos jugar y que sean más interactivas. 
+
+**Nos estamos centrando en la dinámica del juego en este punto, pero no se preocupe, ¡las practicas posteriores explorarán los aspectos más estéticos del diseño del juego!**
 
 ### Entonces, vayamos a nuestro primer programa: `keyboard.py`. 
 
@@ -16,5 +18,5 @@ Como muchas cosas en la informática, vamos a empezar desde arriba.
  
 >**Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjQ3ODIzNCwxNDQ3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ==
 -->
