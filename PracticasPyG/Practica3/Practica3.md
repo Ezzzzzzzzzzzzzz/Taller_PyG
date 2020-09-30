@@ -15,15 +15,15 @@ Esta vez, vamos a recorrer el código línea por línea para comprender exactame
 
 Como muchas cosas en la informática, vamos a empezar desde arriba.
  
->Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
+> - Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
 >
->La siguiente docena de líneas son variables que usaremos para determinar cómo debería verse nuestro cuadrado controlado por teclado y dónde debería estar. 
+> - La siguiente docena de líneas son variables que usaremos para determinar cómo debería verse nuestro cuadrado controlado por teclado y dónde debería estar. 
 >
-> Después de eso, tenemos dos funciones, `move()` y `quitGame()`, que usaremos para movernos y salir del juego. Finalmente, al igual que en el tutorial anterior, tenemos nuestro bucle principal donde actualizamos nuestro juego y redibujamos todos nuestros píxeles.
+> - Después de eso, tenemos dos funciones, `move()` y `quitGame()`, que usaremos para movernos y salir del juego. Finalmente, al igual que en el tutorial anterior, tenemos nuestro bucle principal donde actualizamos nuestro juego y redibujamos todos nuestros píxeles.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDMyMDcxNTYsMTY4ODEzNjgyNCw4Mz
-U0MzU2ODYsLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5
-OF19
+eyJoaXN0b3J5IjpbLTQ5NTI5MTM5NSwxNjg4MTM2ODI0LDgzNT
+QzNTY4NiwtNzg0ODcxMDEyLC03OTEzNTIyNDYsMTQ0NzM4ODk4
+XX0=
 -->
