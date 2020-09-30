@@ -17,12 +17,9 @@ Como muchas cosas en la informática, vamos a empezar desde arriba.
  
 >**Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.**
 
-*Introducción a la creación de videojuegos con Python*
-En este curso, vamos a aprender a hacer juegos programados con Python. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada clase se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender lo que jugamos y crear casi cualquier cosa que pueda imaginar.
 
-*Robótica aplicada*
-En este curso, vamos a aprender a programar y a hacer circuitos con Arduino. Examinaremos componentes electrónicos y los sensores mas comunes. Cada clase se sumará a nuestro conocimiento del desarrollo de programación, electrónica y mecánica lo que nos permitirá comprender la robótica y crear sus propios proyectos.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1NDU0MDcsLTc4NDg3MTAxMiwtNzkxMz
-UyMjQ2LDE0NDczODg5OF19
+eyJoaXN0b3J5IjpbODM1NDM1Njg2LC03ODQ4NzEwMTIsLTc5MT
+M1MjI0NiwxNDQ3Mzg4OThdfQ==
 -->
