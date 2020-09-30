@@ -2,7 +2,7 @@
 # SHAPES (formas) & PATHS (trayectorias) con PYGAME
 ## Vamos a aprender a hacer un juego desde cero. En las primeras practicas, aprendemos los conceptos básicos.
 
-En este curso, vamos a aprender a hacer juegos con **Pygame**. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada capítulo se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
+En este curso, vamos a aprender a hacer juegos con **Pygame**. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada practica se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
 
 **Este curso no es para principiantes de programación, pero no está lejos de eso: vamos a suponer que ha escrito algunos programas simples de Python (o similares) en el pasado, y que puede hacer cosas como crear archivos y moverse por el sistema de archivos sin demasiada dificultad**.
 
@@ -93,9 +93,9 @@ Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDI3Mjg2NSwxOTAwMjcyODY1LC0xND
-U2ODI0MjgyLDE4MDcyNjA1MTgsLTYzNTQ0MTc1NCwtMTg5NDg0
-Mzk5NCwzOTMwMTc4OTgsMTY1ODg5MjAyMywxNzEyNTI1MDU5LD
-M1MzkxNjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0
-ODgxNjEyXX0=
+eyJoaXN0b3J5IjpbMTUwODcyNDg1NywxOTAwMjcyODY1LDE5MD
+AyNzI4NjUsLTE0NTY4MjQyODIsMTgwNzI2MDUxOCwtNjM1NDQx
+NzU0LC0xODk0ODQzOTk0LDM5MzAxNzg5OCwxNjU4ODkyMDIzLD
+E3MTI1MjUwNTksMzUzOTE2MzY1LC0xMDIzNTI3Mjc4LC0yMDY1
+MDI5OTMwLC03OTQ4ODE2MTJdfQ==
 -->
