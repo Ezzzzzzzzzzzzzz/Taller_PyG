@@ -16,7 +16,13 @@ Esta vez, vamos a recorrer el código línea por línea para comprender exactame
 Como muchas cosas en la informática, vamos a empezar desde arriba.
  
 >**Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.**
+
+
+En este curso, vamos a aprender a hacer juegos con Pygame. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada clase se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
+
+
+En este curso, vamos a aprender a programar y a hacer circuitos con Arduino. Examinaremos los sensores, animación, teclado y mouse, sonido y física. Cada clase se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0ND
-czODg5OF19
+eyJoaXN0b3J5IjpbMTcyMzU0Njg0MSwtNzg0ODcxMDEyLC03OT
+EzNTIyNDYsMTQ0NzM4ODk4XX0=
 -->
