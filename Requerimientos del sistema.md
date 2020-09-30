@@ -21,15 +21,16 @@ El paquete Thonny + Python es compatible con macOS 10.11 y versiones posteriores
 
 El paquete Thonny y Python debería funcionar en estos Linux o más nuevos:
 
-Menta 13 Maya
-Debian 8 Jessie
-Ubuntu 12.04 precisa
-Opensuse 13.1
-Fedora 21
-CentOS 7.1
+- Menta 13 Maya
+- Debian 8 Jessie
+- Ubuntu 12.04 precisa
+- Opensuse 13.1
+- Fedora 21
+- CentOS 7.1
+
 Puede ejecutarse en otras distribuciones / versiones, pero el requisito es que la distribución sea con glibc-2.15 o más reciente.
 
 (Si no puede instalar o ejecutar el Thonny incluido, intente instalar Python y Thonny por separado).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODA0MzQzXX0=
+eyJoaXN0b3J5IjpbLTg3NTkwMDExMywyMDk4MDQzNDNdfQ==
 -->
