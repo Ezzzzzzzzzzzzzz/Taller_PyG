@@ -21,8 +21,8 @@ Como muchas cosas en la informática, vamos a empezar desde arriba.
 En este curso, vamos a aprender a hacer juegos con Pygame. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada clase se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
 
 
-En este curso, vamos a aprender a programar y a hacer circuitos con Arduino. Examinaremos los sensores, animación, teclado y mouse, sonido y física. Cada clase se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
+En este curso, vamos a aprender a programar y a hacer circuitos con Arduino. Examinaremos los componentes electrónicos y sensores mas comunes. Cada clase se sumará a nuestro conocimiento del desarrollo de programación, electrónica y mecánica lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzU0Njg0MSwtNzg0ODcxMDEyLC03OT
-EzNTIyNDYsMTQ0NzM4ODk4XX0=
+eyJoaXN0b3J5IjpbLTIwOTIzNjc0ODMsLTc4NDg3MTAxMiwtNz
+kxMzUyMjQ2LDE0NDczODg5OF19
 -->
