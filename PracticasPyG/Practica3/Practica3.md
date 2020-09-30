@@ -18,8 +18,7 @@ Como muchas cosas en la informática, vamos a empezar desde arriba.
 >**Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.**
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1NDM1Njg2LC03ODQ4NzEwMTIsLTc5MT
-M1MjI0NiwxNDQ3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbMTY4ODEzNjgyNCw4MzU0MzU2ODYsLTc4ND
+g3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
 -->
