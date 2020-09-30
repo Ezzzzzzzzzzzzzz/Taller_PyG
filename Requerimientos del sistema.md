@@ -28,9 +28,8 @@ El paquete Thonny y Python debería funcionar en estos Linux o más nuevos:
 - Fedora 21
 - CentOS 7.1
 
-Puede ejecutarse en otras distribuciones / versiones, pero el requisito es que la distribución sea con glibc-2.15 o más reciente.
-
-(Si no puede instalar o ejecutar el Thonny incluido, intente instalar Python y Thonny por separado).
+Puede ejecutarse en otras distribuciones / versiones, pero el requisito es que la distribución sea con glibc-2.15 o más reciente. (Si no puede instalar o ejecutar el Thonny incluido, intente instalar Python y Thonny por separado).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTkwMDExMywyMDk4MDQzNDNdfQ==
+eyJoaXN0b3J5IjpbLTEyODQ1OTIyNDEsLTg3NTkwMDExMywyMD
+k4MDQzNDNdfQ==
 -->
