@@ -12,8 +12,9 @@ A diferencia del capítulo anterior, no vamos a cortar y cambiar fragmentos de c
 
 Esta vez, vamos a recorrer el código línea por línea para comprender exactamente qué hace cada bit para el programa. 
 
-Como muchas cosas en la informática, vamos a empezar desde arriba. 
+Como muchas cosas en la informática, vamos a empezar desde arriba.
+ 
 >**Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjE2NjQ1NiwxNDQ3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbLTc5MjQ3ODIzNCwxNDQ3Mzg4OThdfQ==
 -->
