@@ -169,6 +169,12 @@ gravity = 1.0
  - Después de eso, tenemos dos funciones, `move()` y `quitGame()`, que usaremos para movernos y salir del juego. 
 ```python
 def move():
+.
+.
+.
+def quitGame():
+.
+.
 ```
  - Finalmente, al igual que en la practica anterior, tenemos nuestro bucle principal donde actualizamos nuestro juego y redibujamos todos nuestros píxeles.
 
@@ -184,7 +190,8 @@ Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir có
 
 Y eso es exactamente lo que hace `keyboard.py`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTM2NDc5MSwtMTM4OTE2NTY2LC0xNT
-IzNzkwMzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2
-ODYsLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
+eyJoaXN0b3J5IjpbLTIwODExODcxMjgsLTEzODkxNjU2NiwtMT
+UyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1
+Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ
+==
 -->
