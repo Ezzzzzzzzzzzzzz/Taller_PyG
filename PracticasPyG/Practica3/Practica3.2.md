@@ -51,9 +51,11 @@ Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 
 
 ## ¿Cómo sabemos qué tecla presionó nuestro jugador? 
 
-Cada evento de clave de Pygame tiene una propiedad **key** que describe qué tecla representa. Si imprimiéramos la propiedad `event.key`, veríamos muchos números, pero estas no son las teclas que presionamos.
+Cada evento de las teclas de Pygame tiene una propiedad **key** que describe qué tecla representa. Si imprimiéramos la propiedad `event.key`, veríamos muchos números, pero estas no son las teclas que presionamos.
 
-Los números que veríamos son códigos clave; son números que están vinculados de forma única a cada tecla de su teclado, y los programadores pueden usarlos para comprobar qué teclas representan. Por ejemplo, la tecla ESC de su teclado es 27, la tecla A es 97 y la tecla RETURN es 13. ¿Significa esto que tenemos que recordar un montón de números aparentemente desconectados cuando escribimos el código del teclado? Afortunadamente, la respuesta es no. Pygame tiene un montón de valores para verificar códigos clave, que son más fáciles de leer y recordar cuando escribimos código.
+Los números que veríamos son códigos clave; son números que están vinculados de forma única a cada tecla de su teclado, y los programadores pueden usarlos para comprobar qué teclas representan. 
+
+Por ejemplo, la tecla ESC de su teclado es 27, la tecla A es 97 y la tecla RETURN es 13. ¿Significa esto que tenemos que recordar un montón de números aparentemente desconectados cuando escribimos el código del teclado? Afortunadamente, la respuesta es no. Pygame tiene un montón de valores para verificar códigos clave, que son más fáciles de leer y recordar cuando escribimos código.
 
 
 
@@ -61,7 +63,7 @@ Los números que veríamos son códigos clave; son números que están vinculado
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc2NjMwNTQsMTY2NTMzMTUxMyw0NT
-g3Nzg2MDUsOTExNDgxMDcyLDIwMzU2MzE4MzcsLTE2MDEyNzI3
-NzRdfQ==
+eyJoaXN0b3J5IjpbMjA3ODIyMzAwNSwxNjY1MzMxNTEzLDQ1OD
+c3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMTI3Mjc3
+NF19
 -->
