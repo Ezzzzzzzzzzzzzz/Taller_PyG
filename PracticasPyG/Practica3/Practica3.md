@@ -144,9 +144,13 @@ while True:
 > 
 > - Finalmente, al igual que en la practica anterior, tenemos nuestro bucle principal donde actualizamos nuestro juego y redibujamos todos nuestros píxeles.
 
+## ¿Cómo sabemos qué teclas se presionan y cuándo? 
 
+En el capítulo anterior, importamos `pygame.events` como `GAME_EVENTS`; ahora podemos usarlo. 
+
+Cada programa de Pygame que escribimos es un gran bucle que se ejecuta para siempre o hasta que salimos del programa. Cada vez que se ejecuta nuestro ciclo, Pygame crea una lista de eventos que han ocurrido desde la última vez que se ejecutó el ciclo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjE5MDE1MywtMTM4OTE2NTY2LC0xNT
+eyJoaXN0b3J5IjpbLTM5NDMwNjA2NiwtMTM4OTE2NTY2LC0xNT
 IzNzkwMzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2
 ODYsLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
 -->
