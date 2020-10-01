@@ -14,11 +14,24 @@ A diferencia del capítulo anterior, no vamos a cortar y cambiar fragmentos de c
 Esta vez, vamos a recorrer el código línea por línea para comprender exactamente qué hace cada bit para el programa. 
 
 Como muchas cosas en la informática, vamos a empezar desde arriba.
- 
->**Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.**
+
+## Keyboard.py
+
+```python
+
+
+``` 
+
+> - Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
+>
+> - La siguiente docena de líneas son variables que usaremos para determinar cómo debería verse nuestro cuadrado controlado por teclado y dónde debería estar. 
+>
+> - Después de eso, tenemos dos funciones, `move()` y `quitGame()`, que usaremos para movernos y salir del juego. 
+> - Finalmente, al igual que en la practica anterior, tenemos nuestro bucle principal donde actualizamos nuestro juego y redibujamos todos nuestros píxeles.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODEzNjgyNCw4MzU0MzU2ODYsLTc4ND
-g3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
+eyJoaXN0b3J5IjpbLTE1MjM3OTAzMzcsLTU4ODU5Njk2NSwxNj
+g4MTM2ODI0LDgzNTQzNTY4NiwtNzg0ODcxMDEyLC03OTEzNTIy
+NDYsMTQ0NzM4ODk4XX0=
 -->
