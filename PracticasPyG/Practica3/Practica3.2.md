@@ -47,7 +47,7 @@ Los eventos están organizados en la lista en el orden en que los recibió Pygam
 
 ### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una tecla se ha liberado. 
 
-Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 93**. Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a aparecer!**
+Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 93**. Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a levantarse!**
 
 ## ¿Cómo sabemos qué tecla presionó nuestro jugador? 
 
@@ -61,7 +61,7 @@ Los números que veríamos son códigos clave; son números que están vinculado
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc3NDM2OTIsMTY2NTMzMTUxMyw0NT
+eyJoaXN0b3J5IjpbLTE5MDc2NjMwNTQsMTY2NTMzMTUxMyw0NT
 g3Nzg2MDUsOTExNDgxMDcyLDIwMzU2MzE4MzcsLTE2MDEyNzI3
 NzRdfQ==
 -->
