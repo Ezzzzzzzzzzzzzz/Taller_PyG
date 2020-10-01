@@ -1,6 +1,6 @@
 # ¿Cómo sabemos qué teclas se presionan y cuándo? 
 
-En el capítulo anterior, importamos `pygame.events` como `GAME_EVENTS`; ahora podemos usarlo. 
+En las practicas anterior, importamos `pygame.events` como `GAME_EVENTS`; ahora podemos usarlo. 
 
 Cada programa de Pygame que escribimos es un gran bucle que se ejecuta para siempre o hasta que salimos del programa. Cada vez que se ejecuta nuestro ciclo, Pygame crea una lista de eventos que han ocurrido desde la última vez que se ejecutó el ciclo.
 
@@ -10,5 +10,5 @@ Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir có
 
 Y eso es exactamente lo que hace `keyboard.py`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDEyNzI3NzRdfQ==
+eyJoaXN0b3J5IjpbLTY4MjgxMDk4MCwtMTYwMTI3Mjc3NF19
 -->
