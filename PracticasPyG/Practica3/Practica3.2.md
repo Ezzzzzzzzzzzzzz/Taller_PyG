@@ -132,28 +132,11 @@ while True:
     clock.tick(60)
     pygame.display.update()
 ``` 
-- En la **línea 85**, creamos un bucle **for** que funcionará con cada evento en la lista que Pygame creó para nosotros. 
-```python
-# Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
-    for event in GAME_EVENTS.get():
-	    .
-	    .
-	    .
-```
-Los eventos están organizados en la lista en el orden en que los recibió Pygame. 
 
-Entonces, por ejemplo, si quisiéramos usar los eventos del teclado para escribir el nombre de nuestro jugador, podríamos confiar en que obtendríamos todas las letras en el orden correcto y no solo una mezcla aleatoria de caracteres. Ahora que tenemos una lista de eventos, podemos trabajar con ellos y verificar si han sucedido ciertos eventos que son relevantes para nuestro juego. 
 
-En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad **type** con `event.type`. 
-
-### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una tecla se ha liberado. 
-
-Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 93**. 
-
-Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a aparecer!**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExNDgxMDcyLDIwMzU2MzE4MzcsLTE2MD
-EyNzI3NzRdfQ==
+eyJoaXN0b3J5IjpbOTM0NDQ0MzI3LDkxMTQ4MTA3MiwyMDM1Nj
+MxODM3LC0xNjAxMjcyNzc0XX0=
 -->
