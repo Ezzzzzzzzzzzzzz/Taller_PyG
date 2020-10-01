@@ -75,13 +75,15 @@ Entonces, por ejemplo, si quisiéramos usar los eventos del teclado para escribi
 
 En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad **type** con `event.type`. 
 
-### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una clave tiene
+### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una tecla se ha do liberado. 
+
+Buscamos eventos KEYDOWN en la línea 87 y eventos KEYUP en la línea 93. Primero buscamos eventos KEYDOWN porque la lógica lo dicta: ¡tienes que presionar una tecla hacia abajo antes de que vuelva a aparecer!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3Nzk1Mzk4LDYzMzY4ODk3MiwtOTkxOD
-AyMDAxLDE2MDcxNjQ1MTgsMzMwMzk1OTE3LC0xMzg5MTY1NjYs
-LTE1MjM3OTAzMzcsLTU4ODU5Njk2NSwxNjg4MTM2ODI0LDgzNT
-QzNTY4NiwtNzg0ODcxMDEyLC03OTEzNTIyNDYsMTQ0NzM4ODk4
-XX0=
+eyJoaXN0b3J5IjpbLTIxOTgyNDEwMSw2MzM2ODg5NzIsLTk5MT
+gwMjAwMSwxNjA3MTY0NTE4LDMzMDM5NTkxNywtMTM4OTE2NTY2
+LC0xNTIzNzkwMzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4Mz
+U0MzU2ODYsLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5
+OF19
 -->
