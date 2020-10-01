@@ -113,14 +113,12 @@ En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar 
 
 ### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una tecla se ha liberado. 
 
-Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 93**. 
-
-Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a aparecer!**
+Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 93**. Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a aparecer!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxNzE3MTAyLDE1NjcwOTQzNjAsNjMzNj
-g4OTcyLC05OTE4MDIwMDEsMTYwNzE2NDUxOCwzMzAzOTU5MTcs
-LTEzODkxNjU2NiwtMTUyMzc5MDMzNywtNTg4NTk2OTY1LDE2OD
-gxMzY4MjQsODM1NDM1Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0
-NiwxNDQ3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbLTExMzAyNjcxOTAsNjgxNzE3MTAyLDE1Nj
+cwOTQzNjAsNjMzNjg4OTcyLC05OTE4MDIwMDEsMTYwNzE2NDUx
+OCwzMzAzOTU5MTcsLTEzODkxNjU2NiwtMTUyMzc5MDMzNywtNT
+g4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1Njg2LC03ODQ4NzEw
+MTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ==
 -->
