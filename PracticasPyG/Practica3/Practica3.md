@@ -69,12 +69,17 @@ while True:
 	    .
 	    .
 ```
-Los eventos están organizados en la lista en el orden en que los recibió Pygame. Entonces, por ejemplo, si quisiéramos usar los eventos del teclado para escribir el nombre de nuestro jugador, podríamos confiar en que obtendríamos todas las letras en el orden correcto y no solo una mezcla aleatoria de caracteres. Ahora que tenemos una lista de eventos, podemos trabajar con ellos y verificar si han sucedido ciertos eventos que son relevantes para nuestro juego. En keyboard.py, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad "type" con event.type. Si nuestro evento. type es un evento pygame.KEYDOWN, sabemos que se presionó una tecla; si nuestro event.type es un evento pygame.KEYUP, sabemos que una clave tiene
+Los eventos están organizados en la lista en el orden en que los recibió Pygame. 
+
+Entonces, por ejemplo, si quisiéramos usar los eventos del teclado para escribir el nombre de nuestro jugador, podríamos confiar en que obtendríamos todas las letras en el orden correcto y no solo una mezcla aleatoria de caracteres. Ahora que tenemos una lista de eventos, podemos trabajar con ellos y verificar si han sucedido ciertos eventos que son relevantes para nuestro juego. 
+
+En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad **type** con `event.type`. Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; si nuestro `event.type` es un evento pygame.KEYUP, sabemos que una clave tiene
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNjg4OTcyLC05OTE4MDIwMDEsMTYwNz
-E2NDUxOCwzMzAzOTU5MTcsLTEzODkxNjU2NiwtMTUyMzc5MDMz
-NywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1Njg2LC03OD
-Q4NzEwMTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbLTE2NzMyMDk2MTEsNjMzNjg4OTcyLC05OT
+E4MDIwMDEsMTYwNzE2NDUxOCwzMzAzOTU5MTcsLTEzODkxNjU2
+NiwtMTUyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsOD
+M1NDM1Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0NiwxNDQ3Mzg4
+OThdfQ==
 -->
