@@ -43,9 +43,7 @@ Y eso es exactamente lo que hace `keyboard.py`.
 ```
 Los eventos están organizados en la lista en el orden en que los recibió Pygame. 
 
-Entonces, por ejemplo, si quisiéramos usar los eventos del teclado para escribir el nombre de nuestro jugador, podríamos confiar en que obtendríamos todas las letras en el orden correcto y no solo una mezcla aleatoria de caracteres. Ahora que tenemos una lista de eventos, podemos trabajar con ellos y verificar si han sucedido ciertos eventos que son relevantes para nuestro juego. 
-
-En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad **type** con `event.type`. 
+### En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad **type** con `event.type`. 
 
 ### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una tecla se ha liberado. 
 
@@ -61,6 +59,7 @@ Los números que veríamos son códigos clave; son números que están vinculado
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTMzMTUxMyw0NTg3Nzg2MDUsOTExND
-gxMDcyLDIwMzU2MzE4MzcsLTE2MDEyNzI3NzRdfQ==
+eyJoaXN0b3J5IjpbMTAyODI2NjA5OSwxNjY1MzMxNTEzLDQ1OD
+c3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMTI3Mjc3
+NF19
 -->
