@@ -152,9 +152,12 @@ Cada programa de Pygame que escribimos es un gran bucle que se ejecuta para siem
 
 Esto incluye eventos del sistema, como una señal `QUIT`; *eventos del mouse*, *como un clic con el botón izquierdo*; y *eventos de teclado*, *como cuando se presiona o suelta un botón*. 
 
-Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir cómo nuestro programa debe responder a esos eventos. **Si el usuario intenta salir, podríamos guardar el progreso del juego y cerrar la ventana en lugar de simplemente salir del programa, o podríamos mover un personaje cada vez que se presione una tecla**. Y eso es exactamente lo que hace keyboard.py.
+Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir cómo nuestro programa debe responder a esos eventos. **Si el usuario intenta salir, podríamos guardar el progreso del juego y cerrar la ventana en lugar de simplemente salir del programa, o podríamos mover un personaje cada vez que se presione una tecla**. 
+
+Y eso es exactamente lo que hace `keyboard.py`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTUxMDQ5MCwtMTM4OTE2NTY2LC0xNT
-IzNzkwMzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2
-ODYsLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
+eyJoaXN0b3J5IjpbLTE1ODkwMjAzMjIsLTEzODkxNjU2NiwtMT
+UyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1
+Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ
+==
 -->
