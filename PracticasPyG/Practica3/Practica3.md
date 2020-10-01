@@ -176,6 +176,13 @@ def quitGame():
 ```
  - Finalmente, al igual que en la practica anterior, tenemos nuestro bucle principal donde actualizamos nuestro juego y redibujamos todos nuestros píxeles.
 
+```python
+while True:
+	. 
+	. 
+	.
+```
+
 ## ¿Cómo sabemos qué teclas se presionan y cuándo? 
 
 En el capítulo anterior, importamos `pygame.events` como `GAME_EVENTS`; ahora podemos usarlo. 
@@ -188,7 +195,7 @@ Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir có
 
 Y eso es exactamente lo que hace `keyboard.py`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxNDk4Nzg2LC0xMzg5MTY1NjYsLTE1Mj
+eyJoaXN0b3J5IjpbMzMwMzk1OTE3LC0xMzg5MTY1NjYsLTE1Mj
 M3OTAzMzcsLTU4ODU5Njk2NSwxNjg4MTM2ODI0LDgzNTQzNTY4
 NiwtNzg0ODcxMDEyLC03OTEzNTIyNDYsMTQ0NzM4ODk4XX0=
 -->
