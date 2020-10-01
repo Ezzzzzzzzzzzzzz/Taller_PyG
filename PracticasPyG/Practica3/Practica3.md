@@ -9,7 +9,7 @@ En las dos primeras practicas, nos familiarizamos con los conceptos básicos de 
 
 ### Entonces, vayamos a nuestro primer programa: `keyboard.py`. 
 
-A diferencia del capítulo anterior, no vamos a cortar y cambiar fragmentos de código para afectar el programa. Si copia `keyboard.py` y lo ejecuta en su computadora, se ejecutará tal como pretendemos. 
+A diferencia del practicas anteriores, no vamos a cortar y cambiar fragmentos de código para afectar el programa. Si copia `keyboard.py` y lo ejecuta en su computadora, se ejecutará tal como pretendemos. 
 
 Esta vez, vamos a recorrer el código línea por línea para comprender exactamente qué hace cada bit para el programa. 
 
@@ -119,9 +119,10 @@ Sabemos que tenemos una forma de saber si se presionó una tecla, pero ¿cómo s
 
 Los números que veríamos son códigos clave; son números que están vinculados de forma única a cada tecla de su teclado, y los programadores pueden usarlos para comprobar qué teclas representan. Por ejemplo, la tecla ESC de su teclado es 27, la tecla A es 97 y la tecla RETURN es 13. ¿Significa esto que tenemos que recordar un montón de números aparentemente desconectados cuando escribimos el código del teclado? Afortunadamente, la respuesta es no. Pygame tiene un montón de valores para verificar códigos clave, que son más fáciles de leer y recordar cuando escribimos código.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNTk2MjM1MiwtMTEzMDI2NzE5MCw2OD
-E3MTcxMDIsMTU2NzA5NDM2MCw2MzM2ODg5NzIsLTk5MTgwMjAw
-MSwxNjA3MTY0NTE4LDMzMDM5NTkxNywtMTM4OTE2NTY2LC0xNT
-IzNzkwMzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2
-ODYsLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
+eyJoaXN0b3J5IjpbMTY1Njk4NDY4MSwtMzM1OTYyMzUyLC0xMT
+MwMjY3MTkwLDY4MTcxNzEwMiwxNTY3MDk0MzYwLDYzMzY4ODk3
+MiwtOTkxODAyMDAxLDE2MDcxNjQ1MTgsMzMwMzk1OTE3LC0xMz
+g5MTY1NjYsLTE1MjM3OTAzMzcsLTU4ODU5Njk2NSwxNjg4MTM2
+ODI0LDgzNTQzNTY4NiwtNzg0ODcxMDEyLC03OTEzNTIyNDYsMT
+Q0NzM4ODk4XX0=
 -->
