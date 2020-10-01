@@ -115,10 +115,11 @@ En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar 
 
 Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 93**. Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a aparecer!**
 
+Sabemos que tenemos una forma de saber si se presionó una tecla, pero ¿cómo sabemos qué tecla presionó nuestro jugador? Cada evento de clave de Pygame tiene una propiedad **key** que describe qué clave representa. Si imprimiéramos la propiedad event.key, veríamos muchos números, pero estas no son las teclas que presionamos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAyNjcxOTAsNjgxNzE3MTAyLDE1Nj
-cwOTQzNjAsNjMzNjg4OTcyLC05OTE4MDIwMDEsMTYwNzE2NDUx
-OCwzMzAzOTU5MTcsLTEzODkxNjU2NiwtMTUyMzc5MDMzNywtNT
-g4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1Njg2LC03ODQ4NzEw
-MTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbOTg1ODQ3MjI2LC0xMTMwMjY3MTkwLDY4MT
+cxNzEwMiwxNTY3MDk0MzYwLDYzMzY4ODk3MiwtOTkxODAyMDAx
+LDE2MDcxNjQ1MTgsMzMwMzk1OTE3LC0xMzg5MTY1NjYsLTE1Mj
+M3OTAzMzcsLTU4ODU5Njk2NSwxNjg4MTM2ODI0LDgzNTQzNTY4
+NiwtNzg0ODcxMDEyLC03OTEzNTIyNDYsMTQ0NzM4ODk4XX0=
 -->
