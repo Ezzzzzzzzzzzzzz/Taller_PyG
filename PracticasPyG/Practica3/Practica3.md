@@ -154,7 +154,18 @@ pygame.display.set_caption('Pygame Keyboard!')
 ```
 
 > - La siguiente docena de líneas son variables que usaremos para determinar cómo debería verse nuestro cuadrado controlado por teclado y dónde debería estar. 
->
+```python
+# Variables del cuadrado
+playerSize = 20
+playerX = (windowWidth / 2) - (playerSize / 2)
+playerY = windowHeight - playerSize
+playerVX = 1.0
+playerVY = 0.0
+jumpHeight = 25.0
+moveSpeed = 1.0
+maxSpeed = 10.0
+gravity = 1.0
+```
 > - Después de eso, tenemos dos funciones, `move()` y `quitGame()`, que usaremos para movernos y salir del juego. 
 > 
 > - Finalmente, al igual que en la practica anterior, tenemos nuestro bucle principal donde actualizamos nuestro juego y redibujamos todos nuestros píxeles.
@@ -171,7 +182,7 @@ Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir có
 
 Y eso es exactamente lo que hace `keyboard.py`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI2ODQ5MjMsLTEzODkxNjU2NiwtMT
+eyJoaXN0b3J5IjpbLTE2NDcxMDUxMzQsLTEzODkxNjU2NiwtMT
 UyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1
 Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ
 ==
