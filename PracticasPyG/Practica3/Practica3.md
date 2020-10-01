@@ -136,7 +136,7 @@ while True:
     pygame.display.update()
 ``` 
 
-> - Las primeras 12 líneas de código de la página 32 deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
+> - Las primeras 12 líneas de código deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
 >
 > - La siguiente docena de líneas son variables que usaremos para determinar cómo debería verse nuestro cuadrado controlado por teclado y dónde debería estar. 
 >
@@ -145,7 +145,8 @@ while True:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkxNjU2NiwtMTUyMzc5MDMzNywtNT
-g4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1Njg2LC03ODQ4NzEw
-MTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbLTEyMTg3MjA3NzEsLTEzODkxNjU2NiwtMT
+UyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1
+Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ
+==
 -->
