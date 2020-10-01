@@ -136,7 +136,7 @@ while True:
     pygame.display.update()
 ``` 
 
- - Las primeras 12 líneas de código deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
+ - Las primeras **12 líneas** de código deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
 ```python
 import pygame, sys
 import pygame.locals as GAME_GLOBALS
@@ -186,8 +186,8 @@ while True:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzE2NDUxOCwzMzAzOTU5MTcsLTEzOD
-kxNjU2NiwtMTUyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4
-MjQsODM1NDM1Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0NiwxND
-Q3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbLTc1NjI0MzI5MCwxNjA3MTY0NTE4LDMzMD
+M5NTkxNywtMTM4OTE2NTY2LC0xNTIzNzkwMzM3LC01ODg1OTY5
+NjUsMTY4ODEzNjgyNCw4MzU0MzU2ODYsLTc4NDg3MTAxMiwtNz
+kxMzUyMjQ2LDE0NDczODg5OF19
 -->
