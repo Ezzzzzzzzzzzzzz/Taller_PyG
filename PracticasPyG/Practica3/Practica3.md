@@ -61,11 +61,15 @@ while True:
 	. 
 	.
 ```
-- En la *línea 85*, creamos un bucle for que funcionará con cada evento en la lista que Pygame creó para nosotros. Los eventos están organizados en la lista en el orden en que los recibió Pygame. Entonces, por ejemplo, si quisiéramos usar los eventos del teclado para escribir el nombre de nuestro jugador, podríamos confiar en que obtendríamos todas las letras en el orden correcto y no solo una mezcla aleatoria de caracteres. Ahora que tenemos una lista de eventos, podemos trabajar con ellos y verificar si han sucedido ciertos eventos que son relevantes para nuestro juego. En keyboard.py, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad "type" con event.type. Si nuestro evento. type es un evento pygame.KEYDOWN, sabemos que se presionó una tecla; si nuestro event.type es un evento pygame.KEYUP, sabemos que una clave tiene
+- En la **línea 85**, creamos un bucle **for** que funcionará con cada evento en la lista que Pygame creó para nosotros. 
+```python
+
+```
+Los eventos están organizados en la lista en el orden en que los recibió Pygame. Entonces, por ejemplo, si quisiéramos usar los eventos del teclado para escribir el nombre de nuestro jugador, podríamos confiar en que obtendríamos todas las letras en el orden correcto y no solo una mezcla aleatoria de caracteres. Ahora que tenemos una lista de eventos, podemos trabajar con ellos y verificar si han sucedido ciertos eventos que son relevantes para nuestro juego. En keyboard.py, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad "type" con event.type. Si nuestro evento. type es un evento pygame.KEYDOWN, sabemos que se presionó una tecla; si nuestro event.type es un evento pygame.KEYUP, sabemos que una clave tiene
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODcyMzEzNDIsLTk5MTgwMjAwMSwxNj
+eyJoaXN0b3J5IjpbLTEwNDAxODkyOTAsLTk5MTgwMjAwMSwxNj
 A3MTY0NTE4LDMzMDM5NTkxNywtMTM4OTE2NTY2LC0xNTIzNzkw
 MzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2ODYsLT
 c4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
