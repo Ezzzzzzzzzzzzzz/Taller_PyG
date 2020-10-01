@@ -141,12 +141,12 @@ while True:
 > - La siguiente docena de líneas son variables que usaremos para determinar cómo debería verse nuestro cuadrado controlado por teclado y dónde debería estar. 
 >
 > - Después de eso, tenemos dos funciones, `move()` y `quitGame()`, que usaremos para movernos y salir del juego. 
+> 
 > - Finalmente, al igual que en la practica anterior, tenemos nuestro bucle principal donde actualizamos nuestro juego y redibujamos todos nuestros píxeles.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg3MjA3NzEsLTEzODkxNjU2NiwtMT
-UyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1
-Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0NiwxNDQ3Mzg4OThdfQ
-==
+eyJoaXN0b3J5IjpbMTM4NjE5MDE1MywtMTM4OTE2NTY2LC0xNT
+IzNzkwMzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2
+ODYsLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
 -->
