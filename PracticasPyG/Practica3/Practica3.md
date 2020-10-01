@@ -80,9 +80,30 @@ Y eso es exactamente lo que hace `keyboard.py`.
 ```python
 # Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
     for event in GAME_EVENTS.get():
-	    .
-	    .
-	    .
+
+        if event.type == pygame.KEYDOWN:
+
+            if event.key == pygame.K_LEFT:
+                leftDown = True
+            if event.key == pygame.K_RIGHT:
+                rightDown = True
+            if event.key == pygame.K_UP:
+                if not haveJumped:
+                    haveJumped = True
+                    playerVY += jumpHeight
+            if event.key == pygame.K_ESCAPE:
+                quitGame()
+
+        if event.type == pygame.KEYUP:
+            if event.key == pygame.K_LEFT:
+                leftDown = False
+                playerVX = moveSpeed
+            if event.key == pygame.K_RIGHT:
+                rightDown = False
+                playerVX = moveSpeed
+
+        if event.type == GAME_GLOBALS.QUIT:
+            quitGame()
 ```
 Los eventos están organizados en la lista en el orden en que los recibió Pygame. 
 
@@ -97,9 +118,9 @@ Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 
 Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a aparecer!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzA5NDM2MCw2MzM2ODg5NzIsLTk5MT
-gwMjAwMSwxNjA3MTY0NTE4LDMzMDM5NTkxNywtMTM4OTE2NTY2
-LC0xNTIzNzkwMzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4Mz
-U0MzU2ODYsLTc4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5
-OF19
+eyJoaXN0b3J5IjpbNjgxNzE3MTAyLDE1NjcwOTQzNjAsNjMzNj
+g4OTcyLC05OTE4MDIwMDEsMTYwNzE2NDUxOCwzMzAzOTU5MTcs
+LTEzODkxNjU2NiwtMTUyMzc5MDMzNywtNTg4NTk2OTY1LDE2OD
+gxMzY4MjQsODM1NDM1Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0
+NiwxNDQ3Mzg4OThdfQ==
 -->
