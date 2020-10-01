@@ -2,7 +2,7 @@ import pygame, sys
 import pygame.locals as GAME_GLOBALS
 import pygame.event as GAME_EVENTS
 
-# Pygame Variables
+# Variables de Pygame
 pygame.init()
 clock = pygame.time.Clock()
 
@@ -12,7 +12,7 @@ windowHeight = 800
 surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption('Pygame Keyboard!')
 
-# Square Variables
+# Variables del cuadrado
 playerSize = 20
 playerX = (windowWidth / 2) - (playerSize / 2)
 playerY = windowHeight - playerSize
@@ -23,7 +23,7 @@ moveSpeed = 1.0
 maxSpeed = 10.0
 gravity = 1.0
 
-# Keyboard Variables
+# Variables del teclado (keyboard)
 leftDown = False
 rightDown = False
 haveJumped = False
@@ -32,22 +32,22 @@ def move():
 
     global playerX, playerY, playerVX, playerVY, haveJumped, gravity
 
-    # Move left 
+    # Muevete a la izquierda
     if leftDown:
-        #If we're already moving to the right, reset the moving speed and invert the direction
+        #Si ya nos estamos moviendo hacia la derecha, restablezca la velocidad de movimiento e invierta la dirección
         if playerVX > 0.0:
             playerVX = moveSpeed
             playerVX = -playerVX    
-        # Make sure our square doesn't leave our window to the left
+        # Asegúrate de que nuestro cuadrado no deje nuestra ventana a la izquierda.
         if playerX > 0:
             playerX += playerVX 
 
-    # Move right
+    # Muevete a la derecha
     if rightDown:
-        # If we're already moving to the left reset the moving speed again
+        # Si ya nos estamos moviendo hacia la izquierda, restablezca la velocidad de movimiento nuevamente.
         if playerVX < 0.0:
             playerVX = moveSpeed
-        # Make sure our square doesn't leave our window to the right
+        # Asegúrate de que nuestro cuadrado no deje nuestra ventana a la derecha.
         if playerX + playerSize < windowWidth:
             playerX += playerVX
 
@@ -57,7 +57,8 @@ def move():
         playerVY = 0.0
         haveJumped = False
 
-    # Is our square in the air? Better add some gravity to bring it back down!
+    # ¿Está nuestro cuadrado en el aire?
+    # ¡Mejor agrega algo de gravedad para bajarlo!
     if playerY < windowHeight - playerSize:
         playerY += gravity
         gravity = gravity * 1.1
@@ -71,7 +72,7 @@ def move():
         if haveJumped == False:
             playerVX = playerVX * 1.1
 
-# How to quit our program
+# Como quitar el programa
 def quitGame():
     pygame.quit()
     sys.exit()
@@ -82,7 +83,7 @@ while True:
 
     pygame.draw.rect(surface, (255,0,0), (playerX, playerY, playerSize, playerSize))
 
-    # Get a list of all events that happened since the last redraw
+    # Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
     for event in GAME_EVENTS.get():
 
         if event.type == pygame.KEYDOWN:
