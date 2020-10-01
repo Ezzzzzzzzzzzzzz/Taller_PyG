@@ -57,15 +57,16 @@ def quitGame():
 
 ```python
 while True:
-	. 
-	. 
-	.
+surface.fill((0,0,0))
+
+    pygame.draw.rect(surface, (255,0,0), (playerX, playerY, playerSize, playerSize))
+
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzcxMTg3MzAsMTY1Njk4NDY4MSwtMz
+eyJoaXN0b3J5IjpbLTIwMzM1MDIxNjQsMTY1Njk4NDY4MSwtMz
 M1OTYyMzUyLC0xMTMwMjY3MTkwLDY4MTcxNzEwMiwxNTY3MDk0
 MzYwLDYzMzY4ODk3MiwtOTkxODAyMDAxLDE2MDcxNjQ1MTgsMz
 MwMzk1OTE3LC0xMzg5MTY1NjYsLTE1MjM3OTAzMzcsLTU4ODU5
