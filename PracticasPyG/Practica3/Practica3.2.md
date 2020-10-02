@@ -1,5 +1,6 @@
 # ¿Cómo sabemos qué teclas se presionan y cuándo? 
 ![](https://media.giphy.com/media/3oEduLvxnhDsh83j3O/giphy.gif) 
+
 En las practicas anterior, importamos `pygame.events` como `GAME_EVENTS`; ahora podemos usarlo. 
 
 **Cada programa de Pygame que escribimos es un gran bucle que se ejecuta para siempre o hasta que salimos del programa**. Cada vez que se ejecuta nuestro ciclo, Pygame crea una lista de eventos que han ocurrido desde la última vez que se ejecutó el ciclo.
@@ -51,7 +52,7 @@ Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTI1NDA4NSwtMjMxMDQxNTE2LDk3MD
+eyJoaXN0b3J5IjpbLTY1NDA4MDYyNywtMjMxMDQxNTE2LDk3MD
 E0MzM3OSwtODA5OTczOTEyLDM2MDg0NzYwNCwxNjY1MzMxNTEz
 LDQ1ODc3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMT
 I3Mjc3NF19
