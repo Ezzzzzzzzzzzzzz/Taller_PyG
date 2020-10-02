@@ -63,12 +63,14 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 **Una vez que sabemos que se presionó una tecla y qué tecla fue, podemos escribir código para afectar nuestro programa de maneras específicas.**
 
+Por ejemplo, si se ha presionado la tecla de flecha izquierda, podemos mover nuestro reproductor a la izquierda con playerX -= 5, pero no lo hemos hecho aquí. Por qué no? Pygame no emite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. Nuestro cuadrado se movería la primera vez que Pygame detectara la pulsación de una tecla, pero luego se detendría hasta que volviéramos a pulsar el botón.
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwODQ3NjA0LDE2NjUzMzE1MTMsNDU4Nz
-c4NjA1LDkxMTQ4MTA3MiwyMDM1NjMxODM3LC0xNjAxMjcyNzc0
-XX0=
+eyJoaXN0b3J5IjpbODE3MzIyOTM5LDM2MDg0NzYwNCwxNjY1Mz
+MxNTEzLDQ1ODc3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywt
+MTYwMTI3Mjc3NF19
 -->
