@@ -59,14 +59,16 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 [Codigo ASCII](https://elcodigoascii.com.ar/codigos-ascii/letra-a-minuscula-codigo-ascii-97.html)
 
+- En las **líneas 89**, **91**, **93** y **97**, usamos `pygame.K_LEFT`, `pygame.K_RIGHT`, `pygame.K_UP` y `pygame.K_ESCAPE` para verificar si alguna de las teclas presionadas son teclas que estamos buscando. 
 
+**Una vez que sabemos que se presionó una tecla y qué tecla fue, podemos escribir código para afectar nuestro programa de maneras específicas.**
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkwNDk0NDIsMTY2NTMzMTUxMyw0NT
-g3Nzg2MDUsOTExNDgxMDcyLDIwMzU2MzE4MzcsLTE2MDEyNzI3
-NzRdfQ==
+eyJoaXN0b3J5IjpbMzYwODQ3NjA0LDE2NjUzMzE1MTMsNDU4Nz
+c4NjA1LDkxMTQ4MTA3MiwyMDM1NjMxODM3LC0xNjAxMjcyNzc0
+XX0=
 -->
