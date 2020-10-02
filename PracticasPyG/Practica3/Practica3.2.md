@@ -57,6 +57,8 @@ Los números que veríamos son códigos clave; son números que están vinculado
 
 Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** y la tecla **RETURN** es **13**. 
 
+[Codigo ASCII](https://elcodigoascii.com.ar/codigos-ascii/letra-a-minuscula-codigo-ascii-97.html)
+
 ¿Significa esto que tenemos que recordar un montón de números aparentemente desconectados cuando escribimos el código del teclado? Afortunadamente, la respuesta es no. Pygame tiene un montón de valores para verificar códigos clave, que son más fáciles de leer y recordar cuando escribimos código.
 
 
@@ -65,7 +67,7 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzQ3MzMzNywxNjY1MzMxNTEzLDQ1OD
-c3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMTI3Mjc3
-NF19
+eyJoaXN0b3J5IjpbMzM0NTYxNjc2LDE2NjUzMzE1MTMsNDU4Nz
+c4NjA1LDkxMTQ4MTA3MiwyMDM1NjMxODM3LC0xNjAxMjcyNzc0
+XX0=
 -->
