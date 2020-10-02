@@ -10,8 +10,6 @@ Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir có
 
 ### Si el usuario intenta salir, podríamos guardar el progreso del juego y cerrar la ventana en lugar de simplemente salir del programa, o podríamos mover un personaje cada vez que se presione una tecla. 
 
-Y eso es exactamente lo que hace `keyboard.py`.
-
 - En la **línea 85**, creamos un bucle **for** que funcionará con cada evento en la lista que Pygame creó para nosotros. 
 ```python
 # Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
@@ -70,7 +68,7 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2OTcwMzcwLDk3MDE0MzM3OSwtODA5OT
+eyJoaXN0b3J5IjpbNjQ4Mjg5MTE0LDk3MDE0MzM3OSwtODA5OT
 czOTEyLDM2MDg0NzYwNCwxNjY1MzMxNTEzLDQ1ODc3ODYwNSw5
 MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMTI3Mjc3NF19
 -->
