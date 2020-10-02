@@ -1,4 +1,4 @@
-# Tomando el control del Teclado y el Mouse
+# Tomando el control del teclado y el mouse
 ### Ahora que conocemos Pygame, vamos a empezar a hacer cosas con las que podamos jugar y que sean más interactivas. 
 
 Nos estamos centrando en la dinámica del juego en este punto, pero no se preocupe, ¡las practicas posteriores explorarán los aspectos más estéticos del diseño del juego!
@@ -63,10 +63,10 @@ while True:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTkzNDc2OCwxNjU2OTg0NjgxLC0zMz
-U5NjIzNTIsLTExMzAyNjcxOTAsNjgxNzE3MTAyLDE1NjcwOTQz
-NjAsNjMzNjg4OTcyLC05OTE4MDIwMDEsMTYwNzE2NDUxOCwzMz
-AzOTU5MTcsLTEzODkxNjU2NiwtMTUyMzc5MDMzNywtNTg4NTk2
-OTY1LDE2ODgxMzY4MjQsODM1NDM1Njg2LC03ODQ4NzEwMTIsLT
-c5MTM1MjI0NiwxNDQ3Mzg4OThdfQ==
+eyJoaXN0b3J5IjpbLTU3NTk3ODQ0OCwxMzcxOTM0NzY4LDE2NT
+Y5ODQ2ODEsLTMzNTk2MjM1MiwtMTEzMDI2NzE5MCw2ODE3MTcx
+MDIsMTU2NzA5NDM2MCw2MzM2ODg5NzIsLTk5MTgwMjAwMSwxNj
+A3MTY0NTE4LDMzMDM5NTkxNywtMTM4OTE2NTY2LC0xNTIzNzkw
+MzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2ODYsLT
+c4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
 -->
