@@ -5,6 +5,8 @@
 Queremos presentar un lenguaje de programación de propósito general, cuya expansión y popularidad es relativamente reciente. Se trata de Python, una apuesta por la simplicidad, versatilidad y rapidez de desarrollo. A continuación veremos unas notas imprescindibles del lenguaje, extractadas básicamente de la página de inicio del lenguaje que se puede ver en  [www.python.org](http://www.python.org/)  
   
   ![](https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif)
+
+
 **Python es un lenguaje de scripting independiente de plataforma y orientado a objetos, preparado para realizar cualquier tipo de programa, desde aplicaciones Windows a servidores de red o incluso, páginas web.** Es un lenguaje interpretado, lo que significa que no se necesita compilar el código fuente para poder ejecutarlo, lo que ofrece ventajas como la rapidez de desarrollo e inconvenientes como una menor velocidad.  
   
 En los últimos años el lenguaje se ha hecho muy popular, gracias a varias razones como:
@@ -44,5 +46,5 @@ Dispone de muchas funciones incorporadas en el propio lenguaje, para el tratamie
 Por último, destacar que Python tiene una sintaxis muy visual, gracias a una notación identada (con márgenes) de obligado cumplimiento. En muchos lenguajes, para separar porciones de código, se utilizan elementos como las llaves o las palabras clave begin y end. Para separar las porciones de código en Python se debe tabular hacia dentro, colocando un margen al código que iría dentro de una función o un bucle. Esto ayuda a que todos los programadores adopten unas mismas notaciones y que los programas de cualquier persona tengan un aspecto muy similar.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzQ4NDUwNl19
+eyJoaXN0b3J5IjpbLTMzNjkwMDg2MiwtMjQ3NDg0NTA2XX0=
 -->
