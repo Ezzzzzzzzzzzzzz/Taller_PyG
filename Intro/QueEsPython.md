@@ -48,7 +48,9 @@ Dispone de muchas **funciones incorporadas** en el propio lenguaje, para el trat
 Por último, destacar que Python tiene una **sintaxis muy visual**, gracias a una **notación identada (con márgenes) de obligado cumplimiento**. En muchos lenguajes, para separar porciones de código, se utilizan elementos como las llaves o las palabras clave `begin` y `end`. Para separar las porciones de código en Python se debe tabular hacia dentro, colocando un margen al código que iría dentro de una función o un bucle. Esto ayuda a que todos los programadores adopten unas mismas notaciones y que los programas de cualquier persona tengan un aspecto muy similar.
 
 
+![](https://qph.fs.quoracdn.net/main-qimg-b4d8dfe1de991041fdaf15df8549de93-c)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDgwNTQ0MCwtMTY5MTQ1Njk3MiwtMT
-c0Njc1MzM5NCwtMjQ3NDg0NTA2XX0=
+eyJoaXN0b3J5IjpbLTE5OTM0OTMwODQsMTIzNDgwNTQ0MCwtMT
+Y5MTQ1Njk3MiwtMTc0Njc1MzM5NCwtMjQ3NDg0NTA2XX0=
 -->
