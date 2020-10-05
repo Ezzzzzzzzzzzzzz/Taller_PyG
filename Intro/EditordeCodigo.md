@@ -38,13 +38,14 @@ Como puede ver, los pasos mostrarán cómo la computadora está evaluando cada p
 
 Hasta ahora, no ha sido necesario presionar el ícono de detener para este programa, particularmente porque se cierra tan pronto como se ejecuta [`print()`](https://realpython.com/python-print/). Intente aumentar el número que se pasa a la función factorial para `100`:
 
-```
+```python
 def factorial(num):
     if num == 1:
         return 1
     else:
         return num * factorial(num - 1)
-print(factorial(100))` 
+print(factorial(100))
+``` 
 
 Luego, recorra la función. Después de un tiempo, notarás que estarás haciendo clic durante mucho tiempo para llegar al final. Este es un buen momento para usar el botón de parada. El botón de parada puede resultar realmente útil para detener un programa que se está ejecutando de forma continua o intencionada o no.
 
@@ -68,5 +69,5 @@ Si tiene la _Vista del Asistente_ activada, también notará que le dará un men
 
 A medida que se sienta más cómodo con Thonny, el Asistente puede ser una herramienta útil para ayudarlo a despegarse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTUzNjM2MjQsNzE3NTEwNTk4XX0=
+eyJoaXN0b3J5IjpbMTM2NzQzMDM0Miw3MTc1MTA1OThdfQ==
 -->
