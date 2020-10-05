@@ -38,7 +38,8 @@ Como puede ver, los pasos mostrarán cómo la computadora está evaluando cada p
 
 Hasta ahora, no ha sido necesario presionar el ícono de detener para este programa, particularmente porque se cierra tan pronto como se ejecuta [`print()`](https://realpython.com/python-print/). Intente aumentar el número que se pasa a la función factorial para `100`:
 
-`def factorial(num):
+```
+def factorial(num):
     if num == 1:
         return 1
     else:
@@ -67,5 +68,5 @@ Si tiene la _Vista del Asistente_ activada, también notará que le dará un men
 
 A medida que se sienta más cómodo con Thonny, el Asistente puede ser una herramienta útil para ayudarlo a despegarse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NTEwNTk4XX0=
+eyJoaXN0b3J5IjpbLTExNTUzNjM2MjQsNzE3NTEwNTk4XX0=
 -->
