@@ -55,7 +55,8 @@ Prepárese para escribir su primer programa oficial de Python en Thonny:
 4.  Haga clic en el botón de reproducción nuevamente para ver que dice hola una vez más.
     
 
-¡Felicidades! ¡Ha completado su primer programa en Thonny! Debería ver `Hello world!`impreso dentro del Shell, también conocido como consola. Esto se debe a que su programa le dijo a Python que imprimiera esta frase, y la consola es donde ve el resultado de esta ejecución.
+**¡Felicidades! ¡Ha completado su primer programa en Thonny!** Debería ver `Hello world!`impreso dentro del Shell, también conocido como consola. Esto se debe a que su programa le dijo a Python que imprimiera esta frase, y la consola es donde ve el resultado de esta ejecución.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ4NDY5MTQsLTUyODYzMjQwMV19
+eyJoaXN0b3J5IjpbLTk4ODA1MzEyMiwtMTYzNDg0NjkxNCwtNT
+I4NjMyNDAxXX0=
 -->
