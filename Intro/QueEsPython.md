@@ -16,13 +16,13 @@ En los últimos años el lenguaje se ha hecho muy popular, gracias a varias razo
 -   La cantidad de plataformas en las que podemos desarrollar, como Unix, Windows, OS/2, Mac, Amiga y otros.
 -   Además, Python es gratuito, incluso para propósitos empresariales.
 
-**De dónde viene Python**  
+## De dónde viene Python  
   
 El creador del lenguaje es un europeo llamado Guido Van Rossum. Hace ya más de una década que diseño Python, ayudado y motivado por su experiencia en la creación de otro lenguaje llamado ABC. El objetivo de Guido era cubrir la necesidad de un lenguaje orientado a objetos de sencillo uso que sirviese para tratar diversas tareas dentro de la programación que habitualmente se hacía en Unix usando C.  
   
 El desarrollo de Python duró varios años, durante los que trabajó en diversas compañías de Estados Unidos. En el 2000 ya disponía de un producto bastante completo y un equipo de desarrollo con el que se había asociado incluso en proyectos empresariales. Actualmente trabaja en Zope, una plataforma de gestión de contenidos y servidor de aplicaciones para el web, por supuesto, programada por completo en Python.  
   
-**Características del lenguaje**  
+## Características del lenguaje  
   
 **Propósito general**  
 Se pueden crear todo tipo de programas. No es un lenguaje creado específicamente para la web, aunque entre sus posibilidades sí se encuentra el desarrollo de páginas.  
@@ -46,5 +46,5 @@ Dispone de muchas funciones incorporadas en el propio lenguaje, para el tratamie
 Por último, destacar que Python tiene una sintaxis muy visual, gracias a una notación identada (con márgenes) de obligado cumplimiento. En muchos lenguajes, para separar porciones de código, se utilizan elementos como las llaves o las palabras clave begin y end. Para separar las porciones de código en Python se debe tabular hacia dentro, colocando un margen al código que iría dentro de una función o un bucle. Esto ayuda a que todos los programadores adopten unas mismas notaciones y que los programas de cualquier persona tengan un aspecto muy similar.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjkwMDg2MiwtMjQ3NDg0NTA2XX0=
+eyJoaXN0b3J5IjpbLTE3NDY3NTMzOTQsLTI0NzQ4NDUwNl19
 -->
