@@ -40,12 +40,13 @@ Python dispone de un intérprete por línea de comandos en el que se pueden intr
 La programación orientada a objetos está soportada en Python y ofrece en muchos casos una manera sencilla de crear programas con componentes reutilizables.  
   
 **Funciones y librerías**  
-Dispone de muchas **funciones incorporadas** en el propio lenguaje, para el tratamiento de **strings**, números, archivos, etc. Además, existen muchas librerías que podemos importar en los programas para tratar temas específicos como la programación de ventanas o sistemas en red o cosas tan interesantes como crear archivos comprimidos en .zip.  
+Dispone de muchas **funciones incorporadas** en el propio lenguaje, para el tratamiento de **strings**, **números**, **archivos**, etc. Además, existen muchas librerías que podemos importar en los programas para tratar temas específicos como la programación de ventanas o sistemas en red o cosas tan interesantes como crear archivos comprimidos en .zip.  
   
 **Sintaxis clara**  
-Por último, destacar que Python tiene una sintaxis muy visual, gracias a una notación identada (con márgenes) de obligado cumplimiento. En muchos lenguajes, para separar porciones de código, se utilizan elementos como las llaves o las palabras clave begin y end. Para separar las porciones de código en Python se debe tabular hacia dentro, colocando un margen al código que iría dentro de una función o un bucle. Esto ayuda a que todos los programadores adopten unas mismas notaciones y que los programas de cualquier persona tengan un aspecto muy similar.
+Por último, destacar que Python tiene una **sintaxis muy visual**, gracias a una **notación identada (con márgenes) de obligado cumplimiento**. En muchos lenguajes, para separar porciones de código, se utilizan elementos como las llaves o las palabras clave `begin` y `end`. Para separar las porciones de código en Python se debe tabular hacia dentro, colocando un margen al código que iría dentro de una función o un bucle. Esto ayuda a que todos los programadores adopten unas mismas notaciones y que los programas de cualquier persona tengan un aspecto muy similar.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDQ1MDk5NCwtMTc0Njc1MzM5NCwtMj
-Q3NDg0NTA2XX0=
+eyJoaXN0b3J5IjpbLTE2OTE0NTY5NzIsLTE3NDY3NTMzOTQsLT
+I0NzQ4NDUwNl19
 -->
