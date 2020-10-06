@@ -18,7 +18,7 @@ Continúe y haga clic en **_Instalar_** para instalar este paquete. Verá una pe
 
 ## pygame
 
-
+Pygame es un conjunto de módulos de Python diseñados para escribir videojuegos. Pygame agrega funcionalidad además de la excelente [biblioteca SDL](https://es.wikipedia.org/wiki/Simple_DirectMedia_Layer). Esto le permite crear juegos y programas multimedia con todas las funciones en el lenguaje Python.
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
 
@@ -26,6 +26,6 @@ Continúe y haga clic en **_Instalar_** para instalar este paquete. Verá una pe
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTE4NDAzOCwtMjE0Mjg0ODU1MSwxNj
-U3NTQ0NTM3LDQyOTUzMDEzOF19
+eyJoaXN0b3J5IjpbMTIzMzcxMjEwMiwxMjM1MTg0MDM4LC0yMT
+QyODQ4NTUxLDE2NTc1NDQ1MzcsNDI5NTMwMTM4XX0=
 -->
