@@ -12,13 +12,13 @@ La salida debería verse similar a esto:
 
 Continúe y haga clic en **_Instalar_** para instalar este paquete. Verá una pequeña ventana emergente que muestra los registros del sistema mientras instala el paquete. Una vez que se complete, ¡estará listo para usar `simplecalculator`en su código!
 
-Para motivos de este curso, nosotros instalaremos `pygame`y `pgzero`.
+**Para motivos de este curso, nosotros instalaremos `pygame`y `pgzero`.**
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjMwMTI4NywxNjU3NTQ0NTM3LDQyOT
-UzMDEzOF19
+eyJoaXN0b3J5IjpbLTIxNDI4NDg1NTEsMTY1NzU0NDUzNyw0Mj
+k1MzAxMzhdfQ==
 -->
