@@ -18,12 +18,14 @@ Continúe y haga clic en **_Instalar_** para instalar este paquete. Verá una pe
 
 ## pygame
 
+
+
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
 
-### pgzero
+## pgzero
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUwNjI4OTUsLTIxNDI4NDg1NTEsMT
-Y1NzU0NDUzNyw0Mjk1MzAxMzhdfQ==
+eyJoaXN0b3J5IjpbMTIzNTE4NDAzOCwtMjE0Mjg0ODU1MSwxNj
+U3NTQ0NTM3LDQyOTUzMDEzOF19
 -->
