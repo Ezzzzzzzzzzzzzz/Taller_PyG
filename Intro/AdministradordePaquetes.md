@@ -30,10 +30,14 @@ Pygame es altamente portátil y se ejecuta en casi todas las plataformas y siste
 
 Utiliza código C y ensamblador optimizado para las funciones principales. El código C es a menudo de 10 a 20 veces más rápido que el código Python, y el código ensamblador puede ser fácilmente 100 veces más rápido que el código Python.
 
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/NumericComputation01.JPG)
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/NumericComputation02.JPG)
+
 ## pgzero
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQwNzU0ODUsMTIzNTE4NDAzOCwtMj
-E0Mjg0ODU1MSwxNjU3NTQ0NTM3LDQyOTUzMDEzOF19
+eyJoaXN0b3J5IjpbMTI5NzU2ODkxNCwtMTI4NDA3NTQ4NSwxMj
+M1MTg0MDM4LC0yMTQyODQ4NTUxLDE2NTc1NDQ1MzcsNDI5NTMw
+MTM4XX0=
 -->
