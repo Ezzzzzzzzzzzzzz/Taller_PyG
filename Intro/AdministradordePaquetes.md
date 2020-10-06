@@ -26,12 +26,14 @@ Pygame es altamente portátil y se ejecuta en casi todas las plataformas y siste
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
 
-**Las CPU de varios núcleos se pueden utilizar fácilmente**. Con CPU de doble núcleo comunes y CPU de 8 núcleos disponibles a bajo costo en sistemas de escritorio, el uso de CPU de núcleo múltiple le permite hacer más en su juego. Las funciones de pygame seleccionadas liberan el temido python GIL, que es algo que puede hacer desde el código C.
+**Las CPU de varios núcleos se pueden utilizar fácilmente**. Con CPU de doble núcleo comunes y CPU de 8 núcleos disponibles a bajo costo en sistemas de escritorio, el uso de CPU de núcleo múltiple le permite hacer más en su juego. 
+
+Utiliza código C y ensamblador optimizado para las funciones principales. El código C es a menudo de 10 a 20 veces más rápido que el código Python, y el código ensamblador puede ser fácilmente 100 veces más rápido que el código Python.
 
 ## pgzero
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDU5ODgwNywxMjM1MTg0MDM4LC0yMT
-QyODQ4NTUxLDE2NTc1NDQ1MzcsNDI5NTMwMTM4XX0=
+eyJoaXN0b3J5IjpbLTEyODQwNzU0ODUsMTIzNTE4NDAzOCwtMj
+E0Mjg0ODU1MSwxNjU3NTQ0NTM3LDQyOTUzMDEzOF19
 -->
