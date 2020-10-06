@@ -13,11 +13,12 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 **Una vez que sabemos que se presionó una tecla y qué tecla fue, podemos escribir código para afectar nuestro programa de maneras específicas.**
 
 **Por ejemplo**, si se ha presionado la *tecla de flecha izquierda*, podemos mover nuestro reproductor a la izquierda con ``playerX -= 5``, pero no lo hemos hecho aquí. 
+
 **¿Por qué no?** Pygame no emite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. Nuestro cuadrado se movería la primera vez que Pygame detectara la pulsación de una tecla, pero luego se detendría hasta que volviéramos a pulsar el botón. Esto está destinado a ayudar a prevenir situaciones en las que presionar varias teclas podría fallar en nuestros juegos o dar a un jugador una ventaja injusta, pero no nos ayuda mucho cuando se trata de crear juegos con movimientos suaves. Entonces, ¿cómo solucionamos esto? Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acción, como mover nuestro cuadrado, establecemos una variable.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAzNTY0NzJdfQ==
+eyJoaXN0b3J5IjpbMTU4ODg1MDI2NiwtMTA2MDM1NjQ3Ml19
 -->
