@@ -2,8 +2,6 @@
 
 A medida que continúe aprendiendo Python, puede ser bastante útil descargar un paquete de Python para usarlo dentro de su código. Esto le permite utilizar código que otra persona haya escrito dentro de su programa.
 
-Considere un ejemplo en el que desea hacer algunos cálculos en su código. En lugar de escribir su propia calculadora, es posible que desee utilizar un [paquete de terceros](https://pypi.org/project/simplecalculator/) llamado `simplecalculator`. Para hacer esto, usará el administrador de paquetes de Thonny.
-
 El administrador de paquetes le permitirá instalar paquetes que necesitará utilizar con su programa. Específicamente, le permite agregar más herramientas a su caja de herramientas. Thonny tiene el beneficio incorporado de manejar cualquier conflicto con otros intérpretes de Python.
 
 Para acceder al administrador de paquetes, vaya a la barra de menú y seleccione _Herramientas_ > _Administrar paquetes…_ Esto debería abrir una nueva ventana con un campo de búsqueda. Escriba `simplecalculator`en ese campo y haga clic en el botón _Buscar_ .
@@ -14,7 +12,7 @@ La salida debería verse similar a esto:
 
 Continúe y haga clic en _Instalar_ para instalar este paquete. Verá una pequeña ventana emergente que muestra los registros del sistema mientras instala el paquete. Una vez que se complete, ¡estará listo para usar `simplecalculator`en su código!
 
-En la siguiente sección, usará el `simplecalculator`paquete junto con algunas de las otras habilidades que ha aprendido en este tutorial para crear un programa de calculadora simple.
+Para motibo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5NTMwMTM4XX0=
+eyJoaXN0b3J5IjpbODEzMDY0NjA2LDQyOTUzMDEzOF19
 -->
