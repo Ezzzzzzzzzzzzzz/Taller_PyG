@@ -17,7 +17,7 @@ Para motivos de este curso, nosotros instalaremos `pygame`y `pgzero`.
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
 
 
-![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MDQwMDUzLDQyOTUzMDEzOF19
+eyJoaXN0b3J5IjpbMTY1NzU0NDUzNyw0Mjk1MzAxMzhdfQ==
 -->
