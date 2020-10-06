@@ -22,7 +22,7 @@ Pygame es un conjunto de módulos de Python diseñados para escribir videojuegos
 
 Pygame es altamente portátil y se ejecuta en casi todas las plataformas y sistemas operativos.
 
-**Pygame es gratis**. Publicado bajo la licencia LGPL, puede crear juegos de código abierto, freeware, shareware y comerciales con él. Consulte la licencia para obtener todos los detalles.
+**Pygame es gratis**. Publicado bajo la licencia [LGPL](https://es.wikipedia.org/wiki/GNU_Lesser_General_Public_License#:~:text=La%20Licencia%20P%C3%BAblica%20General%20Reducida,creada%20por%20la%20Free%20Software), puede crear juegos de **código abierto, freeware, shareware y comerciales con él**. Consulte la licencia para obtener todos los detalles.
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
 
@@ -30,6 +30,6 @@ Pygame es altamente portátil y se ejecuta en casi todas las plataformas y siste
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIxMDE1NjIsMTIzNTE4NDAzOCwtMj
-E0Mjg0ODU1MSwxNjU3NTQ0NTM3LDQyOTUzMDEzOF19
+eyJoaXN0b3J5IjpbMjAxODkyNjM0NywxMjM1MTg0MDM4LC0yMT
+QyODQ4NTUxLDE2NTc1NDQ1MzcsNDI5NTMwMTM4XX0=
 -->
