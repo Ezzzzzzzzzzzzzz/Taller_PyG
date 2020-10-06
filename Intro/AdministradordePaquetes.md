@@ -20,12 +20,16 @@ Continúe y haga clic en **_Instalar_** para instalar este paquete. Verá una pe
 
 Pygame es un conjunto de módulos de Python diseñados para escribir videojuegos. Pygame agrega funcionalidad además de la excelente [biblioteca SDL](https://es.wikipedia.org/wiki/Simple_DirectMedia_Layer). Esto le permite crear juegos y programas multimedia con todas las funciones en el lenguaje Python.
 
+Pygame es altamente portátil y se ejecuta en casi todas las plataformas y sistemas operativos.
+
+**Pygame es gratis**. Publicado bajo la licencia LGPL, puede crear juegos de código abierto, freeware, shareware y comerciales con él. Consulte la licencia para obtener todos los detalles.
+
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
 
 ## pgzero
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzcxMjEwMiwxMjM1MTg0MDM4LC0yMT
-QyODQ4NTUxLDE2NTc1NDQ1MzcsNDI5NTMwMTM4XX0=
+eyJoaXN0b3J5IjpbLTE3NjIxMDE1NjIsMTIzNTE4NDAzOCwtMj
+E0Mjg0ODU1MSwxNjU3NTQ0NTM3LDQyOTUzMDEzOF19
 -->
