@@ -16,7 +16,7 @@ Continúe y haga clic en **_Instalar_** para instalar este paquete. Verá una pe
 
 **Para motivos de este curso, nosotros instalaremos `pygame`y `pgzero`.**
 
-### pygame
+## pygame
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pygame.JPG)
 
@@ -24,6 +24,6 @@ Continúe y haga clic en **_Instalar_** para instalar este paquete. Verá una pe
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/Intro/pgzero.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjcwMjM0MzIsLTIxNDI4NDg1NTEsMT
+eyJoaXN0b3J5IjpbLTIwMzUwNjI4OTUsLTIxNDI4NDg1NTEsMT
 Y1NzU0NDUzNyw0Mjk1MzAxMzhdfQ==
 -->
