@@ -14,7 +14,7 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 **Una vez que sabemos que se presionó una tecla y qué tecla fue, podemos escribir código para afectar nuestro programa de maneras específicas.**
 
-**Por ejemplo**, si se ha presionado la *tecla de flecha izquierda*, podemos mover nuestro reproductor a la izquierda con ``playerX -= 5``, pero no lo hemos hecho aquí. 
+**Por ejemplo**, si se ha presionado la *tecla de flecha izquierda*, podemos mover nuestro reproductor a la izquierda con ``playerX -= 5``, **pero no lo hemos hecho aquí**. 
 
 ```python 
 # Muevete a la izquierda
@@ -38,6 +38,6 @@ Nuestro cuadrado se movería la primera vez que Pygame detectara la pulsación d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0NDk5Mzk0LDEwNDgxMzU0MTQsMTU4OD
-g1MDI2NiwtMTA2MDM1NjQ3Ml19
+eyJoaXN0b3J5IjpbLTMwODEwNjIzOCwxMDQ4MTM1NDE0LDE1OD
+g4NTAyNjYsLTEwNjAzNTY0NzJdfQ==
 -->
