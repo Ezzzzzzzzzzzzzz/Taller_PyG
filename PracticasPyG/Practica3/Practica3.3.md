@@ -28,12 +28,16 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
             playerX += playerVX 
 ```
 
-**¿Por qué no?** Pygame no emite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. Nuestro cuadrado se movería la primera vez que Pygame detectara la pulsación de una tecla, pero luego se detendría hasta que volviéramos a pulsar el botón. Esto está destinado a ayudar a prevenir situaciones en las que presionar varias teclas podría fallar en nuestros juegos o dar a un jugador una ventaja injusta, pero no nos ayuda mucho cuando se trata de crear juegos con movimientos suaves. Entonces, ¿cómo solucionamos esto? Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acción, como mover nuestro cuadrado, establecemos una variable.
+**¿Por qué no?** Pygame no admite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. 
+
+Nuestro cuadrado se movería la primera vez que Pygame detectara la pulsación de una tecla, pero luego se detendría hasta que volviéramos a pulsar el botón. *Esto está destinado a ayudar a prevenir situaciones en las que presionar varias teclas podría fallar en nuestros juegos o dar a un jugador una ventaja injusta, pero no nos ayuda mucho cuando se trata de crear juegos con movimientos suaves.* 
+
+**¿Cómo solucionamos esto?** Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acción, como mover nuestro cuadrado, establecemos una variable.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDE4MDIzMywxMDQ4MTM1NDE0LDE1OD
-g4NTAyNjYsLTEwNjAzNTY0NzJdfQ==
+eyJoaXN0b3J5IjpbOTE0NDk5Mzk0LDEwNDgxMzU0MTQsMTU4OD
+g1MDI2NiwtMTA2MDM1NjQ3Ml19
 -->
