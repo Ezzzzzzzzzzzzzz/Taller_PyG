@@ -35,13 +35,19 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 ### ¿Cómo solucionamos esto?
 Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acción, como mover nuestro cuadrado, establecemos una variable.
 
+Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acción, como mover nuestro cuadrado, establecemos una variable. 
 
+Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podemos usar para describir los estados clave (arriba o abajo)** del resto de nuestro programa. 
+
+>Siempre que detectemos que se ha presionado el botón de flecha izquierda, establecemos `leftDown` en **True**; 
+
+>Si detectamos que se ha soltado el botón de flecha izquierda, establecemos `leftDown en False. Si nuestro jugador mantiene presionada la tecla, leftDown siempre será Verdadero, por lo que podemos hacer que nuestro programa Pygame siga moviendo nuestro cuadrado sin problemas por la pantalla, aunque no reciba un aluvión constante de eventos que le indiquen que lo haga.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTE1ODc3Nyw5ODIwMjAxMywtMzA4MT
-A2MjM4LDEwNDgxMzU0MTQsMTU4ODg1MDI2NiwtMTA2MDM1NjQ3
-Ml19
+eyJoaXN0b3J5IjpbOTM4Mjg2NjE1LDk4MjAyMDEzLC0zMDgxMD
+YyMzgsMTA0ODEzNTQxNCwxNTg4ODUwMjY2LC0xMDYwMzU2NDcy
+XX0=
 -->
