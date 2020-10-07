@@ -17,15 +17,16 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 **Por ejemplo**, si se ha presionado la *tecla de flecha izquierda*, podemos mover nuestro reproductor a la izquierda con ``playerX -= 5``, **pero no lo hemos hecho aquí**. 
 
 ```python 
-# Muevete a la izquierda
-    if leftDown:
-        #Si ya nos estamos moviendo hacia la derecha, restablezca la velocidad de movimiento e invierta la dirección
-        if playerVX > 0.0: 
-            playerVX = moveSpeed
-            playerVX = -playerVX    
-        # Asegúrate de que nuestro cuadrado no deje nuestra ventana a la izquierda.
-        if playerX > 0:
-            playerX += playerVX 
+if event.key == pygame.K_LEFT:
+                leftDown = True
+            if event.key == pygame.K_RIGHT:
+                rightDown = True
+            if event.key == pygame.K_UP:
+                if not haveJumped:
+                    haveJumped = True
+                    playerVY += jumpHeight
+            if event.key == pygame.K_ESCAPE:
+                quitGame() 
 ```
 
 **¿Por qué no?** Pygame no admite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. 
@@ -51,7 +52,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkzNzUzNzksOTgyMDIwMTMsLTMwOD
-EwNjIzOCwxMDQ4MTM1NDE0LDE1ODg4NTAyNjYsLTEwNjAzNTY0
-NzJdfQ==
+eyJoaXN0b3J5IjpbMTIyMjg1MDcyLDk4MjAyMDEzLC0zMDgxMD
+YyMzgsMTA0ODEzNTQxNCwxNTg4ODUwMjY2LC0xMDYwMzU2NDcy
+XX0=
 -->
