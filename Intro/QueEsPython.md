@@ -11,10 +11,10 @@ Queremos presentar un lenguaje de programación de propósito general, cuya expa
   
 En los últimos años el lenguaje se ha hecho muy popular, gracias a varias razones como:
 
--   La cantidad de librerías que contiene, tipos de datos y funciones incorporadas en el propio lenguaje, que ayudan a realizar muchas tareas habituales sin necesidad de tener que programarlas desde cero.
--   La sencillez y velocidad con la que se crean los programas. Un programa en Python puede tener de 3 a 5 líneas de código menos que su equivalente en Java o C.
--   La cantidad de plataformas en las que podemos desarrollar, como Unix, Windows, OS/2, Mac, Amiga y otros.
--   Además, Python es gratuito, incluso para propósitos empresariales.
+>-   La cantidad de librerías que contiene, tipos de datos y funciones incorporadas en el propio lenguaje, que ayudan a realizar muchas tareas habituales sin necesidad de tener que programarlas desde cero.
+>-   La sencillez y velocidad con la que se crean los programas. Un programa en Python puede tener de 3 a 5 líneas de código menos que su equivalente en Java o C.
+>-   La cantidad de plataformas en las que podemos desarrollar, como Unix, Windows, OS/2, Mac, Amiga y otros.
+>-   Además, Python es gratuito, incluso para propósitos empresariales.
 
 ## De dónde viene Python  
   
@@ -51,6 +51,7 @@ Por último, destacar que Python tiene una **sintaxis muy visual**, gracias a un
 ![](https://qph.fs.quoracdn.net/main-qimg-b4d8dfe1de991041fdaf15df8549de93-c)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM0OTMwODQsMTIzNDgwNTQ0MCwtMT
-Y5MTQ1Njk3MiwtMTc0Njc1MzM5NCwtMjQ3NDg0NTA2XX0=
+eyJoaXN0b3J5IjpbLTkwMjEzNTQ1NiwtMTk5MzQ5MzA4NCwxMj
+M0ODA1NDQwLC0xNjkxNDU2OTcyLC0xNzQ2NzUzMzk0LC0yNDc0
+ODQ1MDZdfQ==
 -->
