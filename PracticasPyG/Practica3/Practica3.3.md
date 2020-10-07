@@ -16,6 +16,19 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 **Por ejemplo**, si se ha presionado la *tecla de flecha izquierda*, podemos mover nuestro reproductor a la izquierda con ``playerX -= 5``, **pero no lo hemos hecho aquí**. 
 
+```python 
+if event.key == pygame.K_LEFT:
+                leftDown = True
+            if event.key == pygame.K_RIGHT:
+                rightDown = True
+            if event.key == pygame.K_UP:
+                if not haveJumped:
+                    haveJumped = True
+                    playerVY += jumpHeight
+            if event.key == pygame.K_ESCAPE:
+                quitGame() 
+```
+
 **¿Por qué no?** Pygame no admite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. 
 
 **Nuestro cuadrado se movería la primera vez que Pygame detectara la pulsación de una tecla, pero luego se detendría hasta que volviéramos a pulsar el botón**. *Esto está destinado a ayudar a prevenir situaciones en las que presionar varias teclas podría fallar en nuestros juegos o dar a un jugador una ventaja injusta, pero no nos ayuda mucho cuando se trata de crear juegos con movimientos suaves.* 
@@ -33,25 +46,14 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 >Si nuestro jugador mantiene presionada la tecla, `leftDown` siempre será **True**(Verdadero), por lo que podemos hacer que nuestro programa Pygame siga moviendo nuestro cuadrado sin problemas por la pantalla, aunque no reciba un aluvión constante de eventos que le indiquen que lo haga.
 
-```python 
-if event.key == pygame.K_LEFT:
-                leftDown = True
-            if event.key == pygame.K_RIGHT:
-                rightDown = True
-            if event.key == pygame.K_UP:
-                if not haveJumped:
-                    haveJumped = True
-                    playerVY += jumpHeight
-            if event.key == pygame.K_ESCAPE:
-                quitGame() 
-```
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTk3ODI0NCwxMjIyODUwNzIsOTgyMD
+eyJoaXN0b3J5IjpbLTcwOTU0NDM4NiwxMjIyODUwNzIsOTgyMD
 IwMTMsLTMwODEwNjIzOCwxMDQ4MTM1NDE0LDE1ODg4NTAyNjYs
 LTEwNjAzNTY0NzJdfQ==
 -->
