@@ -39,15 +39,19 @@ Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acció
 
 Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podemos usar para describir los estados clave (arriba o abajo)** del resto de nuestro programa. 
 
->Siempre que detectemos que se ha presionado el botón de flecha izquierda, establecemos `leftDown` en **True**; 
+>Siempre que detectemos que se ha presionado el botón de flecha izquierda, establecemos `leftDown` en **True** (Verdadero); 
 
->Si detectamos que se ha soltado el botón de flecha izquierda, establecemos `leftDown en False. Si nuestro jugador mantiene presionada la tecla, leftDown siempre será Verdadero, por lo que podemos hacer que nuestro programa Pygame siga moviendo nuestro cuadrado sin problemas por la pantalla, aunque no reciba un aluvión constante de eventos que le indiquen que lo haga.
+>Si detectamos que se ha soltado el botón de flecha izquierda, establecemos `leftDown` en **False** (Falso). 
+
+>Si nuestro jugador mantiene presionada la tecla, `leftDown` siempre será **True**(Verdadero), por lo que podemos hacer que nuestro programa Pygame siga moviendo nuestro cuadrado sin problemas por la pantalla, aunque no reciba un aluvión constante de eventos que le indiquen que lo haga.
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4Mjg2NjE1LDk4MjAyMDEzLC0zMDgxMD
-YyMzgsMTA0ODEzNTQxNCwxNTg4ODUwMjY2LC0xMDYwMzU2NDcy
-XX0=
+eyJoaXN0b3J5IjpbLTE5ODkzNzUzNzksOTgyMDIwMTMsLTMwOD
+EwNjIzOCwxMDQ4MTM1NDE0LDE1ODg4NTAyNjYsLTEwNjAzNTY0
+NzJdfQ==
 -->
