@@ -18,7 +18,7 @@ En la parte superior verá varios iconos. Exploremos lo que hace cada uno de ell
 
 Trabajando de izquierda a derecha, a continuación se muestra una descripción de cada uno de los iconos de la imagen.
 
-**RA:** El icono de papel le permite crear un nuevo archivo. Normalmente, en Python desea separar sus programas en archivos separados. ¡Utilizará este botón más adelante en el tutorial para crear su primer programa en Thonny!
+**A:** El icono de papel le permite crear un nuevo archivo. Normalmente, en Python desea separar sus programas en archivos separados. ¡Utilizará este botón más adelante en el tutorial para crear su primer programa en Thonny!
 
 **B:** El icono de carpeta abierta le permite abrir un archivo que ya existe en su computadora. Esto puede resultar útil si vuelve a un programa en el que trabajó anteriormente.
 
@@ -57,6 +57,6 @@ Prepárese para escribir su primer programa oficial de Python en Thonny:
 
 **¡Felicidades! ¡Ha completado su primer programa en Thonny!** Debería ver `Hello world!`impreso dentro del Shell, también conocido como consola. Esto se debe a que su programa le dijo a Python que imprimiera esta frase, y la consola es donde ve el resultado de esta ejecución.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODA1MzEyMiwtMTYzNDg0NjkxNCwtNT
-I4NjMyNDAxXX0=
+eyJoaXN0b3J5IjpbLTIwNzk0OTk5MzgsLTk4ODA1MzEyMiwtMT
+YzNDg0NjkxNCwtNTI4NjMyNDAxXX0=
 -->
