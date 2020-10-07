@@ -2,6 +2,8 @@
 
 ### Cada evento de las teclas de Pygame tiene una propiedad  `key` que describe qué tecla representa. Si imprimiéramos la propiedad `event.key`, veríamos muchos números, pero estas no son las teclas que presionamos.
 
+![](https://media.giphy.com/media/kD7SCW1rF6FFK/giphy.gif)
+
 Los números que veríamos son códigos clave; son números que están vinculados de forma única a cada tecla de su teclado, y los programadores pueden usarlos para comprobar qué teclas representan. 
 
 Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** y la tecla **RETURN** es **13**. 
@@ -20,5 +22,6 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODg1MDI2NiwtMTA2MDM1NjQ3Ml19
+eyJoaXN0b3J5IjpbMTA0ODEzNTQxNCwxNTg4ODUwMjY2LC0xMD
+YwMzU2NDcyXX0=
 -->
