@@ -18,7 +18,7 @@ En los últimos años el lenguaje se ha hecho muy popular, gracias a varias razo
 
 ## De dónde viene Python  
   
-El creador del lenguaje es un europeo llamado Guido Van Rossum. Hace ya más de una década que diseño Python, ayudado y motivado por su experiencia en la creación de otro lenguaje llamado ABC. El objetivo de Guido era cubrir la necesidad de un lenguaje orientado a objetos de sencillo uso que sirviese para tratar diversas tareas dentro de la programación que habitualmente se hacía en Unix usando C.  
+El creador del lenguaje es un europeo llamado Guido Van Rossum. Hace ya más de una década que diseño Python, ayudado y motivado por su experiencia en la creación de otro lenguaje llamado ABC. El objetivo de Guido era cubrir la necesidad de un lenguaje orientado a objetos de sencillo uso que sirviese para tratar diversas tareas dentro de la programación que habitualmente se hacía en **Unix usando C**.  
   
 El desarrollo de Python duró varios años, durante los que trabajó en diversas compañías de Estados Unidos. En el 2000 ya disponía de un producto bastante completo y un equipo de desarrollo con el que se había asociado incluso en proyectos empresariales. Actualmente trabaja en Zope, una plataforma de gestión de contenidos y servidor de aplicaciones para el web, por supuesto, programada por completo en Python.  
  
@@ -51,7 +51,7 @@ Por último, destacar que Python tiene una **sintaxis muy visual**, gracias a un
 ![](https://qph.fs.quoracdn.net/main-qimg-b4d8dfe1de991041fdaf15df8549de93-c)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjEzNTQ1NiwtMTk5MzQ5MzA4NCwxMj
-M0ODA1NDQwLC0xNjkxNDU2OTcyLC0xNzQ2NzUzMzk0LC0yNDc0
-ODQ1MDZdfQ==
+eyJoaXN0b3J5IjpbLTE2NzQ5Njk4MjQsLTE5OTM0OTMwODQsMT
+IzNDgwNTQ0MCwtMTY5MTQ1Njk3MiwtMTc0Njc1MzM5NCwtMjQ3
+NDg0NTA2XX0=
 -->
