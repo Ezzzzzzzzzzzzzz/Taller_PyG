@@ -37,6 +37,9 @@ En este caso, la ventana de la aplicación tiene **500 píxeles de ancho por 400
 >**Si pasamos números que son más pequeños, la ventana del juego será más pequeña.**
 
 Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. **Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran.** Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
+```python
+while True:
+```
 
 Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque **True** siempre es **True**, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
 
@@ -101,9 +104,9 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzQ4Njg3NSwxNTA4NzI0ODU3LDE5MD
-AyNzI4NjUsMTkwMDI3Mjg2NSwtMTQ1NjgyNDI4MiwxODA3MjYw
-NTE4LC02MzU0NDE3NTQsLTE4OTQ4NDM5OTQsMzkzMDE3ODk4LD
-E2NTg4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYzNjUsLTEwMjM1
-MjcyNzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbMzA0MDk3NTIyLDE1MDg3MjQ4NTcsMTkwMD
+I3Mjg2NSwxOTAwMjcyODY1LC0xNDU2ODI0MjgyLDE4MDcyNjA1
+MTgsLTYzNTQ0MTc1NCwtMTg5NDg0Mzk5NCwzOTMwMTc4OTgsMT
+Y1ODg5MjAyMywxNzEyNTI1MDU5LDM1MzkxNjM2NSwtMTAyMzUy
+NzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgxNjEyXX0=
 -->
