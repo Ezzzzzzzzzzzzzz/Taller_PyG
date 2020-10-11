@@ -9,9 +9,16 @@ En este curso, vamos a aprender a hacer juegos con **Pygame**. Examinaremos los 
 # Entendiendo `hello.py`
 Las primeras dos líneas de nuestro primer programa son muy simples: **todo lo que hemos hecho es decirle a Python que queremos usar Pygame.** 
 
-> `import pygame` **carga todo el código Pygame en nuestro script, por lo que no tenemos que escribir todo ese código nosotros mismos.** Pygame está diseñado para facilitar la creación de juegos y software interactivo.
+```python 
+import pygame
+``` 
+>Carga todo el código Pygame en nuestro script, por lo que no tenemos que escribir todo ese código nosotros mismos.** Pygame está diseñado para facilitar la creación de juegos y software interactivo.
+python
 
->`pygame.init()` **le dice a Pygame que estamos listos para comenzar a usarlo.**
+```python
+pygame.init()
+```
+ >**Le dice a Pygame que estamos listos para comenzar a usarlo.**
 
 Veamos la tercera línea de código:
 ```python
@@ -90,9 +97,9 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI5MjE4NzMsMTUwODcyNDg1NywxOT
-AwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQyODIsMTgwNzI2
-MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LDM5MzAxNzg5OC
-wxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2MzY1LC0xMDIz
-NTI3Mjc4LC0yMDY1MDI5OTMwLC03OTQ4ODE2MTJdfQ==
+eyJoaXN0b3J5IjpbMTIwNTUyODM3LDE1MDg3MjQ4NTcsMTkwMD
+I3Mjg2NSwxOTAwMjcyODY1LC0xNDU2ODI0MjgyLDE4MDcyNjA1
+MTgsLTYzNTQ0MTc1NCwtMTg5NDg0Mzk5NCwzOTMwMTc4OTgsMT
+Y1ODg5MjAyMywxNzEyNTI1MDU5LDM1MzkxNjM2NSwtMTAyMzUy
+NzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgxNjEyXX0=
 -->
