@@ -38,7 +38,9 @@ En este caso, la ventana de la aplicación tiene **500 píxeles de ancho por 400
 
 Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. **Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran.** Para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque **True** siempre es **True**, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
 
-
+```python
+while True:
+```
 
 **Lo primero que hacemos en nuestro ciclo `while` es dibujar un rectángulo.** Un rectángulo es la forma más simple que podemos dibujar en Pygame:
 ```python
@@ -100,7 +102,7 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Nzg3NDU3NCwzMDQwOTc1MjIsMTUwOD
+eyJoaXN0b3J5IjpbLTI3ODc4OTU2MywzMDQwOTc1MjIsMTUwOD
 cyNDg1NywxOTAwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQy
 ODIsMTgwNzI2MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LD
 M5MzAxNzg5OCwxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2
