@@ -6,7 +6,9 @@ Justo después de nuestro código de detección de teclas tenemos la **línea 11
 
 Cuando llamamos a `move()`, se ejecuta una gran cantidad de código. 
 
-Echemos un vistazo a lo que está pasando:
+Echemos un vistazo a lo que está pasando.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3Mjg1MzY3XX0=
+eyJoaXN0b3J5IjpbNzA5MTQ2MDc5LDUxNzI4NTM2N119
 -->
