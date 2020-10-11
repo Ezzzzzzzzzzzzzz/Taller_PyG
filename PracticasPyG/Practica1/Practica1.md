@@ -33,6 +33,7 @@ window = pygame.display.set_mode((500, 400))
 En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 píxeles de alto. 
 
 >**Si pasamos números que son más grandes, la ventana del juego será más grande.**
+>
 >**Si pasamos números que son más pequeños, la ventana del juego será más pequeña.**
 
 Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. **Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran.** Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
@@ -100,9 +101,9 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjMxMTYwNSwxNTA4NzI0ODU3LDE5MD
-AyNzI4NjUsMTkwMDI3Mjg2NSwtMTQ1NjgyNDI4MiwxODA3MjYw
-NTE4LC02MzU0NDE3NTQsLTE4OTQ4NDM5OTQsMzkzMDE3ODk4LD
-E2NTg4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYzNjUsLTEwMjM1
-MjcyNzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
+eyJoaXN0b3J5IjpbLTEyNzU0ODAyMjksMTUwODcyNDg1NywxOT
+AwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQyODIsMTgwNzI2
+MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LDM5MzAxNzg5OC
+wxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2MzY1LC0xMDIz
+NTI3Mjc4LC0yMDY1MDI5OTMwLC03OTQ4ODE2MTJdfQ==
 -->
