@@ -24,7 +24,10 @@ Veamos la tercera línea de código:
 ```python
 window = pygame.display.set_mode((500, 400))
 ```
-`window` es el parámetro que vamos a usar para decirle a nuestro programa Pygame cómo debería verse cuando se ejecuta; cada parámetro afecta la forma y el tamaño de la ventana de la aplicación. Tenga en cuenta que aquí, el ancho siempre viene antes que la altura. `window` también es el parámetro que usaremos para indicar a otras líneas de código la superficie en la que deben dibujar formas y establecer colores. Con `window`, llamamos a la función `set_mode` del módulo de visualización de Pygame: este último es responsable de cómo se comporta la ventana y la superficie del juego *(un término informal para los píxeles que manipularemos)*. 
+>`window` es el parámetro que vamos a usar para decirle a nuestro programa Pygame cómo debería verse cuando se ejecuta; cada parámetro afecta la forma y el tamaño de la ventana de la aplicación. Tenga en cuenta que aquí, el ancho siempre viene antes que la altura. `window` también es el parámetro que usaremos para indicar a otras líneas de código la superficie en la que deben dibujar formas y establecer colores. 
+>
+>Con `window`, llamamos a la función `set_mode` del módulo de visualización de Pygame: este último es responsable de cómo se comporta la ventana y la superficie del juego *(un término informal para los píxeles que manipularemos)*. 
+
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG)
 
 En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 píxeles de alto. 
@@ -97,9 +100,9 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTUyODM3LDE1MDg3MjQ4NTcsMTkwMD
-I3Mjg2NSwxOTAwMjcyODY1LC0xNDU2ODI0MjgyLDE4MDcyNjA1
-MTgsLTYzNTQ0MTc1NCwtMTg5NDg0Mzk5NCwzOTMwMTc4OTgsMT
-Y1ODg5MjAyMywxNzEyNTI1MDU5LDM1MzkxNjM2NSwtMTAyMzUy
-NzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgxNjEyXX0=
+eyJoaXN0b3J5IjpbMTg3MjMxMTYwNSwxNTA4NzI0ODU3LDE5MD
+AyNzI4NjUsMTkwMDI3Mjg2NSwtMTQ1NjgyNDI4MiwxODA3MjYw
+NTE4LC02MzU0NDE3NTQsLTE4OTQ4NDM5OTQsMzkzMDE3ODk4LD
+E2NTg4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYzNjUsLTEwMjM1
+MjcyNzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
 -->
