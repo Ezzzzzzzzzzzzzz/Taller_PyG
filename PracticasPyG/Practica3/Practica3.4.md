@@ -8,7 +8,7 @@ Cuando llamamos a `move()`, se ejecuta una gran cantidad de código.
 
 Echemos un vistazo a lo que está pasando.
 
-
+En la línea 31 tenemos una declaración global. Debido a que nuestro código está dentro de la función move (), ya no tiene el mismo alcance que nuestro bucle for. Aunque podemos mirar los valores de las variables fuera de nuestra función, no podemos establecerlos, a menos que los incluyamos en la declaración global. Esto le dice a Python que cuando llamamos playerX, por ejemplo, definitivamente nos referimos al playerX en la parte superior del archivo, no a un nuevo playerX que podríamos crear dentro de la función.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MTQ2MDc5LDUxNzI4NTM2N119
+eyJoaXN0b3J5IjpbMTkyODk0MTg0OSw1MTcyODUzNjddfQ==
 -->
