@@ -4,36 +4,7 @@
 
 En este curso, vamos a aprender a hacer juegos con **Pygame**. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada practica se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
 
-**Este curso no es para principiantes de programación, pero no está lejos de eso: vamos a suponer que ha escrito algunos programas simples de Python (o similares) en el pasado, y que puede hacer cosas como crear archivos y moverse por el sistema de archivos sin demasiada dificultad**.
-
 ![](https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif)
-
-# hello.py
-
-En la primera practica, veremos cómo dibujar y colorear varias formas en una ventana. No se trata de [**Grand Theft Auto V**](https://www.rockstargames.com/V/es), sin duda, pero dibujar formas es el primer paso para construir casi cualquier cosa.
-
-Para comenzar, abra su editor de texto preferido *(sublime text, gedit, blog de notas, etc.)*, cree un nuevo archivo, inserte el siguiente código y guárdelo como `hello.py`
-
-```python 
-import pygame 
-
-pygame.init()
-
-window = pygame.display.set_mode((500, 400))
-
-while True:
-	pygame.draw.rect(window,(255, 0, 0), (0, 0, 50, 30))
-
-	pygame.display.update()
-```
-
-Ejecutemos ese código y veamos qué hace. En su ventana de terminal, ingrese `python3 hello.py`
-
-Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado rojo sobre un fondo negro en la esquina superior izquierda de la ventana. 
-
-![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG)
-
-**Acabamos de crear nuestro primer programa Pygame: vamos a verlo.**
 
 # Entendiendo `hello.py`
 Las primeras dos líneas de nuestro primer programa son muy simples: **todo lo que hemos hecho es decirle a Python que queremos usar Pygame.** 
@@ -90,12 +61,38 @@ pygame.display.update()
 ```
 Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que  tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
 
+# hello.py
+
+En la primera practica, veremos cómo dibujar y colorear varias formas en una ventana. No se trata de [**Grand Theft Auto V**](https://www.rockstargames.com/V/es), sin duda, pero dibujar formas es el primer paso para construir casi cualquier cosa.
+
+Para comenzar, abra su editor de texto preferido *(sublime text, gedit, blog de notas, etc.)*, cree un nuevo archivo, inserte el siguiente código y guárdelo como `hello.py`
+
+```python 
+import pygame 
+
+pygame.init()
+
+window = pygame.display.set_mode((500, 400))
+
+while True:
+	pygame.draw.rect(window,(255, 0, 0), (0, 0, 50, 30))
+
+	pygame.display.update()
+```
+
+Ejecutemos ese código y veamos qué hace. En su ventana de terminal, ingrese `python3 hello.py`
+
+Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado rojo sobre un fondo negro en la esquina superior izquierda de la ventana. 
+
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG)
+
+**Acabamos de crear nuestro primer programa Pygame: vamos a verlo.**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODcyNDg1NywxOTAwMjcyODY1LDE5MD
-AyNzI4NjUsLTE0NTY4MjQyODIsMTgwNzI2MDUxOCwtNjM1NDQx
-NzU0LC0xODk0ODQzOTk0LDM5MzAxNzg5OCwxNjU4ODkyMDIzLD
-E3MTI1MjUwNTksMzUzOTE2MzY1LC0xMDIzNTI3Mjc4LC0yMDY1
-MDI5OTMwLC03OTQ4ODE2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNjI5MjE4NzMsMTUwODcyNDg1NywxOT
+AwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQyODIsMTgwNzI2
+MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LDM5MzAxNzg5OC
+wxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2MzY1LC0xMDIz
+NTI3Mjc4LC0yMDY1MDI5OTMwLC03OTQ4ODE2MTJdfQ==
 -->
