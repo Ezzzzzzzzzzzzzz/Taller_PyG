@@ -36,12 +36,9 @@ En este caso, la ventana de la aplicación tiene **500 píxeles de ancho por 400
 >
 >**Si pasamos números que son más pequeños, la ventana del juego será más pequeña.**
 
-Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. **Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran.** Eso está bien a menos que, por supuesto, desee que su programa sea interactivo, o que dibuje o anime formas con el tiempo, que es exactamente lo que necesitamos de un juego.
-```python
-while True:
-```
+Las siguientes líneas son donde hacemos que nuestro programa dibuje formas en esa ventana. **Cuando los programas se ejecutan, ejecutan su código, y cuando terminan, se cierran.** Para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque **True** siempre es **True**, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
 
-Entonces, para evitar que nuestro programa salga, hacemos un **ciclo** `while` y colocamos todo nuestro código dentro. El **ciclo** `while` nunca terminará porque **True** siempre es **True**, por lo que podemos seguir ejecutando nuestro programa y dibujando nuestras formas todo el tiempo que queramos.
+
 
 **Lo primero que hacemos en nuestro ciclo `while` es dibujar un rectángulo.** Un rectángulo es la forma más simple que podemos dibujar en Pygame:
 ```python
@@ -103,10 +100,10 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyMDk2MDMyLDMwNDA5NzUyMiwxNTA4Nz
-I0ODU3LDE5MDAyNzI4NjUsMTkwMDI3Mjg2NSwtMTQ1NjgyNDI4
-MiwxODA3MjYwNTE4LC02MzU0NDE3NTQsLTE4OTQ4NDM5OTQsMz
-kzMDE3ODk4LDE2NTg4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYz
-NjUsLTEwMjM1MjcyNzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl
-19
+eyJoaXN0b3J5IjpbMTU2Nzg3NDU3NCwzMDQwOTc1MjIsMTUwOD
+cyNDg1NywxOTAwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQy
+ODIsMTgwNzI2MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LD
+M5MzAxNzg5OCwxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2
+MzY1LC0xMDIzNTI3Mjc4LC0yMDY1MDI5OTMwLC03OTQ4ODE2MT
+JdfQ==
 -->
