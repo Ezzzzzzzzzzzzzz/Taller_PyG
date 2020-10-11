@@ -30,7 +30,7 @@ window = pygame.display.set_mode((500, 400))
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/pygame.display.JPG)
 
-En este caso, la ventana de la aplicación tiene 500 píxeles de ancho por 400 píxeles de alto. 
+En este caso, la ventana de la aplicación tiene **500 píxeles de ancho por 400 píxeles de alto**. 
 
 >**Si pasamos números que son más grandes, la ventana del juego será más grande.**
 >
@@ -101,9 +101,9 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU0ODAyMjksMTUwODcyNDg1NywxOT
-AwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQyODIsMTgwNzI2
-MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LDM5MzAxNzg5OC
-wxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2MzY1LC0xMDIz
-NTI3Mjc4LC0yMDY1MDI5OTMwLC03OTQ4ODE2MTJdfQ==
+eyJoaXN0b3J5IjpbMTMyNzQ4Njg3NSwxNTA4NzI0ODU3LDE5MD
+AyNzI4NjUsMTkwMDI3Mjg2NSwtMTQ1NjgyNDI4MiwxODA3MjYw
+NTE4LC02MzU0NDE3NTQsLTE4OTQ4NDM5OTQsMzkzMDE3ODk4LD
+E2NTg4OTIwMjMsMTcxMjUyNTA1OSwzNTM5MTYzNjUsLTEwMjM1
+MjcyNzgsLTIwNjUwMjk5MzAsLTc5NDg4MTYxMl19
 -->
