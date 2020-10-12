@@ -1,6 +1,6 @@
 # Animando otras propiedades
 
-La animación no se trata solo de hacer que las cosas se muevan: *también se trata de hacer que las cosas cambien.* 
+La animación no se trata solo de hacer que las cosas se muevan: **también se trata de hacer que las cosas cambien.**
 
 Hasta ahora, hemos estado animando formas moviéndolas, pero podemos usar el mismo enfoque de cambiar variables a lo largo del tiempo para afectar otras propiedades, como las dimensiones de nuestras formas. 
 
@@ -55,7 +55,7 @@ Entonces, **cuando dibujamos una forma con un ancho negativo y luego la compensa
 
 ### No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Nzg5Njc2OSwtMTczNTQ5NjkyNiwtNT
+eyJoaXN0b3J5IjpbMTY4MDE1MjkyOSwtMTczNTQ5NjkyNiwtNT
 UxNTE0MTUyLC0xNzUzODM4MTczLC0xOTM5Mzk4OTc3LC0xMzAw
 NTY5NDAyLDE2MTQ5NzIyNjEsODU5Njc1MzY5LC0yMDk5MDY1NT
 Y4LC0yMDY0Njk2MjY5LDQ0MDI4NjQ3OSwtNTQ0NTM4MjIyLDI3
