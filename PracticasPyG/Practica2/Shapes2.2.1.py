@@ -23,7 +23,7 @@ blueSquareVY = 1
 
 while True:
     #Borramos la informacion del frame anterior
-    surface.fill((0, 0, 0))
+    #surface.fill((0, 0, 0))
     
     #Dibujamos una forma
     pygame.draw.rect(surface, (0, 0, 255), (blueSquareX, blueSquareY, 10, 10))
