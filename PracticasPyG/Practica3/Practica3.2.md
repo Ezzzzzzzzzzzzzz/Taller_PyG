@@ -48,6 +48,7 @@ if event.type == pygame.KEYUP:
 
 Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a levantarse!**
 
+## Loop de eventos
 
 ```python
 # Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
@@ -79,8 +80,9 @@ Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk3MDgyNjMsLTE1NTYyODAwMSwxOD
-cwODMwOTUwLC0yMzEwNDE1MTYsOTcwMTQzMzc5LC04MDk5NzM5
-MTIsMzYwODQ3NjA0LDE2NjUzMzE1MTMsNDU4Nzc4NjA1LDkxMT
-Q4MTA3MiwyMDM1NjMxODM3LC0xNjAxMjcyNzc0XX0=
+eyJoaXN0b3J5IjpbNTEwODMxNTI2LC0yMDM5NzA4MjYzLC0xNT
+U2MjgwMDEsMTg3MDgzMDk1MCwtMjMxMDQxNTE2LDk3MDE0MzM3
+OSwtODA5OTczOTEyLDM2MDg0NzYwNCwxNjY1MzMxNTEzLDQ1OD
+c3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMTI3Mjc3
+NF19
 -->
