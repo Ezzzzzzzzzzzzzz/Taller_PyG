@@ -15,6 +15,8 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 [Codigo ASCII](https://elcodigoascii.com.ar/codigos-ascii/letra-a-minuscula-codigo-ascii-97.html)
 
+- Usamos `pygame.K_LEFT`, `pygame.K_RIGHT`, `pygame.K_UP` y `pygame.K_ESCAPE` para verificar si alguna de las teclas presionadas son teclas que estamos buscando. 
+
 ```python
 if event.key == pygame.K_LEFT:
                 leftDown = True
@@ -27,7 +29,6 @@ if event.key == pygame.K_LEFT:
             if event.key == pygame.K_ESCAPE:
                 quitGame()
 ```
-
 
 **Una vez que sabemos que se presionó una tecla y qué tecla fue, podemos escribir código para afectar nuestro programa de maneras específicas.**
 
@@ -70,7 +71,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTMyMDA3NSwtNzA5NTQ0Mzg2LDEyMj
+eyJoaXN0b3J5IjpbLTE1MDA5NzkxMywtNzA5NTQ0Mzg2LDEyMj
 I4NTA3Miw5ODIwMjAxMywtMzA4MTA2MjM4LDEwNDgxMzU0MTQs
 MTU4ODg1MDI2NiwtMTA2MDM1NjQ3Ml19
 -->
