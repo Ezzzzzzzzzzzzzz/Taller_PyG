@@ -1,7 +1,9 @@
 # PATH´s (Trayectorias) 
 ## **Hemos cubierto rectángulos, cuadrados y círculos, pero ¿qué pasa si queremos dibujar un triángulo, un pentágono, un hexágono o un octágono.**
 
-Desafortunadamente, no hay funciones para cada tipo de forma, pero podemos usar **Path's**. **Los Path´s nos permiten dibujar formas irregulares definiendo puntos en el espacio, uniéndolos con líneas y rellenando el espacio que hemos creado**.
+Desafortunadamente, no hay funciones para cada tipo de forma, pero podemos usar **Path's**. 
+
+### **Los Path´s nos permiten dibujar formas irregulares definiendo puntos en el espacio, uniéndolos con líneas y rellenando el espacio que hemos creado**.
 
 Esto es un poco más complejo, por lo que es hora de pasar de nuestro programa original `hello.py`. **Cree un nuevo archivo, llámelo `paths.py` y guárdelo con el siguiente texto dentro:**
 
@@ -85,7 +87,8 @@ Si desea hacer un hexágono, un octágono o incluso un [triacontagon](https://en
 
 ¿Por qué no intentar experimentar con Pygame para producir algunos pixel art interesantes?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ1MzUwODgsLTEzODU0NDI2ODgsLT
-Y2NzcyMjU1Niw2MDUwOTY2MDAsLTE2MzAxNTc3NjYsLTQzNzU0
-MzI3OSwtMTM1ODM3MjE3MCwxNTgzNDE0MTg4XX0=
+eyJoaXN0b3J5IjpbMTc4NDExNjUyOSwtMTU0NDUzNTA4OCwtMT
+M4NTQ0MjY4OCwtNjY3NzIyNTU2LDYwNTA5NjYwMCwtMTYzMDE1
+Nzc2NiwtNDM3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxOD
+hdfQ==
 -->
