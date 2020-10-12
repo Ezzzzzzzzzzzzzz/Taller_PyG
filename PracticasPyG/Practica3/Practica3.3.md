@@ -35,7 +35,7 @@ if event.key == pygame.K_LEFT:
 **Por ejemplo**, si se ha presionado la *tecla de flecha izquierda*, podemos mover nuestro reproductor a la izquierda con ``playerX -= 5``, **pero no lo hemos hecho aquí**. 
 
 ```python 
-	if event.key == pygame.K_LEFT:
+		if event.key == pygame.K_LEFT:
                 leftDown = True
             if event.key == pygame.K_RIGHT:
                 rightDown = True
@@ -69,7 +69,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTYyNTc2LC03MDk1NDQzODYsMTIyMj
-g1MDcyLDk4MjAyMDEzLC0zMDgxMDYyMzgsMTA0ODEzNTQxNCwx
-NTg4ODUwMjY2LC0xMDYwMzU2NDcyXX0=
+eyJoaXN0b3J5IjpbMTAwMzk0ODA3MiwtNzA5NTQ0Mzg2LDEyMj
+I4NTA3Miw5ODIwMjAxMywtMzA4MTA2MjM4LDEwNDgxMzU0MTQs
+MTU4ODg1MDI2NiwtMTA2MDM1NjQ3Ml19
 -->
