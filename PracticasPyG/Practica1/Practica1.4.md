@@ -59,7 +59,9 @@ while True:
 ```
 ### Deberías tener una imagen de un triángulo blanco con un borde de 1 px. 
 
-*Sin embargo, este código es bastante largo: muchas cosas, como el color o el ancho de la línea, se escriben varias veces.* Sin embargo, hay una forma más concisa de lograr el resultado que queremos. Todo lo que necesitamos es `pygame.draw.lines()`. Mientras que `pygame.draw.line()` **nos permite dibujar una línea entre dos puntos**, `pygame.draw.lines()` **nos permite dibujar una secuencia de líneas entre numerosos puntos**. Cada punto de coordenadas **XY** se unirá al siguiente punto de coordenadas **XY**, que se unirá al siguiente punto de coordenadas **XY**, **y así sucesivamente**.
+*Sin embargo, este código es bastante largo: muchas cosas, como el color o el ancho de la línea, se escriben varias veces.* 
+
+Hay una forma más concisa de lograr el resultado que queremos. Todo lo que necesitamos es `pygame.draw.lines()`. Mientras que `pygame.draw.line()` **nos permite dibujar una línea entre dos puntos**, `pygame.draw.lines()` **nos permite dibujar una secuencia de líneas entre numerosos puntos**. Cada punto de coordenadas **XY** se unirá al siguiente punto de coordenadas **XY**, que se unirá al siguiente punto de coordenadas **XY**, **y así sucesivamente**.
 ```python
 while True:    
     
@@ -89,8 +91,8 @@ Si desea hacer un hexágono, un octágono o incluso un [triacontagon](https://en
 
 ¿Por qué no intentar experimentar con Pygame para producir algunos pixel art interesantes?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1NzY1MzgxLC0xNTQ0NTM1MDg4LC0xMz
-g1NDQyNjg4LC02Njc3MjI1NTYsNjA1MDk2NjAwLC0xNjMwMTU3
-NzY2LC00Mzc1NDMyNzksLTEzNTgzNzIxNzAsMTU4MzQxNDE4OF
-19
+eyJoaXN0b3J5IjpbMjAyMDQzMTkwNiwtMTU0NDUzNTA4OCwtMT
+M4NTQ0MjY4OCwtNjY3NzIyNTU2LDYwNTA5NjYwMCwtMTYzMDE1
+Nzc2NiwtNDM3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxOD
+hdfQ==
 -->
