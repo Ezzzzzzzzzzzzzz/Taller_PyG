@@ -14,6 +14,7 @@ Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir có
 for event in GAME_EVENTS.get():
 ```
 Los eventos están organizados en la lista en el orden en que los recibió Pygame. 
+
 ```python
 # Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
     for event in GAME_EVENTS.get():
@@ -42,10 +43,25 @@ Los eventos están organizados en la lista en el orden en que los recibió Pygam
         if event.type == GAME_GLOBALS.QUIT:
             quitGame()
 ```
-
 ### En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad `type` con `event.type`. 
+```python
+if event.type == pygame.KEYDOWN:
 
-### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una tecla se ha liberado. 
+            if event.key == pygame.K_LEFT:
+                leftDown = True
+            if event.key == pygame.K_RIGHT:
+                rightDown = True
+            if event.key == pygame.K_UP:
+                if not haveJumped:
+                    haveJumped = True
+                    playerVY += jumpHeight
+            if event.key == pygame.K_ESCAPE:
+                quitGame()
+````
+### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; 
+
+
+### Si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una tecla se ha liberado. 
 
 Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 93**. Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a levantarse!**
 
@@ -53,8 +69,8 @@ Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTMyNjM4NSwxODcwODMwOTUwLC0yMz
-EwNDE1MTYsOTcwMTQzMzc5LC04MDk5NzM5MTIsMzYwODQ3NjA0
-LDE2NjUzMzE1MTMsNDU4Nzc4NjA1LDkxMTQ4MTA3MiwyMDM1Nj
-MxODM3LC0xNjAxMjcyNzc0XX0=
+eyJoaXN0b3J5IjpbLTIwODQ2NzE1NTEsMTg3MDgzMDk1MCwtMj
+MxMDQxNTE2LDk3MDE0MzM3OSwtODA5OTczOTEyLDM2MDg0NzYw
+NCwxNjY1MzMxNTEzLDQ1ODc3ODYwNSw5MTE0ODEwNzIsMjAzNT
+YzMTgzNywtMTYwMTI3Mjc3NF19
 -->
