@@ -26,7 +26,7 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 
 ### **El próximo desafío sería cómo hacer que las cosas se muevan en diagonal.** Afortunadamente, este es un proceso bastante simple también.
 
-> Si **descomentamos** `greenSquareX` y `greenSquareY` en nuestro código, nuestra forma se moverá hacia la derecha y hacia abajo cada vez que Pygame actualice la pantalla. 
+### Si **descomentamos** `greenSquareX` y `greenSquareY` en nuestro código, nuestra forma se moverá hacia la derecha y hacia abajo cada vez que Pygame actualice la pantalla. 
 >
 >Si **sumamos a nuestros valores** `X` e `Y`, **nuestras formas se moverán hacia la derecha y hacia abajo**. 
 >
@@ -69,7 +69,7 @@ Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos
 
 **Si cambiamos nuestro código para que aumente nuestras variables de velocidad (blueSquareVX / blueSquareVY en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjAyMTU3OCwxNDI0NzYyOTY4LC01Nz
+eyJoaXN0b3J5IjpbMTM5NjU0NDEyMywxNDI0NzYyOTY4LC01Nz
 MzMzk0MzYsMTA5NDc2MjM4OCwtMzk1ODA4OTA3LDEwMTY5Nzc1
 NjEsMTk3NjgyNzEyNSwzNzE3MDczNzcsMTM5NDU4OTQ1LC00Mz
 U1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1XX0=
