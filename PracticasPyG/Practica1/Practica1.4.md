@@ -93,10 +93,9 @@ Ahí lo tienes: **tu propio pentágono**.
 
 Si desea hacer un hexágono, un octágono o incluso un [triacontagon](https://en.wikipedia.org/wiki/Triacontagon), simplemente agregue más puntos, así de fácil. 
 
-¿Por qué no intentar experimentar con Pygame para producir algunos pixel art interesantes?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjYzNDMwNCwtMTU0NDUzNTA4OCwtMT
-M4NTQ0MjY4OCwtNjY3NzIyNTU2LDYwNTA5NjYwMCwtMTYzMDE1
-Nzc2NiwtNDM3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxOD
-hdfQ==
+eyJoaXN0b3J5IjpbODAzMzc0MDg2LC0xNTQ0NTM1MDg4LC0xMz
+g1NDQyNjg4LC02Njc3MjI1NTYsNjA1MDk2NjAwLC0xNjMwMTU3
+NzY2LC00Mzc1NDMyNzksLTEzNTgzNzIxNzAsMTU4MzQxNDE4OF
+19
 -->
