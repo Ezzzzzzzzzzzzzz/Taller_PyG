@@ -10,7 +10,7 @@ Puede pensar en nuestra ventana como una ventana real en su casa. Si miras por l
 
 **Si nuestras formas se mueven más a lo largo de nuestra pantalla para que ya no podamos verlas, no dejan de moverse ni desaparecen, siguen adelante para siempre o hasta que les dices que se detengan y regresen.**
 
-### Cambie la tercera línea en el `fragmento 03` para que lea `blueSquareVX = 8`, cambie la penúltima línea en el `fragmento 03` a `blueSquareVX -= 0.2` y comente la última línea. 
+### Cambie la tercera línea en el `fragmento 03` para que lea `blueSquareVX = 8`, cambie la penúltima línea en el `fragmento 03` a `blueSquareVX -= 0.2`.
 Ahora, cuando ejecutamos el `fragmento 03` por última vez, vemos que nuestro cuadrado se mueve hacia la derecha a través de nuestra pantalla, antes de reducir la velocidad hasta detenerse y luego volver sobre sí mismo, formando una animación de arco. 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Captura.JPG)
@@ -25,7 +25,7 @@ Si hubiéramos restado las variables `VX` y `VY` en valores iguales, con velocid
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Cap2.3.3.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk1MzQ3NzcsODI2MDg0MzQ0LDExOT
-kxNTM2MzcsMjk2NDQxMjgyLDE5NDE2NzMzNzcsNjQ2NjI1NTg0
-XX0=
+eyJoaXN0b3J5IjpbLTE2MDk2NzQ2NjgsLTE1NDk1MzQ3NzcsOD
+I2MDg0MzQ0LDExOTkxNTM2MzcsMjk2NDQxMjgyLDE5NDE2NzMz
+NzcsNjQ2NjI1NTg0XX0=
 -->
