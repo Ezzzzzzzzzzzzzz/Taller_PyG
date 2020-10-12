@@ -44,6 +44,10 @@ Los eventos están organizados en la lista en el orden en que los recibió Pygam
             quitGame()
 ```
 ### En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad `type` con `event.type`. 
+
+
+### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; 
+
 ```python
 if event.type == pygame.KEYDOWN:
 
@@ -57,20 +61,27 @@ if event.type == pygame.KEYDOWN:
                     playerVY += jumpHeight
             if event.key == pygame.K_ESCAPE:
                 quitGame()
-````
-### Si nuestro `event.type` es un evento `pygame.KEYDOWN`, sabemos que se presionó una tecla; 
-
+```
 
 ### Si nuestro `event.type` es un evento `pygame.KEYUP`, sabemos que una tecla se ha liberado. 
+```python
+if event.type == pygame.KEYUP:
+            if event.key == pygame.K_LEFT:
+                leftDown = False
+                playerVX = moveSpeed
+            if event.key == pygame.K_RIGHT:
+                rightDown = False
+                playerVX = moveSpeed
+```
 
-Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 93**. Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a levantarse!**
+Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a levantarse!**
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ2NzE1NTEsMTg3MDgzMDk1MCwtMj
-MxMDQxNTE2LDk3MDE0MzM3OSwtODA5OTczOTEyLDM2MDg0NzYw
-NCwxNjY1MzMxNTEzLDQ1ODc3ODYwNSw5MTE0ODEwNzIsMjAzNT
-YzMTgzNywtMTYwMTI3Mjc3NF19
+eyJoaXN0b3J5IjpbLTE1NTYyODAwMSwxODcwODMwOTUwLC0yMz
+EwNDE1MTYsOTcwMTQzMzc5LC04MDk5NzM5MTIsMzYwODQ3NjA0
+LDE2NjUzMzE1MTMsNDU4Nzc4NjA1LDkxMTQ4MTA3MiwyMDM1Nj
+MxODM3LC0xNjAxMjcyNzc0XX0=
 -->
