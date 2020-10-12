@@ -54,15 +54,13 @@ def move():
         if haveJumped == False:
             playerVX = playerVX * 1.1
 ```
-Lo primero que tenemos es una declaración `global`. Debido a que nuestro código está dentro de la función `move()`, ya no tiene el mismo alcance que nuestro bucle `for`. 
-
-Aunque podemos mirar los valores de las variables fuera de nuestra función, no podemos establecerlos, a menos que los incluyamos en la declaración `global`. 
+Lo primero que tenemos es una declaración `global`. Debido a que nuestro código está dentro de la función `move()`, ya no tiene el mismo alcance que nuestro bucle `for`. Aunque podemos mirar los valores de las variables fuera de nuestra función, no podemos establecerlos, a menos que los incluyamos en la declaración `global`. 
 
 ### Esto le dice a Python que cuando llamamos `playerX`, por ejemplo, definitivamente nos referimos al `playerX` en la parte superior del archivo, y no a un nuevo `playerX` que podríamos crear dentro de la función.
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/GlobalVariable.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1MjY1OTIzLDkxMDk0ODEyMSwtMTMzNj
-E1Njk3MCwtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5Mjg5NDE4
-NDksNTE3Mjg1MzY3XX0=
+eyJoaXN0b3J5IjpbLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMz
+M2MTU2OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MTksMTkyODk0
+MTg0OSw1MTcyODUzNjddfQ==
 -->
