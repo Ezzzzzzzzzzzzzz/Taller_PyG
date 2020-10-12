@@ -10,6 +10,8 @@ Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir có
 ### Si el usuario intenta salir, podríamos guardar el progreso del juego y cerrar la ventana en lugar de simplemente salir del programa, o podríamos mover un personaje cada vez que se presione una tecla. 
 
 - En la **línea 85**, creamos un bucle **for** que funcionará con cada evento en la lista que Pygame creó para nosotros. 
+
+Los eventos están organizados en la lista en el orden en que los recibió Pygame. 
 ```python
 # Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
     for event in GAME_EVENTS.get():
@@ -38,7 +40,6 @@ Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir có
         if event.type == GAME_GLOBALS.QUIT:
             quitGame()
 ```
-Los eventos están organizados en la lista en el orden en que los recibió Pygame. 
 
 ### En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad `type` con `event.type`. 
 
@@ -50,8 +51,8 @@ Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDgzMDk1MCwtMjMxMDQxNTE2LDk3MD
-E0MzM3OSwtODA5OTczOTEyLDM2MDg0NzYwNCwxNjY1MzMxNTEz
-LDQ1ODc3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMT
-I3Mjc3NF19
+eyJoaXN0b3J5IjpbLTI2Mzc4NjM3NCwxODcwODMwOTUwLC0yMz
+EwNDE1MTYsOTcwMTQzMzc5LC04MDk5NzM5MTIsMzYwODQ3NjA0
+LDE2NjUzMzE1MTMsNDU4Nzc4NjA1LDkxMTQ4MTA3MiwyMDM1Nj
+MxODM3LC0xNjAxMjcyNzc0XX0=
 -->
