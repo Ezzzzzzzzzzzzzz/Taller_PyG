@@ -70,7 +70,7 @@ while True:
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/p2.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/p2.3.JPG)
 
-### Fragmento 02
+## Fragmento 02
 ```python
 greenSquareX = windowWidth / 2
 greenSquareY = windowHeight / 2
@@ -98,11 +98,11 @@ Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3ODM2ODM2LDc0MDg1NjM5OCwxMTQzOT
-c0MjIsMTcwNDc0MDA1OCwtMTY4NTMwODEyMCwtMTU1ODQ5MzIz
-MiwzODg5MzUxMywtMTAzMjEwMTQzLDE0NTk4MTA3NjMsMTA0Nz
-gyMzIwNSwtNzEwNDc2NDI0LDcyMDA5NzYwNSwyMDU5MjAzNDI3
-LC03NDU2NjY5LDE5MjU1MTY4ODEsLTE5NjAwMTE2MjcsLTE5Mz
-gyMDc1MTksMTU2NjU5MzQ3LDEwMjU3NDYxNTksLTc1NDcyMDc0
-MV19
+eyJoaXN0b3J5IjpbLTIwNzg3Mzk4MjEsNzQwODU2Mzk4LDExND
+M5NzQyMiwxNzA0NzQwMDU4LC0xNjg1MzA4MTIwLC0xNTU4NDkz
+MjMyLDM4ODkzNTEzLC0xMDMyMTAxNDMsMTQ1OTgxMDc2MywxMD
+Q3ODIzMjA1LC03MTA0NzY0MjQsNzIwMDk3NjA1LDIwNTkyMDM0
+MjcsLTc0NTY2NjksMTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMT
+kzODIwNzUxOSwxNTY2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIw
+NzQxXX0=
 -->
