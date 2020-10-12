@@ -9,7 +9,7 @@ Cuando pensamos en la animación, nuestras mentes pueden convertir dibujos en pe
 ![](https://media.giphy.com/media/YTEAn0boXGmY0/giphy.gif)
 
 ## Algunas cosas que notar
-A partir de ahora, vamos a incluir `pygame.locals`y las `pygame.events` de Pygame. 
+### A partir de ahora, vamos a incluir `pygame.locals`y las `pygame.events` de Pygame. 
 Estas son variables especiales que Pygame incluye para ayudarnos a escribir código más legible, así como eliminar parte de la complejidad de interactuar con el sistema en el que ejecutamos nuestro código.
 
 >`pygame.locals` contiene principalmente propiedades que describen el sistema y el estado del juego, por lo que lo llamamos **GAME_GLOBALS** para reflejar esto.
@@ -91,11 +91,11 @@ Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwODU2Mzk4LDExNDM5NzQyMiwxNzA0Nz
-QwMDU4LC0xNjg1MzA4MTIwLC0xNTU4NDkzMjMyLDM4ODkzNTEz
-LC0xMDMyMTAxNDMsMTQ1OTgxMDc2MywxMDQ3ODIzMjA1LC03MT
-A0NzY0MjQsNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2Njks
-MTkyNTUxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUxOSwxNT
-Y2NTkzNDcsMTAyNTc0NjE1OSwtNzU0NzIwNzQxLC0xMTU5NDM5
-OTU2XX0=
+eyJoaXN0b3J5IjpbMjExNjczOTg4OSw3NDA4NTYzOTgsMTE0Mz
+k3NDIyLDE3MDQ3NDAwNTgsLTE2ODUzMDgxMjAsLTE1NTg0OTMy
+MzIsMzg4OTM1MTMsLTEwMzIxMDE0MywxNDU5ODEwNzYzLDEwND
+c4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQy
+NywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOT
+M4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3
+NDFdfQ==
 -->
