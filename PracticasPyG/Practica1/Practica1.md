@@ -98,11 +98,10 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/hello_py001.JPG)
 
-**Acabamos de crear nuestro primer programa Pygame: vamos a verlo.**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MzAwMzI4MiwzMDQwOTc1MjIsMTUwOD
+eyJoaXN0b3J5IjpbLTU3ODYwMTY4NSwzMDQwOTc1MjIsMTUwOD
 cyNDg1NywxOTAwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQy
 ODIsMTgwNzI2MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LD
 M5MzAxNzg5OCwxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2
