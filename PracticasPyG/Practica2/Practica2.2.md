@@ -48,9 +48,7 @@ Juguemos un poco más con números y decimales. Hasta ahora, los valores que hem
 
 Pero, **¿qué sucede si cambiamos los valores que usamos para animar cosas? ¿Qué pasa si, en lugar de agregar `1` a las coordenadas `X` / `Y`, agregamos `1`, luego `1.1`, luego `1.2`, y así sucesivamente?**
 
-### Reemplace el código del `fragmento 02` con el código del `fragmento 03` (o cree un nuevo archivo con el código `TOP (superior)` + `fragmento 03` + `BOTTOM`). **Ahora, si corremos eso, ¿qué vemos?**
-
-### Fragmento 03
+## Fragmento 03
 ```python
 blueSquareX = 0.0
 blueSquareY = 0.0
@@ -65,13 +63,16 @@ while True:
 	blueSquareVX += 0.1
 	blueSquareVY += 0.1
 ```
+
+### Reemplace el código del `fragmento 02` con el código del `fragmento 03` (o cree un nuevo archivo con el código `TOP (superior)` + `fragmento 03` + `BOTTOM`). **Ahora, si corremos eso, ¿qué vemos?**
+
  Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: **a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores. Se está acelerando. Esto se debe a que utilizamos variables que almacenan una medida básica de velocidad.** 
 
 Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos aumentar la cantidad de distancia que se agrega en cada cuadro, lo que da la ilusión de aceleración. 
 
 **Si cambiamos nuestro código para que aumente nuestras variables de velocidad (blueSquareVX / blueSquareVY en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODM4NDMxMCwxMzk2NTQ0MTIzLDE0Mj
+eyJoaXN0b3J5IjpbMTI4ODgwNjA2MSwxMzk2NTQ0MTIzLDE0Mj
 Q3NjI5NjgsLTU3MzMzOTQzNiwxMDk0NzYyMzg4LC0zOTU4MDg5
 MDcsMTAxNjk3NzU2MSwxOTc2ODI3MTI1LDM3MTcwNzM3NywxMz
 k0NTg5NDUsLTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5ODE1MjAw
