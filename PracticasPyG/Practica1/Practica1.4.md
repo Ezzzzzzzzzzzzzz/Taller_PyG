@@ -73,7 +73,9 @@ while True:
         
     pygame.display.update()
 ```
-**Es posible que hayas notado que en realidad no cerramos el triángulo: Pygame lo hizo por nosotros.** Justo antes de pasar los puntos de los que se va a dibujar nuestra forma, podemos pasar un valor `True` (Verdadero) o `False`(Falso) que le permitirá a Pygame saber que queremos que cierre nuestras formas por nosotros. **Cámbielo a Falso y obtenemos las dos primeras líneas de nuestra forma, pero no la tercera.** 
+**Es posible que hayas notado que en realidad no cerramos el triángulo: Pygame lo hizo por nosotros.** Justo antes de pasar los puntos de los que se va a dibujar nuestra forma, podemos pasar un valor `True` (Verdadero) o `False`(Falso) que le permitirá a Pygame saber que queremos que cierre nuestras formas por nosotros. 
+
+### Cámbielo a Falso y obtenemos las dos primeras líneas de nuestra forma, pero no la tercera.
 
 **Si queremos hacer una forma más compleja**, simplemente agregamos más puntos así:
 
@@ -93,7 +95,7 @@ Si desea hacer un hexágono, un octágono o incluso un [triacontagon](https://en
 
 ¿Por qué no intentar experimentar con Pygame para producir algunos pixel art interesantes?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODEyOTMxNSwtMTU0NDUzNTA4OCwtMT
+eyJoaXN0b3J5IjpbMTMxMjYzNDMwNCwtMTU0NDUzNTA4OCwtMT
 M4NTQ0MjY4OCwtNjY3NzIyNTU2LDYwNTA5NjYwMCwtMTYzMDE1
 Nzc2NiwtNDM3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxOD
 hdfQ==
