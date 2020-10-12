@@ -38,11 +38,6 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 Pygame no admite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. 
 
-```python 
-	if event.key == pygame.K_LEFT:
-                leftDown = True
-```
-
 **Nuestro cuadrado se movería la primera vez que Pygame detectara la pulsación de una tecla, pero luego se detendría hasta que volviéramos a pulsar el botón**. *Esto está destinado a ayudar a prevenir situaciones en las que presionar varias teclas podría fallar en nuestros juegos o dar a un jugador una ventaja injusta, pero no nos ayuda mucho cuando se trata de crear juegos con movimientos suaves.* 
 
 ### ¿Cómo solucionamos esto?
@@ -51,12 +46,16 @@ Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acció
 Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podemos usar para describir los estados clave (arriba o abajo)** del resto de nuestro programa. 
 
 >Siempre que detectemos que se ha presionado el botón de flecha izquierda, establecemos `leftDown` en **True** (Verdadero); 
-
->Si detectamos que se ha soltado el botón de flecha izquierda, establecemos `leftDown` en **False** (Falso). 
-
 ```python 
 	if event.key == pygame.K_LEFT:
                 leftDown = True
+```
+>Si detectamos que se ha soltado el botón de flecha izquierda, establecemos `leftDown` en **False** (Falso). 
+
+```python 
+            if event.key == pygame.K_LEFT:
+                leftDown = False
+                playerVX = moveSpeed
 ```
 
 >Si nuestro jugador mantiene presionada la tecla, `leftDown` siempre será **True**(Verdadero), por lo que podemos hacer que nuestro programa Pygame siga moviendo nuestro cuadrado sin problemas por la pantalla, aunque no reciba un aluvión constante de eventos que le indiquen que lo haga.
@@ -68,7 +67,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTQwNTA1NiwtMTQ5MjQwMzc4MiwxOT
+eyJoaXN0b3J5IjpbLTEwMjYzMjUwMSwtMTQ5MjQwMzc4MiwxOT
 Y3MDc1NDM0LC03MDk1NDQzODYsMTIyMjg1MDcyLDk4MjAyMDEz
 LC0zMDgxMDYyMzgsMTA0ODEzNTQxNCwxNTg4ODUwMjY2LC0xMD
 YwMzU2NDcyXX0=
