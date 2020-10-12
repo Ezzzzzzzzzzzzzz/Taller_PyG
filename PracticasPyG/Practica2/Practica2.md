@@ -53,7 +53,7 @@ pygame.display.set_caption("Pygame Shapes!")
 ```
 Si ejecuta el código `Fragmento 01` (coloque el código `TOP` y el `Fragmento 01``  juntos en un archivo)  sin descomentar nada, verá un montón de cuadrados rojos que aparecen y desaparecen por toda la pantalla.
 
-### Fragmento 01
+## Fragmento 01
 ```python
 while True:
     surface.fill((0,0,0))
@@ -98,11 +98,11 @@ Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTI3NjI1Myw3NDA4NTYzOTgsMTE0Mz
-k3NDIyLDE3MDQ3NDAwNTgsLTE2ODUzMDgxMjAsLTE1NTg0OTMy
-MzIsMzg4OTM1MTMsLTEwMzIxMDE0MywxNDU5ODEwNzYzLDEwND
-c4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQy
-NywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOT
-M4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3
-NDFdfQ==
+eyJoaXN0b3J5IjpbMzI3ODM2ODM2LDc0MDg1NjM5OCwxMTQzOT
+c0MjIsMTcwNDc0MDA1OCwtMTY4NTMwODEyMCwtMTU1ODQ5MzIz
+MiwzODg5MzUxMywtMTAzMjEwMTQzLDE0NTk4MTA3NjMsMTA0Nz
+gyMzIwNSwtNzEwNDc2NDI0LDcyMDA5NzYwNSwyMDU5MjAzNDI3
+LC03NDU2NjY5LDE5MjU1MTY4ODEsLTE5NjAwMTE2MjcsLTE5Mz
+gyMDc1MTksMTU2NjU5MzQ3LDEwMjU3NDYxNTksLTc1NDcyMDc0
+MV19
 -->
