@@ -22,7 +22,7 @@ while True:
 ```
 Esta es simplemente nuestra aplicación Pygame básica de nuevo. Si desea hacer una copia de esto para experimentar sin romper nada, ahora sería un buen momento para hacerlo. 
 
-Cada **Path** está hecho de líneas conectadas, pero, antes de comenzar a unir las cosas, dibujemos un par de líneas independientes para familiarizarnos con ellas. 
+### Cada **Path** está hecho de líneas conectadas, pero, antes de comenzar a unir las cosas, dibujemos un par de líneas independientes para familiarizarnos con ellas. 
 
 Podemos hacer esto con `pygame.draw.line()`. Edite `paths.py` para que su bucle `while` se lea de la siguiente manera:
 
@@ -89,8 +89,8 @@ Si desea hacer un hexágono, un octágono o incluso un [triacontagon](https://en
 
 ¿Por qué no intentar experimentar con Pygame para producir algunos pixel art interesantes?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MjYwNTYyLC0xNTQ0NTM1MDg4LC0xMz
-g1NDQyNjg4LC02Njc3MjI1NTYsNjA1MDk2NjAwLC0xNjMwMTU3
-NzY2LC00Mzc1NDMyNzksLTEzNTgzNzIxNzAsMTU4MzQxNDE4OF
-19
+eyJoaXN0b3J5IjpbLTczMzY1MzM4NywtMTU0NDUzNTA4OCwtMT
+M4NTQ0MjY4OCwtNjY3NzIyNTU2LDYwNTA5NjYwMCwtMTYzMDE1
+Nzc2NiwtNDM3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxOD
+hdfQ==
 -->
