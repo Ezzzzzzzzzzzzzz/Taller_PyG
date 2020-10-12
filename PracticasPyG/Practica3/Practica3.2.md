@@ -15,34 +15,6 @@ for event in GAME_EVENTS.get():
 ```
 Los eventos están organizados en la lista en el orden en que los recibió Pygame. 
 
-```python
-# Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
-    for event in GAME_EVENTS.get():
-
-        if event.type == pygame.KEYDOWN:
-
-            if event.key == pygame.K_LEFT:
-                leftDown = True
-            if event.key == pygame.K_RIGHT:
-                rightDown = True
-            if event.key == pygame.K_UP:
-                if not haveJumped:
-                    haveJumped = True
-                    playerVY += jumpHeight
-            if event.key == pygame.K_ESCAPE:
-                quitGame()
-
-        if event.type == pygame.KEYUP:
-            if event.key == pygame.K_LEFT:
-                leftDown = False
-                playerVX = moveSpeed
-            if event.key == pygame.K_RIGHT:
-                rightDown = False
-                playerVX = moveSpeed
-
-        if event.type == GAME_GLOBALS.QUIT:
-            quitGame()
-```
 ### En `keyboard.py`, buscamos principalmente eventos de teclado; podemos comprobar si un evento es o no un evento de teclado comprobando su propiedad `type` con `event.type`. 
 
 
@@ -80,8 +52,8 @@ Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que pr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTYyODAwMSwxODcwODMwOTUwLC0yMz
-EwNDE1MTYsOTcwMTQzMzc5LC04MDk5NzM5MTIsMzYwODQ3NjA0
-LDE2NjUzMzE1MTMsNDU4Nzc4NjA1LDkxMTQ4MTA3MiwyMDM1Nj
-MxODM3LC0xNjAxMjcyNzc0XX0=
+eyJoaXN0b3J5IjpbLTEyNjk2Nzc4NjMsLTE1NTYyODAwMSwxOD
+cwODMwOTUwLC0yMzEwNDE1MTYsOTcwMTQzMzc5LC04MDk5NzM5
+MTIsMzYwODQ3NjA0LDE2NjUzMzE1MTMsNDU4Nzc4NjA1LDkxMT
+Q4MTA3MiwyMDM1NjMxODM3LC0xNjAxMjcyNzc0XX0=
 -->
