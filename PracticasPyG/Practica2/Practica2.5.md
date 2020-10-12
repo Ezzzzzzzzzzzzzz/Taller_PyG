@@ -2,7 +2,7 @@
 ![](https://media.giphy.com/media/xUPGcwfIGVWyf2YrUA/giphy.gif)
 Vamos a terminar cambiando los colores de nuestras formas a lo largo del tiempo, pasando a nuestra última sección de código, `fragmento 05`.
 
-### Fragmento 05
+## Fragmento 05
 ```python
 squaresRed = random.randint(0, 255)
 squaresBlue = random.randint(0, 255)
@@ -47,6 +47,6 @@ El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente 
 
 Además de ser un gran dispositivo de aprendizaje, también se ve bastante impresionante.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzM4ODYzMSwyMDY4ODM2OTQ5LC04OT
+eyJoaXN0b3J5IjpbMTg0MzkyODI5NiwyMDY4ODM2OTQ5LC04OT
 gwNjc3NjksOTQ2MTMwNDQyXX0=
 -->
