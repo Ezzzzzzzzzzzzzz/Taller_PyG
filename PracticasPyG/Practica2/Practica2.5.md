@@ -1,8 +1,9 @@
 # Cambiando el color sobre el tiempo
+![](https://media.giphy.com/media/1X7gN6XKLLKcfQR79i/giphy.gif)
 
 Vamos a terminar cambiando los colores de nuestras formas a lo largo del tiempo, pasando a nuestra última sección de código, `fragmento 05`.
 
-### Fragmento 05
+## Fragmento 05
 ```python
 squaresRed = random.randint(0, 255)
 squaresBlue = random.randint(0, 255)
@@ -37,7 +38,7 @@ Con estas comprobaciones de `if`, `else`, **nos aseguramos de que los valores de
 
 Si nuestros valores están a punto de superar los 255, les asignamos un valor aleatorio entre 0 y 255. 
 
-El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente a través de la paleta de colores RGB agregando 1 a nuestras variables R, G , y  B (`squaresRed`, `squaresGreen` y `squaresBlue`) mientras se ejecuta nuestro programa Pygame. 
+El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente a través de la paleta de colores **RGB** agregando 1 a nuestras variables **R**, **G** , y  **B** (`squaresRed`, `squaresGreen` y `squaresBlue`) mientras se ejecuta nuestro programa Pygame. 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Cap2.2.6.JPG)
 
@@ -47,6 +48,7 @@ El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente 
 
 Además de ser un gran dispositivo de aprendizaje, también se ve bastante impresionante.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODgzNjk0OSwtODk4MDY3NzY5LDk0Nj
-EzMDQ0Ml19
+eyJoaXN0b3J5IjpbMTc2NjE1MjQ5OSwxNTcxNzgyODM1LDE4ND
+M5MjgyOTYsMjA2ODgzNjk0OSwtODk4MDY3NzY5LDk0NjEzMDQ0
+Ml19
 -->
