@@ -72,15 +72,15 @@ while True:
 Esto se debe a que utilizamos variables que almacenan una medida básica de velocidad. 
 
 ### Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos aumentar la cantidad de distancia que se agrega en cada cuadro, lo que da la ilusión de aceleración. 
-
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/pygame.JPG)
 [Movimiento con aceleración constante](https://www.walter-fendt.de/html5/phes/acceleration_es.htm)
 
 **Si cambiamos nuestro código para que aumente nuestras variables de velocidad (`blueSquareVX`y`blueSquareVY` en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODkxMDczODUsMTI1NzkxMDEzMiwyMT
-M4MTI5NTkxLDI5MjY2MTg1MywxMzk2NTQ0MTIzLDE0MjQ3NjI5
-NjgsLTU3MzMzOTQzNiwxMDk0NzYyMzg4LC0zOTU4MDg5MDcsMT
-AxNjk3NzU2MSwxOTc2ODI3MTI1LDM3MTcwNzM3NywxMzk0NTg5
-NDUsLTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5ODE1MjAwNzVdfQ
-==
+eyJoaXN0b3J5IjpbODUwNjI4OTYzLC0xNDg5MTA3Mzg1LDEyNT
+c5MTAxMzIsMjEzODEyOTU5MSwyOTI2NjE4NTMsMTM5NjU0NDEy
+MywxNDI0NzYyOTY4LC01NzMzMzk0MzYsMTA5NDc2MjM4OCwtMz
+k1ODA4OTA3LDEwMTY5Nzc1NjEsMTk3NjgyNzEyNSwzNzE3MDcz
+NzcsMTM5NDU4OTQ1LC00MzU1MDQ1OTgsLTE4NjU2Njg4MTgsOT
+gxNTIwMDc1XX0=
 -->
