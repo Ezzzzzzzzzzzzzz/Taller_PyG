@@ -18,7 +18,7 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 - Usamos `pygame.K_LEFT`, `pygame.K_RIGHT`, `pygame.K_UP` y `pygame.K_ESCAPE` para verificar si alguna de las teclas presionadas son teclas que estamos buscando. 
 
 ```python
-	if event.key == pygame.K_LEFT:
+		if event.key == pygame.K_LEFT:
                 leftDown = True
             if event.key == pygame.K_RIGHT:
                 rightDown = True
@@ -61,7 +61,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI0MDM3ODIsLTcwOTU0NDM4NiwxMj
-IyODUwNzIsOTgyMDIwMTMsLTMwODEwNjIzOCwxMDQ4MTM1NDE0
-LDE1ODg4NTAyNjYsLTEwNjAzNTY0NzJdfQ==
+eyJoaXN0b3J5IjpbMTI2NTg2NDcyMiwtNzA5NTQ0Mzg2LDEyMj
+I4NTA3Miw5ODIwMjAxMywtMzA4MTA2MjM4LDEwNDgxMzU0MTQs
+MTU4ODg1MDI2NiwtMTA2MDM1NjQ3Ml19
 -->
