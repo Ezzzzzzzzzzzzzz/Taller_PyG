@@ -61,7 +61,9 @@ while True:
 
 *Sin embargo, este código es bastante largo: muchas cosas, como el color o el ancho de la línea, se escriben varias veces.* 
 
-Hay una forma más concisa de lograr el resultado que queremos. Todo lo que necesitamos es `pygame.draw.lines()`. Mientras que `pygame.draw.line()` **nos permite dibujar una línea entre dos puntos**, `pygame.draw.lines()` **nos permite dibujar una secuencia de líneas entre numerosos puntos**. Cada punto de coordenadas **XY** se unirá al siguiente punto de coordenadas **XY**, que se unirá al siguiente punto de coordenadas **XY**, **y así sucesivamente**.
+Hay una forma más concisa de lograr el resultado que queremos. Todo lo que necesitamos es `pygame.draw.lines()`. Mientras que `pygame.draw.line()` **nos permite dibujar una línea entre dos puntos**, `pygame.draw.lines()` **nos permite dibujar una secuencia de líneas entre numerosos puntos**. 
+
+### Cada punto de coordenadas **XY** se unirá al siguiente punto de coordenadas **XY**, que se unirá al siguiente punto de coordenadas **XY**, **y así sucesivamente**.
 ```python
 while True:    
     
@@ -91,8 +93,8 @@ Si desea hacer un hexágono, un octágono o incluso un [triacontagon](https://en
 
 ¿Por qué no intentar experimentar con Pygame para producir algunos pixel art interesantes?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDQzMTkwNiwtMTU0NDUzNTA4OCwtMT
-M4NTQ0MjY4OCwtNjY3NzIyNTU2LDYwNTA5NjYwMCwtMTYzMDE1
-Nzc2NiwtNDM3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxOD
-hdfQ==
+eyJoaXN0b3J5IjpbLTEzOTA0NTIxMjcsLTE1NDQ1MzUwODgsLT
+EzODU0NDI2ODgsLTY2NzcyMjU1Niw2MDUwOTY2MDAsLTE2MzAx
+NTc3NjYsLTQzNzU0MzI3OSwtMTM1ODM3MjE3MCwxNTgzNDE0MT
+g4XX0=
 -->
