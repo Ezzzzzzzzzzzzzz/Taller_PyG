@@ -54,8 +54,6 @@ if event.key == pygame.K_LEFT:
 ### ¿Cómo solucionamos esto?
 Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acción, como mover nuestro cuadrado, establecemos una variable.
 
-Cada vez que detectamos una pulsación de tecla, en lugar de realizar una acción, como mover nuestro cuadrado, establecemos una variable. 
-
 Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podemos usar para describir los estados clave (arriba o abajo)** del resto de nuestro programa. 
 
 >Siempre que detectemos que se ha presionado el botón de flecha izquierda, establecemos `leftDown` en **True** (Verdadero); 
@@ -71,7 +69,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA5NzkxMywtNzA5NTQ0Mzg2LDEyMj
+eyJoaXN0b3J5IjpbMTI4NjM0MTExMiwtNzA5NTQ0Mzg2LDEyMj
 I4NTA3Miw5ODIwMjAxMywtMzA4MTA2MjM4LDEwNDgxMzU0MTQs
 MTU4ODg1MDI2NiwtMTA2MDM1NjQ3Ml19
 -->
