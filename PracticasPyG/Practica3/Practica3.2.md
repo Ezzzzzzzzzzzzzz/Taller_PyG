@@ -48,41 +48,12 @@ if event.type == pygame.KEYUP:
 
 Primero buscamos eventos `KEYDOWN` porque la lógica lo dicta: **¡tienes que presionar una tecla hacia abajo antes de que vuelva a levantarse!**
 
-## Loop de eventos
 
-```python
-# Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
-    for event in GAME_EVENTS.get():
-
-        if event.type == pygame.KEYDOWN:
-
-            if event.key == pygame.K_LEFT:
-                leftDown = True
-            if event.key == pygame.K_RIGHT:
-                rightDown = True
-            if event.key == pygame.K_UP:
-                if not haveJumped:
-                    haveJumped = True
-                    playerVY += jumpHeight
-            if event.key == pygame.K_ESCAPE:
-                quitGame()
-
-        if event.type == pygame.KEYUP:
-            if event.key == pygame.K_LEFT:
-                leftDown = False
-                playerVX = moveSpeed
-            if event.key == pygame.K_RIGHT:
-                rightDown = False
-                playerVX = moveSpeed
-
-        if event.type == GAME_GLOBALS.QUIT:
-            quitGame()
-```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwODMxNTI2LC0yMDM5NzA4MjYzLC0xNT
-U2MjgwMDEsMTg3MDgzMDk1MCwtMjMxMDQxNTE2LDk3MDE0MzM3
-OSwtODA5OTczOTEyLDM2MDg0NzYwNCwxNjY1MzMxNTEzLDQ1OD
-c3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMTI3Mjc3
-NF19
+eyJoaXN0b3J5IjpbLTc0OTgwNTIwNSwtMjAzOTcwODI2MywtMT
+U1NjI4MDAxLDE4NzA4MzA5NTAsLTIzMTA0MTUxNiw5NzAxNDMz
+NzksLTgwOTk3MzkxMiwzNjA4NDc2MDQsMTY2NTMzMTUxMyw0NT
+g3Nzg2MDUsOTExNDgxMDcyLDIwMzU2MzE4MzcsLTE2MDEyNzI3
+NzRdfQ==
 -->
