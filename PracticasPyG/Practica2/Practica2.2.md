@@ -46,9 +46,9 @@ Si utilizamos valores diferentes para nuestros valores `X` e `Y`, y utilizamos *
 
 Juguemos un poco más con números y decimales. Hasta ahora, los valores que hemos usado para animar nuestras formas en la pantalla han sido enteros que permanecen constantes. Con cada cuadro, siempre agregaríamos 1 (o algún otro valor arbitrario) para mover nuestro objeto. 
 
-### Pero, **¿qué sucede si cambiamos los valores que usamos para animar cosas? ¿Qué pasa si, en lugar de agregar `1` a las coordenadas `X` / `Y`, agregamos `1`, luego `1.1`, luego `1.2`, y así sucesivamente?**
+Pero, **¿qué sucede si cambiamos los valores que usamos para animar cosas? ¿Qué pasa si, en lugar de agregar `1` a las coordenadas `X` / `Y`, agregamos `1`, luego `1.1`, luego `1.2`, y así sucesivamente?**
 
-Reemplace el código del `fragmento 02` con el código del `fragmento 03` (o cree un nuevo archivo con el código `TOP (superior)` + `fragmento 03` + `BOTTOM`). **Ahora, si corremos eso, ¿qué vemos?**
+### Reemplace el código del `fragmento 02` con el código del `fragmento 03` (o cree un nuevo archivo con el código `TOP (superior)` + `fragmento 03` + `BOTTOM`). **Ahora, si corremos eso, ¿qué vemos?**
 
 ### Fragmento 03
 ```python
@@ -71,7 +71,7 @@ Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos
 
 **Si cambiamos nuestro código para que aumente nuestras variables de velocidad (blueSquareVX / blueSquareVY en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjQ2MzgzNiwxMzk2NTQ0MTIzLDE0Mj
+eyJoaXN0b3J5IjpbMTI2ODM4NDMxMCwxMzk2NTQ0MTIzLDE0Mj
 Q3NjI5NjgsLTU3MzMzOTQzNiwxMDk0NzYyMzg4LC0zOTU4MDg5
 MDcsMTAxNjk3NzU2MSwxOTc2ODI3MTI1LDM3MTcwNzM3NywxMz
 k0NTg5NDUsLTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5ODE1MjAw
