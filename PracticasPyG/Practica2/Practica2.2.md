@@ -38,7 +38,9 @@ Así que ahora podemos animar cosas que se mueven en cuatro direcciones; eso es 
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Py2.2.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Py2.2.JPG)
 
-**Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, es decir, que usamos números que son enteros e iguales entre sí. Si utilizamos valores diferentes para nuestros valores `X` e `Y`, y utilizamos **flotantes** *(que son números con un decimal, como 2.3 o 3.141)* en lugar de **enteros** *(números enteros)*, podríamos lograr un movimiento completo de 360 grados.**
+### Eso significa que tenemos ocho direcciones en las que nuestros objetos pueden moverse, es decir, que usamos números que son enteros e iguales entre sí. 
+
+Si utilizamos valores diferentes para nuestros valores `X` e `Y`, y utilizamos **flotantes** *(que son números con un decimal, como 2.3 o 3.141)* en lugar de **enteros** *(números enteros)*, podríamos lograr un movimiento completo de 360 grados.**
 
 ![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.4.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/py2.4.JPG)
 
@@ -69,8 +71,9 @@ Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos
 
 **Si cambiamos nuestro código para que aumente nuestras variables de velocidad (blueSquareVX / blueSquareVY en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjU0NDEyMywxNDI0NzYyOTY4LC01Nz
-MzMzk0MzYsMTA5NDc2MjM4OCwtMzk1ODA4OTA3LDEwMTY5Nzc1
-NjEsMTk3NjgyNzEyNSwzNzE3MDczNzcsMTM5NDU4OTQ1LC00Mz
-U1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1XX0=
+eyJoaXN0b3J5IjpbMjA0NjQ2MzgzNiwxMzk2NTQ0MTIzLDE0Mj
+Q3NjI5NjgsLTU3MzMzOTQzNiwxMDk0NzYyMzg4LC0zOTU4MDg5
+MDcsMTAxNjk3NzU2MSwxOTc2ODI3MTI1LDM3MTcwNzM3NywxMz
+k0NTg5NDUsLTQzNTUwNDU5OCwtMTg2NTY2ODgxOCw5ODE1MjAw
+NzVdfQ==
 -->
