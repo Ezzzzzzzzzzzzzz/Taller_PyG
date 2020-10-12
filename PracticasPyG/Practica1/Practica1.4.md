@@ -34,7 +34,7 @@ while True:
     pygame.display.update()
 ```
 Si ejecuta este código ahora, **verá una línea blanca de un píxel de ancho que va desde la parte superior izquierda a la parte inferior derecha de nuestra ventana de Pygame**. Los parámetros que pasamos a `pygame.draw.line` comienzan de la misma manera que los rectángulos y elipses. 
-> **Primero le decimos a Pygame dónde queremos dibujar la forma y luego elegimos un color**. Ahora, las cosas cambian un poco. 
+> **Primero le decimos a Pygame dónde queremos dibujar la forma y luego elegimos un color**. 
 > 
 > El **siguiente argumento** es una **tupla con las coordenadas X e Y** para donde queremos que comience nuestra línea, 
 > 
@@ -89,7 +89,7 @@ Si desea hacer un hexágono, un octágono o incluso un [triacontagon](https://en
 
 ¿Por qué no intentar experimentar con Pygame para producir algunos pixel art interesantes?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzY1MzM4NywtMTU0NDUzNTA4OCwtMT
+eyJoaXN0b3J5IjpbLTg3ODMxODUyMCwtMTU0NDUzNTA4OCwtMT
 M4NTQ0MjY4OCwtNjY3NzIyNTU2LDYwNTA5NjYwMCwtMTYzMDE1
 Nzc2NiwtNDM3NTQzMjc5LC0xMzU4MzcyMTcwLDE1ODM0MTQxOD
 hdfQ==
