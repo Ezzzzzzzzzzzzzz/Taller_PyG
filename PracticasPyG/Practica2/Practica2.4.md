@@ -6,7 +6,7 @@ Hasta ahora, hemos estado animando formas moviéndolas, pero podemos usar el mis
 
 ### Para ello, cambie el código del   `fragmento03` por el `fragmento 04`.
 
-### Fragmento 04
+## Fragmento 04
 ```python
 rectX = windowWidth / 2
 rectY = windowHeight / 2
@@ -55,7 +55,7 @@ Entonces, **cuando dibujamos una forma con un ancho negativo y luego la compensa
 
 ### No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODY3NDg2NiwtMTczNTQ5NjkyNiwtNT
+eyJoaXN0b3J5IjpbLTc0Nzg5Njc2OSwtMTczNTQ5NjkyNiwtNT
 UxNTE0MTUyLC0xNzUzODM4MTczLC0xOTM5Mzk4OTc3LC0xMzAw
 NTY5NDAyLDE2MTQ5NzIyNjEsODU5Njc1MzY5LC0yMDk5MDY1NT
 Y4LC0yMDY0Njk2MjY5LDQ0MDI4NjQ3OSwtNTQ0NTM4MjIyLDI3
