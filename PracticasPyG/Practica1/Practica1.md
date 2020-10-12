@@ -72,7 +72,7 @@ Nuestra última línea en `hello.py` es agradable y simple:
 ```python
 pygame.display.update()
 ```
-Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que  tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
+>Le dice a Pygame que hemos terminado de dibujar formas por el momento y que ahora puede actualizar la ventana. Esto evita que  tenga que dibujar y volver a dibujar la pantalla para cada forma que hemos creado; en cambio, puede hacer que todos se dibujen de una vez.
 
 # hello.py
 
@@ -103,10 +103,10 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODA5NTg2NzYsMzA0MDk3NTIyLDE1MD
-g3MjQ4NTcsMTkwMDI3Mjg2NSwxOTAwMjcyODY1LC0xNDU2ODI0
-MjgyLDE4MDcyNjA1MTgsLTYzNTQ0MTc1NCwtMTg5NDg0Mzk5NC
-wzOTMwMTc4OTgsMTY1ODg5MjAyMywxNzEyNTI1MDU5LDM1Mzkx
-NjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgxNj
-EyXX0=
+eyJoaXN0b3J5IjpbLTUyNTU1MTM4MiwzMDQwOTc1MjIsMTUwOD
+cyNDg1NywxOTAwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQy
+ODIsMTgwNzI2MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LD
+M5MzAxNzg5OCwxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2
+MzY1LC0xMDIzNTI3Mjc4LC0yMDY1MDI5OTMwLC03OTQ4ODE2MT
+JdfQ==
 -->
