@@ -54,6 +54,11 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 >Si detectamos que se ha soltado el botón de flecha izquierda, establecemos `leftDown` en **False** (Falso). 
 
+```python 
+	if event.key == pygame.K_LEFT:
+                leftDown = True
+```
+
 >Si nuestro jugador mantiene presionada la tecla, `leftDown` siempre será **True**(Verdadero), por lo que podemos hacer que nuestro programa Pygame siga moviendo nuestro cuadrado sin problemas por la pantalla, aunque no reciba un aluvión constante de eventos que le indiquen que lo haga.
 
 
@@ -63,7 +68,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTI1MTg2NiwtMTQ5MjQwMzc4MiwxOT
+eyJoaXN0b3J5IjpbMTI4OTY4NzY0MCwtMTQ5MjQwMzc4MiwxOT
 Y3MDc1NDM0LC03MDk1NDQzODYsMTIyMjg1MDcyLDk4MjAyMDEz
 LC0zMDgxMDYyMzgsMTA0ODEzNTQxNCwxNTg4ODUwMjY2LC0xMD
 YwMzU2NDcyXX0=
