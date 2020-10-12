@@ -34,12 +34,14 @@ Por ejemplo, la tecla **ESC** de su teclado es **27**, la tecla **A** es **97** 
 
 **Por ejemplo**, si se ha presionado la *tecla de flecha izquierda*, podemos mover nuestro reproductor a la izquierda con ``playerX -= 5``, **pero no lo hemos hecho aquí**. 
 
+**¿Por qué no?** 
+
+Pygame no admite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. 
+
 ```python 
 	if event.key == pygame.K_LEFT:
                 leftDown = True
 ```
-
-**¿Por qué no?** Pygame no admite eventos duplicados para presionar teclas, por lo que si mantenemos presionada una tecla para mantener nuestro cuadrado moviéndose hacia la izquierda, no pasaría nada. 
 
 **Nuestro cuadrado se movería la primera vez que Pygame detectara la pulsación de una tecla, pero luego se detendría hasta que volviéramos a pulsar el botón**. *Esto está destinado a ayudar a prevenir situaciones en las que presionar varias teclas podría fallar en nuestros juegos o dar a un jugador una ventaja injusta, pero no nos ayuda mucho cuando se trata de crear juegos con movimientos suaves.* 
 
@@ -61,7 +63,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODU1OTMwMiwtMTQ5MjQwMzc4MiwxOT
+eyJoaXN0b3J5IjpbMTU2NTI1MTg2NiwtMTQ5MjQwMzc4MiwxOT
 Y3MDc1NDM0LC03MDk1NDQzODYsMTIyMjg1MDcyLDk4MjAyMDEz
 LC0zMDgxMDYyMzgsMTA0ODEzNTQxNCwxNTg4ODUwMjY2LC0xMD
 YwMzU2NDcyXX0=
