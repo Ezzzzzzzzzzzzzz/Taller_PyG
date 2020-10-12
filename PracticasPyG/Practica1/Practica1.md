@@ -51,11 +51,11 @@ Luego, le dijimos a Pygame qué color queríamos que fuera nuestro rectángulo p
 >
 >`255` significa que la cantidad máxima de color debe estar en esa forma.
 
-Le dijimos a nuestro rectángulo que debería ser el color `(255, 0, 0)`, que es **rojo puro**. 
+ - Le dijimos a nuestro rectángulo que debería ser el color `(255, 0, 0)`, que es **rojo puro**. 
 
-Si le hubiéramos dicho que fuera `(255, 0, 255)`, habría sido de un color **púrpura brillante**, porque se dibuja con la cantidad máxima de rojo y la cantidad máxima de azul. 
+- Si le hubiéramos dicho que fuera `(255, 0, 255)`, habría sido de un color **púrpura brillante**, porque se dibuja con la cantidad máxima de rojo y la cantidad máxima de azul. 
 
-Si le hubiéramos dicho a nuestro rectángulo que se coloreara `(100, 100, 100)`, sería un **gris oscuro**, porque todos los colores serían iguales.
+- Si le hubiéramos dicho a nuestro rectángulo que se coloreara `(100, 100, 100)`, sería un **gris oscuro**, porque todos los colores serían iguales.
 
 Después de pasar por un color para que nuestro rectángulo sea, tenemos que decirle a dónde debe ir y qué tan grande debe ser. 
 
@@ -103,7 +103,7 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI1NDM1NzEsMzA0MDk3NTIyLDE1MD
+eyJoaXN0b3J5IjpbLTE3ODA5NTg2NzYsMzA0MDk3NTIyLDE1MD
 g3MjQ4NTcsMTkwMDI3Mjg2NSwxOTAwMjcyODY1LC0xNDU2ODI0
 MjgyLDE4MDcyNjA1MTgsLTYzNTQ0MTc1NCwtMTg5NDg0Mzk5NC
 wzOTMwMTc4OTgsMTY1ODg5MjAyMywxNzEyNTI1MDU5LDM1Mzkx
