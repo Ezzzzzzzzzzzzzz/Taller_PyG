@@ -59,7 +59,10 @@ Lo primero que tenemos es una declaración `global`. Debido a que nuestro códig
 Aunque podemos mirar los valores de las variables fuera de nuestra función, no podemos establecerlos, a menos que los incluyamos en la declaración `global`. 
 
 Esto le dice a Python que cuando llamamos `playerX`, por ejemplo, definitivamente nos referimos al `playerX` en la parte superior del archivo, no a un nuevo `playerX` que podríamos crear dentro de la función.
+
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/GlobalVariable.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYxNTY5NzAsLTcwNDEyMDczMiwtMT
-Q2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NTM2N119
+eyJoaXN0b3J5IjpbOTEwOTQ4MTIxLC0xMzM2MTU2OTcwLC03MD
+QxMjA3MzIsLTE0NjUxMTg5MTksMTkyODk0MTg0OSw1MTcyODUz
+NjddfQ==
 -->
