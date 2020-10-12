@@ -3,9 +3,7 @@
 
 ### En las practicas anterior, importamos `pygame.events` como `GAME_EVENTS`; ahora podemos usarlo. 
 
-**Cada programa de Pygame que escribimos es un gran bucle que se ejecuta para siempre o hasta que salimos del programa**. Cada vez que se ejecuta nuestro ciclo, Pygame crea una lista de eventos que han ocurrido desde la última vez que se ejecutó el ciclo.
-
-Esto incluye eventos del sistema, como una señal `QUIT`; *eventos del mouse [como un clic con el botón izquierdo]*; y *eventos de teclado [como cuando se presiona o suelta un botón]*. 
+**Cada programa de Pygame que escribimos es un gran bucle que se ejecuta para siempre o hasta que salimos del programa**. Cada vez que se ejecuta nuestro ciclo, Pygame crea una lista de eventos que han ocurrido desde la última vez que se ejecutó el ciclo. Esto incluye eventos del sistema, como una señal `QUIT`; *eventos del mouse [como un clic con el botón izquierdo]*; y *eventos de teclado [como cuando se presiona o suelta un botón]*. 
 
 Una vez que tenemos la lista de eventos que recibió Pygame, podemos decidir cómo nuestro programa debe responder a esos eventos. 
 
@@ -52,7 +50,7 @@ Buscamos eventos `KEYDOWN` en la **línea 87** y eventos `KEYUP` en la **línea 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDk3NDUxOCwtMjMxMDQxNTE2LDk3MD
+eyJoaXN0b3J5IjpbMTg3MDgzMDk1MCwtMjMxMDQxNTE2LDk3MD
 E0MzM3OSwtODA5OTczOTEyLDM2MDg0NzYwNCwxNjY1MzMxNTEz
 LDQ1ODc3ODYwNSw5MTE0ODEwNzIsMjAzNTYzMTgzNywtMTYwMT
 I3Mjc3NF19
