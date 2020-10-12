@@ -73,9 +73,11 @@ Esto se debe a que utilizamos variables que almacenan una medida básica de velo
 
 ### Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos aumentar la cantidad de distancia que se agrega en cada cuadro, lo que da la ilusión de aceleración. 
 
+![](https://www.walter-fendt.de/html5/phes/acceleration_es.htm)
+
 **Si cambiamos nuestro código para que aumente nuestras variables de velocidad (`blueSquareVX`y`blueSquareVY` en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTY5MzQ5NSwyMTM4MTI5NTkxLDI5Mj
+eyJoaXN0b3J5IjpbMTI1NzkxMDEzMiwyMTM4MTI5NTkxLDI5Mj
 Y2MTg1MywxMzk2NTQ0MTIzLDE0MjQ3NjI5NjgsLTU3MzMzOTQz
 NiwxMDk0NzYyMzg4LC0zOTU4MDg5MDcsMTAxNjk3NzU2MSwxOT
 c2ODI3MTI1LDM3MTcwNzM3NywxMzk0NTg5NDUsLTQzNTUwNDU5
