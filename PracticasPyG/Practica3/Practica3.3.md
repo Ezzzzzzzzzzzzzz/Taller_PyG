@@ -1,6 +1,8 @@
 # ¿Cómo sabemos qué tecla presionó nuestro jugador? 
 
-### Cada evento de las teclas de Pygame tiene una propiedad  `key` que describe qué tecla representa. Si imprimiéramos la propiedad `event.key`, veríamos muchos números, pero estas no son las teclas que presionamos.
+### Cada evento de las teclas de Pygame tiene una propiedad  `key` que describe qué tecla representa. 
+
+Si imprimiéramos la propiedad `event.key`, veríamos muchos números, pero estas no son las teclas que presionamos.
 
 ![](https://media.giphy.com/media/kD7SCW1rF6FFK/giphy.gif)
 
@@ -53,7 +55,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTU0NDM4NiwxMjIyODUwNzIsOTgyMD
-IwMTMsLTMwODEwNjIzOCwxMDQ4MTM1NDE0LDE1ODg4NTAyNjYs
-LTEwNjAzNTY0NzJdfQ==
+eyJoaXN0b3J5IjpbNDExNzQyNTYyLC03MDk1NDQzODYsMTIyMj
+g1MDcyLDk4MjAyMDEzLC0zMDgxMDYyMzgsMTA0ODEzNTQxNCwx
+NTg4ODUwMjY2LC0xMDYwMzU2NDcyXX0=
 -->
