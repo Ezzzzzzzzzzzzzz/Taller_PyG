@@ -17,6 +17,8 @@ Ahora, cuando ejecutamos el `fragmento 03` por última vez, vemos que nuestro cu
 
 **Esto se debe a que la variable `blueSquareVX` ha ingresado números negativos, pero la variable `blueSquareVY` continúa aumentando**. 
 
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/AceleracionNeg.JPG)
+
 Si hubiéramos restado las variables `VX` y `VY` en valores iguales, con velocidades iniciales iguales (tanto `VX` como `VY` iguales a 8, por ejemplo), **nuestras formas habrían continuado a lo largo de su camino**, se detuvieron y luego se habrían invertido exactamente en el mismo camino, con la misma tasa de aceleración que desaceleró. 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/raw/master/PracticasPyG/Practica2/py2.4.JPG)
@@ -25,7 +27,7 @@ Si hubiéramos restado las variables `VX` y `VY` en valores iguales, con velocid
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Cap2.3.3.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk2NzQ2NjgsLTE1NDk1MzQ3NzcsOD
-I2MDg0MzQ0LDExOTkxNTM2MzcsMjk2NDQxMjgyLDE5NDE2NzMz
-NzcsNjQ2NjI1NTg0XX0=
+eyJoaXN0b3J5IjpbMjI4OTI4NjU1LC0xNjA5Njc0NjY4LC0xNT
+Q5NTM0Nzc3LDgyNjA4NDM0NCwxMTk5MTUzNjM3LDI5NjQ0MTI4
+MiwxOTQxNjczMzc3LDY0NjYyNTU4NF19
 -->
