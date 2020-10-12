@@ -29,7 +29,7 @@ pygame.events
 import pygame.event as GAME_EVENTS
 ```
 
-# Código TOP (Cabecera)
+## Código TOP (Cabecera)
 ```python
 import pygame, sys, random
 import pygame.locals as GAME_GLOBALS
@@ -43,7 +43,7 @@ pygame.display.set_caption("Pygame Shapes!")
 ```
 **Vamos a usar en el código `Bottom` para verificar si nuestro jugador intentó o no abandonar el juego mientras se estaba ejecutando (en este caso, tratando de cerrar la ventana), y luego cerrar nuestro programa correctamente.**
 
-### Código BOTTOM (Pie de código)
+## Código BOTTOM (Pie de código)
 ```python
 	for event in GAME_EVENTS.get():
 	    if event.type == GAME_GLOBALS.QUIT:
@@ -98,11 +98,11 @@ Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxMzkzODkxLDc0MDg1NjM5OCwxMTQzOT
-c0MjIsMTcwNDc0MDA1OCwtMTY4NTMwODEyMCwtMTU1ODQ5MzIz
-MiwzODg5MzUxMywtMTAzMjEwMTQzLDE0NTk4MTA3NjMsMTA0Nz
-gyMzIwNSwtNzEwNDc2NDI0LDcyMDA5NzYwNSwyMDU5MjAzNDI3
-LC03NDU2NjY5LDE5MjU1MTY4ODEsLTE5NjAwMTE2MjcsLTE5Mz
-gyMDc1MTksMTU2NjU5MzQ3LDEwMjU3NDYxNTksLTc1NDcyMDc0
-MV19
+eyJoaXN0b3J5IjpbMTY3MTI3NjI1Myw3NDA4NTYzOTgsMTE0Mz
+k3NDIyLDE3MDQ3NDAwNTgsLTE2ODUzMDgxMjAsLTE1NTg0OTMy
+MzIsMzg4OTM1MTMsLTEwMzIxMDE0MywxNDU5ODEwNzYzLDEwND
+c4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQy
+NywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOT
+M4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3
+NDFdfQ==
 -->
