@@ -2,7 +2,7 @@
 
 ### Cada evento de las teclas de Pygame tiene una propiedad  `key` que describe qué tecla representa. 
 ```python
-		if event.key == pygame.K_LEFT:
+	if event.key == pygame.K_LEFT:
                 leftDown = True
 ```
 Si imprimiéramos la propiedad `event.key`, veríamos muchos números, pero estas no son las teclas que presionamos.
@@ -58,7 +58,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjEyODYwMjIsLTcwOTU0NDM4NiwxMj
+eyJoaXN0b3J5IjpbLTEzOTUxOTkxOTgsLTcwOTU0NDM4NiwxMj
 IyODUwNzIsOTgyMDIwMTMsLTMwODEwNjIzOCwxMDQ4MTM1NDE0
 LDE1ODg4NTAyNjYsLTEwNjAzNTY0NzJdfQ==
 -->
