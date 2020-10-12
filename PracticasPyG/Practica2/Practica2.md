@@ -81,13 +81,13 @@ while True:
     greenSquareX += 1
     #greenSquareY += 1
 ```
-### ¿Qué está haciendo que nuestro cuadrado se mueva? 
-
-Cuando vimos la primera practica, dibujábamos formas como esta usando números que pasaríamos a Pygame, como `pygame.draw.rect(surface, (255,0,0), (20, 50, 40, 30))`, y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
+¿Qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la primera practica, dibujábamos formas como esta usando números que pasaríamos a Pygame, como `pygame.draw.rect(surface, (255,0,0), (20, 50, 40, 30))`, y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
 
 **¿Qué pasaría si quisiéramos cambiar la altura, el ancho o el color de esta forma? ¿Cómo podríamos decirle a Pygame que cambie los números que ya ingresamos?** 
 
-Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
+### Aquí es donde entran las variables. 
+
+En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
 
 ### Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `1` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
 
@@ -100,7 +100,7 @@ Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjIxOTUxMywtMjA3ODczOTgyMSw3ND
+eyJoaXN0b3J5IjpbLTU2NTM1NzA5NywtMjA3ODczOTgyMSw3ND
 A4NTYzOTgsMTE0Mzk3NDIyLDE3MDQ3NDAwNTgsLTE2ODUzMDgx
 MjAsLTE1NTg0OTMyMzIsMzg4OTM1MTMsLTEwMzIxMDE0MywxND
 U5ODEwNzYzLDEwNDc4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2
