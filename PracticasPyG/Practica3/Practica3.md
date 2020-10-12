@@ -11,7 +11,7 @@ En las dos primeras practicas, nos familiarizamos con los conceptos básicos de 
 
 A diferencia del practicas anteriores, no vamos a cortar y cambiar fragmentos de código para afectar el programa. Si copia `keyboard.py` y lo ejecuta en su computadora, se ejecutará tal como pretendemos. *Esta vez, vamos a recorrer el código línea por línea para comprender exactamente qué hace cada bit para el programa.*
 
- - Las primeras **12 líneas** de código deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
+## keyboard.py
 ```python
 import pygame, sys
 import pygame.locals as GAME_GLOBALS
@@ -28,7 +28,8 @@ surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption('Pygame Keyboard!')
 ```
 
-- La siguiente docena de líneas son variables que usaremos para determinar cómo debería verse nuestro cuadrado controlado por teclado y dónde debería estar. 
+ - Las primeras **12 líneas** de código deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
+
 ```python
 # Variables del cuadrado
 playerSize = 20
@@ -41,6 +42,9 @@ moveSpeed = 1.0
 maxSpeed = 10.0
 gravity = 1.0
 ```
+
+- La siguiente docena de líneas son variables que usaremos para determinar cómo debería verse nuestro cuadrado controlado por teclado y dónde debería estar. 
+
  - Después de eso, tenemos dos funciones, `move()` y `quitGame()`, que usaremos para movernos y salir del juego. 
 ```python
 def move():
@@ -63,10 +67,11 @@ while True:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTk3ODQ0OCwxMzcxOTM0NzY4LDE2NT
-Y5ODQ2ODEsLTMzNTk2MjM1MiwtMTEzMDI2NzE5MCw2ODE3MTcx
-MDIsMTU2NzA5NDM2MCw2MzM2ODg5NzIsLTk5MTgwMjAwMSwxNj
-A3MTY0NTE4LDMzMDM5NTkxNywtMTM4OTE2NTY2LC0xNTIzNzkw
-MzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2ODYsLT
-c4NDg3MTAxMiwtNzkxMzUyMjQ2LDE0NDczODg5OF19
+eyJoaXN0b3J5IjpbODYwNDg5NzIwLC01NzU5Nzg0NDgsMTM3MT
+kzNDc2OCwxNjU2OTg0NjgxLC0zMzU5NjIzNTIsLTExMzAyNjcx
+OTAsNjgxNzE3MTAyLDE1NjcwOTQzNjAsNjMzNjg4OTcyLC05OT
+E4MDIwMDEsMTYwNzE2NDUxOCwzMzAzOTU5MTcsLTEzODkxNjU2
+NiwtMTUyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsOD
+M1NDM1Njg2LC03ODQ4NzEwMTIsLTc5MTM1MjI0NiwxNDQ3Mzg4
+OThdfQ==
 -->
