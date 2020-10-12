@@ -48,6 +48,7 @@ pygame.draw.rect(window, (255, 0, 0), (0, 0, 50, 30))
 ```
 Luego, le dijimos a Pygame qué color queríamos que fuera nuestro rectángulo pasándolo a través de una **tupla (una lista especial de números)** que representa la cantidad de **rojo**, **verde** y **azul** que debería tener el color final. Usamos rojo, verde y azul, ya que estos son los tres colores que combina su pantalla para crear cada tono que pueda ver en ella. 
 >`0` significa que nada de ese color debe usarse en la forma.
+>
 >`255` significa que la cantidad máxima de color debe estar en esa forma.
 
 Le dijimos a nuestro rectángulo que debería ser el color `(255, 0, 0)`, que es **rojo puro**. 
@@ -102,10 +103,10 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODc4OTU2MywzMDQwOTc1MjIsMTUwOD
-cyNDg1NywxOTAwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQy
-ODIsMTgwNzI2MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LD
-M5MzAxNzg5OCwxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2
-MzY1LC0xMDIzNTI3Mjc4LC0yMDY1MDI5OTMwLC03OTQ4ODE2MT
-JdfQ==
+eyJoaXN0b3J5IjpbLTE4NDI1NDM1NzEsMzA0MDk3NTIyLDE1MD
+g3MjQ4NTcsMTkwMDI3Mjg2NSwxOTAwMjcyODY1LC0xNDU2ODI0
+MjgyLDE4MDcyNjA1MTgsLTYzNTQ0MTc1NCwtMTg5NDg0Mzk5NC
+wzOTMwMTc4OTgsMTY1ODg5MjAyMywxNzEyNTI1MDU5LDM1Mzkx
+NjM2NSwtMTAyMzUyNzI3OCwtMjA2NTAyOTkzMCwtNzk0ODgxNj
+EyXX0=
 -->
