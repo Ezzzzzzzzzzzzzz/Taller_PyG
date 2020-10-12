@@ -66,7 +66,7 @@ while True:
 
 ### Reemplace el código del `fragmento 02` con el código del `fragmento 03` (o cree un nuevo archivo con el código `TOP (superior)` + `fragmento 03` + `BOTTOM`). **Ahora, si corremos eso, ¿qué vemos?**
 
- Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: **a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores. 
+ Estamos agregando a nuestros valores X e Y, por lo que nuestro cuadrado se mueve hacia abajo y hacia la derecha, pero algo es diferente de nuestros bits de código anteriores: **a medida que nuestro programa continúa ejecutándose, nuestro cuadrado se mueve un poco más hacia la derecha de lo que hizo en los cuadros anteriores**. 
 ### Se está acelerando. 
 
 Esto se debe a que utilizamos variables que almacenan una medida básica de velocidad. 
@@ -75,9 +75,9 @@ Esto se debe a que utilizamos variables que almacenan una medida básica de velo
 
 **Si cambiamos nuestro código para que aumente nuestras variables de velocidad (`blueSquareVX`y`blueSquareVY` en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODEyOTU5MSwyOTI2NjE4NTMsMTM5Nj
-U0NDEyMywxNDI0NzYyOTY4LC01NzMzMzk0MzYsMTA5NDc2MjM4
-OCwtMzk1ODA4OTA3LDEwMTY5Nzc1NjEsMTk3NjgyNzEyNSwzNz
-E3MDczNzcsMTM5NDU4OTQ1LC00MzU1MDQ1OTgsLTE4NjU2Njg4
-MTgsOTgxNTIwMDc1XX0=
+eyJoaXN0b3J5IjpbMTMxMTY5MzQ5NSwyMTM4MTI5NTkxLDI5Mj
+Y2MTg1MywxMzk2NTQ0MTIzLDE0MjQ3NjI5NjgsLTU3MzMzOTQz
+NiwxMDk0NzYyMzg4LC0zOTU4MDg5MDcsMTAxNjk3NzU2MSwxOT
+c2ODI3MTI1LDM3MTcwNzM3NywxMzk0NTg5NDUsLTQzNTUwNDU5
+OCwtMTg2NTY2ODgxOCw5ODE1MjAwNzVdfQ==
 -->
