@@ -68,8 +68,6 @@ while True:
 
 **Pero eso no es muy útil, ¿verdad? Reemplacemos el código del `fragmento 01` con el `fragmento 02` y verá un cuadrado verde moviéndose lentamente a la derecha de la pantalla.**
 
-![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/p2.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/p2.3.JPG)
-
 ## Fragmento 02
 ```python
 greenSquareX = windowWidth / 2
@@ -81,6 +79,9 @@ while True:
     greenSquareX += 1
     #greenSquareY += 1
 ```
+
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/p2.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/p2.3.JPG)
+
 ¿Qué está haciendo que nuestro cuadrado se mueva? Cuando vimos la primera practica, dibujábamos formas como esta usando números que pasaríamos a Pygame, como `pygame.draw.rect(surface, (255,0,0), (20, 50, 40, 30))`, y eso está muy bien, siempre y cuando nunca quieras cambiar nada de esa forma.
 
 **¿Qué pasaría si quisiéramos cambiar la altura, el ancho o el color de esta forma? ¿Cómo podríamos decirle a Pygame que cambie los números que ya ingresamos?** 
@@ -102,11 +103,11 @@ Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la varia
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTgzODA4NzcsLTIwNzg3Mzk4MjEsNz
-QwODU2Mzk4LDExNDM5NzQyMiwxNzA0NzQwMDU4LC0xNjg1MzA4
-MTIwLC0xNTU4NDkzMjMyLDM4ODkzNTEzLC0xMDMyMTAxNDMsMT
-Q1OTgxMDc2MywxMDQ3ODIzMjA1LC03MTA0NzY0MjQsNzIwMDk3
-NjA1LDIwNTkyMDM0MjcsLTc0NTY2NjksMTkyNTUxNjg4MSwtMT
-k2MDAxMTYyNywtMTkzODIwNzUxOSwxNTY2NTkzNDcsMTAyNTc0
-NjE1OV19
+eyJoaXN0b3J5IjpbMzIyNjU3MTg5LC0yMDc4NzM5ODIxLDc0MD
+g1NjM5OCwxMTQzOTc0MjIsMTcwNDc0MDA1OCwtMTY4NTMwODEy
+MCwtMTU1ODQ5MzIzMiwzODg5MzUxMywtMTAzMjEwMTQzLDE0NT
+k4MTA3NjMsMTA0NzgyMzIwNSwtNzEwNDc2NDI0LDcyMDA5NzYw
+NSwyMDU5MjAzNDI3LC03NDU2NjY5LDE5MjU1MTY4ODEsLTE5Nj
+AwMTE2MjcsLTE5MzgyMDc1MTksMTU2NjU5MzQ3LDEwMjU3NDYx
+NTldfQ==
 -->
