@@ -2,6 +2,9 @@
 El proceso de dibujar un círculo es muy parecido a dibujar un cuadrado, excepto que, **en lugar de pasar un ancho y una altura, pasamos un radio y un punto, alrededor del cual dibujamos nuestro círculo**. 
 
 Entonces, por ejemplo, *si quisiéramos dibujar un círculo amarillo en el centro de nuestra ventana con un diámetro de 40 píxeles, usaríamos el siguiente código* para reemplazar el código en el ciclo `while` original en `hello.py`: 
+
+![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG)
+
 ```python
 while True:
 
@@ -11,7 +14,7 @@ while True:
     
     pygame.display.update()
 ```
-![https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica1/PyG_P1.3.JPG)
+
 
 >**Al igual que dibujar un rectángulo, le decimos a Pygame en qué superficie queremos dibujar nuestro círculo, de qué color queremos que sea y hacia dónde debe ir**. El radio es específico para dibujar esta forma particular. 
 
@@ -76,7 +79,7 @@ while True:
     pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Nzg1MTUxMCw3NTYxNDkwMTIsMjA5ND
-c4Njk0Niw1MDg3Njc2MzUsLTE4ODY5MTQ1OTIsLTI4MzQwNzYy
-NCwtMTcyNjk5MDQxOCwtNTE0MzE3NDY1XX0=
+eyJoaXN0b3J5IjpbLTEzNDMwMjgwNTYsNzU2MTQ5MDEyLDIwOT
+Q3ODY5NDYsNTA4NzY3NjM1LC0xODg2OTE0NTkyLC0yODM0MDc2
+MjQsLTE3MjY5OTA0MTgsLTUxNDMxNzQ2NV19
 -->
