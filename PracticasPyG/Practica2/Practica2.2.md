@@ -73,11 +73,11 @@ Esto se debe a que utilizamos variables que almacenan una medida básica de velo
 
 ### Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos aumentar la cantidad de distancia que se agrega en cada cuadro, lo que da la ilusión de aceleración. 
 
-**Si cambiamos nuestro código para que aumente nuestras variables de velocidad (blueSquareVX / blueSquareVY en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
+**Si cambiamos nuestro código para que aumente nuestras variables de velocidad (`blueSquareVX / blueSquareVY` en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyNjYxODUzLDEzOTY1NDQxMjMsMTQyND
-c2Mjk2OCwtNTczMzM5NDM2LDEwOTQ3NjIzODgsLTM5NTgwODkw
-NywxMDE2OTc3NTYxLDE5NzY4MjcxMjUsMzcxNzA3Mzc3LDEzOT
-Q1ODk0NSwtNDM1NTA0NTk4LC0xODY1NjY4ODE4LDk4MTUyMDA3
-NV19
+eyJoaXN0b3J5IjpbMTUzNjAyMDQxNywyOTI2NjE4NTMsMTM5Nj
+U0NDEyMywxNDI0NzYyOTY4LC01NzMzMzk0MzYsMTA5NDc2MjM4
+OCwtMzk1ODA4OTA3LDEwMTY5Nzc1NjEsMTk3NjgyNzEyNSwzNz
+E3MDczNzcsMTM5NDU4OTQ1LC00MzU1MDQ1OTgsLTE4NjU2Njg4
+MTgsOTgxNTIwMDc1XX0=
 -->
