@@ -89,7 +89,9 @@ while True:
 
 En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su lugar. Después de dibujar las formas, podemos cambiar la variable para que la próxima vez que se dibuje se vea ligeramente diferente.
 
-### Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `1` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
+### Con el `fragmento 02`, cada vez que dibujamos nuestro cuadrado verde, agregamos `1` a la variable que usamos para definir su coordenada X (qué tan lejos está de la izquierda de la pantalla), `greenSquareX`. 
+
+Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la variable y luego agregue el número que viene después"**.
 
 >**Si cambiamos esa línea para leer `greenSquareX += 5`, cada vez que dibujemos nuestro cuadrado, será 5 píxeles a la derecha de donde estaba la última vez que se dibujó. Esto da la ilusión de que la forma se mueve más rápido que antes.** 
 >
@@ -100,11 +102,11 @@ En lugar de pasar números a `pygame.draw.rect()`, pasamos las variables en su l
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTM1NzA5NywtMjA3ODczOTgyMSw3ND
-A4NTYzOTgsMTE0Mzk3NDIyLDE3MDQ3NDAwNTgsLTE2ODUzMDgx
-MjAsLTE1NTg0OTMyMzIsMzg4OTM1MTMsLTEwMzIxMDE0MywxND
-U5ODEwNzYzLDEwNDc4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2
-MDUsMjA1OTIwMzQyNywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOT
-YwMDExNjI3LC0xOTM4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2
-MTU5XX0=
+eyJoaXN0b3J5IjpbLTEyOTgzODA4NzcsLTIwNzg3Mzk4MjEsNz
+QwODU2Mzk4LDExNDM5NzQyMiwxNzA0NzQwMDU4LC0xNjg1MzA4
+MTIwLC0xNTU4NDkzMjMyLDM4ODkzNTEzLC0xMDMyMTAxNDMsMT
+Q1OTgxMDc2MywxMDQ3ODIzMjA1LC03MTA0NzY0MjQsNzIwMDk3
+NjA1LDIwNTkyMDM0MjcsLTc0NTY2NjksMTkyNTUxNjg4MSwtMT
+k2MDAxMTYyNywtMTkzODIwNzUxOSwxNTY2NTkzNDcsMTAyNTc0
+NjE1OV19
 -->
