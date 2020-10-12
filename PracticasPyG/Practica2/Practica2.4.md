@@ -1,6 +1,7 @@
 # Animando otras propiedades
 
 La animación no se trata solo de hacer que las cosas se muevan: **también se trata de hacer que las cosas cambien.**
+
 ![](https://www.walter-fendt.de/html5/phes/acceleration_es.htm)
 
 Hasta ahora, hemos estado animando formas moviéndolas, pero podemos usar el mismo enfoque de cambiar variables a lo largo del tiempo para afectar otras propiedades, como las dimensiones de nuestras formas. 
@@ -56,10 +57,10 @@ Entonces, **cuando dibujamos una forma con un ancho negativo y luego la compensa
 
 ### No podemos ver el efecto porque estamos usando colores sólidos, pero si usáramos el mismo código de expansión/contracción con una imagen, se voltearía al revés y al revés. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NDk4NzYyLDE2ODAxNTI5MjksLTE3Mz
-U0OTY5MjYsLTU1MTUxNDE1MiwtMTc1MzgzODE3MywtMTkzOTM5
-ODk3NywtMTMwMDU2OTQwMiwxNjE0OTcyMjYxLDg1OTY3NTM2OS
-wtMjA5OTA2NTU2OCwtMjA2NDY5NjI2OSw0NDAyODY0NzksLTU0
-NDUzODIyMiwyNzY1NzQ4MTIsMjA4MzQ1MTgxMCwtMTE4MzgzMj
-I5NCwtMTg3NjEyMzczOF19
+eyJoaXN0b3J5IjpbMjEzMTAxNDY4NCwzMDc0OTg3NjIsMTY4MD
+E1MjkyOSwtMTczNTQ5NjkyNiwtNTUxNTE0MTUyLC0xNzUzODM4
+MTczLC0xOTM5Mzk4OTc3LC0xMzAwNTY5NDAyLDE2MTQ5NzIyNj
+EsODU5Njc1MzY5LC0yMDk5MDY1NTY4LC0yMDY0Njk2MjY5LDQ0
+MDI4NjQ3OSwtNTQ0NTM4MjIyLDI3NjU3NDgxMiwyMDgzNDUxOD
+EwLC0xMTgzODMyMjk0LC0xODc2MTIzNzM4XX0=
 -->
