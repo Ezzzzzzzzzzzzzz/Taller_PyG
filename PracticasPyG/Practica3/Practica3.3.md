@@ -47,7 +47,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 >Siempre que detectemos que se ha presionado el botón de flecha izquierda, establecemos `leftDown` en **True** (Verdadero); 
 ```python 
-	if event.key == pygame.K_LEFT:
+            if event.key == pygame.K_LEFT:
                 leftDown = True
 ```
 >Si detectamos que se ha soltado el botón de flecha izquierda, establecemos `leftDown` en **False** (Falso). 
@@ -67,8 +67,8 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYzMjUwMSwtMTQ5MjQwMzc4MiwxOT
-Y3MDc1NDM0LC03MDk1NDQzODYsMTIyMjg1MDcyLDk4MjAyMDEz
-LC0zMDgxMDYyMzgsMTA0ODEzNTQxNCwxNTg4ODUwMjY2LC0xMD
-YwMzU2NDcyXX0=
+eyJoaXN0b3J5IjpbLTE5NTAzNTA2NjksLTE0OTI0MDM3ODIsMT
+k2NzA3NTQzNCwtNzA5NTQ0Mzg2LDEyMjI4NTA3Miw5ODIwMjAx
+MywtMzA4MTA2MjM4LDEwNDgxMzU0MTQsMTU4ODg1MDI2NiwtMT
+A2MDM1NjQ3Ml19
 -->
