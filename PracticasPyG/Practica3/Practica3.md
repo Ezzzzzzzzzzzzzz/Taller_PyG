@@ -11,7 +11,7 @@ En las dos primeras practicas, nos familiarizamos con los conceptos básicos de 
 
 A diferencia del practicas anteriores, no vamos a cortar y cambiar fragmentos de código para afectar el programa. Si copia `keyboard.py` y lo ejecuta en su computadora, se ejecutará tal como pretendemos. *Esta vez, vamos a recorrer el código línea por línea para comprender exactamente qué hace cada bit para el programa.*
 
-## [keyboard.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/keyboard.py)
+# [keyboard.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/keyboard.py)
 
 - Las primeras **12 líneas** de código deberían resultarle bastante familiares a estas alturas; estas son las variables que hemos usado en las dos partes anteriores para definir cómo debería verse nuestra ventana y cómo queremos interactuar con Pygame y sus métodos.
 
@@ -68,11 +68,11 @@ while True:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQ2MzE2OTIsMTQ2NzEzMDk0NCw4Nj
-A0ODk3MjAsLTU3NTk3ODQ0OCwxMzcxOTM0NzY4LDE2NTY5ODQ2
-ODEsLTMzNTk2MjM1MiwtMTEzMDI2NzE5MCw2ODE3MTcxMDIsMT
-U2NzA5NDM2MCw2MzM2ODg5NzIsLTk5MTgwMjAwMSwxNjA3MTY0
-NTE4LDMzMDM5NTkxNywtMTM4OTE2NTY2LC0xNTIzNzkwMzM3LC
-01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2ODYsLTc4NDg3
-MTAxMl19
+eyJoaXN0b3J5IjpbMjA4NDQ1OTMwMywxNDY3MTMwOTQ0LDg2MD
+Q4OTcyMCwtNTc1OTc4NDQ4LDEzNzE5MzQ3NjgsMTY1Njk4NDY4
+MSwtMzM1OTYyMzUyLC0xMTMwMjY3MTkwLDY4MTcxNzEwMiwxNT
+Y3MDk0MzYwLDYzMzY4ODk3MiwtOTkxODAyMDAxLDE2MDcxNjQ1
+MTgsMzMwMzk1OTE3LC0xMzg5MTY1NjYsLTE1MjM3OTAzMzcsLT
+U4ODU5Njk2NSwxNjg4MTM2ODI0LDgzNTQzNTY4NiwtNzg0ODcx
+MDEyXX0=
 -->
