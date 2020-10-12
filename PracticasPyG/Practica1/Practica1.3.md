@@ -55,7 +55,7 @@ while True:
 
 Si desea visualizar cómo se generaron estas formas, podría dibujar rectángulos utilizando las mismas coordenadas que utilizó para dibujar una elipse y encajaría perfectamente dentro de ese cuadro. 
 
-Como habrás adivinado, esto significa que también puedes hacer círculos usando `pygame.draw.ellipse` **si los parámetros ancho y alto son los mismos**.
+### Como habrás adivinado, esto significa que también puedes hacer círculos usando `pygame.draw.ellipse` **si los parámetros ancho y alto son los mismos**.
 
 ```python
 while True:
@@ -79,7 +79,7 @@ while True:
     pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Mzg4OTM2Miw3NTYxNDkwMTIsMjA5ND
+eyJoaXN0b3J5IjpbMTUzMTQ1MzgwMyw3NTYxNDkwMTIsMjA5ND
 c4Njk0Niw1MDg3Njc2MzUsLTE4ODY5MTQ1OTIsLTI4MzQwNzYy
 NCwtMTcyNjk5MDQxOCwtNTE0MzE3NDY1XX0=
 -->
