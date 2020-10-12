@@ -1,25 +1,6 @@
 # Moviéndose en todas direcciones
-### Código TOP (Cabecera)
-```python
-import pygame, sys, random
-import pygame.locals as GAME_GLOBALS
-import pygame.event as GAME_EVENTS
 
-pygame.init()
-windowWidth = 640
-windowHeight = 480
-surface = pygame.display.set_mode((windowWidth, windowHeight))
-pygame.display.set_caption("Pygame Shapes!")
-```
-### Código BOTTOM (Pie de código)
-```python
-for event in GAME_EVENTS.get():
-        if event.type == GAME_GLOBALS.QUIT:
-            pygame.quit()
-            sys.exit()
-    pygame.display.update()
-```
-### Fragmento 02
+## Fragmento 02
 ```python
 greenSquareX = windowWidth / 2
 greenSquareY = windowHeight / 2
@@ -88,8 +69,8 @@ Al usar una variable para agregar un valor a nuestras coordenadas X e Y, podemos
 
 **Si cambiamos nuestro código para que aumente nuestras variables de velocidad (blueSquareVX / blueSquareVY en este caso) a través de la multiplicación en lugar de la suma o la resta, nuestras formas se acelerarían exponencialmente; apenas tendríamos tiempo para verlos antes de que salieran corriendo de la pantalla.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDc2Mjk2OCwtNTczMzM5NDM2LDEwOT
-Q3NjIzODgsLTM5NTgwODkwNywxMDE2OTc3NTYxLDE5NzY4Mjcx
-MjUsMzcxNzA3Mzc3LDEzOTQ1ODk0NSwtNDM1NTA0NTk4LC0xOD
-Y1NjY4ODE4LDk4MTUyMDA3NV19
+eyJoaXN0b3J5IjpbLTgxMjAyMTU3OCwxNDI0NzYyOTY4LC01Nz
+MzMzk0MzYsMTA5NDc2MjM4OCwtMzk1ODA4OTA3LDEwMTY5Nzc1
+NjEsMTk3NjgyNzEyNSwzNzE3MDczNzcsMTM5NDU4OTQ1LC00Mz
+U1MDQ1OTgsLTE4NjU2Njg4MTgsOTgxNTIwMDc1XX0=
 -->
