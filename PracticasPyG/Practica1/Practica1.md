@@ -2,9 +2,11 @@
 # SHAPES (formas) & PATHS (trayectorias) con PYGAME
 ## Vamos a aprender a hacer un juego desde cero. En las primeras practicas, aprendemos los conceptos básicos.
 
-En este curso, vamos a aprender a hacer juegos con **Pygame**. Examinaremos los controles de dibujo, animación, teclado y mouse, sonido y física. Cada practica se sumará a nuestro conocimiento del desarrollo de juegos, lo que nos permitirá comprender los juegos que jugamos y crear casi cualquier cosa que pueda imaginar nuestra imaginación.
 
 ![](https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif)
+En la primera practica, veremos cómo dibujar y colorear varias formas en una ventana. No se trata de [**Grand Theft Auto V**](https://www.rockstargames.com/V/es), sin duda, pero dibujar formas es el primer paso para construir casi cualquier cosa.
+
+Para comenzar, abra su editor de texto preferido *(sublime text, gedit, blog de notas, etc.)*, cree un nuevo archivo, inserte el siguiente código y guárdelo como `hello.py`
 
 # Entendiendo `hello.py`
 Las primeras dos líneas de nuestro primer programa son muy simples: **todo lo que hemos hecho es decirle a Python que queremos usar Pygame.** 
@@ -76,10 +78,6 @@ pygame.display.update()
 
 # hello.py
 
-En la primera practica, veremos cómo dibujar y colorear varias formas en una ventana. No se trata de [**Grand Theft Auto V**](https://www.rockstargames.com/V/es), sin duda, pero dibujar formas es el primer paso para construir casi cualquier cosa.
-
-Para comenzar, abra su editor de texto preferido *(sublime text, gedit, blog de notas, etc.)*, cree un nuevo archivo, inserte el siguiente código y guárdelo como `hello.py`
-
 ```python 
 import pygame 
 
@@ -103,7 +101,7 @@ Si todo ha ido bien, se abrirá una nueva ventana que le mostrará un cuadrado r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTU1MTM4MiwzMDQwOTc1MjIsMTUwOD
+eyJoaXN0b3J5IjpbMTMyMTc1OTUyNCwzMDQwOTc1MjIsMTUwOD
 cyNDg1NywxOTAwMjcyODY1LDE5MDAyNzI4NjUsLTE0NTY4MjQy
 ODIsMTgwNzI2MDUxOCwtNjM1NDQxNzU0LC0xODk0ODQzOTk0LD
 M5MzAxNzg5OCwxNjU4ODkyMDIzLDE3MTI1MjUwNTksMzUzOTE2
