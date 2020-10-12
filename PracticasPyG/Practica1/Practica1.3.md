@@ -7,7 +7,6 @@ while True:
 
     #Solo para ayudarnos a recordar
     #pygame.draw.circle(DONDE DIBUJAR, (ROJO, VERDE, AZUL), (COORDENADA X, COORDENADA Y), RADIO, ALTURA, ANCHO)
-    
     pygame.draw.circle(window, (255, 255, 0), (250, 200), 20, 0)
     
     pygame.display.update()
@@ -77,7 +76,7 @@ while True:
     pygame.display.update()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2MTQ5MDEyLDIwOTQ3ODY5NDYsNTA4Nz
-Y3NjM1LC0xODg2OTE0NTkyLC0yODM0MDc2MjQsLTE3MjY5OTA0
-MTgsLTUxNDMxNzQ2NV19
+eyJoaXN0b3J5IjpbMTg3Nzk2NTA5NCw3NTYxNDkwMTIsMjA5ND
+c4Njk0Niw1MDg3Njc2MzUsLTE4ODY5MTQ1OTIsLTI4MzQwNzYy
+NCwtMTcyNjk5MDQxOCwtNTE0MzE3NDY1XX0=
 -->
