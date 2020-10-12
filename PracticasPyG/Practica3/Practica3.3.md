@@ -60,7 +60,7 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 >Si nuestro jugador mantiene presionada la tecla, `leftDown` siempre será **True**(Verdadero), por lo que podemos hacer que nuestro programa Pygame siga moviendo nuestro cuadrado sin problemas por la pantalla, aunque no reciba un aluvión constante de eventos que le indiquen que lo haga.
 
-## Loop de eventos
+## Lista de eventos
 
 ```python
 # Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
@@ -97,8 +97,8 @@ Las variables `leftDown`, `rightDown` y `haveJump` **son las variables que podem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTEyODg5NjQsLTE5NTAzNTA2NjksLT
-E0OTI0MDM3ODIsMTk2NzA3NTQzNCwtNzA5NTQ0Mzg2LDEyMjI4
-NTA3Miw5ODIwMjAxMywtMzA4MTA2MjM4LDEwNDgxMzU0MTQsMT
-U4ODg1MDI2NiwtMTA2MDM1NjQ3Ml19
+eyJoaXN0b3J5IjpbNDI3MTI2NywtMTk1MDM1MDY2OSwtMTQ5Mj
+QwMzc4MiwxOTY3MDc1NDM0LC03MDk1NDQzODYsMTIyMjg1MDcy
+LDk4MjAyMDEzLC0zMDgxMDYyMzgsMTA0ODEzNTQxNCwxNTg4OD
+UwMjY2LC0xMDYwMzU2NDcyXX0=
 -->
