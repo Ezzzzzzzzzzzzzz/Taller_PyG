@@ -20,7 +20,10 @@ pygame.locals
 import pygame.locals as GAME_GLOBALS
 ```
 > 
->`pygame.events` incluye una lista de eventos, como eventos de teclado o eventos del sistema que ocurrieron desde la última vez que Pygame actualizó su vista; por eso lo importamos como **GAME_EVENTS**.
+````python 
+pygame.events
+``` 
+>Incluye una lista de eventos, como eventos de teclado o eventos del sistema que ocurrieron desde la última vez que Pygame actualizó su vista; por eso lo importamos como **GAME_EVENTS**.
 ```python
 import pygame.event as GAME_EVENTS
 ```
@@ -94,11 +97,11 @@ Aquí es donde entran las variables. En lugar de pasar números a `pygame.draw.r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxMzQ1NTAxLDc0MDg1NjM5OCwxMTQzOT
-c0MjIsMTcwNDc0MDA1OCwtMTY4NTMwODEyMCwtMTU1ODQ5MzIz
-MiwzODg5MzUxMywtMTAzMjEwMTQzLDE0NTk4MTA3NjMsMTA0Nz
-gyMzIwNSwtNzEwNDc2NDI0LDcyMDA5NzYwNSwyMDU5MjAzNDI3
-LC03NDU2NjY5LDE5MjU1MTY4ODEsLTE5NjAwMTE2MjcsLTE5Mz
-gyMDc1MTksMTU2NjU5MzQ3LDEwMjU3NDYxNTksLTc1NDcyMDc0
-MV19
+eyJoaXN0b3J5IjpbLTkyNjM0OTA1Myw3NDA4NTYzOTgsMTE0Mz
+k3NDIyLDE3MDQ3NDAwNTgsLTE2ODUzMDgxMjAsLTE1NTg0OTMy
+MzIsMzg4OTM1MTMsLTEwMzIxMDE0MywxNDU5ODEwNzYzLDEwND
+c4MjMyMDUsLTcxMDQ3NjQyNCw3MjAwOTc2MDUsMjA1OTIwMzQy
+NywtNzQ1NjY2OSwxOTI1NTE2ODgxLC0xOTYwMDExNjI3LC0xOT
+M4MjA3NTE5LDE1NjY1OTM0NywxMDI1NzQ2MTU5LC03NTQ3MjA3
+NDFdfQ==
 -->
