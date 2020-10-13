@@ -63,8 +63,11 @@ Debido a que nuestro código está dentro de la función `move()`, ya no tiene e
 ### Esto le dice a Python que cuando llamamos `playerX`, por ejemplo, definitivamente nos referimos al `playerX` en la parte superior del archivo, y no a un nuevo `playerX` que podríamos crear dentro de la función.
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/GlobalVariable.JPG)
+
+Las líneas 34 a 50 son donde hacemos que nuestro cuadrado se mueva hacia la izquierda o hacia la derecha, dependiendo de los botones que se hayan pulsado. Si el botón de flecha izquierda está hacia abajo, queremos mover el cuadrado / personaje / objeto hacia la izquierda. Esto es lo que estamos haciendo entre las líneas 36 y 41. Para hacer esto de manera convincente, primero debemos verificar si nuestro cuadrado ya se está moviendo o no y la dirección en la que va. Si nuestro cuadrado ya está viajando hacia la derecha, debemos detenerlo y luego cambiar de dirección.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTAwMDU1NSwtMTUwMzIzOTk2OSw5MT
-A5NDgxMjEsLTEzMzYxNTY5NzAsLTcwNDEyMDczMiwtMTQ2NTEx
-ODkxOSwxOTI4OTQxODQ5LDUxNzI4NTM2N119
+eyJoaXN0b3J5IjpbLTExNTYzMTY5MjMsMTc3MTAwMDU1NSwtMT
+UwMzIzOTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcwNDEy
+MDczMiwtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NTM2N1
+19
 -->
