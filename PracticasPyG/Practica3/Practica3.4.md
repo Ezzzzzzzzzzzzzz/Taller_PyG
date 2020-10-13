@@ -54,12 +54,24 @@ def move():
         if haveJumped == False:
             playerVX = playerVX * 1.1
 ```
-Lo primero que tenemos es una declaración `global`. Debido a que nuestro código está dentro de la función `move()`, ya no tiene el mismo alcance que nuestro bucle `for`. 
+Lo primero que tenemos es una declaración `global`. 
+```python
+global playerX, playerY, playerVX, playerVY, haveJumped, gravity
+```
+Debido a que nuestro código está dentro de la función `move()`, ya no tiene el mismo alcance que nuestro bucle `for`. Aunque podemos mirar los valores de las variables fuera de nuestra función, no podemos establecerlos, a menos que los incluyamos en la declaración `global`. 
 
-Aunque podemos mirar los valores de las variables fuera de nuestra función, no podemos establecerlos, a menos que los incluyamos en la declaración `global`. 
+### Esto le dice a Python que cuando llamamos `playerX`, por ejemplo, definitivamente nos referimos al `playerX` en la parte superior del archivo, y no a un nuevo `playerX` que podríamos crear dentro de la función.
 
-Esto le dice a Python que cuando llamamos `playerX`, por ejemplo, definitivamente nos referimos al `playerX` en la parte superior del archivo, no a un nuevo `playerX` que podríamos crear dentro de la función.
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/GlobalVariable.JPG)
+
+Después es son donde hacemos que nuestro cuadrado se mueva hacia la izquierda o hacia la derecha, dependiendo de los botones que se hayan pulsado. 
+
+Si el botón de flecha izquierda está hacia abajo, queremos mover el **cuadrado/personaje/objeto** hacia la izquierda. Para hacer esto de manera convincente, primero debemos verificar si nuestro cuadrado ya se está moviendo o no y la dirección en la que va. 
+
+Si nuestro cuadrado ya está viajando hacia la derecha, debemos detenerlo y luego cambiar de dirección.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYxNTY5NzAsLTcwNDEyMDczMiwtMT
-Q2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NTM2N119
+eyJoaXN0b3J5IjpbMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNT
+AzMjM5OTY5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MCwtNzA0MTIw
+NzMyLC0xNDY1MTE4OTE5LDE5Mjg5NDE4NDksNTE3Mjg1MzY3XX
+0=
 -->
