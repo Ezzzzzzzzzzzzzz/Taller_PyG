@@ -74,6 +74,8 @@ Si el botón de flecha izquierda está apretada, queremos mover el **cuadrado/pe
 
 **Para hacer esto de manera convincente, primero debemos verificar si nuestro cuadrado ya se está moviendo o no y la dirección en la que va. Si nuestro cuadrado ya está viajando hacia la derecha, debemos detenerlo y luego cambiar de dirección.**
 
+En esta línea se comprueba si la velocidad X de nuestro cuadrado es superior a 0.0 (yendo hacia la derecha). 
+
 ```python 
     # Muevete a la izquierda
     if leftDown:
@@ -83,11 +85,11 @@ Si el botón de flecha izquierda está apretada, queremos mover el **cuadrado/pe
             playerVX = -playerVX    
 ```
 
-En esta línea se comprueba si la velocidad X de nuestro cuadrado es superior a 0.0 (yendo hacia la derecha). 
+Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. 
 
-Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. Pero si nos movemos hacia la derecha, configurar `playerVX` para `moveSpeed` y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
+Pero si nos movemos hacia la derecha, configurar `playerVX` para `moveSpeed` y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg4Mzc1MDMsLTIyNDQ1ODY2MCwxND
+eyJoaXN0b3J5IjpbLTIxNDE3ODQxMjMsLTIyNDQ1ODY2MCwxND
 IyNTI0NzY2LDE3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4
 MTIxLC0xMzM2MTU2OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MT
 ksMTkyODk0MTg0OSw1MTcyODUzNjddfQ==
