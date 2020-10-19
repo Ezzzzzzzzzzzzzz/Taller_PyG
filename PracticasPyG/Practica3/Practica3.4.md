@@ -95,10 +95,18 @@ Tampoco queremos que nuestro cuadrado se salga de la pantalla;
         if playerX > 0:
             playerX += playerVX 
 ```
-las líneas 40 y 41 detienen el movimiento de nuestro cuadrado si está en el borde izquierdo de nuestra pantalla. Las líneas 44-50 hacen exactamente lo mismo pero al revés.
+Estas líneas detienen el movimiento de nuestro cuadrado si está en el borde izquierdo de nuestra pantalla. 
+
+Las líneas 
+```python
+        # Asegúrate de que nuestro cuadrado no deje nuestra ventana a la derecha.
+        if playerX + playerSize < windowWidth:
+            playerX += playerVX
+```
+hacen exactamente lo mismo pero al revés.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzOTk0ODkwLC0yMTQxNzg0MTIzLC0yMj
-Q0NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5
-OTY5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MCwtNzA0MTIwNzMyLC
-0xNDY1MTE4OTE5LDE5Mjg5NDE4NDksNTE3Mjg1MzY3XX0=
+eyJoaXN0b3J5IjpbMTE2NDAzMzk4OSwtMjE0MTc4NDEyMywtMj
+I0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAwMDU1NSwtMTUwMzIz
+OTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcwNDEyMDczMi
+wtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NTM2N119
 -->
