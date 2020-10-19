@@ -8,6 +8,8 @@ El problema es que después de un tiempo, tener cada línea de código en un buc
 
 ### Para hacernos la vida más fácil, hemos puesto el código que es responsable de hacer que nuestro personaje se mueva a su propia función, la función de movimiento.
 
+![](https://media.giphy.com/media/jxiDBvPYEtTAk/giphy.gif)
+
 Cuando llamamos a `move()`, se ejecuta una gran cantidad de código. 
 ```python
 def move():
@@ -70,8 +72,8 @@ Si el botón de flecha izquierda está hacia abajo, queremos mover el **cuadrado
 
 Si nuestro cuadrado ya está viajando hacia la derecha, debemos detenerlo y luego cambiar de dirección.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNT
-AzMjM5OTY5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MCwtNzA0MTIw
-NzMyLC0xNDY1MTE4OTE5LDE5Mjg5NDE4NDksNTE3Mjg1MzY3XX
-0=
+eyJoaXN0b3J5IjpbLTI0OTEwNDc5OCwxNDIyNTI0NzY2LDE3Nz
+EwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2MTU2
+OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MTksMTkyODk0MTg0OS
+w1MTcyODUzNjddfQ==
 -->
