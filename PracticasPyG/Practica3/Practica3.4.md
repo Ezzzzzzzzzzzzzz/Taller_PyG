@@ -123,14 +123,24 @@ hacen exactamente lo mismo pero al revés.
 
     playerY -= playerVY
 ```
-Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro salta, pero lo que sube debe de bajar. **Al igual que cuando cambiamos de dirección cuando corremos, debemos reducir la velocidad después de saltar antes de comenzar a caer nuevamente.** Eso es lo que está pasando aquí.
+Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro salta, pero lo que sube debe de bajar. **Al igual que cuando cambiamos de dirección cuando corremos, debemos reducir la velocidad después de saltar antes de comenzar a caer nuevamente.** 
+```python
+    if playerVY > 1.0:
+        playerVY = playerVY * 0.9
+    else :
+        playerVY = 0.0
+        haveJumped = False
+```
 
-Primero, en la línea 52, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla. A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar.
+Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla. 
+
+
+A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODk4NzE4LC0xMDk1MjIxNTA1LC0xNz
-c1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4
-NDEyMywtMjI0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAwMDU1NS
-wtMTUwMzIzOTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcw
-NDEyMDczMiwtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NT
-M2N119
+eyJoaXN0b3J5IjpbMTY3NDI2MTMzNywtMTA5NTIyMTUwNSwtMT
+c3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3
+ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LDE3NzEwMDA1NT
+UsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2MTU2OTcwLC03
+MDQxMjA3MzIsLTE0NjUxMTg5MTksMTkyODk0MTg0OSw1MTcyOD
+UzNjddfQ==
 -->
