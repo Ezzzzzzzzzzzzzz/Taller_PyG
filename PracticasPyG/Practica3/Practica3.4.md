@@ -66,13 +66,14 @@ Debido a que nuestro código está dentro de la función `move()`, ya no tiene e
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/GlobalVariable.JPG)
 
+[Alcance de las variables ]()
 Después es son donde hacemos que nuestro cuadrado se mueva hacia la izquierda o hacia la derecha, dependiendo de los botones que se hayan pulsado. 
 
 Si el botón de flecha izquierda está hacia abajo, queremos mover el **cuadrado/personaje/objeto** hacia la izquierda. Para hacer esto de manera convincente, primero debemos verificar si nuestro cuadrado ya se está moviendo o no y la dirección en la que va. 
 
 Si nuestro cuadrado ya está viajando hacia la derecha, debemos detenerlo y luego cambiar de dirección.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTEwNDc5OCwxNDIyNTI0NzY2LDE3Nz
+eyJoaXN0b3J5IjpbLTg5Mjc1MTI5MCwxNDIyNTI0NzY2LDE3Nz
 EwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2MTU2
 OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MTksMTkyODk0MTg0OS
 w1MTcyODUzNjddfQ==
