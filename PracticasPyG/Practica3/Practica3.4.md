@@ -124,10 +124,12 @@ hacen exactamente lo mismo pero al revés.
     playerY -= playerVY
 ```
 Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro salta, pero lo que sube debe bajar. Al igual que cuando cambiamos de dirección cuando corremos, debemos reducir la velocidad después de saltar antes de comenzar a caer nuevamente. Eso es lo que está pasando aquí.
+
+Primero, en la línea 52, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla. A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU0MTE1MDksLTg2ODExMDYzMywxMT
-Y0MDMzOTg5LC0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUy
-NDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMS
-wtMTMzNjE1Njk3MCwtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5
-Mjg5NDE4NDksNTE3Mjg1MzY3XX0=
+eyJoaXN0b3J5IjpbLTEwOTUyMjE1MDUsLTE3NzU0MTE1MDksLT
+g2ODExMDYzMywxMTY0MDMzOTg5LC0yMTQxNzg0MTIzLC0yMjQ0
+NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5OT
+Y5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MCwtNzA0MTIwNzMyLC0x
+NDY1MTE4OTE5LDE5Mjg5NDE4NDksNTE3Mjg1MzY3XX0=
 -->
