@@ -134,10 +134,9 @@ Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro sal
 
 Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla. 
 
-
 A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDI2MTMzNywtMTA5NTIyMTUwNSwtMT
+eyJoaXN0b3J5IjpbLTQ5NjUzMTI1NywtMTA5NTIyMTUwNSwtMT
 c3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3
 ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LDE3NzEwMDA1NT
 UsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2MTU2OTcwLC03
