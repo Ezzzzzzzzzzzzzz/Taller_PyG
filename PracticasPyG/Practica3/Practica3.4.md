@@ -84,7 +84,6 @@ En esta línea se comprueba si la velocidad X de nuestro cuadrado es superior a 
             playerVX = moveSpeed
             playerVX = -playerVX    
 ```
-
 Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. 
 
 Pero si nos movemos hacia la derecha, configurar `playerVX` para `moveSpeed` y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
@@ -105,8 +104,9 @@ Las líneas
 ```
 hacen exactamente lo mismo pero al revés.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDAzMzk4OSwtMjE0MTc4NDEyMywtMj
-I0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAwMDU1NSwtMTUwMzIz
-OTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcwNDEyMDczMi
-wtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NTM2N119
+eyJoaXN0b3J5IjpbLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMT
+QxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAw
+NTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MC
+wtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5Mjg5NDE4NDksNTE3
+Mjg1MzY3XX0=
 -->
