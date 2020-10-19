@@ -83,9 +83,11 @@ Si el botón de flecha izquierda está apretada, queremos mover el **cuadrado/pe
             playerVX = -playerVX    
 ```
 
-En esta línea se comprueba si la velocidad X de nuestro cuadrado es superior a 0.0 (yendo hacia la derecha). Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. Pero si nos movemos hacia la derecha, configurar `playerVX` para `moveSpeed` y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
+En esta línea se comprueba si la velocidad X de nuestro cuadrado es superior a 0.0 (yendo hacia la derecha). 
+
+Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. Pero si nos movemos hacia la derecha, configurar `playerVX` para `moveSpeed` y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDk1NDAwNTksLTIyNDQ1ODY2MCwxND
+eyJoaXN0b3J5IjpbLTExMDg4Mzc1MDMsLTIyNDQ1ODY2MCwxND
 IyNTI0NzY2LDE3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4
 MTIxLC0xMzM2MTU2OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MT
 ksMTkyODk0MTg0OSw1MTcyODUzNjddfQ==
