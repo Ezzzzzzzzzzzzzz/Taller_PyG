@@ -88,9 +88,17 @@ En esta línea se comprueba si la velocidad X de nuestro cuadrado es superior a 
 Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. 
 
 Pero si nos movemos hacia la derecha, configurar `playerVX` para `moveSpeed` y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
+
+Tampoco queremos que nuestro cuadrado se salga de la pantalla;
+```python 
+        # Asegúrate de que nuestro cuadrado no deje nuestra ventana a la izquierda.
+        if playerX > 0:
+            playerX += playerVX 
+```
+las líneas 40 y 41 detienen el movimiento de nuestro cuadrado si está en el borde izquierdo de nuestra pantalla. Las líneas 44-50 hacen exactamente lo mismo pero al revés.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE3ODQxMjMsLTIyNDQ1ODY2MCwxND
-IyNTI0NzY2LDE3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4
-MTIxLC0xMzM2MTU2OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MT
-ksMTkyODk0MTg0OSw1MTcyODUzNjddfQ==
+eyJoaXN0b3J5IjpbNDkzOTk0ODkwLC0yMTQxNzg0MTIzLC0yMj
+Q0NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5
+OTY5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MCwtNzA0MTIwNzMyLC
+0xNDY1MTE4OTE5LDE5Mjg5NDE4NDksNTE3Mjg1MzY3XX0=
 -->
