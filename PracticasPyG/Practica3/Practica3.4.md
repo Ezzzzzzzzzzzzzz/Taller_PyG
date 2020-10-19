@@ -37,7 +37,7 @@ def move():
 
     if playerVY > 1.0:
         playerVY = playerVY * 0.9
-    else :
+    else:
         playerVY = 0.0
         haveJumped = False
 
@@ -46,7 +46,7 @@ def move():
     if playerY < windowHeight - playerSize:
         playerY += gravity
         gravity = gravity * 1.1
-    else :
+    else:
         playerY = windowHeight - playerSize
         gravity = 1.0
 
@@ -108,7 +108,7 @@ hacen exactamente lo mismo pero al revés.
 ```python
     if playerVY > 1.0:
         playerVY = playerVY * 0.9
-    else :
+    else:
         playerVY = 0.0
         haveJumped = False
 
@@ -117,7 +117,7 @@ hacen exactamente lo mismo pero al revés.
     if playerY < windowHeight - playerSize:
         playerY += gravity
         gravity = gravity * 1.1
-    else :
+    else:
         playerY = windowHeight - playerSize
         gravity = 1.0
 
@@ -127,7 +127,7 @@ Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro sal
 ```python
     if playerVY > 1.0:
         playerVY = playerVY * 0.9
-    else :
+    else:
         playerVY = 0.0
         haveJumped = False
 ```
@@ -136,10 +136,10 @@ Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad supe
 
 A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjUzMTI1NywtMTA5NTIyMTUwNSwtMT
-c3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3
-ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LDE3NzEwMDA1NT
-UsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2MTU2OTcwLC03
-MDQxMjA3MzIsLTE0NjUxMTg5MTksMTkyODk0MTg0OSw1MTcyOD
-UzNjddfQ==
+eyJoaXN0b3J5IjpbMTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNz
+c1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4
+NDEyMywtMjI0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAwMDU1NS
+wtMTUwMzIzOTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcw
+NDEyMDczMiwtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NT
+M2N119
 -->
