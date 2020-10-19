@@ -104,9 +104,28 @@ Las líneas
 ```
 hacen exactamente lo mismo pero al revés.
 
-Las líneas 52 a 70 son un poco diferentes. Es aquí donde agregamos gravedad al movimiento de nuestro cuadrado. Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro salta, pero lo que sube debe bajar. Al igual que cuando cambiamos de dirección cuando corremos, debemos reducir la velocidad después de saltar antes de comenzar a caer nuevamente. Eso es lo que está pasando aquí.
+### Es aquí donde agregamos gravedad al movimiento de nuestro cuadrado. 
+```python
+    if playerVY > 1.0:
+        playerVY = playerVY * 0.9
+    else :
+        playerVY = 0.0
+        haveJumped = False
+
+    # ¿Está nuestro cuadrado en el aire?
+    # ¡Mejor agrega algo de gravedad para bajarlo!
+    if playerY < windowHeight - playerSize:
+        playerY += gravity
+        gravity = gravity * 1.1
+    else :
+        playerY = windowHeight - playerSize
+        gravity = 1.0
+
+    playerY -= playerVY
+```
+Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro salta, pero lo que sube debe bajar. Al igual que cuando cambiamos de dirección cuando corremos, debemos reducir la velocidad después de saltar antes de comenzar a caer nuevamente. Eso es lo que está pasando aquí.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzkxNzMyMDMsLTg2ODExMDYzMywxMT
+eyJoaXN0b3J5IjpbLTE3NzU0MTE1MDksLTg2ODExMDYzMywxMT
 Y0MDMzOTg5LC0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUy
 NDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMS
 wtMTMzNjE1Njk3MCwtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5
