@@ -103,10 +103,12 @@ Las líneas
             playerX += playerVX
 ```
 hacen exactamente lo mismo pero al revés.
+
+Las líneas 52 a 70 son un poco diferentes. Es aquí donde agregamos gravedad al movimiento de nuestro cuadrado. Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro salta, pero lo que sube debe bajar. Al igual que cuando cambiamos de dirección cuando corremos, debemos reducir la velocidad después de saltar antes de comenzar a caer nuevamente. Eso es lo que está pasando aquí.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMT
-QxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAw
-NTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MC
-wtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5Mjg5NDE4NDksNTE3
-Mjg1MzY3XX0=
+eyJoaXN0b3J5IjpbLTEwMzkxNzMyMDMsLTg2ODExMDYzMywxMT
+Y0MDMzOTg5LC0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUy
+NDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMS
+wtMTMzNjE1Njk3MCwtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5
+Mjg5NDE4NDksNTE3Mjg1MzY3XX0=
 -->
