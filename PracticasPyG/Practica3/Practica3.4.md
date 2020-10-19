@@ -74,10 +74,10 @@ Si el botón de flecha izquierda está hacia abajo, queremos mover el **cuadrado
 
 Si nuestro cuadrado ya está viajando hacia la derecha, debemos detenerlo y luego cambiar de dirección.
 
-Piénsalo por un momento: si está corriendo en línea recta, no puede girar a la derecha y seguir corriendo a la misma velocidad. Más bien, debe detenerse, girar y luego aumentar la velocidad nuevamente. La línea 37 comprueba si la velocidad X de nuestro cuadrado es superior a 0.0 (yendo hacia la derecha). Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. Pero si nos movemos hacia la derecha, configurar playerVX para moveSpeed y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
+**Piénsalo por un momento:** si está corriendo en línea recta, no puede girar a la derecha y seguir corriendo a la misma velocidad. Más bien, debe detenerse, girar y luego aumentar la velocidad nuevamente. La línea 37 comprueba si la velocidad X de nuestro cuadrado es superior a 0.0 (yendo hacia la derecha). Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. Pero si nos movemos hacia la derecha, configurar playerVX para moveSpeed y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODU2NjI4OSwtMjI0NDU4NjYwLDE0Mj
-I1MjQ3NjYsMTc3MTAwMDU1NSwtMTUwMzIzOTk2OSw5MTA5NDgx
-MjEsLTEzMzYxNTY5NzAsLTcwNDEyMDczMiwtMTQ2NTExODkxOS
-wxOTI4OTQxODQ5LDUxNzI4NTM2N119
+eyJoaXN0b3J5IjpbLTEzOTA1Njg0MzEsLTIyNDQ1ODY2MCwxND
+IyNTI0NzY2LDE3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4
+MTIxLC0xMzM2MTU2OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MT
+ksMTkyODk0MTg0OSw1MTcyODUzNjddfQ==
 -->
