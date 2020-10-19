@@ -70,13 +70,13 @@ Debido a que nuestro código está dentro de la función `move()`, ya no tiene e
 
 ### Después es donde hacemos que nuestro cuadrado se mueva hacia la izquierda o hacia la derecha, dependiendo de los botones que se hayan pulsado. 
 
-Si el botón de flecha izquierda está hacia abajo, queremos mover el **cuadrado/personaje/objeto** hacia la izquierda. Para hacer esto de manera convincente, primero debemos verificar si nuestro cuadrado ya se está moviendo o no y la dirección en la que va. 
+Si el botón de flecha izquierda está apretada, queremos mover el **cuadrado/personaje/objeto** hacia la izquierda. 
 
-Si nuestro cuadrado ya está viajando hacia la derecha, debemos detenerlo y luego cambiar de dirección.
+**Para hacer esto de manera convincente, primero debemos verificar si nuestro cuadrado ya se está moviendo o no y la dirección en la que va. Si nuestro cuadrado ya está viajando hacia la derecha, debemos detenerlo y luego cambiar de dirección.**
 
-**Piénsalo por un momento:** si está corriendo en línea recta, no puede girar a la derecha y seguir corriendo a la misma velocidad. Más bien, debe detenerse, girar y luego aumentar la velocidad nuevamente. La línea 37 comprueba si la velocidad X de nuestro cuadrado es superior a 0.0 (yendo hacia la derecha). Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. Pero si nos movemos hacia la derecha, configurar playerVX para moveSpeed y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
+La línea 37 comprueba si la velocidad X de nuestro cuadrado es superior a 0.0 (yendo hacia la derecha). Si no es así, entonces no necesitamos movernos en absoluto, o ya nos estamos moviendo hacia la izquierda, así que podemos seguir moviéndonos. Pero si nos movemos hacia la derecha, configurar playerVX para moveSpeed y luego invertirlo detendrá nuestro cuadrado y lo enviará en la dirección correcta.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA1Njg0MzEsLTIyNDQ1ODY2MCwxND
+eyJoaXN0b3J5IjpbLTE5NTIyNDMwODQsLTIyNDQ1ODY2MCwxND
 IyNTI0NzY2LDE3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4
 MTIxLC0xMzM2MTU2OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MT
 ksMTkyODk0MTg0OSw1MTcyODUzNjddfQ==
