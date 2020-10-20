@@ -132,14 +132,14 @@ Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro sal
         haveJumped = False
 ```
 
-Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla. 
+Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, **multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.** 
 
 A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNz
-c1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4
-NDEyMywtMjI0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAwMDU1NS
-wtMTUwMzIzOTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcw
-NDEyMDczMiwtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NT
-M2N119
+eyJoaXN0b3J5IjpbLTk0OTk3ODE2NywxMDMzMzQ1MzcsLTEwOT
+UyMjE1MDUsLTE3NzU0MTE1MDksLTg2ODExMDYzMywxMTY0MDMz
+OTg5LC0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUyNDc2Ni
+wxNzcxMDAwNTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMSwtMTMz
+NjE1Njk3MCwtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5Mjg5ND
+E4NDksNTE3Mjg1MzY3XX0=
 -->
