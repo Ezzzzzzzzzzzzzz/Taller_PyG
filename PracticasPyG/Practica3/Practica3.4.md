@@ -150,13 +150,13 @@ En las líneas,
 verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor `playerVY`, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 
 
-Las líneas 63-64 restablecen los valores de gravedad y playerVY cuando la parte inferior del cuadrado toca la parte inferior de la pantalla. Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
+Las líneas 63-64 restablecen los valores de `gravity` y `playerVY` cuando la parte inferior del cuadrado toca la parte inferior de la pantalla. Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODIzOTM3NywxNDQzNTQ2MjA3LDgwNT
-Y2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1MDUsLTE3NzU0MTE1
-MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMTQxNzg0MTIzLC
-0yMjQ0NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNTAz
-MjM5OTY5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MCwtNzA0MTIwNz
-MyLC0xNDY1MTE4OTE5LDE5Mjg5NDE4NDksNTE3Mjg1MzY3XX0=
-
+eyJoaXN0b3J5IjpbMjA5MzU5NDk5LC01MzgyMzkzNzcsMTQ0Mz
+U0NjIwNyw4MDU2NjM1MTksMTAzMzM0NTM3LC0xMDk1MjIxNTA1
+LC0xNzc1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMj
+E0MTc4NDEyMywtMjI0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAw
+MDU1NSwtMTUwMzIzOTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5Nz
+AsLTcwNDEyMDczMiwtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUx
+NzI4NTM2N119
 -->
