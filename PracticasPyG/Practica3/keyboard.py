@@ -53,7 +53,7 @@ def move():
 
     if playerVY > 1.0:
         playerVY = playerVY * 0.9
-    else :
+    else:
         playerVY = 0.0
         haveJumped = False
 
@@ -62,7 +62,7 @@ def move():
     if playerY < windowHeight - playerSize:
         playerY += gravity
         gravity = gravity * 1.1
-    else :
+    else:
         playerY = windowHeight - playerSize
         gravity = 1.0
 
