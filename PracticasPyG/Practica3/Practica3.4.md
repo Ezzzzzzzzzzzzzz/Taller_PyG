@@ -120,8 +120,6 @@ hacen exactamente lo mismo pero al revés.
     else:
         playerY = windowHeight - playerSize
         gravity = 1.0
-
-    playerY -= playerVY
 ```
 Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro salta, pero lo que sube debe de bajar. **Al igual que cuando cambiamos de dirección cuando corremos, debemos reducir la velocidad después de saltar antes de comenzar a caer nuevamente.** 
 ```python
@@ -141,29 +139,26 @@ En las líneas,
     if playerY < windowHeight - playerSize:
         playerY += gravity
         gravity = gravity * 1.1
-    else:
-        playerY = windowHeight - playerSize
-        gravity = 1.0
-
-    playerY -= playerVY
 ```
 verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor `playerVY`, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 
 Al final las lineas
-
-
-
+```python
+    else:
+        playerY = windowHeight - playerSize
+        gravity = 1.0
+```
 restablecen los valores de `gravity` y `playerVY` cuando la parte inferior del cuadrado toca la parte inferior de la pantalla. 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Explicaci%C3%B3nDinamica.jpg)
 
 Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzIyMjY0MSwyMDkzNTk0OTksLTUzOD
-IzOTM3NywxNDQzNTQ2MjA3LDgwNTY2MzUxOSwxMDMzMzQ1Mzcs
-LTEwOTUyMjE1MDUsLTE3NzU0MTE1MDksLTg2ODExMDYzMywxMT
-Y0MDMzOTg5LC0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUy
-NDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMS
-wtMTMzNjE1Njk3MCwtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5
-Mjg5NDE4NDldfQ==
+eyJoaXN0b3J5IjpbNDMyMDg0NzExLC0yMzcyMjI2NDEsMjA5Mz
+U5NDk5LC01MzgyMzkzNzcsMTQ0MzU0NjIwNyw4MDU2NjM1MTks
+MTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNzc1NDExNTA5LC04Nj
+gxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4NDEyMywtMjI0NDU4
+NjYwLDE0MjI1MjQ3NjYsMTc3MTAwMDU1NSwtMTUwMzIzOTk2OS
+w5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcwNDEyMDczMiwtMTQ2
+NTExODkxOV19
 -->
