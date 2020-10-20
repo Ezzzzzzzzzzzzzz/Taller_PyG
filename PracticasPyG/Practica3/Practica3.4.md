@@ -153,29 +153,25 @@ restablecen los valores de `gravity` y `playerVY` cuando la parte inferior del c
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Explicaci%C3%B3nDinamica.jpg)
 
-Las líneas 
+Las siguientes líneas son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. 
+
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
+
 ```python
-    playerY -= playerVY
+
 
     if playerVX > 0.0 and playerVX < maxSpeed or playerVX < 0.0 and playerVX > -maxSpeed:
         if haveJumped == False:
             playerVX = playerVX * 1.1
 
 ```
-Son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. 
-
-![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
-
-```python
-
-```
 No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDk0NDA5MTgsLTEzNjYwNTgxMjMsOT
-Y2MzY2NTQxLC0xMjMwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4
-NDcsLTIzNzIyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxND
-QzNTQ2MjA3LDgwNTY2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1
-MDUsLTE3NzU0MTE1MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC
-0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUyNDc2NiwxNzcx
-MDAwNTU1XX0=
+eyJoaXN0b3J5IjpbLTE5NjcxOTY1NiwtMTM2NjA1ODEyMyw5Nj
+YzNjY1NDEsLTEyMzA4ODU0NCwtMjcxMjI2MzQ3LDgyMDAzMTg0
+NywtMjM3MjIyNjQxLDIwOTM1OTQ5OSwtNTM4MjM5Mzc3LDE0ND
+M1NDYyMDcsODA1NjYzNTE5LDEwMzMzNDUzNywtMTA5NTIyMTUw
+NSwtMTc3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5ODksLT
+IxNDE3ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LDE3NzEw
+MDA1NTVdfQ==
 -->
