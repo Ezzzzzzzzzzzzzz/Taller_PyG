@@ -166,19 +166,15 @@ Son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la iz
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
 
-A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar. 
-
-En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla.
-
 ```python
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTkzNTI5MiwtMTM2NjA1ODEyMyw5Nj
-YzNjY1NDEsLTEyMzA4ODU0NCwtMjcxMjI2MzQ3LDgyMDAzMTg0
-NywtMjM3MjIyNjQxLDIwOTM1OTQ5OSwtNTM4MjM5Mzc3LDE0ND
-M1NDYyMDcsODA1NjYzNTE5LDEwMzMzNDUzNywtMTA5NTIyMTUw
-NSwtMTc3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5ODksLT
-IxNDE3ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LDE3NzEw
-MDA1NTVdfQ==
+eyJoaXN0b3J5IjpbLTIwMTI2NzM4OTAsLTEzNjYwNTgxMjMsOT
+Y2MzY2NTQxLC0xMjMwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4
+NDcsLTIzNzIyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxND
+QzNTQ2MjA3LDgwNTY2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1
+MDUsLTE3NzU0MTE1MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC
+0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUyNDc2NiwxNzcx
+MDAwNTU1XX0=
 -->
