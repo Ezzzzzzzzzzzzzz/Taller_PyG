@@ -162,15 +162,16 @@ Las líneas
             playerVX = playerVX * 1.1
 
 ```
-Son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
+Son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
 
 ```python
 
 ```
+No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI2NzM4OTAsLTEzNjYwNTgxMjMsOT
+eyJoaXN0b3J5IjpbLTE4NDk0NDA5MTgsLTEzNjYwNTgxMjMsOT
 Y2MzY2NTQxLC0xMjMwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4
 NDcsLTIzNzIyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxND
 QzNTQ2MjA3LDgwNTY2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1
