@@ -170,13 +170,13 @@ Primero, en la línea 52, verificamos si nuestro cuadrado viaja hacia arriba a u
 
 A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar. 
 
-En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla.
+En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjI5MTkwMSw5NjYzNjY1NDEsLTEyMz
-A4ODU0NCwtMjcxMjI2MzQ3LDgyMDAzMTg0NywtMjM3MjIyNjQx
-LDIwOTM1OTQ5OSwtNTM4MjM5Mzc3LDE0NDM1NDYyMDcsODA1Nj
-YzNTE5LDEwMzMzNDUzNywtMTA5NTIyMTUwNSwtMTc3NTQxMTUw
-OSwtODY4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3ODQxMjMsLT
-IyNDQ1ODY2MCwxNDIyNTI0NzY2LDE3NzEwMDA1NTUsLTE1MDMy
-Mzk5NjldfQ==
+eyJoaXN0b3J5IjpbLTEzNjYwNTgxMjMsOTY2MzY2NTQxLC0xMj
+MwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4NDcsLTIzNzIyMjY0
+MSwyMDkzNTk0OTksLTUzODIzOTM3NywxNDQzNTQ2MjA3LDgwNT
+Y2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1MDUsLTE3NzU0MTE1
+MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMTQxNzg0MTIzLC
+0yMjQ0NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNTAz
+MjM5OTY5XX0=
 -->
