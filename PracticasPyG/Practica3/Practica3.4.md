@@ -143,7 +143,7 @@ En las líneas,
 ```
 verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor `playerVY`, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 
-Al final las lineas
+Al final las líneas
 ```python
     else:
         playerY = windowHeight - playerSize
@@ -172,11 +172,11 @@ A continuación, nuestro código comprueba si nuestro cuadrado está en el aire 
 
 En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjYwNTgxMjMsOTY2MzY2NTQxLC0xMj
-MwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4NDcsLTIzNzIyMjY0
-MSwyMDkzNTk0OTksLTUzODIzOTM3NywxNDQzNTQ2MjA3LDgwNT
-Y2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1MDUsLTE3NzU0MTE1
-MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMTQxNzg0MTIzLC
-0yMjQ0NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNTAz
-MjM5OTY5XX0=
+eyJoaXN0b3J5IjpbOTY5MjQ5NjQ5LC0xMzY2MDU4MTIzLDk2Nj
+M2NjU0MSwtMTIzMDg4NTQ0LC0yNzEyMjYzNDcsODIwMDMxODQ3
+LC0yMzcyMjI2NDEsMjA5MzU5NDk5LC01MzgyMzkzNzcsMTQ0Mz
+U0NjIwNyw4MDU2NjM1MTksMTAzMzM0NTM3LC0xMDk1MjIxNTA1
+LC0xNzc1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMj
+E0MTc4NDEyMywtMjI0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAw
+MDU1NV19
 -->
