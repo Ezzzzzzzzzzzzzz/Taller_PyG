@@ -134,12 +134,25 @@ Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro sal
 
 Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, **multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.** 
 
-En las líneas, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla.
+En las líneas, 
+```python
+# ¿Está nuestro cuadrado en el aire?
+    # ¡Mejor agrega algo de gravedad para bajarlo!
+    if playerY < windowHeight - playerSize:
+        playerY += gravity
+        gravity = gravity * 1.1
+    else:
+        playerY = windowHeight - playerSize
+        gravity = 1.0
+
+    playerY -= playerVY
+```
+verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor playerVY, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjAyMjMxNywxMDMzMzQ1MzcsLTEwOT
-UyMjE1MDUsLTE3NzU0MTE1MDksLTg2ODExMDYzMywxMTY0MDMz
-OTg5LC0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUyNDc2Ni
-wxNzcxMDAwNTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMSwtMTMz
-NjE1Njk3MCwtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5Mjg5ND
-E4NDksNTE3Mjg1MzY3XX0=
+eyJoaXN0b3J5IjpbODA1NjYzNTE5LDEwMzMzNDUzNywtMTA5NT
+IyMTUwNSwtMTc3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5
+ODksLTIxNDE3ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LD
+E3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2
+MTU2OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MTksMTkyODk0MT
+g0OSw1MTcyODUzNjddfQ==
 -->
