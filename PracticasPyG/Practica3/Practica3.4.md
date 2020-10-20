@@ -134,7 +134,7 @@ Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad supe
 
 En las líneas, 
 ```python
-   # ¿Está nuestro cuadrado en el aire?
+    # ¿Está nuestro cuadrado en el aire?
     # ¡Mejor agrega algo de gravedad para bajarlo!
     if playerY < windowHeight - playerSize:
         playerY += gravity
@@ -154,7 +154,7 @@ restablecen los valores de `gravity` y `playerVY` cuando la parte inferior del c
 
 Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxNjMzMzYxLC0yMzcyMjI2NDEsMjA5Mz
+eyJoaXN0b3J5IjpbODIwMDMxODQ3LC0yMzcyMjI2NDEsMjA5Mz
 U5NDk5LC01MzgyMzkzNzcsMTQ0MzU0NjIwNyw4MDU2NjM1MTks
 MTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNzc1NDExNTA5LC04Nj
 gxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4NDEyMywtMjI0NDU4
