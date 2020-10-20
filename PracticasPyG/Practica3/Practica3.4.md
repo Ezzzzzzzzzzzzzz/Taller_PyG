@@ -147,12 +147,12 @@ En las líneas,
 
     playerY -= playerVY
 ```
-verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor playerVY, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
+verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor `playerVY`, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NjYzNTE5LDEwMzMzNDUzNywtMTA5NT
-IyMTUwNSwtMTc3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5
-ODksLTIxNDE3ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LD
-E3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2
-MTU2OTcwLC03MDQxMjA3MzIsLTE0NjUxMTg5MTksMTkyODk0MT
-g0OSw1MTcyODUzNjddfQ==
+eyJoaXN0b3J5IjpbMTQ0MzU0NjIwNyw4MDU2NjM1MTksMTAzMz
+M0NTM3LC0xMDk1MjIxNTA1LC0xNzc1NDExNTA5LC04NjgxMTA2
+MzMsMTE2NDAzMzk4OSwtMjE0MTc4NDEyMywtMjI0NDU4NjYwLD
+E0MjI1MjQ3NjYsMTc3MTAwMDU1NSwtMTUwMzIzOTk2OSw5MTA5
+NDgxMjEsLTEzMzYxNTY5NzAsLTcwNDEyMDczMiwtMTQ2NTExOD
+kxOSwxOTI4OTQxODQ5LDUxNzI4NTM2N119
 -->
