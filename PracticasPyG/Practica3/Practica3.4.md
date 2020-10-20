@@ -105,6 +105,7 @@ Las líneas
 hacen exactamente lo mismo pero al revés.
 
 ### Es aquí donde agregamos gravedad al movimiento de nuestro cuadrado. 
+
 ```python
     if playerVY > 1.0:
         playerVY = playerVY * 0.9
@@ -154,11 +155,11 @@ restablecen los valores de `gravity` y `playerVY` cuando la parte inferior del c
 
 Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMDMxODQ3LC0yMzcyMjI2NDEsMjA5Mz
-U5NDk5LC01MzgyMzkzNzcsMTQ0MzU0NjIwNyw4MDU2NjM1MTks
-MTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNzc1NDExNTA5LC04Nj
-gxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4NDEyMywtMjI0NDU4
-NjYwLDE0MjI1MjQ3NjYsMTc3MTAwMDU1NSwtMTUwMzIzOTk2OS
-w5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcwNDEyMDczMiwtMTQ2
-NTExODkxOV19
+eyJoaXN0b3J5IjpbLTI3MTIyNjM0Nyw4MjAwMzE4NDcsLTIzNz
+IyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxNDQzNTQ2MjA3
+LDgwNTY2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1MDUsLTE3Nz
+U0MTE1MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMTQxNzg0
+MTIzLC0yMjQ0NTg2NjAsMTQyMjUyNDc2NiwxNzcxMDAwNTU1LC
+0xNTAzMjM5OTY5LDkxMDk0ODEyMSwtMTMzNjE1Njk3MCwtNzA0
+MTIwNzMyXX0=
 -->
