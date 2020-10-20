@@ -105,6 +105,7 @@ Las líneas
 hacen exactamente lo mismo pero al revés.
 
 ### Es aquí donde agregamos gravedad al movimiento de nuestro cuadrado. 
+
 ```python
     if playerVY > 1.0:
         playerVY = playerVY * 0.9
@@ -120,8 +121,6 @@ hacen exactamente lo mismo pero al revés.
     else:
         playerY = windowHeight - playerSize
         gravity = 1.0
-
-    playerY -= playerVY
 ```
 Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro salta, pero lo que sube debe de bajar. **Al igual que cuando cambiamos de dirección cuando corremos, debemos reducir la velocidad después de saltar antes de comenzar a caer nuevamente.** 
 ```python
@@ -136,34 +135,40 @@ Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad supe
 
 En las líneas, 
 ```python
-# ¿Está nuestro cuadrado en el aire?
+    # ¿Está nuestro cuadrado en el aire?
     # ¡Mejor agrega algo de gravedad para bajarlo!
     if playerY < windowHeight - playerSize:
         playerY += gravity
         gravity = gravity * 1.1
-    else:
-        playerY = windowHeight - playerSize
-        gravity = 1.0
-
-    playerY -= playerVY
 ```
 verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor `playerVY`, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 
 Al final las lineas
-
-
-
+```python
+    else:
+        playerY = windowHeight - playerSize
+        gravity = 1.0
+```
 restablecen los valores de `gravity` y `playerVY` cuando la parte inferior del cuadrado toca la parte inferior de la pantalla. 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Explicaci%C3%B3nDinamica.jpg)
 
-Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
+Las líneas 
+```python
+    playerY -= playerVY
+
+    if playerVX > 0.0 and playerVX < maxSpeed or playerVX < 0.0 and playerVX > -maxSpeed:
+        if haveJumped == False:
+            playerVX = playerVX * 1.1
+
+```
+Son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzIyMjY0MSwyMDkzNTk0OTksLTUzOD
-IzOTM3NywxNDQzNTQ2MjA3LDgwNTY2MzUxOSwxMDMzMzQ1Mzcs
-LTEwOTUyMjE1MDUsLTE3NzU0MTE1MDksLTg2ODExMDYzMywxMT
-Y0MDMzOTg5LC0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMTQyMjUy
-NDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5OTY5LDkxMDk0ODEyMS
-wtMTMzNjE1Njk3MCwtNzA0MTIwNzMyLC0xNDY1MTE4OTE5LDE5
-Mjg5NDE4NDldfQ==
+eyJoaXN0b3J5IjpbLTEyMzA4ODU0NCwtMjcxMjI2MzQ3LDgyMD
+AzMTg0NywtMjM3MjIyNjQxLDIwOTM1OTQ5OSwtNTM4MjM5Mzc3
+LDE0NDM1NDYyMDcsODA1NjYzNTE5LDEwMzMzNDUzNywtMTA5NT
+IyMTUwNSwtMTc3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5
+ODksLTIxNDE3ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LD
+E3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2
+MTU2OTcwXX0=
 -->
