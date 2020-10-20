@@ -132,14 +132,31 @@ Cuando presionamos la flecha hacia arriba en nuestro teclado, nuestro cuadro sal
         haveJumped = False
 ```
 
-Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla. 
+Primero, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, **multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.** 
 
-A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar.
+En las líneas, 
+```python
+# ¿Está nuestro cuadrado en el aire?
+    # ¡Mejor agrega algo de gravedad para bajarlo!
+    if playerY < windowHeight - playerSize:
+        playerY += gravity
+        gravity = gravity * 1.1
+    else:
+        playerY = windowHeight - playerSize
+        gravity = 1.0
+
+    playerY -= playerVY
+```
+verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor `playerVY`, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
+
+
+Las líneas 63-64 restablecen los valores de `gravity` y `playerVY` cuando la parte inferior del cuadrado toca la parte inferior de la pantalla. Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNz
-c1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4
-NDEyMywtMjI0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAwMDU1NS
-wtMTUwMzIzOTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5NzAsLTcw
-NDEyMDczMiwtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUxNzI4NT
-M2N119
+eyJoaXN0b3J5IjpbMjA5MzU5NDk5LC01MzgyMzkzNzcsMTQ0Mz
+U0NjIwNyw4MDU2NjM1MTksMTAzMzM0NTM3LC0xMDk1MjIxNTA1
+LC0xNzc1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMj
+E0MTc4NDEyMywtMjI0NDU4NjYwLDE0MjI1MjQ3NjYsMTc3MTAw
+MDU1NSwtMTUwMzIzOTk2OSw5MTA5NDgxMjEsLTEzMzYxNTY5Nz
+AsLTcwNDEyMDczMiwtMTQ2NTExODkxOSwxOTI4OTQxODQ5LDUx
+NzI4NTM2N119
 -->
