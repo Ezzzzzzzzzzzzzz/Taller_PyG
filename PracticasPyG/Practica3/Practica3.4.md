@@ -167,12 +167,16 @@ Son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la iz
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
 
 Primero, en la línea 52, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, multiplicamos ese valor por 0,9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.
+
+A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar. 
+
+En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MzY2NTQxLC0xMjMwODg1NDQsLTI3MT
-IyNjM0Nyw4MjAwMzE4NDcsLTIzNzIyMjY0MSwyMDkzNTk0OTks
-LTUzODIzOTM3NywxNDQzNTQ2MjA3LDgwNTY2MzUxOSwxMDMzMz
-Q1MzcsLTEwOTUyMjE1MDUsLTE3NzU0MTE1MDksLTg2ODExMDYz
-MywxMTY0MDMzOTg5LC0yMTQxNzg0MTIzLC0yMjQ0NTg2NjAsMT
-QyMjUyNDc2NiwxNzcxMDAwNTU1LC0xNTAzMjM5OTY5LDkxMDk0
-ODEyMV19
+eyJoaXN0b3J5IjpbMjA0NjI5MTkwMSw5NjYzNjY1NDEsLTEyMz
+A4ODU0NCwtMjcxMjI2MzQ3LDgyMDAzMTg0NywtMjM3MjIyNjQx
+LDIwOTM1OTQ5OSwtNTM4MjM5Mzc3LDE0NDM1NDYyMDcsODA1Nj
+YzNTE5LDEwMzMzNDUzNywtMTA5NTIyMTUwNSwtMTc3NTQxMTUw
+OSwtODY4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3ODQxMjMsLT
+IyNDQ1ODY2MCwxNDIyNTI0NzY2LDE3NzEwMDA1NTUsLTE1MDMy
+Mzk5NjldfQ==
 -->
