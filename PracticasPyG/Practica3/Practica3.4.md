@@ -163,12 +163,14 @@ Las líneas
 
 ```
 Son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
+
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA4ODU0NCwtMjcxMjI2MzQ3LDgyMD
-AzMTg0NywtMjM3MjIyNjQxLDIwOTM1OTQ5OSwtNTM4MjM5Mzc3
-LDE0NDM1NDYyMDcsODA1NjYzNTE5LDEwMzMzNDUzNywtMTA5NT
-IyMTUwNSwtMTc3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5
-ODksLTIxNDE3ODQxMjMsLTIyNDQ1ODY2MCwxNDIyNTI0NzY2LD
-E3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEwOTQ4MTIxLC0xMzM2
-MTU2OTcwXX0=
+eyJoaXN0b3J5IjpbLTEwMDY1NjgzNzgsLTEyMzA4ODU0NCwtMj
+cxMjI2MzQ3LDgyMDAzMTg0NywtMjM3MjIyNjQxLDIwOTM1OTQ5
+OSwtNTM4MjM5Mzc3LDE0NDM1NDYyMDcsODA1NjYzNTE5LDEwMz
+MzNDUzNywtMTA5NTIyMTUwNSwtMTc3NTQxMTUwOSwtODY4MTEw
+NjMzLDExNjQwMzM5ODksLTIxNDE3ODQxMjMsLTIyNDQ1ODY2MC
+wxNDIyNTI0NzY2LDE3NzEwMDA1NTUsLTE1MDMyMzk5NjksOTEw
+OTQ4MTIxXX0=
 -->
