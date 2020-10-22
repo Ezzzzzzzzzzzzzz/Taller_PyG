@@ -25,7 +25,7 @@ pygame.events
 ``` 
 >Incluye una lista de eventos, como eventos de teclado o eventos del sistema que ocurrieron desde la última vez que Pygame actualizó su vista; por eso lo importamos como **GAME_EVENTS**.
 
-[ìmport`basico e](https://realpython.com/python-import/#basic-python-import)
+["ìmport" basico en python](https://realpython.com/python-import/#basic-python-import)
 [Manejar paquetes a través de varias versiones](https://realpython.com/python-import/#handle-packages-across-python-versions)
 
 ```python
@@ -106,11 +106,11 @@ Hacemos esto con `+=`, que básicamente dice **"tome el valor actual de la varia
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NjE3OTU2LDMyMjY1NzE4OSwtMjA3OD
-czOTgyMSw3NDA4NTYzOTgsMTE0Mzk3NDIyLDE3MDQ3NDAwNTgs
-LTE2ODUzMDgxMjAsLTE1NTg0OTMyMzIsMzg4OTM1MTMsLTEwMz
-IxMDE0MywxNDU5ODEwNzYzLDEwNDc4MjMyMDUsLTcxMDQ3NjQy
-NCw3MjAwOTc2MDUsMjA1OTIwMzQyNywtNzQ1NjY2OSwxOTI1NT
-E2ODgxLC0xOTYwMDExNjI3LC0xOTM4MjA3NTE5LDE1NjY1OTM0
-N119
+eyJoaXN0b3J5IjpbMTc5MTIyNTEyMiwzMjI2NTcxODksLTIwNz
+g3Mzk4MjEsNzQwODU2Mzk4LDExNDM5NzQyMiwxNzA0NzQwMDU4
+LC0xNjg1MzA4MTIwLC0xNTU4NDkzMjMyLDM4ODkzNTEzLC0xMD
+MyMTAxNDMsMTQ1OTgxMDc2MywxMDQ3ODIzMjA1LC03MTA0NzY0
+MjQsNzIwMDk3NjA1LDIwNTkyMDM0MjcsLTc0NTY2NjksMTkyNT
+UxNjg4MSwtMTk2MDAxMTYyNywtMTkzODIwNzUxOSwxNTY2NTkz
+NDddfQ==
 -->
