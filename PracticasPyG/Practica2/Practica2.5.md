@@ -39,6 +39,7 @@ Con estas comprobaciones de `if`, `else`, **nos aseguramos de que los valores de
 Si nuestros valores están a punto de superar los 255, les asignamos un valor aleatorio entre 0 y 255. 
 
 ![](https://i.pinimg.com/originals/b9/51/8f/b9518febac2756828254365fbae0c007.png)
+
 El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente a través de la paleta de colores **RGB** agregando 1 a nuestras variables **R**, **G** , y  **B** (`squaresRed`, `squaresGreen` y `squaresBlue`) mientras se ejecuta nuestro programa Pygame. 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Cap2.2.6.JPG)
@@ -49,7 +50,7 @@ El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente 
 
 Además de ser un gran dispositivo de aprendizaje, también se ve bastante impresionante.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyMzQwNzcyLDE1NzE3ODI4MzUsMTg0Mz
+eyJoaXN0b3J5IjpbNjQyMDE3NzgyLDE1NzE3ODI4MzUsMTg0Mz
 kyODI5NiwyMDY4ODM2OTQ5LC04OTgwNjc3NjksOTQ2MTMwNDQy
 XX0=
 -->
