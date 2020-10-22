@@ -29,7 +29,6 @@ y = r != t 	# y = 1 (verdadero) porque r no es igual a t
 ```
 Un operador de relación equivale a una pregunta relativa sobre como son dos operandos entre sí. Por ejemplo, la expresión **r == t** equivale a la pregunta **¿x es exactamente igual a y?** Una **respuesta si** equivale a un valor **verdadero (1)** y una **respuesta no** equivale a un valor **falso (0)**.
 
-## Operadores logicos
 
 # Operadores lógicos
 El **resultado de una operación lógica** (**AND**, **OR**, **XOR** y **NOT**) es un valor **booleano verdadero o falso ( 1 o 0)**. Las expresiones que dan como resultado valores booleanos (véanse los operadores de relación) pueden combinarse para formar expresiones booleanas utilizando los operadores lógicos indicados a continuación. 
@@ -83,6 +82,6 @@ Viendo esta tabla de verdad comprenderemos mucho mejor e funcionamiento de la pu
 
 ![](https://aristoteles2pc.files.wordpress.com/2011/03/not1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMxOTk2NywxMjgyNjg0MzMwLC0zMD
-c4OTIxODQsLTE1NTMyMDc4MjldfQ==
+eyJoaXN0b3J5IjpbLTE2MTkxNTUyNjksMTI4MjY4NDMzMCwtMz
+A3ODkyMTg0LC0xNTUzMjA3ODI5XX0=
 -->
