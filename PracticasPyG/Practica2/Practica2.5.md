@@ -37,7 +37,7 @@ Aquí, no solo estamos sumando y restando valores cada vez que dibujamos nuestra
 Con estas comprobaciones de `if`, `else`, **nos aseguramos de que los valores de rojo, verde y azul nunca superen los 255** (el valor máximo en el que pueden mostrarse estos colores; de lo contrario, Pygame devolverá un error).
 
 Si nuestros valores están a punto de superar los 255, les asignamos un valor aleatorio entre 0 y 255. 
-
+![](https://i.pinimg.com/originals/b9/51/8f/b9518febac2756828254365fbae0c007.png)
 El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente a través de la paleta de colores **RGB** agregando 1 a nuestras variables **R**, **G** , y  **B** (`squaresRed`, `squaresGreen` y `squaresBlue`) mientras se ejecuta nuestro programa Pygame. 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica2/Cap2.2.6.JPG)
@@ -48,7 +48,7 @@ El color de nuestro cuadrado cambiará y luego continuará avanzando lentamente 
 
 Además de ser un gran dispositivo de aprendizaje, también se ve bastante impresionante.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjE1MjQ5OSwxNTcxNzgyODM1LDE4ND
+eyJoaXN0b3J5IjpbLTk4NjAyNzAxOCwxNTcxNzgyODM1LDE4ND
 M5MjgyOTYsMjA2ODgzNjk0OSwtODk4MDY3NzY5LDk0NjEzMDQ0
 Ml19
 -->
