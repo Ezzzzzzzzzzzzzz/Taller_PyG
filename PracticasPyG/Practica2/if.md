@@ -22,17 +22,16 @@ Una sentencia **if** se ejecuta de la forma siguiente:
 
 A continuación se exponen algunos ejemplos de cómo se utiliza la sentencia **if**.
 
-```c
-int a = 5, b = 4;
+```python
+a = 5 
+b = 4
 
-if(a < b){
-	printf(“a es menor que b”);
-}
-else{
-	printf(“a no es menor que b”);
-}
+if(a < b):
+	print(“a es menor que b”)
+else:
+	print(“a no es menor que b”)
 ```
 En este ejemplo, la condición esta impuesta por una expresión de relación. Si al evaluar la condición se cumple que **a es menor que b** (lo cual es falso), entonces **imprimirá** un mensaje el cual es **“a es menor que b”**, **como sabemos que la condición es falsa se ejecuta la sentencia dos que imprime el mensaje “a no es menor que b”**. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjQ1MDE4NSw2NzU4NjgyNjddfQ==
+eyJoaXN0b3J5IjpbMjUxMjk2MTA2LDY3NTg2ODI2N119
 -->
