@@ -7,9 +7,8 @@ if(condición):
 else:
 	sentencia 2
 ```
-Donde la **condición** es una expresión lógica o relacional y **sentencia 1** y **sentencia 2** representan el código que quieren que se ejecute.
-
 ## if
+Donde la **condición** es una expresión lógica o relacional y **sentencia 1** y **sentencia 2** representan el código que quieren que se ejecute.
 
 ![](http://robolution.mx/clases/programacion/prpgramacion1.png)
 
@@ -34,5 +33,5 @@ else{
 ```
 En este ejemplo, la condición esta impuesta por una expresión de relación. Si al evaluar la condición se cumple que **a es menor que b** (lo cual es falso), entonces **imprimirá** un mensaje el cual es **“a es menor que b”**, **como sabemos que la condición es falsa se ejecuta la sentencia dos que imprime el mensaje “a no es menor que b”**. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNzA1OTcsNjc1ODY4MjY3XX0=
+eyJoaXN0b3J5IjpbNTk5NzAyNjQxLDY3NTg2ODI2N119
 -->
