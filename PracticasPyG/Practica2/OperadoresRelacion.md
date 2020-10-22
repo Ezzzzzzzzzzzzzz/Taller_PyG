@@ -20,12 +20,12 @@ r = 10
 t = 0 
 y = 0
 
-y = r == t # y = 0 (falso) porque r no es igual a t
-y = r > t # y = 1 (verdadero) porque r es mayor que t
-y = r != t # y = 1 (verdadero) porque r no es igual a t
+y = r == t 		# y = 0 (falso) porque r no es igual a t
+y = r > t 		# y = 1 (verdadero) porque r es mayor que t
+y = r != t 		# y = 1 (verdadero) porque r no es igual a t
 ```
 Un operador de relación equivale a una pregunta relativa sobre como son dos operandos entre sí. Por ejemplo, la expresión **r == t** equivale a la pregunta **¿x es exactamente igual a y?** Una **respuesta si** equivale a un valor **verdadero (1)** y una **respuesta no** equivale a un valor **falso (0)**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjEzNjk3NCwtMzA3ODkyMTg0LC0xNT
-UzMjA3ODI5XX0=
+eyJoaXN0b3J5IjpbLTE0MDgyNTgzMzQsLTMwNzg5MjE4NCwtMT
+U1MzIwNzgyOV19
 -->
