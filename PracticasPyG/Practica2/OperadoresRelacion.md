@@ -44,13 +44,13 @@ Operador     |     Operación
 El resultado de una operación lógica es de tipo **int** o **booleana**. 
 
 Por ejemplo:
-```c
+```python
 o = 10
 p = 0
-q = 0;
-q = (o != 0) && (p != 0); // q = 0 (falso)
+q = 0
+q = (o != 0) and (p != 0) # q = 0 (falso)
 ```
-Los operandos del operador **&&** son: **o != 0** y **p != 0**. El resultado de la expresión **o != 0 es verdadero** porque **o** vale **10** y **p != 0 es falso** porque **p** es **0**. Por lo tanto, **el resultado de verdadero && falso es falso**.
+Los operandos del operador **and** son: **o != 0** y **p != 0**. El resultado de la expresión **o != 0 es verdadero** porque **o** vale **10** y **p != 0 es falso** porque **p** es **0**. Por lo tanto, **el resultado de verdadero and falso es falso**.
 
 # Tablas de verdad
 
@@ -83,6 +83,6 @@ Viendo esta tabla de verdad comprenderemos mucho mejor e funcionamiento de la pu
 
 ![](https://aristoteles2pc.files.wordpress.com/2011/03/not1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODg5OTU1MCwxNzM2NTUwNjEwLDEyOD
+eyJoaXN0b3J5IjpbLTUzNzI4NDExMywxNzM2NTUwNjEwLDEyOD
 I2ODQzMzAsLTMwNzg5MjE4NCwtMTU1MzIwNzgyOV19
 -->
