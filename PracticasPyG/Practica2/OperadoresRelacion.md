@@ -31,7 +31,7 @@ Un operador de relación equivale a una pregunta relativa sobre como son dos ope
 
 
 # Operadores lógicos
-El **resultado de una operación lógica** (**AND**, **OR**, **XOR** y **NOT**) es un valor **booleano verdadero o falso ( 1 o 0)**. Las expresiones que dan como resultado valores booleanos (véanse los operadores de relación) pueden combinarse para formar expresiones booleanas utilizando los operadores lógicos indicados a continuación. 
+El **resultado de una operación lógica** (**AND**, **OR**, **XOR** y **NOT**) es un valor **booleano verdadero o falso ( 1 o 0)**. Las expresiones que dan como resultado valores booleanos pueden combinarse para formar expresiones booleanas utilizando los operadores lógicos indicados a continuación. 
 
 _Los operandos deben ser expresiones que den un resultado verdadero o falso._
 
@@ -82,6 +82,6 @@ Viendo esta tabla de verdad comprenderemos mucho mejor e funcionamiento de la pu
 
 ![](https://aristoteles2pc.files.wordpress.com/2011/03/not1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTkxNTUyNjksMTI4MjY4NDMzMCwtMz
-A3ODkyMTg0LC0xNTUzMjA3ODI5XX0=
+eyJoaXN0b3J5IjpbLTk5NjQzMDU3NCwxMjgyNjg0MzMwLC0zMD
+c4OTIxODQsLTE1NTMyMDc4MjldfQ==
 -->
