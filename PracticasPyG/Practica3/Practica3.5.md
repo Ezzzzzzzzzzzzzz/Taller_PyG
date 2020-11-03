@@ -13,7 +13,6 @@ Esta vez, casi no tenemos ningún código en nuestro bucle principal.
 while True:
 
     mousePosition = pygame.mouse.get_pos()
-
     surface.fill((0,0,0))
 
     # Compruebe si el mouse está presionado
@@ -42,6 +41,6 @@ while True:
 
 En nuestro código `keyboard.py`, ponemos parte de nuestro código en funciones; esta vez se lo haremos a todos, pero llegaremos a ellos en un momento.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTIwMDk0MTgsMjc1MTE1MjUxLC0yMj
-M5ODE4MzRdfQ==
+eyJoaXN0b3J5IjpbMTE1ODAxMTQ5MiwyNzUxMTUyNTEsLTIyMz
+k4MTgzNF19
 -->
