@@ -27,15 +27,6 @@ while True:
 
     clock.tick(60)
     pygame.display.update()
-
-    for event in GAME_EVENTS.get():
-
-        if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_ESCAPE:
-                quitGame()
-
-        if event.type == GAME_GLOBALS.QUIT:
-            quitGame()
 ```
 **Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: `checkBounds()` (comprobar limites), `checkGravity()` (comprobar gravedad) y `drawSquare()` (dibuja el cuadrado). 
 
@@ -45,6 +36,6 @@ En nuestro código `keyboard.py`, ponemos parte de nuestro código en funciones;
 
 Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En primer lugar, vamos a averiguar dónde está el mouse, y lo haremos en la línea 76 con pygame.mouse.get_pos ().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTU5MDA0LDI3NTExNTI1MSwtMjIzOT
-gxODM0XX0=
+eyJoaXN0b3J5IjpbLTY2MzI4ODQxNSwyNzUxMTUyNTEsLTIyMz
+k4MTgzNF19
 -->
