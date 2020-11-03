@@ -22,7 +22,7 @@ import pygame.event as GAME_EVENTS
 
 # Variables de Pygame
 pygame.init()
-clock = pygame.time.Clock()
+clock = pygame.time.Clock() #crear un objeto para ayudar a controlar el tiempo
 
 windowWidth = 800
 windowHeight = 800
@@ -68,11 +68,11 @@ while True:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDQ1OTMwMywxNDY3MTMwOTQ0LDg2MD
-Q4OTcyMCwtNTc1OTc4NDQ4LDEzNzE5MzQ3NjgsMTY1Njk4NDY4
-MSwtMzM1OTYyMzUyLC0xMTMwMjY3MTkwLDY4MTcxNzEwMiwxNT
-Y3MDk0MzYwLDYzMzY4ODk3MiwtOTkxODAyMDAxLDE2MDcxNjQ1
-MTgsMzMwMzk1OTE3LC0xMzg5MTY1NjYsLTE1MjM3OTAzMzcsLT
-U4ODU5Njk2NSwxNjg4MTM2ODI0LDgzNTQzNTY4NiwtNzg0ODcx
-MDEyXX0=
+eyJoaXN0b3J5IjpbLTI3MDUzMDI0OSwyMDg0NDU5MzAzLDE0Nj
+cxMzA5NDQsODYwNDg5NzIwLC01NzU5Nzg0NDgsMTM3MTkzNDc2
+OCwxNjU2OTg0NjgxLC0zMzU5NjIzNTIsLTExMzAyNjcxOTAsNj
+gxNzE3MTAyLDE1NjcwOTQzNjAsNjMzNjg4OTcyLC05OTE4MDIw
+MDEsMTYwNzE2NDUxOCwzMzAzOTU5MTcsLTEzODkxNjU2NiwtMT
+UyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1
+Njg2XX0=
 -->
