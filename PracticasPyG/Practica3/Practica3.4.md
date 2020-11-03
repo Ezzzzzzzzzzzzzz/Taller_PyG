@@ -189,10 +189,12 @@ Las líneas
         playerY = windowHeight - playerSize
         gravity = 1.0
 ```
-restablecen los valores de gravedad y `playerVY cuando la parte inferior del cuadrado toca la parte inferior de la pantalla. Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
+restablecen los valores de gravedad y `playerVY` cuando la parte inferior del cuadrado toca la parte inferior de la pantalla. 
+
+Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzOTU1MzMxLDc1MTcxNDc0OCwtODQwNz
+eyJoaXN0b3J5IjpbNzk4OTEyNDQ1LDc1MTcxNDc0OCwtODQwNz
 IzOTYyLC0xOTY3MTk2NTYsLTEzNjYwNTgxMjMsOTY2MzY2NTQx
 LC0xMjMwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4NDcsLTIzNz
 IyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxNDQzNTQ2MjA3
