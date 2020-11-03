@@ -180,16 +180,19 @@ A continuación, nuestro código comprueba si nuestro cuadrado está en el aire 
     if playerY < windowHeight - playerSize:
         playerY += gravity
         gravity = gravity * 1.1
+```
+Verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor `playerVY`, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
+
+Las líneas 
+```python
     else:
         playerY = windowHeight - playerSize
         gravity = 1.0
 ```
-Verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor `playerVY`, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
-
-
+restablecen los valores de gravedad y `playerVY cuando la parte inferior del cuadrado toca la parte inferior de la pantalla. Las líneas 68-70 son divertidas, ya que impiden que el cuadrado se mueva más rápido hacia la izquierda o hacia la derecha una vez que nuestro cuadrado ha saltado en el aire. No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1ODg3MDUxLDc1MTcxNDc0OCwtODQwNz
+eyJoaXN0b3J5IjpbNjEzOTU1MzMxLDc1MTcxNDc0OCwtODQwNz
 IzOTYyLC0xOTY3MTk2NTYsLTEzNjYwNTgxMjMsOTY2MzY2NTQx
 LC0xMjMwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4NDcsLTIzNz
 IyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxNDQzNTQ2MjA3
