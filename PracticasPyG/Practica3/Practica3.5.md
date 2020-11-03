@@ -41,8 +41,10 @@ while True:
 
 En nuestro código `keyboard.py`, ponemos parte de nuestro código en funciones; esta vez se lo haremos a todos, pero llegaremos a ellos en un momento.
 
-Las dos cosas importantes que debemos saber al usar un mouse son dónde está y qué botones, si los hay, se presionaron. Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En primer lugar, vamos a averiguar dónde está el mouse, y lo haremos en la línea 76 con pygame.mouse.get_pos ().
+### Las dos cosas importantes que debemos saber al usar un mouse son dónde está y qué botones se presionaron, si los hay. 
+
+Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En primer lugar, vamos a averiguar dónde está el mouse, y lo haremos en la línea 76 con pygame.mouse.get_pos ().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjExMDk4MTcsMjc1MTE1MjUxLC0yMj
-M5ODE4MzRdfQ==
+eyJoaXN0b3J5IjpbLTY1NTU5MDA0LDI3NTExNTI1MSwtMjIzOT
+gxODM0XX0=
 -->
