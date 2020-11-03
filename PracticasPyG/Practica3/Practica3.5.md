@@ -57,16 +57,17 @@ Ahora que sabemos dónde está el mouse, todo lo que tenemos que hacer es determ
     else:
         mousePressed = False
 ```
-**`pygame.mouse.get_pressed()`devuelve una tupla de tres valores: el primero es para el botón izquierdo del mouse, el segundo para el botón central del mouse y el tercero para el botón derecho del mouse.**
+### `pygame.mouse.get_pressed()`devuelve una tupla de tres valores: el primero es para el botón izquierdo del mouse, el segundo para el botón central del mouse y el tercero para el botón derecho del mouse.
 
 Si se presiona el botón, el valor es **Verdadero / True**; de lo contrario, es **Falso / False**. 
 
 No estamos haciendo nada con el botón central o derecho del mouse, por lo que simplemente podemos verificar el primer valor (el botón izquierdo del mouse) con [`pygame.mouse.get_pressed()[0]`](https://www.pygame.org/docs/ref/mouse.html?highlight=get_pressed#pygame.mouse.get_pressed).
 
 Si `pygame.mouse.get_pressed()[0]` es **True**, entonces nuestro jugador ha hecho clic en un botón y podemos continuar. 
->En este caso, establecemos `mousePressed` en **True**, tal como lo hicimos con `leftDown` y `rightDown` en `keyboard.py`, para que podamos usarlo en todo nuestro programa.
+
+En este caso, establecemos `mousePressed` en **True**, tal como lo hicimos con `leftDown` y `rightDown` en `keyboard.py`, para que podamos usarlo en todo nuestro programa.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1MjczNjc3LC0xMTQ1NTY0OTkwLC0xNj
-g5NDc2MDI4LC0xOTY5OTI1MjEwLDIzMzc0NTU1OCw4OTM0MjYx
-MjQsMjc1MTE1MjUxLC0yMjM5ODE4MzRdfQ==
+eyJoaXN0b3J5IjpbMTQzMzc3MTU0Niw3MzUyNzM2NzcsLTExND
+U1NjQ5OTAsLTE2ODk0NzYwMjgsLTE5Njk5MjUyMTAsMjMzNzQ1
+NTU4LDg5MzQyNjEyNCwyNzUxMTUyNTEsLTIyMzk4MTgzNF19
 -->
