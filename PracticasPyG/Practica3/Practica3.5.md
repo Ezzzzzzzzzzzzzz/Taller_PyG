@@ -38,10 +38,10 @@ while True:
         if event.type == GAME_GLOBALS.QUIT:
             quitGame()
 ```
-**Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: `checkBounds()` (compro), `checkGravity()` y `drawSquare()`. 
+**Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: `checkBounds()` (comprobar limites), `checkGravity()` (comprobar gravedad) y `drawSquare()` (dibuja el cuadrado). 
 
 En nuestro código `keyboard.py`, ponemos parte de nuestro código en funciones; esta vez se lo haremos a todos, pero llegaremos a ellos en un momento.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEyOTI3MDQsMjc1MTE1MjUxLC0yMj
+eyJoaXN0b3J5IjpbLTE5OTIwMDk0MTgsMjc1MTE1MjUxLC0yMj
 M5ODE4MzRdfQ==
 -->
