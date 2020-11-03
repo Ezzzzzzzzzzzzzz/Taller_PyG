@@ -73,7 +73,17 @@ def saludar(nombre, mensaje='Hola'):
 
 saludar(mensaje="Buen día", nombre="Juancho")
 ```
+
+## Desempaquetado de parámetros
+
+Puede ocurrir además, una situación inversa a la anterior. Es decir, que la función espere una lista fija de parámetros, pero que éstos, en vez de estar disponibles de forma separada, se encuentren contenidos en una lista o tupla. En este caso, el signo asterisco (`*`) deberá preceder al nombre de la lista o tupla que es pasada como parámetro durante la llamada a la función:
+
+def calcular(importe, descuento): 
+    return importe - (importe * descuento / 100) 
+
+datos = [1500, 10] 
+print calcular(*datos)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjYzNjY1Nyw3NzE4MTQ1OTMsLTIwNj
+eyJoaXN0b3J5IjpbLTY1OTg3MzY2OCw3NzE4MTQ1OTMsLTIwNj
 k5MTY4ODJdfQ==
 -->
