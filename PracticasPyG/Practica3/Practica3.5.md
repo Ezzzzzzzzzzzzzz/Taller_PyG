@@ -1,4 +1,4 @@
-# Pygame eventos del  mouse
+#  Eventos del mouse en Pygame
 
 El mouse es un kit simple, por lo que el código es mucho menos complicado que el código de nuestro teclado. Si copia `mouse.py` y lo ejecuta, verá un cuadrado rojo familiar en la parte inferior de la pantalla. 
 
@@ -65,6 +65,7 @@ No estamos haciendo nada con el botón central o derecho del mouse, por lo que s
 
 Si pygame.mouse.get_pressed () [0] es True, entonces nuestro jugador ha hecho clic en un botón y podemos continuar. En este caso, establecemos mousePressed en True, tal como lo hicimos con leftDown y rightDown en keyboard.py, para que podamos usarlo en todo nuestro programa.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk5MjUyMTAsMjMzNzQ1NTU4LDg5Mz
-QyNjEyNCwyNzUxMTUyNTEsLTIyMzk4MTgzNF19
+eyJoaXN0b3J5IjpbMTY2Mjg2NTEzNywtMTk2OTkyNTIxMCwyMz
+M3NDU1NTgsODkzNDI2MTI0LDI3NTExNTI1MSwtMjIzOTgxODM0
+XX0=
 -->
