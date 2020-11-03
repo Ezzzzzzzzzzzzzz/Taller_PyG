@@ -8,6 +8,7 @@ Arrastre el mouse sobre el cuadrado, mantenga presionado el botón izquierdo del
 
 # [mouse.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/mouse.py)
 
+Esta vez, casi no tenemos ningún código en nuestro bucle `for` principal. Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no y luego llamamos a tres funciones: checkBounds (), checkGravity () y drawSquare (). En nuestro código keyboard.py, ponemos parte de nuestro código en funciones; esta vez se lo haremos a todos, pero llegaremos a ellos en un momento.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODUyODI2MjgsLTIyMzk4MTgzNF19
+eyJoaXN0b3J5IjpbMTg1MDM5MzIxNiwtMjIzOTgxODM0XX0=
 -->
