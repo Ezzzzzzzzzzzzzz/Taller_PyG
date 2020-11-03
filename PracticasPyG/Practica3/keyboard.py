@@ -112,5 +112,5 @@ while True:
 
     move()
 
-    clock.tick(60)
+    clock.tick(60) #Al llamar Clock.tick(40) una vez por cuadro, el programa nunca se ejecutará a más de 40 cuadros por segundo.
     pygame.display.update()
