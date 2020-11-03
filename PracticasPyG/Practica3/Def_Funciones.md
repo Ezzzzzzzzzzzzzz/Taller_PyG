@@ -50,6 +50,26 @@ def mi_funcion(nombre, apellido):
 print nombre
 ```
 Al llamar a una función, **siempre se le deben pasar sus argumentos en el mismo orden en el que los espera**. Pero esto puede evitarse, haciendo uso del paso de argumentos como keywords (ver más abajo: _"Keywords como parámetros"_).
+
+## Parámetros por omisión
+
+En Python, también es posible, asignar valores por defecto a los parámetros de las funciones. Esto significa, que la función podrá ser llamada con menos argumentos de los que espera:
+```python
+def saludar(nombre, mensaje='Hola'): 
+    print mensaje, nombre 
+
+saludar('Pepe Grillo') # Imprime: Hola Pepe Grillo
+```
+
+## Keywords como parámetros
+
+En Python, también es posible llamar a una función, pasándole los argumentos esperados, como pares de  `claves=valor`:
+```python
+def saludar(nombre, mensaje='Hola'): 
+    print mensaje, nombre
+
+saludar(mensaje="Buen día", nombre="Juancho")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjk5MTY4ODJdfQ==
+eyJoaXN0b3J5IjpbNzcxODE0NTkzLC0yMDY5OTE2ODgyXX0=
 -->
