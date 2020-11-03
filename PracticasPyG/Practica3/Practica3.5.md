@@ -39,8 +39,6 @@ while True:
 ```
 **Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: `checkBounds()` (comprobar limites), `checkGravity()` (comprobar gravedad) y `drawSquare()` (dibuja el cuadrado). 
 
-En nuestro código `keyboard.py`, ponemos parte de nuestro código en funciones; esta vez se lo haremos a todos, pero llegaremos a ellos en un momento.
-
 ### Las dos cosas importantes que debemos saber al usar un mouse son dónde está y qué botones se presionaron, si los hay. 
 
 Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En primer lugar, vamos a averiguar dónde está el mouse, y lo haremos con:
@@ -48,6 +46,6 @@ Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En pri
 	mousePosition = pygame.mouse.get_pos()
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mjk0NjMwMywyNzUxMTUyNTEsLTIyMz
-k4MTgzNF19
+eyJoaXN0b3J5IjpbODkzNDI2MTI0LDI3NTExNTI1MSwtMjIzOT
+gxODM0XX0=
 -->
