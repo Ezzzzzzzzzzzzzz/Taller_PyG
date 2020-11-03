@@ -162,12 +162,14 @@ Las siguientes líneas son divertidas, ya que impiden que el cuadrado se mueva m
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
 
 No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo.
+
+Primero, en la línea 52, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, entonces multiplicamos ese valor por 0.9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNzE0NzQ4LC04NDA3MjM5NjIsLTE5Nj
-cxOTY1NiwtMTM2NjA1ODEyMyw5NjYzNjY1NDEsLTEyMzA4ODU0
-NCwtMjcxMjI2MzQ3LDgyMDAzMTg0NywtMjM3MjIyNjQxLDIwOT
-M1OTQ5OSwtNTM4MjM5Mzc3LDE0NDM1NDYyMDcsODA1NjYzNTE5
-LDEwMzMzNDUzNywtMTA5NTIyMTUwNSwtMTc3NTQxMTUwOSwtOD
-Y4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3ODQxMjMsLTIyNDQ1
-ODY2MF19
+eyJoaXN0b3J5IjpbMTU3NjU2NjEzMCw3NTE3MTQ3NDgsLTg0MD
+cyMzk2MiwtMTk2NzE5NjU2LC0xMzY2MDU4MTIzLDk2NjM2NjU0
+MSwtMTIzMDg4NTQ0LC0yNzEyMjYzNDcsODIwMDMxODQ3LC0yMz
+cyMjI2NDEsMjA5MzU5NDk5LC01MzgyMzkzNzcsMTQ0MzU0NjIw
+Nyw4MDU2NjM1MTksMTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNz
+c1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4
+NDEyM119
 -->
