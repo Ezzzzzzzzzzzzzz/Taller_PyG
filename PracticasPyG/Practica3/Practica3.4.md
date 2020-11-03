@@ -173,7 +173,7 @@ En las siguientes líneas:
 ```
  verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, entonces multiplicamos ese valor por 0.9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.
 
-A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: 
+A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no, si lo está, tendrá que volver a bajar.
 ```python
    # ¿Está nuestro cuadrado en el aire?
     # ¡Mejor agrega algo de gravedad para bajarlo!
@@ -184,13 +184,13 @@ A continuación, nuestro código comprueba si nuestro cuadrado está en el aire 
         playerY = windowHeight - playerSize
         gravity = 1.0
 ```
-si lo está, tendrá que volver a bajar. En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor playerVY, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
+Verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor `playerVY`; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor playerVY, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE4MTk5MTYsNzUxNzE0NzQ4LC04ND
-A3MjM5NjIsLTE5NjcxOTY1NiwtMTM2NjA1ODEyMyw5NjYzNjY1
-NDEsLTEyMzA4ODU0NCwtMjcxMjI2MzQ3LDgyMDAzMTg0NywtMj
-M3MjIyNjQxLDIwOTM1OTQ5OSwtNTM4MjM5Mzc3LDE0NDM1NDYy
-MDcsODA1NjYzNTE5LDEwMzMzNDUzNywtMTA5NTIyMTUwNSwtMT
-c3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3
-ODQxMjNdfQ==
+eyJoaXN0b3J5IjpbLTc2OTk5NjAzOSw3NTE3MTQ3NDgsLTg0MD
+cyMzk2MiwtMTk2NzE5NjU2LC0xMzY2MDU4MTIzLDk2NjM2NjU0
+MSwtMTIzMDg4NTQ0LC0yNzEyMjYzNDcsODIwMDMxODQ3LC0yMz
+cyMjI2NDEsMjA5MzU5NDk5LC01MzgyMzkzNzcsMTQ0MzU0NjIw
+Nyw4MDU2NjM1MTksMTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNz
+c1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4
+NDEyM119
 -->
