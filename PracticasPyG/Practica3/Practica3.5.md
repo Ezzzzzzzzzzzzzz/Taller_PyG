@@ -1,0 +1,14 @@
+# Pygame eventos del  mouse
+
+El mouse es un kit simple, por lo que el código es mucho menos complicado que el código de nuestro teclado. Si copia `mouse.py` y lo ejecuta, verá un cuadrado rojo familiar en la parte inferior de la pantalla. 
+
+Presionar las teclas del teclado no hará nada esta vez, porque este cuadrado es diferente. Si desea moverlo, debe usar el mouse para levantarlo.
+
+# [mouse.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/mouse.py)
+
+Arrastre el mouse sobre el cuadrado, mantenga presionado el botón izquierdo del mouse y arrastre hacia arriba. Nuestro cuadrado se mueve con nuestro mouse. Si suelta el botón del mouse, el cuadrado volverá a la parte inferior de la ventana. Agradable y simple, pero **¿cómo funciona?**
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIyMzk4MTgzNF19
+-->
