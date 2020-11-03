@@ -45,7 +45,10 @@ Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En pri
 ```python
 	mousePosition = pygame.mouse.get_pos()
 ``` 
+A diferencia de nuestro `keynoard.py` no tenemos que trabajar en una lista de eventos y verificar si fueron eventos del mouse. 
+
+En cambio, cuando llamamos a `pygame.mouse.get_pos()` obtenemos una **tupla** con dos valores: el valor actual de X e Y del mouse dentro de la ventana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNDI2MTI0LDI3NTExNTI1MSwtMjIzOT
-gxODM0XX0=
+eyJoaXN0b3J5IjpbLTUxODM0NDQ5MCw4OTM0MjYxMjQsMjc1MT
+E1MjUxLC0yMjM5ODE4MzRdfQ==
 -->
