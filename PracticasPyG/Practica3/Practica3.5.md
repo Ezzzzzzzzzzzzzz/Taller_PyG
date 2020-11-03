@@ -45,9 +45,9 @@ En nuestro código `keyboard.py`, ponemos parte de nuestro código en funciones;
 
 Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En primer lugar, vamos a averiguar dónde está el mouse, y lo haremos con:
 ```python
-
-``  
+	mousePosition = pygame.mouse.get_pos()
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA2ODU3OCwyNzUxMTUyNTEsLTIyMz
+eyJoaXN0b3J5IjpbLTI1Mjk0NjMwMywyNzUxMTUyNTEsLTIyMz
 k4MTgzNF19
 -->
