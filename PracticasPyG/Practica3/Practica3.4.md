@@ -163,15 +163,19 @@ Las siguientes líneas son divertidas, ya que impiden que el cuadrado se mueva m
 
 No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo.
 ```python
-
+    if playerVY > 1.0:
+        playerVY = playerVY * 0.9
+    else:
+        playerVY = 0.0
+        haveJumped = False
 ```
-Primero, en la línea 52, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, entonces multiplicamos ese valor por 0.9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.
+En las siguientes líneas, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, entonces multiplicamos ese valor por 0.9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODkzOTYzNCw3NTE3MTQ3NDgsLTg0MD
-cyMzk2MiwtMTk2NzE5NjU2LC0xMzY2MDU4MTIzLDk2NjM2NjU0
-MSwtMTIzMDg4NTQ0LC0yNzEyMjYzNDcsODIwMDMxODQ3LC0yMz
-cyMjI2NDEsMjA5MzU5NDk5LC01MzgyMzkzNzcsMTQ0MzU0NjIw
-Nyw4MDU2NjM1MTksMTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNz
-c1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4
-NDEyM119
+eyJoaXN0b3J5IjpbNjkwNDMxMzE2LDc1MTcxNDc0OCwtODQwNz
+IzOTYyLC0xOTY3MTk2NTYsLTEzNjYwNTgxMjMsOTY2MzY2NTQx
+LC0xMjMwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4NDcsLTIzNz
+IyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxNDQzNTQ2MjA3
+LDgwNTY2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1MDUsLTE3Nz
+U0MTE1MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMTQxNzg0
+MTIzXX0=
 -->
