@@ -43,8 +43,11 @@ En nuestro código `keyboard.py`, ponemos parte de nuestro código en funciones;
 
 ### Las dos cosas importantes que debemos saber al usar un mouse son dónde está y qué botones se presionaron, si los hay. 
 
-Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En primer lugar, vamos a averiguar dónde está el mouse, y lo haremos en la línea 76 con pygame.mouse.get_pos ().
+Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En primer lugar, vamos a averiguar dónde está el mouse, y lo haremos con:
+```python
+
+``  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTU5MDA0LDI3NTExNTI1MSwtMjIzOT
-gxODM0XX0=
+eyJoaXN0b3J5IjpbLTEyMTA2ODU3OCwyNzUxMTUyNTEsLTIyMz
+k4MTgzNF19
 -->
