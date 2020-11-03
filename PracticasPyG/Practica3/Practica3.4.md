@@ -172,12 +172,14 @@ En las siguientes líneas:
         haveJumped = False
 ```
  verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, entonces multiplicamos ese valor por 0.9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.
+
+A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar. En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor playerVY, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODg5MDcwNCw3NTE3MTQ3NDgsLTg0MD
-cyMzk2MiwtMTk2NzE5NjU2LC0xMzY2MDU4MTIzLDk2NjM2NjU0
-MSwtMTIzMDg4NTQ0LC0yNzEyMjYzNDcsODIwMDMxODQ3LC0yMz
-cyMjI2NDEsMjA5MzU5NDk5LC01MzgyMzkzNzcsMTQ0MzU0NjIw
-Nyw4MDU2NjM1MTksMTAzMzM0NTM3LC0xMDk1MjIxNTA1LC0xNz
-c1NDExNTA5LC04NjgxMTA2MzMsMTE2NDAzMzk4OSwtMjE0MTc4
-NDEyM119
+eyJoaXN0b3J5IjpbOTUwNzIzODg2LDc1MTcxNDc0OCwtODQwNz
+IzOTYyLC0xOTY3MTk2NTYsLTEzNjYwNTgxMjMsOTY2MzY2NTQx
+LC0xMjMwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4NDcsLTIzNz
+IyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxNDQzNTQ2MjA3
+LDgwNTY2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1MDUsLTE3Nz
+U0MTE1MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMTQxNzg0
+MTIzXX0=
 -->
