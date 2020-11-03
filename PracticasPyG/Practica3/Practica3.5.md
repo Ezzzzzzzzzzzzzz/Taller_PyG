@@ -47,7 +47,7 @@ Una vez que sepamos estas dos cosas, podemos hacer que las cosas sucedan. En pri
 ``` 
 A diferencia de nuestro `keynoard.py` no tenemos que trabajar en una lista de eventos y verificar si fueron eventos del mouse. 
 
-En cambio, cuando llamamos a `pygame.mouse.get_pos()` obtenemos una **tupla** con dos valores: **el valor actual de X e Y del mouse dentro de la ventana**.
+En cambio, cuando llamamos a [`pygame.mouse.get_pos()`](https://www.pygame.org/docs/ref/mouse.html?highlight=get_pressed#pygame.mouse.get_pos) obtenemos una **tupla** con dos valores: **el valor actual de X e Y del mouse dentro de la ventana**.
 
 Ahora que sabemos dónde está el mouse, todo lo que tenemos que hacer es determinar si se presionó alguno de los botones:
 ```python  
@@ -66,7 +66,7 @@ No estamos haciendo nada con el botón central o derecho del mouse, por lo que s
 Si `pygame.mouse.get_pressed()[0]` es **True**, entonces nuestro jugador ha hecho clic en un botón y podemos continuar. 
 >En este caso, establecemos `mousePressed` en **True**, tal como lo hicimos con `leftDown` y `rightDown` en `keyboard.py`, para que podamos usarlo en todo nuestro programa.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMTYxMjI0LC0xNjg5NDc2MDI4LC0xOT
-Y5OTI1MjEwLDIzMzc0NTU1OCw4OTM0MjYxMjQsMjc1MTE1MjUx
-LC0yMjM5ODE4MzRdfQ==
+eyJoaXN0b3J5IjpbLTExNDU1NjQ5OTAsLTE2ODk0NzYwMjgsLT
+E5Njk5MjUyMTAsMjMzNzQ1NTU4LDg5MzQyNjEyNCwyNzUxMTUy
+NTEsLTIyMzk4MTgzNF19
 -->
