@@ -79,7 +79,7 @@ while True:
     surface.fill((0,0,0))
 
     # Compruebe si el mouse está presionado
-    if pygame.mouse.get_pressed()[0] == True:
+    if pygame.mouse.get_pressed()[0] == True: # [(0)bot_izq,(1)bot_central,(2)bot_derecho]
         mousePressed = True
     else:
         mousePressed = False
