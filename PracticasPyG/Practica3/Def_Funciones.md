@@ -31,6 +31,9 @@ Un parámetro es un valor que la función espera recibir cuando sea llamada (inv
 ```python
 def mi_funcion(nombre, apellido): 
     # algoritmo
+    .
+    .
+    .
 ```
 Los parámetros, se indican entre los paréntesis, a modo de variables, a fin de poder utilizarlos como tales, dentro de la misma función.
 
@@ -71,5 +74,6 @@ def saludar(nombre, mensaje='Hola'):
 saludar(mensaje="Buen día", nombre="Juancho")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxODE0NTkzLC0yMDY5OTE2ODgyXX0=
+eyJoaXN0b3J5IjpbLTYyNjYzNjY1Nyw3NzE4MTQ1OTMsLTIwNj
+k5MTY4ODJdfQ==
 -->
