@@ -46,7 +46,7 @@ maxSpeed = 10.0
 gravity = 1.0
 ```
 
- - Después de eso, tenemos dos funciones, `move()` y `quitGame()`, que usaremos para movernos y salir del juego. 
+ - Después de eso, tenemos dos [funciones](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Def_Funciones.md), `move()` y `quitGame()`, que usaremos para movernos y salir del juego. 
 ```python
 def move():
 	# Instrucciones de como nos movemos
@@ -68,11 +68,11 @@ while True:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTIzMzY5LDIwODQ0NTkzMDMsMTQ2Nz
-EzMDk0NCw4NjA0ODk3MjAsLTU3NTk3ODQ0OCwxMzcxOTM0NzY4
-LDE2NTY5ODQ2ODEsLTMzNTk2MjM1MiwtMTEzMDI2NzE5MCw2OD
-E3MTcxMDIsMTU2NzA5NDM2MCw2MzM2ODg5NzIsLTk5MTgwMjAw
-MSwxNjA3MTY0NTE4LDMzMDM5NTkxNywtMTM4OTE2NTY2LC0xNT
-IzNzkwMzM3LC01ODg1OTY5NjUsMTY4ODEzNjgyNCw4MzU0MzU2
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTIzMjk3OTA3OCwyMDg0NDU5MzAzLDE0Nj
+cxMzA5NDQsODYwNDg5NzIwLC01NzU5Nzg0NDgsMTM3MTkzNDc2
+OCwxNjU2OTg0NjgxLC0zMzU5NjIzNTIsLTExMzAyNjcxOTAsNj
+gxNzE3MTAyLDE1NjcwOTQzNjAsNjMzNjg4OTcyLC05OTE4MDIw
+MDEsMTYwNzE2NDUxOCwzMzAzOTU5MTcsLTEzODkxNjU2NiwtMT
+UyMzc5MDMzNywtNTg4NTk2OTY1LDE2ODgxMzY4MjQsODM1NDM1
+Njg2XX0=
 -->
