@@ -162,10 +162,12 @@ Las siguientes líneas son divertidas, ya que impiden que el cuadrado se mueva m
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
 
 No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo.
+```python
 
+```
 Primero, en la línea 52, verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, entonces multiplicamos ese valor por 0.9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjU2NjEzMCw3NTE3MTQ3NDgsLTg0MD
+eyJoaXN0b3J5IjpbMTkzODkzOTYzNCw3NTE3MTQ3NDgsLTg0MD
 cyMzk2MiwtMTk2NzE5NjU2LC0xMzY2MDU4MTIzLDk2NjM2NjU0
 MSwtMTIzMDg4NTQ0LC0yNzEyMjYzNDcsODIwMDMxODQ3LC0yMz
 cyMjI2NDEsMjA5MzU5NDk5LC01MzgyMzkzNzcsMTQ0MzU0NjIw
