@@ -173,13 +173,24 @@ En las siguientes líneas:
 ```
  verificamos si nuestro cuadrado viaja hacia arriba a una velocidad superior a 1 píxel por cuadro. Si es así, entonces multiplicamos ese valor por 0.9 para que eventualmente llegue a un punto en el que viaje a menos de 1 píxel por segundo; cuando eso sucede, establecemos el valor en 0 para que podamos comenzar a retroceder hasta la parte inferior de la pantalla.
 
-A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: si lo está, tendrá que volver a bajar. En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor playerVY, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
+A continuación, nuestro código comprueba si nuestro cuadrado está en el aire o no: 
+```python
+   # ¿Está nuestro cuadrado en el aire?
+    # ¡Mejor agrega algo de gravedad para bajarlo!
+    if playerY < windowHeight - playerSize:
+        playerY += gravity
+        gravity = gravity * 1.1
+    else:
+        playerY = windowHeight - playerSize
+        gravity = 1.0
+```
+si lo está, tendrá que volver a bajar. En las líneas 59-61, verificamos que el cuadrado esté en el aire y luego comenzamos a agregar el valor de gravedad al valor playerVY; esto hará que nuestro cuadrado vuelva a bajar a la parte inferior de la pantalla. Cada vez que agregamos el valor de gravedad al valor playerVY, multiplicamos el primero por 1.1; esto hace que el cuadrado se acelere a medida que cae hacia la parte inferior de la pantalla, tal como lo haría si lanzara una pelota al aire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwNzIzODg2LDc1MTcxNDc0OCwtODQwNz
-IzOTYyLC0xOTY3MTk2NTYsLTEzNjYwNTgxMjMsOTY2MzY2NTQx
-LC0xMjMwODg1NDQsLTI3MTIyNjM0Nyw4MjAwMzE4NDcsLTIzNz
-IyMjY0MSwyMDkzNTk0OTksLTUzODIzOTM3NywxNDQzNTQ2MjA3
-LDgwNTY2MzUxOSwxMDMzMzQ1MzcsLTEwOTUyMjE1MDUsLTE3Nz
-U0MTE1MDksLTg2ODExMDYzMywxMTY0MDMzOTg5LC0yMTQxNzg0
-MTIzXX0=
+eyJoaXN0b3J5IjpbLTEyNDE4MTk5MTYsNzUxNzE0NzQ4LC04ND
+A3MjM5NjIsLTE5NjcxOTY1NiwtMTM2NjA1ODEyMyw5NjYzNjY1
+NDEsLTEyMzA4ODU0NCwtMjcxMjI2MzQ3LDgyMDAzMTg0NywtMj
+M3MjIyNjQxLDIwOTM1OTQ5OSwtNTM4MjM5Mzc3LDE0NDM1NDYy
+MDcsODA1NjYzNTE5LDEwMzMzNDUzNywtMTA5NTIyMTUwNSwtMT
+c3NTQxMTUwOSwtODY4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3
+ODQxMjNdfQ==
 -->
