@@ -161,13 +161,13 @@ Las siguientes líneas son divertidas, ya que impiden que el cuadrado se mueva m
 ```
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/Captura.JPG)
 
-No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo, así que eso es lo que también hace nuestra plaza.
+No puedes cambiar de dirección después de saltar; solo puedes cambiar de dirección cuando vuelves a tocar el suelo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDcyMzk2MiwtMTk2NzE5NjU2LC0xMz
-Y2MDU4MTIzLDk2NjM2NjU0MSwtMTIzMDg4NTQ0LC0yNzEyMjYz
-NDcsODIwMDMxODQ3LC0yMzcyMjI2NDEsMjA5MzU5NDk5LC01Mz
-gyMzkzNzcsMTQ0MzU0NjIwNyw4MDU2NjM1MTksMTAzMzM0NTM3
-LC0xMDk1MjIxNTA1LC0xNzc1NDExNTA5LC04NjgxMTA2MzMsMT
-E2NDAzMzk4OSwtMjE0MTc4NDEyMywtMjI0NDU4NjYwLDE0MjI1
-MjQ3NjZdfQ==
+eyJoaXN0b3J5IjpbNzUxNzE0NzQ4LC04NDA3MjM5NjIsLTE5Nj
+cxOTY1NiwtMTM2NjA1ODEyMyw5NjYzNjY1NDEsLTEyMzA4ODU0
+NCwtMjcxMjI2MzQ3LDgyMDAzMTg0NywtMjM3MjIyNjQxLDIwOT
+M1OTQ5OSwtNTM4MjM5Mzc3LDE0NDM1NDYyMDcsODA1NjYzNTE5
+LDEwMzMzNDUzNywtMTA5NTIyMTUwNSwtMTc3NTQxMTUwOSwtOD
+Y4MTEwNjMzLDExNjQwMzM5ODksLTIxNDE3ODQxMjMsLTIyNDQ1
+ODY2MF19
 -->
