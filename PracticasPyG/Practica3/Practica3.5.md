@@ -8,8 +8,27 @@ Arrastre el mouse sobre el cuadrado, mantenga presionado el botón izquierdo del
 
 # [mouse.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/mouse.py)
 
-Esta vez, casi no tenemos ningún código en nuestro bucle `for` principal. 
+Esta vez, casi no tenemos ningún código en nuestro bucle principal. 
 ```python 
+while True:
+
+    mousePosition = pygame.mouse.get_pos()
+
+    surface.fill((0,0,0))
+
+    # Compruebe si el mouse está presionado
+    if pygame.mouse.get_pressed()[0] == True:
+        mousePressed = True
+    else:
+        mousePressed = False
+
+    checkBounds()
+    checkGravity()
+    drawSquare()
+
+    clock.tick(60)
+    pygame.display.update()
+
     for event in GAME_EVENTS.get():
 
         if event.type == pygame.KEYDOWN:
@@ -21,5 +40,5 @@ Esta vez, casi no tenemos ningún código en nuestro bucle `for` principal.
 ```
 **Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: checkBounds (), checkGravity () y drawSquare (). En nuestro código keyboard.py, ponemos parte de nuestro código en funciones; esta vez se lo haremos a todos, pero llegaremos a ellos en un momento.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTc5NTU5MywtMjIzOTgxODM0XX0=
+eyJoaXN0b3J5IjpbMjc1MTE1MjUxLC0yMjM5ODE4MzRdfQ==
 -->
