@@ -56,13 +56,13 @@ if mousePressed == True:
         if mousePosition[0] > squareX and mousePosition[0] < squareX + squareSize:
             if mousePosition[1] > squareY and mousePosition[1] < squareY + squareSize:
                 draggingSquare = True
-                pygame.mouse.set_visible(0)
+                pygame.mouse.set_visible(0) # Ajusta la visibilidad del puntero a 0 (desaparece)
 ```
 Una vez que `checkBounds()` ha hecho su trabajo, `checkGravity()` se pone a trabajar. 
 
 Al igual que en keyboard.py, checkGravity () mira dónde está nuestro cuadrado en la ventana: si no está en la parte inferior de nuestra ventana, acelerará nuestro cuadrado hasta allí. Sin embargo, solo hará esto si dejamos ir el botón del mouse, porque no queremos que nuestra forma caiga al suelo cuando la sujetemos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTY4MDA5NCwtMTMyNTg3MDM3OCwtMT
+eyJoaXN0b3J5IjpbMjA0NTMwNDg2NSwtMTMyNTg3MDM3OCwtMT
 U3NzE4OTA0NSwtNDYzMjAzODk5LDU1MDkyOTIzNCwtNzE4NTkw
 NzAzXX0=
 -->
