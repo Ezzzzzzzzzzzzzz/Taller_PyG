@@ -42,9 +42,9 @@ La línea:
 Antes de hacer algo con su mouse, debemos verificar que la coordenada Y de su mouse también esté dentro de nuestro cuadrado.
 
 ```python
-if mousePosition[1] > squareY and mousePosition[1] < squareY + squareSize:
+		if mousePosition[1] > squareY and mousePosition[1] < squareY + squareSize:
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUxMjI2OSwtNDYzMjAzODk5LDU1MD
-kyOTIzNCwtNzE4NTkwNzAzXX0=
+eyJoaXN0b3J5IjpbLTEyMjUxNjY4NzcsLTQ2MzIwMzg5OSw1NT
+A5MjkyMzQsLTcxODU5MDcwM119
 -->
