@@ -69,10 +69,20 @@ Una vez que `checkBounds()` ha hecho su trabajo, `checkGravity()` se pone a trab
 Sin embargo, solo hará esto si dejamos ir el botón del mouse, porque no queremos que nuestra forma caiga al suelo cuando la sujetemos.
 
 ```python 
+def checkGravity():
 
+    global gravity, squareY, squareSize, windowHeight
+
+    # ¿Está nuestro cuadrado en el aire y lo hemos soltado? 
+    if squareY < windowHeight - squareSize and mousePressed == False:
+        squareY += gravity
+        gravity = gravity * 1.1
+    else:
+        squareY = windowHeight - squareSize
+        gravity = 5.0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3ODM1MjUyLC0xMzI1ODcwMzc4LC0xNT
-c3MTg5MDQ1LC00NjMyMDM4OTksNTUwOTI5MjM0LC03MTg1OTA3
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTM0OTIwODM2NSwtMTMyNTg3MDM3OCwtMT
+U3NzE4OTA0NSwtNDYzMjAzODk5LDU1MDkyOTIzNCwtNzE4NTkw
+NzAzXX0=
 -->
