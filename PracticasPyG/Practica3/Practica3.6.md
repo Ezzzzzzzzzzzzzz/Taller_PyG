@@ -64,9 +64,15 @@ Una vez que `checkBounds()` ha hecho su trabajo, `checkGravity()` se pone a trab
 
 ### checkGravity()
 
-Al igual que en keyboard.py, checkGravity () mira dónde está nuestro cuadrado en la ventana: si no está en la parte inferior de nuestra ventana, acelerará nuestro cuadrado hasta allí. Sin embargo, solo hará esto si dejamos ir el botón del mouse, porque no queremos que nuestra forma caiga al suelo cuando la sujetemos.
+### Al igual que en `keyboard.py`, `checkGravity()` mira dónde está nuestro cuadrado en la ventana: si no está en la parte inferior de nuestra ventana, acelerará nuestro cuadrado hasta allí. 
+
+Sin embargo, solo hará esto si dejamos ir el botón del mouse, porque no queremos que nuestra forma caiga al suelo cuando la sujetemos.
+
+```python 
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMxNjQzNTEsLTEzMjU4NzAzNzgsLT
-E1NzcxODkwNDUsLTQ2MzIwMzg5OSw1NTA5MjkyMzQsLTcxODU5
-MDcwM119
+eyJoaXN0b3J5IjpbMjY3ODM1MjUyLC0xMzI1ODcwMzc4LC0xNT
+c3MTg5MDQ1LC00NjMyMDM4OTksNTUwOTI5MjM0LC03MTg1OTA3
+MDNdfQ==
 -->
