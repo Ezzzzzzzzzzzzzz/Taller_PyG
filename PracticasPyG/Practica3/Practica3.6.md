@@ -4,18 +4,32 @@ Ahora que sabemos dónde está nuestro mouse y qué botones están presionados, 
 
 Inmediatamente después de nuestro código que verifica los botones de nuestro mouse, llamamos `checkBounds()`. 
 ```python
-	 # Compruebe si el mouse está presionado
-    if pygame.mouse.get_pressed()[0] == True: # [(0)bot_izq,(1)bot_central,(2)bot_derecho]
-        mousePressed = True
+def checkBounds():
+
+    global squareColor, squareX, squareY, draggingSquare
+
+    if mousePressed == True:
+        # ¿Esta nuestro cursor sobre el cuadrado?
+        if mousePosition[0] > squareX and mousePosition[0] < squareX + squareSize:
+
+            if mousePosition[1] > squareY and mousePosition[1] < squareY + squareSize:
+
+                draggingSquare = True
+                pygame.mouse.set_visible(0)
+
     else:
-        mousePressed = False
-
-    checkBounds()
-
+        squareColor = (255,0,0)
+        pygame.mouse.set_visible(1)
+        draggingSquare = False
 ```
 ### `checkBounds()` tiene un trabajo: verificar si la posición de nuestro mouse está o no dentro de los límites (bordes) de nuestro cuadrado.
 
 Si estuviéramos haciendo un juego completo, esta función probablemente verificaría la posición de cada objeto del juego con las coordenadas del mouse, pero en este ejemplo solo estamos interesados en nuestro cuadrado rojo.
+
+La línea 31 verifica si se ha presionado el botón del mouse o no; después de todo, no tiene sentido verificar dónde está nuestro mouse si no está haciendo nada. 
+
+
+Si se ha presionado el botón de nuestro mouse, en la línea 33 miramos dónde está la coordenada X del mouse y la comparamos con la coordenada X de nuestro cuadrado.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NDExNzI2LC03MTg1OTA3MDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NjYyMTU5NTAsLTcxODU5MDcwM119
 -->
