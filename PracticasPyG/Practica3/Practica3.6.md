@@ -3,6 +3,8 @@
 Ahora que sabemos dónde está nuestro mouse y qué botones están presionados, podemos hacer algo con esa información. 
 
 Inmediatamente después de nuestro código que verifica los botones de nuestro mouse, llamamos `checkBounds()`. 
+
+### checkBounds
 ```python
 def checkBounds():
 
@@ -64,7 +66,7 @@ Una vez que `checkBounds()` ha hecho su trabajo, `checkGravity()` se pone a trab
 
 Al igual que en keyboard.py, checkGravity () mira dónde está nuestro cuadrado en la ventana: si no está en la parte inferior de nuestra ventana, acelerará nuestro cuadrado hasta allí. Sin embargo, solo hará esto si dejamos ir el botón del mouse, porque no queremos que nuestra forma caiga al suelo cuando la sujetemos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTUwMDE4NSwtMTMyNTg3MDM3OCwtMT
-U3NzE4OTA0NSwtNDYzMjAzODk5LDU1MDkyOTIzNCwtNzE4NTkw
-NzAzXX0=
+eyJoaXN0b3J5IjpbLTIwMzMxNjQzNTEsLTEzMjU4NzAzNzgsLT
+E1NzcxODkwNDUsLTQ2MzIwMzg5OSw1NTA5MjkyMzQsLTcxODU5
+MDcwM119
 -->
