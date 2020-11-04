@@ -4,6 +4,7 @@ El mouse es un kit simple, por lo que el código es mucho menos complicado que e
 
 Presionar las teclas del teclado no hará nada esta vez, porque este cuadrado es diferente. Si desea moverlo, debe usar el mouse para levantarlo.
 ![](https://media.giphy.com/media/111ebonMs90YLu/giphy.gif)
+
 Arrastre el mouse sobre el cuadrado, mantenga presionado el botón izquierdo del mouse y arrastre hacia arriba. Nuestro cuadrado se mueve con nuestro mouse. Si suelta el botón del mouse, el cuadrado volverá a la parte inferior de la ventana. Agradable y simple, pero **¿cómo funciona?**
 
 # [mouse.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/mouse.py)
@@ -74,9 +75,9 @@ En este caso, establecemos `mousePressed` en **True**, tal como lo hicimos con `
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc5MDA4MzQsLTE3MDY5ODU5NDMsMT
-AwNjk5Mjk3NiwxMTcyOTkwOCwxNDMzNzcxNTQ2LDczNTI3MzY3
-NywtMTE0NTU2NDk5MCwtMTY4OTQ3NjAyOCwtMTk2OTkyNTIxMC
-wyMzM3NDU1NTgsODkzNDI2MTI0LDI3NTExNTI1MSwtMjIzOTgx
-ODM0XX0=
+eyJoaXN0b3J5IjpbNDIxNjU2OTcyLC0xNzA2OTg1OTQzLDEwMD
+Y5OTI5NzYsMTE3Mjk5MDgsMTQzMzc3MTU0Niw3MzUyNzM2Nzcs
+LTExNDU1NjQ5OTAsLTE2ODk0NzYwMjgsLTE5Njk5MjUyMTAsMj
+MzNzQ1NTU4LDg5MzQyNjEyNCwyNzUxMTUyNTEsLTIyMzk4MTgz
+NF19
 -->
