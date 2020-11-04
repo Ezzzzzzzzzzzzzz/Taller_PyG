@@ -26,10 +26,14 @@ def checkBounds():
 
 Si estuviéramos haciendo un juego completo, esta función probablemente verificaría la posición de cada objeto del juego con las coordenadas del mouse, pero en este ejemplo solo estamos interesados en nuestro cuadrado rojo.
 
-La línea 31 verifica si se ha presionado el botón del mouse o no; después de todo, no tiene sentido verificar dónde está nuestro mouse si no está haciendo nada. 
+La línea:
+```python 
+    if mousePressed == True:
+```
+verifica si se ha presionado el botón del mouse o no; después de todo, no tiene sentido verificar dónde está nuestro mouse si no está haciendo nada. 
 
 
 Si se ha presionado el botón de nuestro mouse, en la línea 33 miramos dónde está la coordenada X del mouse y la comparamos con la coordenada X de nuestro cuadrado.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjYyMTU5NTAsLTcxODU5MDcwM119
+eyJoaXN0b3J5IjpbLTUwNzM1Mzc5MCwtNzE4NTkwNzAzXX0=
 -->
