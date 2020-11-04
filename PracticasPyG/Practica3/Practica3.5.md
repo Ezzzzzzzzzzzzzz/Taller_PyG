@@ -4,6 +4,8 @@ El mouse es un kit simple, por lo que el código es mucho menos complicado que e
 
 Presionar las teclas del teclado no hará nada esta vez, porque este cuadrado es diferente. Si desea moverlo, debe usar el mouse para levantarlo.
 
+![](https://media.giphy.com/media/111ebonMs90YLu/giphy.gif)
+
 Arrastre el mouse sobre el cuadrado, mantenga presionado el botón izquierdo del mouse y arrastre hacia arriba. Nuestro cuadrado se mueve con nuestro mouse. Si suelta el botón del mouse, el cuadrado volverá a la parte inferior de la ventana. Agradable y simple, pero **¿cómo funciona?**
 
 # [mouse.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/mouse.py)
@@ -37,7 +39,10 @@ while True:
         if event.type == GAME_GLOBALS.QUIT:
             quitGame()
 ```
-**Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: `checkBounds()` (comprobar limites), `checkGravity()` (comprobar gravedad) y `drawSquare()` (dibuja el cuadrado). 
+**Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: 
+- `checkBounds()` (comprobar limites)
+- `checkGravity()` (comprobar gravedad) 
+- `drawSquare()` (dibuja el cuadrado). 
 
 ### Las dos cosas importantes que debemos saber al usar un mouse son dónde está y qué botones se presionaron, si los hay. 
 
@@ -63,11 +68,17 @@ Si se presiona el botón, el valor es **Verdadero / True**; de lo contrario, es 
 
 No estamos haciendo nada con el botón central o derecho del mouse, por lo que simplemente podemos verificar el primer valor (el botón izquierdo del mouse) con [`pygame.mouse.get_pressed()[0]`](https://www.pygame.org/docs/ref/mouse.html?highlight=get_pressed#pygame.mouse.get_pressed).
 
-Si `pygame.mouse.get_pressed()[0]` es **True**, entonces nuestro jugador ha hecho clic en un botón y podemos continuar. 
+![](https://media.geeksforgeeks.org/wp-content/uploads/CommonArticleDesign1-min.png)
+
+### Si `pygame.mouse.get_pressed()[0]` es **True**, entonces nuestro jugador ha hecho clic en un botón y podemos continuar. 
 
 En este caso, establecemos `mousePressed` en **True**, tal como lo hicimos con `leftDown` y `rightDown` en `keyboard.py`, para que podamos usarlo en todo nuestro programa.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzc3MTU0Niw3MzUyNzM2NzcsLTExND
-U1NjQ5OTAsLTE2ODk0NzYwMjgsLTE5Njk5MjUyMTAsMjMzNzQ1
-NTU4LDg5MzQyNjEyNCwyNzUxMTUyNTEsLTIyMzk4MTgzNF19
+eyJoaXN0b3J5IjpbLTQzNTgwMTYzNCwtMTcwNjk4NTk0MywxMD
+A2OTkyOTc2LDExNzI5OTA4LDE0MzM3NzE1NDYsNzM1MjczNjc3
+LC0xMTQ1NTY0OTkwLC0xNjg5NDc2MDI4LC0xOTY5OTI1MjEwLD
+IzMzc0NTU1OCw4OTM0MjYxMjQsMjc1MTE1MjUxLC0yMjM5ODE4
+MzRdfQ==
 -->
