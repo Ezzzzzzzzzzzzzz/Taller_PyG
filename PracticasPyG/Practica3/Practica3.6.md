@@ -47,11 +47,13 @@ Antes de hacer algo con su mouse, debemos verificar que la coordenada Y de su mo
 
 ### Si el valor Y de nuestro mouse es mayor que la parte superior de nuestra forma y menor que la parte inferior, entonces podemos estar seguros de que nuestro mouse está en algún lugar dentro de nuestra forma. 
 
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/mousecontrol.jpg)
 
 En `mouse.py`, **hemos verificado las coordenadas X e Y en líneas separadas; podríamos haber hecho esto en una sola línea, pero sería una línea bastante intimidante para leer**, y mucho menos para escribir. 
 
 Ahora que sabemos que nuestro mouse está posicionado dentro de nuestro cuadrado y que hemos presionado el botón del mouse, podemos establecer nuestra variable `draggingSquare` (arrastrando el cuadrado) en **True**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU4NzAzNzgsLTE1NzcxODkwNDUsLT
-Q2MzIwMzg5OSw1NTA5MjkyMzQsLTcxODU5MDcwM119
+eyJoaXN0b3J5IjpbLTUxNzUwNzYwOCwtMTMyNTg3MDM3OCwtMT
+U3NzE4OTA0NSwtNDYzMjAzODk5LDU1MDkyOTIzNCwtNzE4NTkw
+NzAzXX0=
 -->
