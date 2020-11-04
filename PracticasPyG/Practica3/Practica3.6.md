@@ -14,6 +14,8 @@ Inmediatamente después de nuestro código que verifica los botones de nuestro m
 
 ```
 ### `checkBounds()` tiene un trabajo: verificar si la posición de nuestro mouse está o no dentro de los límites (bordes) de nuestro cuadrado.
+
+Si estuviéramos haciendo un juego completo, esta función probablemente verificaría la posición de cada objeto del juego con las coordenadas del mouse, pero en este ejemplo solo estamos interesados en nuestro cuadrado rojo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE1MjY3NzQsLTcxODU5MDcwM119
+eyJoaXN0b3J5IjpbNTc1NDExNzI2LC03MTg1OTA3MDNdfQ==
 -->
