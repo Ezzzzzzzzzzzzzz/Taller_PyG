@@ -37,7 +37,10 @@ while True:
         if event.type == GAME_GLOBALS.QUIT:
             quitGame()
 ```
-**Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: `checkBounds()` (comprobar limites), `checkGravity()` (comprobar gravedad) y `drawSquare()` (dibuja el cuadrado). 
+**Aquí solo estamos verificando si el primer botón del mouse ha sido presionado o no** y luego llamamos a tres funciones: 
+- `checkBounds()` (comprobar limites)
+- `checkGravity()` (comprobar gravedad) 
+- drawSquare()` (dibuja el cuadrado). 
 
 ### Las dos cosas importantes que debemos saber al usar un mouse son dónde está y qué botones se presionaron, si los hay. 
 
@@ -67,7 +70,8 @@ Si `pygame.mouse.get_pressed()[0]` es **True**, entonces nuestro jugador ha hech
 
 En este caso, establecemos `mousePressed` en **True**, tal como lo hicimos con `leftDown` y `rightDown` en `keyboard.py`, para que podamos usarlo en todo nuestro programa.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzc3MTU0Niw3MzUyNzM2NzcsLTExND
-U1NjQ5OTAsLTE2ODk0NzYwMjgsLTE5Njk5MjUyMTAsMjMzNzQ1
-NTU4LDg5MzQyNjEyNCwyNzUxMTUyNTEsLTIyMzk4MTgzNF19
+eyJoaXN0b3J5IjpbMTE3Mjk5MDgsMTQzMzc3MTU0Niw3MzUyNz
+M2NzcsLTExNDU1NjQ5OTAsLTE2ODk0NzYwMjgsLTE5Njk5MjUy
+MTAsMjMzNzQ1NTU4LDg5MzQyNjEyNCwyNzUxMTUyNTEsLTIyMz
+k4MTgzNF19
 -->
