@@ -37,7 +37,8 @@ La línea:
         # ¿Esta nuestro cursor sobre el cuadrado?
         if mousePosition[0] > squareX and mousePosition[0] < squareX + squareSize:
 ```
- Si nuestro mouse X es mayor que la izquierda de nuestro cuadrado y es más pequeño que el valor X de la derecha de nuestro cuadrado (`squareX + squareSize`), sabemos que nuestro mouse está dentro de los límites X de nuestro cuadrado, pero eso no significa que está dentro de nuestra forma.
+### Si nuestro mouse X es mayor que la izquierda de nuestro cuadrado y es más pequeño que el valor X de la derecha de nuestro cuadrado (`squareX + squareSize`), sabemos que nuestro mouse está dentro de los límites X de nuestro cuadrado, pero eso no significa que está dentro de nuestra forma.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwOTI5MjM0LC03MTg1OTA3MDNdfQ==
+eyJoaXN0b3J5IjpbLTQ2MzIwMzg5OSw1NTA5MjkyMzQsLTcxOD
+U5MDcwM119
 -->
