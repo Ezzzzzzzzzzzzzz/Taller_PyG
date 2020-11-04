@@ -32,12 +32,12 @@ La línea:
 ```
 **verifica si se ha presionado el botón del mouse o no**; después de todo, no tiene sentido verificar dónde está nuestro mouse si no está haciendo nada. 
 
-Si se ha presionado el botón de nuestro mouse miramos dónde está la coordenada X del mouse y la comparamos con la coordenada X de nuestro cuadrado.
+### Si se ha presionado el botón de nuestro mouse miramos dónde está la coordenada X del mouse y la comparamos con la coordenada X de nuestro cuadrado.
 ```python 
         # ¿Esta nuestro cursor sobre el cuadrado?
         if mousePosition[0] > squareX and mousePosition[0] < squareX + squareSize:
 ```
  Si nuestro mouse X es mayor que la izquierda de nuestro cuadrado y es más pequeño que el valor X de la derecha de nuestro cuadrado (squareX + squareSize), sabemos que nuestro mouse está dentro de los límites X de nuestro cuadrado, pero eso no significa que está dentro de nuestra forma.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTQ4ODgzMywtNzE4NTkwNzAzXX0=
+eyJoaXN0b3J5IjpbLTE1Mzc5Mzg4NiwtNzE4NTkwNzAzXX0=
 -->
