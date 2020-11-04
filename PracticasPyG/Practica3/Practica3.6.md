@@ -38,7 +38,13 @@ La línea:
         if mousePosition[0] > squareX and mousePosition[0] < squareX + squareSize:
 ```
 ### Si nuestro mouse X es mayor que la izquierda de nuestro cuadrado y es más pequeño que el valor X de la derecha de nuestro cuadrado (`squareX + squareSize`), sabemos que nuestro mouse está dentro de los límites X de nuestro cuadrado, pero eso no significa que está dentro de nuestra forma.
+
+Antes de hacer algo con su mouse, debemos verificar que la coordenada Y de su mouse también esté dentro de nuestro cuadrado.
+
+```python
+if mousePosition[1] > squareY and mousePosition[1] < squareY + squareSize:
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzIwMzg5OSw1NTA5MjkyMzQsLTcxOD
-U5MDcwM119
+eyJoaXN0b3J5IjpbLTEyOTUxMjI2OSwtNDYzMjAzODk5LDU1MD
+kyOTIzNCwtNzE4NTkwNzAzXX0=
 -->
