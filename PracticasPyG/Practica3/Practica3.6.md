@@ -11,12 +11,9 @@ def checkBounds():
     if mousePressed == True:
         # ¿Esta nuestro cursor sobre el cuadrado?
         if mousePosition[0] > squareX and mousePosition[0] < squareX + squareSize:
-
             if mousePosition[1] > squareY and mousePosition[1] < squareY + squareSize:
-
                 draggingSquare = True
                 pygame.mouse.set_visible(0)
-
     else:
         squareColor = (255,0,0)
         pygame.mouse.set_visible(1)
@@ -54,11 +51,18 @@ En `mouse.py`, **hemos verificado las coordenadas X e Y en líneas separadas; po
 Ahora que sabemos que nuestro mouse está posicionado dentro de nuestro cuadrado y que hemos presionado el botón del mouse, podemos establecer nuestra variable `draggingSquare` (arrastrando el cuadrado) en **True**.
 
 ```python 
-
+if mousePressed == True:
+        # ¿Esta nuestro cursor sobre el cuadrado?
+        if mousePosition[0] > squareX and mousePosition[0] < squareX + squareSize:
+            if mousePosition[1] > squareY and mousePosition[1] < squareY + squareSize:
+                draggingSquare = True
+                pygame.mouse.set_visible(0)
 ```
-Una vez que `checkBounds()` ha hecho su trabajo, `checkGravity () se pone a trabajar. Al igual que en keyboard.py, checkGravity () mira dónde está nuestro cuadrado en la ventana: si no está en la parte inferior de nuestra ventana, acelerará nuestro cuadrado hasta allí. Sin embargo, solo hará esto si dejamos ir el botón del mouse, porque no queremos que nuestra forma caiga al suelo cuando la sujetemos.
+Una vez que `checkBounds()` ha hecho su trabajo, `checkGravity()` se pone a trabajar. 
+
+Al igual que en keyboard.py, checkGravity () mira dónde está nuestro cuadrado en la ventana: si no está en la parte inferior de nuestra ventana, acelerará nuestro cuadrado hasta allí. Sin embargo, solo hará esto si dejamos ir el botón del mouse, porque no queremos que nuestra forma caiga al suelo cuando la sujetemos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1MzA1NDYyLC0xMzI1ODcwMzc4LC0xNT
-c3MTg5MDQ1LC00NjMyMDM4OTksNTUwOTI5MjM0LC03MTg1OTA3
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTgxOTY4MDA5NCwtMTMyNTg3MDM3OCwtMT
+U3NzE4OTA0NSwtNDYzMjAzODk5LDU1MDkyOTIzNCwtNzE4NTkw
+NzAzXX0=
 -->
