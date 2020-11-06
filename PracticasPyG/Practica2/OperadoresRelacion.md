@@ -49,7 +49,7 @@ o = 10
 p = 0
 q = 0
 q = (o != 0) and (p != 0) # q = 0 (falso)
-r = not q # ! ---> NOT | r = 1 (verdadero)
+r = not q # r = 1 (verdadero)
 g = not r # g = 0 (falso)
 q = (o != 0) or (p != 0) # q = 0 (verdadero)
 ```
@@ -86,7 +86,7 @@ Viendo esta tabla de verdad comprenderemos mucho mejor e funcionamiento de la pu
 
 ![](https://aristoteles2pc.files.wordpress.com/2011/03/not1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTU0MTA2OSwtNTM3Mjg0MTEzLDE3Mz
-Y1NTA2MTAsMTI4MjY4NDMzMCwtMzA3ODkyMTg0LC0xNTUzMjA3
-ODI5XX0=
+eyJoaXN0b3J5IjpbLTIzNTM4NzcwNCwtNDExNTQxMDY5LC01Mz
+cyODQxMTMsMTczNjU1MDYxMCwxMjgyNjg0MzMwLC0zMDc4OTIx
+ODQsLTE1NTMyMDc4MjldfQ==
 -->
