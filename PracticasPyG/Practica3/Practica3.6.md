@@ -102,9 +102,10 @@ def drawSquare():
 
 Pero si no estamos arrastrando el cuadrado, dibujará un elegante descenso impulsado por la gravedad hasta la parte inferior de nuestra ventana. `drawSquare()` tiene un pequeño truco bajo la manga: además de afectar la posición de nuestro cuadrado, también cambia su color: rojo cuando no se arrastra y verde cuando se arrastra. 
 ### Este código podría ser útil si, en lugar de un cuadrado, tuviéramos un carácter y quisiéramos cambiar su gráfico para que parezca que está sosteniendo nuestro cursor.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjA2NjA4MSwtMjY0MDAwMjU3LDk2NT
-QwNjY0MywxNjU4NTUxMzgxLC0xMzI1ODcwMzc4LC0xNTc3MTg5
-MDQ1LC00NjMyMDM4OTksNTUwOTI5MjM0LC03MTg1OTA3MDNdfQ
-==
+eyJoaXN0b3J5IjpbNjM4MTIzNzczLC0yNjQwMDAyNTcsOTY1ND
+A2NjQzLDE2NTg1NTEzODEsLTEzMjU4NzAzNzgsLTE1NzcxODkw
+NDUsLTQ2MzIwMzg5OSw1NTA5MjkyMzQsLTcxODU5MDcwM119
 -->
