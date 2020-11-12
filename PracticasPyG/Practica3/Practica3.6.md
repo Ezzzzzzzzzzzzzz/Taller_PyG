@@ -98,8 +98,10 @@ def drawSquare():
 ```
 
  su propósito es bastante fácil de adivinar. Según los ajustes de `checkBounds()` y `checkGravity()`, `drawSquare()` dibujará el cuadrado para nosotros. Si nuestro cuadrado está siendo movido por nuestro mouse, dibujará el cuadrado en las coordenadas del mouse.
+
+Pero si no estamos arrastrando el cuadrado, dibujará un elegante descenso impulsado por la gravedad hasta la parte inferior de nuestra ventana. drawSquare () tiene un pequeño truco bajo la manga: además de afectar la posición de nuestro cuadrado, también cambia su color: rojo cuando no se arrastra y verde cuando se arrastra. Este código podría ser útil si, en lugar de un cuadrado, tuviéramos un carácter y quisiéramos cambiar su gráfico para que parezca que está sosteniendo nuestro cursor.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1NDA2NjQzLDE2NTg1NTEzODEsLTEzMj
-U4NzAzNzgsLTE1NzcxODkwNDUsLTQ2MzIwMzg5OSw1NTA5Mjky
-MzQsLTcxODU5MDcwM119
+eyJoaXN0b3J5IjpbLTE0MzIwMDc5NDEsOTY1NDA2NjQzLDE2NT
+g1NTEzODEsLTEzMjU4NzAzNzgsLTE1NzcxODkwNDUsLTQ2MzIw
+Mzg5OSw1NTA5MjkyMzQsLTcxODU5MDcwM119
 -->
