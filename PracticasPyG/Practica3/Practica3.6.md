@@ -84,14 +84,22 @@ def checkGravity():
 Nuestra función final es `drawSquare()`:
 
 ```python
+def drawSquare():
 
+    global squareColor, squareX, squareY, draggingSquare
 
+    if draggingSquare == True:
 
+        squareColor = (0, 255, 0)
+        squareX = mousePosition[0] - squareSize / 2
+        squareY = mousePosition[1] - squareSize / 2
+
+    pygame.draw.rect(surface, squareColor, (squareX, squareY, squareSize, squareSize))
 ```
 
- su propósito es bastante fácil de adivinar. Según los ajustes de checkBounds () y checkGravity (), drawSquare () dibujará el cuadrado para nosotros. Si nuestro cuadrado está siendo movido por nuestro mouse, dibujará el cuadrado en las coordenadas del mouse.
+ su propósito es bastante fácil de adivinar. Según los ajustes de `checkBounds()` y `checkGravity()`, `drawSquare()` dibujará el cuadrado para nosotros. Si nuestro cuadrado está siendo movido por nuestro mouse, dibujará el cuadrado en las coordenadas del mouse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDg2NTQ0MCwxNjU4NTUxMzgxLC0xMz
-I1ODcwMzc4LC0xNTc3MTg5MDQ1LC00NjMyMDM4OTksNTUwOTI5
-MjM0LC03MTg1OTA3MDNdfQ==
+eyJoaXN0b3J5IjpbOTY1NDA2NjQzLDE2NTg1NTEzODEsLTEzMj
+U4NzAzNzgsLTE1NzcxODkwNDUsLTQ2MzIwMzg5OSw1NTA5Mjky
+MzQsLTcxODU5MDcwM119
 -->
