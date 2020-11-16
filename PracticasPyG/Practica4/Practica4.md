@@ -2,7 +2,7 @@
 
 Ahora que hemos cubierto cómo crear formas, animarlas y configurar mecanismos de control, tenemos todo lo que necesitamos para hacer nuestro primer juego. **Vamos a hacer un juego desplegable de la vieja escuela donde las plataformas se elevan desde el suelo e intentan aplastar a nuestro jugador contra el techo; la única forma de sobrevivir es atravesando los huecos de las plataformas.**
 
-![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica4/drop.JPG)
+![](https://github.com/Ezzzzzzzzzzzzzz/Games-with-Pygame/blob/master/Part%204/Images/Screenshots/difficulty.png)
 
 **A diferencia de nuestros ejemplos anteriores, no vamos a escribir un programa que simplemente se ejecute: también crearemos una pantalla de inicio simple y una pantalla de finalización del juego**. 
 
@@ -68,6 +68,7 @@ están cargando imágenes que usaremos para nuestras pantallas de inicio y final
 
 ### Podríamos dibujar la interfaz gráfica de usuario (GUI) con código, pero al usar imágenes nos ahorramos tiempo y esfuerzo al costo de unos pocos kilobytes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMT
-A5ODEwMjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ==
+eyJoaXN0b3J5IjpbNjg2MzE4NDM3LC0xOTM3NDI5ODExLC00MD
+EwMzg0MDgsLTEwOTgxMDIwNzgsLTgxNjI2MTkzNiwxMTc1MjIw
+ODcxXX0=
 -->
