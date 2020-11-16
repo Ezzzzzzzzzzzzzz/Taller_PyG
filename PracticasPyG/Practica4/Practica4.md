@@ -22,9 +22,8 @@ Antes de escribir cualquier código, es importante tener un conocimiento sólido
 El objetivo del juego es sobrevivir el mayor tiempo posible. **Suena fácil, pero las cosas se ponen más difíciles a medida que pasa el tiempo, porque las plataformas comenzarán a aparecer después de un retraso más corto.**
 
 ## Variables y requisitos previos
-
-
+Las líneas 1 a 39 de nuestro código contienen las declaraciones de importación y las variables que vamos a necesitar para que nuestro juego despegue. A estas alturas, gran parte de esto debería parecer bastante familiar. En la parte superior tenemos nuestras declaraciones de importación, que nos permiten incluir módulos para ayudar con el desarrollo de nuestro juego. Toma nota de la importación GAME_TIME, ya que se usará bastante más adelante.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTgxMDIwNzgsLTgxNjI2MTkzNiwxMT
-c1MjIwODcxXX0=
+eyJoaXN0b3J5IjpbLTkwNTQzNjQxMCwtMTA5ODEwMjA3OCwtOD
+E2MjYxOTM2LDExNzUyMjA4NzFdfQ==
 -->
