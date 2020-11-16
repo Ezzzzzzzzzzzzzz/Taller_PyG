@@ -13,9 +13,11 @@ Antes de escribir cualquier código, es importante tener un conocimiento sólido
    desplegará desde la parte superior de la pantalla.
  - Cada dos segundos, una plataforma blanca comenzará a subir desde la
    parte inferior de la pantalla; si nuestro personaje aterriza en una
-   de estas plataformas, comenzará a subir junto con ella. Si salimos de
-   la parte superior de la pantalla del juego, se acabó el juego.
+   de estas plataformas, comenzará a subir junto con ella. 
+ - Si salimos de la parte superior de la pantalla del juego, se acabó el juego.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjkwMTg5NywxMTc1MjIwODcxXX0=
+eyJoaXN0b3J5IjpbMTMyMjYwMTg1MiwxMTc1MjIwODcxXX0=
 -->
