@@ -119,9 +119,9 @@ Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Games-with-Pygame/blob/master/Part%204/Images/Diagrams/DictionariesAndLists.png)
 
-
+Si el valor `player["y"]` es `20` y queremos cambiarlo a `25`, ingresaremos player ["y"] = 25, al igual que establecer cualquier otra variable. Los diccionarios son realmente útiles, porque nos permiten agrupar valores de una manera que es fácil de leer y de acceder con código. Si revisamos nuestro ejercicio mental de juego MMO, nos daremos cuenta rápidamente de que todavía necesitamos 100 variables para manejar a 100 jugadores, a pesar de que hemos hecho las cosas más ordenadas y más útiles. ¿Cuál es la mejor manera de realizar un seguimiento de los diccionarios? Ahí es donde entran las listas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzY3OTA0MCw1OTI2ODY2OTIsLTE5Mz
-c0Mjk4MTEsLTE5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEw
-MjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ==
+eyJoaXN0b3J5IjpbLTEyNTc2NDc0MDQsNTkyNjg2NjkyLC0xOT
+M3NDI5ODExLC0xOTM3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgx
+MDIwNzgsLTgxNjI2MTkzNiwxMTc1MjIwODcxXX0=
 -->
