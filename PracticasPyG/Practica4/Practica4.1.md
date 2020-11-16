@@ -218,8 +218,13 @@ Son donde se determina el estado de nuestro juego y las funciones se llaman en c
 
 Para comprender cada función y aspecto de nuestro juego, vamos a trabajar con ellos en el orden en que los llama nuestro bucle principal.
 
-**Cuando nuestro juego se ejecuta por primera vez, queremos mostrar nuestra pantalla de bienvenida que le dice a la gente que presione la barra espaciadora para comenzar; cuando el usuario presiona la barra espaciadora, queremos iniciar el juego y cuando el usuario es empujado fuera de la pantalla, queremos mostrar el juego sobre la pantalla y dejar que se reinicie.** Todo esto se maneja en el bucle principal. Vamos a analizarlo.
+**Cuando nuestro juego se ejecuta por primera vez, queremos mostrar nuestra pantalla de bienvenida que le dice a la gente que presione la barra espaciadora para comenzar.**
+![]()
+
+**Cuando el usuario presiona la barra espaciadora, queremos iniciar el juego y cuando el usuario es empujado fuera de la pantalla, queremos mostrar el juego sobre la pantalla y dejar que se reinicie.** 
+![]()
+Todo esto se maneja en el bucle principal. Vamos a analizarlo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3Nzk5NjE0LDE5MDA0ODQ3MzQsOTAyND
-E3NjQxXX0=
+eyJoaXN0b3J5IjpbMjAxNzEwMjEwNSwxOTAwNDg0NzM0LDkwMj
+QxNzY0MV19
 -->
