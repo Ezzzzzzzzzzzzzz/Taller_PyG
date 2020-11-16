@@ -111,8 +111,9 @@ Sin embargo, a medida que los programas crecen, puede resultar más difícil nom
 
 ¿Y si quisiéramos manejar a cuatro o 100 o 1,000 jugadores al mismo tiempo? ¿Escribimos a mano variables para cada uno? **No**. **En su lugar, podemos utilizar diccionarios y listas**.
 
+La variable `player` es un diccionario. Un diccionario es una variable con varias claves que tienen valores. Puede pensar en un diccionario como lo haría en su contraparte del mundo real: si quiere saber qué es algo, busque hasta encontrar la definición.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMTQ3NzY1LC0xOTM3NDI5ODExLC0xOT
-M3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgxMDIwNzgsLTgxNjI2
-MTkzNiwxMTc1MjIwODcxXX0=
+eyJoaXN0b3J5IjpbLTE4NDQ2ODg2NjAsLTE5Mzc0Mjk4MTEsLT
+E5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEwMjA3OCwtODE2
+MjYxOTM2LDExNzUyMjA4NzFdfQ==
 -->
