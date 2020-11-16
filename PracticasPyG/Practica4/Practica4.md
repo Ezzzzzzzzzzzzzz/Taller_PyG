@@ -26,12 +26,58 @@ El objetivo del juego es sobrevivir el mayor tiempo posible. **Suena fácil, per
 Las primeras 39 líneas de nuestro código contienen las declaraciones de importación y las variables que vamos a necesitar para que nuestro juego despegue. A estas alturas, **gran parte de esto debería parecer bastante familiar. En la parte superior tenemos nuestras declaraciones de importación, que nos permiten incluir módulos para ayudar con el desarrollo de nuestro juego. Toma nota de la importación GAME_TIME, ya que se usará bastante más adelante.**
 
 ```python 
+import pygame, sys, random
 
+import pygame.locals as GAME_GLOBALS
+
+import pygame.event as GAME_EVENTS
+
+import pygame.time as GAME_TIME
+
+pygame.init()
+
+clock = pygame.time.Clock()
+
+title_image = pygame.image.load("assets/title.jpg")
+
+game_over_image = pygame.image.load("assets/game_over.jpg")
+
+windowWidth = 400
+
+windowHeight = 600
+
+surface = pygame.display.set_mode((windowWidth, windowHeight))
+
+pygame.display.set_caption('Drop!')
+
+leftDown = False
+
+rightDown = False
+
+gameStarted = False
+
+gameEnded = False
+
+gamePlatforms = []
+
+platformSpeed = 3
+
+platformDelay = 2000
+
+lastPlatform = 0
+
+platformsDroppedThrough = -1
+
+dropping = False
+
+gameBeganAt = 0
+
+timer = 0
 
 ```
 
 Las líneas 8 y 9 están cargando imágenes que usaremos para nuestras pantallas de inicio y finalización del juego. Podríamos dibujar la interfaz gráfica de usuario (GUI) con código, pero al usar imágenes nos ahorramos tiempo y esfuerzo al costo de unos pocos kilobytes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTAzODQwOCwtMTA5ODEwMjA3OCwtOD
-E2MjYxOTM2LDExNzUyMjA4NzFdfQ==
+eyJoaXN0b3J5IjpbLTEyOTEwMTY1NDIsLTQwMTAzODQwOCwtMT
+A5ODEwMjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ==
 -->
