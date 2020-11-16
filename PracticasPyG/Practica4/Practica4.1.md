@@ -219,12 +219,15 @@ Son donde se determina el estado de nuestro juego y las funciones se llaman en c
 Para comprender cada función y aspecto de nuestro juego, vamos a trabajar con ellos en el orden en que los llama nuestro bucle principal.
 
 **Cuando nuestro juego se ejecuta por primera vez, queremos mostrar nuestra pantalla de bienvenida que le dice a la gente que presione la barra espaciadora para comenzar.**
+
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica4/intro.JPG)
 
 **Cuando el usuario presiona la barra espaciadora, queremos iniciar el juego y cuando el usuario es empujado fuera de la pantalla, queremos mostrar el juego sobre la pantalla y dejar que se reinicie.** 
+
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica4/gameover.JPG)
+
 Todo esto se maneja en el bucle principal. Vamos a analizarlo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjAxOTk5NjcsMjAxNzEwMjEwNSwxOT
-AwNDg0NzM0LDkwMjQxNzY0MV19
+eyJoaXN0b3J5IjpbMTM1MzI4NjM1MSwyMDE3MTAyMTA1LDE5MD
+A0ODQ3MzQsOTAyNDE3NjQxXX0=
 -->
