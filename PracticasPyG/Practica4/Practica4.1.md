@@ -166,7 +166,8 @@ while True:
   clock.tick(60)
   pygame.display.update()
 ```
-Al igual que nuestros programas anteriores, en las líneas 153-176
+Al igual que nuestros programas anteriores, en las líneas:
+
 ```python
   for event in GAME_EVENTS.get():
 
@@ -192,7 +193,8 @@ Al igual que nuestros programas anteriores, en las líneas 153-176
 ```
  escuchamos varios eventos en el juego en nuestro bucle principal y cambios en función de los eventos enviados por nuestra computadora (teclado, mouse, eventos de salida, etc.). 
 
-Las líneas 178-196 
+Las líneas:
+
 ```python
   if gameStarted is True:
     # Play game
@@ -214,9 +216,9 @@ Las líneas 178-196
 
 son donde se determina el estado de nuestro juego y las funciones se llaman en consecuencia.
 
-Cada función entre las líneas 40 y 146 está codificada para manejar un solo aspecto del juego independientemente de las otras funciones, pero deben llamarse en un orden determinado para asegurarnos de que nuestro juego se ejecuta como se espera. 
+Cada función está codificada para manejar un solo aspecto del juego independientemente de las otras funciones, pero deben llamarse en un orden determinado para asegurarnos de que nuestro juego se ejecuta como se espera. 
 
 Para comprender cada función y aspecto de nuestro juego, vamos a trabajar con ellos en el orden en que los llama nuestro bucle principal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTYzNzU3Nyw5MDI0MTc2NDFdfQ==
+eyJoaXN0b3J5IjpbMTkwMDQ4NDczNCw5MDI0MTc2NDFdfQ==
 -->
