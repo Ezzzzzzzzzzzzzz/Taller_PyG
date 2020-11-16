@@ -214,7 +214,9 @@ Las líneas 178-196
 
 son donde se determina el estado de nuestro juego y las funciones se llaman en consecuencia.
 
-Cada función entre las líneas 40 y 146 está codificada para manejar un solo aspecto del juego independientemente de las otras funciones, pero deben llamarse en un orden determinado para asegurarnos de que nuestro juego se ejecuta como se espera. Para comprender cada función y aspecto de nuestro juego, vamos a trabajar con ellos en el orden en que los llama nuestro bucle principal.
+Cada función entre las líneas 40 y 146 está codificada para manejar un solo aspecto del juego independientemente de las otras funciones, pero deben llamarse en un orden determinado para asegurarnos de que nuestro juego se ejecuta como se espera. 
+
+Para comprender cada función y aspecto de nuestro juego, vamos a trabajar con ellos en el orden en que los llama nuestro bucle principal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzgyODk4ODMsOTAyNDE3NjQxXX0=
+eyJoaXN0b3J5IjpbMTIxMTYzNzU3Nyw5MDI0MTc2NDFdfQ==
 -->
