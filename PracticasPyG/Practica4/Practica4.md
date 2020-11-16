@@ -67,8 +67,19 @@ game_over_image = pygame.image.load("assets/game_over.jpg")
 están cargando imágenes que usaremos para nuestras pantallas de inicio y finalización del juego.
 
 ### Podríamos dibujar la interfaz gráfica de usuario (GUI) con código, pero al usar imágenes nos ahorramos tiempo y esfuerzo al costo de unos pocos kilobytes.
+
+Hemos visto las líneas 11 a 15 antes:
+```python
+
+windowWidth = 400
+windowHeight = 600
+
+surface = pygame.display.set_mode((windowWidth, windowHeight))
+pygame.display.set_caption('Drop!')
+```
+estas son las variables que usaremos para controlar cómo se ve la ventana del juego. Las líneas 20-38 son las variables que usaremos para realizar un seguimiento del estado de nuestro juego, como dónde están las cosas, qué tan grandes son y cómo deben moverse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDgzNzE1OSwtMTkzNzQyOTgxMSwtMT
+eyJoaXN0b3J5IjpbLTM0Mzk2MDg2MiwtMTkzNzQyOTgxMSwtMT
 kzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAyMDc4LC04MTYy
 NjE5MzYsMTE3NTIyMDg3MV19
 -->
