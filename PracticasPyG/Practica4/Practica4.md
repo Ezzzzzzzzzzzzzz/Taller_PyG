@@ -126,8 +126,10 @@ Si revisamos nuestro ejercicio mental de juego MMO, nos daremos cuenta rápidame
 ## Las listas son variables que pueden almacenar grupos de otras variables. 
 
 Si quisiéramos realizar un seguimiento de los jugadores de nuestro juego, no necesitaríamos crear una variable para cada jugador. **Podríamos simplemente agregar un diccionario de jugador a una lista y trabajar con ellos cuando sea necesario.** Si, por ejemplo, quisiéramos obtener la información del segundo jugador en nuestro MMO imaginario, ingresaríamos algo como `players[1]` y eso devolvería un diccionario para nuestro segundo jugador del cual podríamos obtener valores, así : `players[1][“x”]`.
+
+En este ejemplo **`1` se llama índice**. Es importante notar que los índices de lista comienzan a contar desde 0, por lo que si queremos acceder al primer elemento de una lista, usamos el índice 0; si queremos obtener el cuarto elemento de una lista, usamos el índice 3. En nuestro juego, no usamos listas y diccionarios para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwMjQ0OTkwLDU5MjY4NjY5MiwtMTkzNz
-QyOTgxMSwtMTkzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAy
-MDc4LC04MTYyNjE5MzYsMTE3NTIyMDg3MV19
+eyJoaXN0b3J5IjpbLTIwMzg1NjcxNzIsNTkyNjg2NjkyLC0xOT
+M3NDI5ODExLC0xOTM3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgx
+MDIwNzgsLTgxNjI2MTkzNiwxMTc1MjIwODcxXX0=
 -->
