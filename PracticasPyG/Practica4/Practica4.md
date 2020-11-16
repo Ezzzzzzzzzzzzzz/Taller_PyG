@@ -23,7 +23,7 @@ El objetivo del juego es sobrevivir el mayor tiempo posible. **Suena fácil, per
 
 ## Variables y requisitos previos
 
-Las primeras 39 líneas de nuestro código contienen las declaraciones de importación `import` y las variables que vamos a necesitar para que nuestro juego despegue. A estas alturas, gran parte de esto debería parecer bastante familiar. En la parte superior tenemos nuestras declaraciones de importación `import`, que nos permiten incluir módulos para ayudar con el desarrollo de nuestro juego. Toma nota de la importación GAME_TIME, ya que se usará bastante más adelante.**
+Las primeras 39 líneas de nuestro código contienen las declaraciones de importación `import` y las variables que vamos a necesitar para que nuestro juego despegue. A estas alturas, **gran parte de esto debería parecer bastante familiar. En la parte superior tenemos nuestras declaraciones de importación `import`, que nos permiten incluir módulos para ayudar con el desarrollo de nuestro juego. Toma nota de la importación GAME_TIME, ya que se usará bastante más adelante.**
 
 ```python 
 import pygame, sys, random
@@ -68,7 +68,7 @@ están cargando imágenes que usaremos para nuestras pantallas de inicio y final
 
 ### Podríamos dibujar la interfaz gráfica de usuario (GUI) con código, pero al usar imágenes nos ahorramos tiempo y esfuerzo al costo de unos pocos kilobytes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTI3ODIxLC0xOTM3NDI5ODExLC0xOT
+eyJoaXN0b3J5IjpbMTk4OTY3NTY1LC0xOTM3NDI5ODExLC0xOT
 M3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgxMDIwNzgsLTgxNjI2
 MTkzNiwxMTc1MjIwODcxXX0=
 -->
