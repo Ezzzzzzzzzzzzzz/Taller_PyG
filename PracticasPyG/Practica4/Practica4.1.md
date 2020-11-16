@@ -168,10 +168,36 @@ while True:
 ```
 Al igual que nuestros programas anteriores, en las líneas 153-176
 ```python
+  for event in GAME_EVENTS.get():
+
+    if event.type == pygame.KEYDOWN:
+
+      if event.key == pygame.K_LEFT:
+        leftDown = True
+      if event.key == pygame.K_RIGHT:
+        rightDown = True
+      if event.key == pygame.K_ESCAPE:
+        quitGame()
+
+    if event.type == pygame.KEYUP:
+      if event.key == pygame.K_LEFT:
+        leftDown = False
+      if event.key == pygame.K_RIGHT:
+        rightDown = False
+
+      if event.key == pygame.K_SPACE:
+        if gameStarted == False:
+          restartGame()
+          gameStarted = True
+```
+ escuchamos varios eventos en el juego en nuestro bucle principal y cambios en función de los eventos enviados por nuestra computadora (teclado, mouse, eventos de salida, etc.). 
+
+Las líneas 178-196 
+```python
 
 ```
 
- escuchamos varios eventos en el juego en nuestro bucle principal y cambios en función de los eventos enviados por nuestra computadora (teclado, mouse, eventos de salida, etc.). Las líneas 178-196 son donde se determina el estado de nuestro juego y las funciones se llaman en consecuencia.
+son donde se determina el estado de nuestro juego y las funciones se llaman en consecuencia.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjczMTc5NSw5MDI0MTc2NDFdfQ==
+eyJoaXN0b3J5IjpbLTEwMzgwMzA3MDEsOTAyNDE3NjQxXX0=
 -->
