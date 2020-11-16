@@ -111,9 +111,9 @@ Sin embargo, a medida que los programas crecen, puede resultar más difícil nom
 
 ¿Y si quisiéramos manejar a cuatro o 100 o 1,000 jugadores al mismo tiempo? ¿Escribimos a mano variables para cada uno? **No**. **En su lugar, podemos utilizar diccionarios y listas**.
 
-La variable `player` es un diccionario. Un diccionario es una variable con varias claves (keys) que tienen valores.
+La variable `player` es un diccionario. 
 
-### Puede pensar en un diccionario como lo haría en su contraparte del mundo real: si quiere saber qué es algo, busque hasta encontrar la definición.
+Un diccionario es una variable con varias claves (keys) que tienen valores. Puede pensar en un diccionario como lo haría en su contraparte del mundo real: si quiere saber qué es algo, busque hasta encontrar la definición.
 
 Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario del `player`; todo lo que tenemos que hacer es solicitar `player["x"]`. **Podemos hacer lo mismo con cualquier otro valor que esté almacenado en él, y también podemos guardar o cambiar valores.**
 
@@ -122,8 +122,10 @@ Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario 
 Si el valor `player["y"]` es `20` y queremos cambiarlo a `25`, ingresaremos `player["y"] = 25`, al igual que establecer cualquier otra variable. **Los diccionarios son realmente útiles, porque nos permiten agrupar valores de una manera que es fácil de leer y de acceder con código.** 
 
 Si revisamos nuestro ejercicio mental de juego MMO, nos daremos cuenta rápidamente de que todavía necesitamos 100 variables para manejar a 100 jugadores, a pesar de que hemos hecho las cosas más ordenadas y más útiles. ¿Cuál es la mejor manera de realizar un seguimiento de los diccionarios? Ahí es donde entran las listas.
+
+Las listas son variables que pueden almacenar grupos de otras variables. Si quisiéramos realizar un seguimiento de los jugadores de nuestro juego, no necesitaríamos crear una variable para cada jugador. Podríamos simplemente agregar un diccionario de jugador a una lista y trabajar con ellos cuando sea necesario. Si, por ejemplo, quisiéramos obtener la información del segundo jugador en nuestro MMO imaginario, ingresaríamos algo como jugadores [1] y eso devolvería un diccionario para nuestro segundo jugador del cual podríamos obtener valores, así : jugadores [1] [“x”].
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzcyODUzMCw1OTI2ODY2OTIsLTE5Mz
+eyJoaXN0b3J5IjpbMTUwMTExNzExNyw1OTI2ODY2OTIsLTE5Mz
 c0Mjk4MTEsLTE5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEw
 MjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ==
 -->
