@@ -132,8 +132,9 @@ En este ejemplo **`1` se llama índice. Es importante notar que los índices de 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/CommonArticleDesign1-min.png)
 
 En nuestro juego, no usamos **listas** y **diccionarios** para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjQ1NTEyOCw1OTI2ODY2OTIsLTE5Mz
+eyJoaXN0b3J5IjpbLTEzNjU1NzE3OCw1OTI2ODY2OTIsLTE5Mz
 c0Mjk4MTEsLTE5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEw
 MjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ==
 -->
