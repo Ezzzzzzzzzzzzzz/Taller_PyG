@@ -9,7 +9,9 @@ Todavía tenemos un par de cosas nuevas que vamos a aprender a lo largo del cami
 ## ¿Cómo funciona nuestro juego?
 Antes de escribir cualquier código, es importante tener un conocimiento sólido de cómo va a funcionar nuestro juego. 
 >Cuando comience el juego, nuestro avatar (un rectángulo rojo) se desplegará desde la parte superior de la pantalla. 
->Cada dos segundos, una plataforma blanca comenzará a subir desde la parte inferior de la pantalla; si nuestro personaje aterriza en una de estas plataformas, comenzará a subir junto con ella. Si salimos de la parte superior de la pantalla del juego, se acabó el juego.
+>Cada dos segundos, una plataforma blanca comenzará a subir desde la parte inferior de la pantalla; 
+	>si nuestro personaje aterriza en una de estas plataformas, comenzará a subir junto con ella. 
+	>Si salimos de la parte superior de la pantalla del juego, se acabó el juego.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQzNzU5NDcsMTE3NTIyMDg3MV19
+eyJoaXN0b3J5IjpbNzA1NDE1MSwxMTc1MjIwODcxXX0=
 -->
