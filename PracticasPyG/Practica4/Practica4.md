@@ -105,9 +105,11 @@ Son las variables que usaremos para realizar un seguimiento del estado de nuestr
 
 ## Diccionarios y listas
 
+En practicas anteriores, casi siempre hemos usado variables que tienen un valor, pero hay otras variables que pueden contener múltiples valores,**- como tuplas, por ejemplo -**, y estas son muy útiles para nosotros a medida que comenzamos a hacer programas más grandes y poderosos. Cuando escribimos programas pequeños, tener variables con un solo valor es genial, porque podemos ver qué variables están haciendo qué.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjA1NTI4MywtMTkzNzQyOTgxMSwtMT
+eyJoaXN0b3J5IjpbMTkxNTMzOTM5MCwtMTkzNzQyOTgxMSwtMT
 kzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAyMDc4LC04MTYy
 NjE5MzYsMTE3NTIyMDg3MV19
 -->
