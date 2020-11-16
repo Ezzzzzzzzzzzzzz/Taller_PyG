@@ -111,13 +111,15 @@ Sin embargo, a medida que los programas crecen, puede resultar más difícil nom
 
 ¿Y si quisiéramos manejar a cuatro o 100 o 1,000 jugadores al mismo tiempo? ¿Escribimos a mano variables para cada uno? **No**. **En su lugar, podemos utilizar diccionarios y listas**.
 
-La variable `player` es un diccionario. Un diccionario es una variable con varias claves que tienen valores.
+La variable `player` es un diccionario. Un diccionario es una variable con varias claves (keys) que tienen valores.
 
 ### Puede pensar en un diccionario como lo haría en su contraparte del mundo real: si quiere saber qué es algo, busque hasta encontrar la definición.
 
-Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario del `player`; todo lo que tenemos que hacer es solicitar `player["x"]`. Podemos hacer lo mismo con cualquier otro valor que esté almacenado en él, y también podemos guardar o cambiar valores.
+Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario del `player`; todo lo que tenemos que hacer es solicitar `player["x"]`. **Podemos hacer lo mismo con cualquier otro valor que esté almacenado en él, y también podemos guardar o cambiar valores.**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDc3OTc2OSwtMTkzNzQyOTgxMSwtMT
-kzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAyMDc4LC04MTYy
-NjE5MzYsMTE3NTIyMDg3MV19
+eyJoaXN0b3J5IjpbLTcwODA3ODUyLC0xOTM3NDI5ODExLC0xOT
+M3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgxMDIwNzgsLTgxNjI2
+MTkzNiwxMTc1MjIwODcxXX0=
 -->
