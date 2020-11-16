@@ -13,20 +13,20 @@ surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption('Pygame Keyboard!')
 
 # Variables del cuadrado
-playerSize = 20
-playerX = (windowWidth / 2) - (playerSize / 2)
-playerY = windowHeight - playerSize
-playerVX = 1.0
-playerVY = 0.0
-jumpHeight = 25.0
+playerSize = 20 # Tamaño del personaje
+playerX = (windowWidth / 2) - (playerSize / 2) # Nos ayudan a saber la psicion del jugador en el eje X
+playerY = windowHeight - playerSize # Nos ayuda a saber la pos. en el eje Y
+playerVX = 1.0 # Velocidad del objeto en el eje X
+playerVY = 0.0 # Velocidad en el eje Y
+jumpHeight = 25.0 # Distancia del brinco
 moveSpeed = 1.0
-maxSpeed = 10.0
-gravity = 1.0
+maxSpeed = 10.0 # Velocidad Maxima
+gravity = 1.0  # gravedad
 
 # Variables del teclado (keyboard)
-leftDown = False
-rightDown = False
-haveJumped = False
+leftDown = False # Tecla izquierda
+rightDown = False # Tecla derecha
+haveJumped = False # Brinco
 
 def move():
 
@@ -77,7 +77,7 @@ def quitGame():
     pygame.quit()
     sys.exit()
 
-while True:
+while True: # loop
 
     surface.fill((0,0,0))
 
@@ -86,14 +86,14 @@ while True:
     # Obtenga una lista de todos los eventos que sucedieron desde el último rediseño
     for event in GAME_EVENTS.get():
 
-        if event.type == pygame.KEYDOWN:
+        if event.type == pygame.KEYDOWN: # Oprimir una tecla
 
-            if event.key == pygame.K_LEFT:
-                leftDown = True
+            if event.key == pygame.K_LEFT: # ¿Alguien presiono tecla izq?
+                leftDown = True # Veradadero
             if event.key == pygame.K_RIGHT:
                 rightDown = True
             if event.key == pygame.K_UP:
-                if not haveJumped:
+                if not haveJumped: # Un solo brinco
                     haveJumped = True
                     playerVY += jumpHeight
             if event.key == pygame.K_ESCAPE:
@@ -110,7 +110,7 @@ while True:
         if event.type == GAME_GLOBALS.QUIT:
             quitGame()
 
-    move()
+    move() # Llamamos a la funcion move()
 
     clock.tick(60) #Al llamar Clock.tick(40) una vez por cuadro, el programa nunca se ejecutará a más de 40 cuadros por segundo.
     pygame.display.update()

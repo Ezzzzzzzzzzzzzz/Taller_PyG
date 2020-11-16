@@ -7,44 +7,38 @@ import pygame.locals as GAME_GLOBALS
 import pygame.event as GAME_EVENTS
 
 pygame.init()
-windowWidth = 640
-windowHeight = 480
+windowWidth = 640 # Ancho Ventana
+windowHeight = 480 # Alto de ventana
 surface = pygame.display.set_mode((windowWidth, windowHeight))
-pygame.display.set_caption("Pygame Shapes!")
+pygame.display.set_caption("Pygame Shapes PILARES!")
 
 
 #### FRAGMENTO 05
+cuadroRojo = random.randint(0, 255) # Genera numeros aleatorios entre 0 y 255
+cuadroAzul = random.randint(0, 255) # Genera numeros aleatorios entre 0 y 255
+cuadroVerde = random.randint(0, 255) # Genera numeros aleatorios entre 0 y 255
 
-#Creamos tres variables
-squaresRed = random.randint(0, 255)
-squaresBlue = random.randint(0, 255)
-squaresGreen = random.randint(0, 255)
+while True: # True = Verdadero | loop = ciclo infinito de repeticion
+    surface.fill((0, 0, 0)) # referscar la ventana
+    pygame.draw.rect(surface, (cuadroRojo, cuadroVerde, cuadroAzul), (50, 50, windowWidth /2, windowHeight /2))
+    
+    if cuadroRojo >= 255:
+        cuadroRojo = random.randint(0, 255)
+    else:
+        cuadroRojo += 1
+    
+    if cuadroVerde >= 255:
+        cuadroVerde = random.randint(0, 255)
+    else:
+        cuadroVerde += 1
+        
+    if cuadroAzul >= 255:
+        cuadroAzul = random.randint(0, 255)
+    else:
+        cuadroAzul += 1
+    
+    
 
-while True:
-    #Borramos la informacion del frame anterior
-    surface.fill((0, 0, 0))
-    
-    #Dibujamos una forma
-    pygame.draw.rect(surface, (squaresRed, squaresGreen, squaresBlue), (50, 50, windowWidth /2, windowHeight /2))
-    
-    #Condicional if & else
-    #Operador aritmetico >= (Mayor o igual que)
-    if squaresRed >= 255:
-        # utilizamos random.randint(numMin, NumMax) para generar numeros enteros aleatoreos entre el numMin y numMax
-        squaresRed = random.randint(0, 255)
-    else:
-        squaresRed += 1
-    
-    if squaresGreen >= 255:
-        squaresGreen = random.randint(0, 255)
-    else:
-        squaresGreen += 1
-    
-    if squaresBlue >= 255:
-        squaresBlue = random.randint(0, 255)
-    else:
-        squaresBlue += 1
-  
 #### BOTTOM
 
     for event in GAME_EVENTS.get():

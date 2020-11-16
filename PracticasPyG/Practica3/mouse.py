@@ -35,7 +35,7 @@ def checkBounds():
 
             if mousePosition[1] > squareY and mousePosition[1] < squareY + squareSize:
 
-                draggingSquare = True
+                draggingSquare = True # Arrastrar el cuadrado
                 pygame.mouse.set_visible(0)
 
     else:
@@ -74,7 +74,7 @@ def quitGame():
 
 while True:
 
-    mousePosition = pygame.mouse.get_pos()
+    mousePosition = pygame.mouse.get_pos() # Sabemos las coordenadas del mouse
 
     surface.fill((0,0,0))
 
@@ -84,7 +84,7 @@ while True:
     else:
         mousePressed = False
 
-    checkBounds()
+    checkBounds() # checar limites
     checkGravity()
     drawSquare()
 
