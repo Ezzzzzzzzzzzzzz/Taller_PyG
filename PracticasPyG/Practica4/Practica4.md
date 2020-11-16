@@ -117,9 +117,9 @@ La variable `player` es un diccionario. Un diccionario es una variable con varia
 
 Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario del `player`; todo lo que tenemos que hacer es solicitar `player["x"]`. **Podemos hacer lo mismo con cualquier otro valor que esté almacenado en él, y también podemos guardar o cambiar valores.**
 
-
+![](https://github.com/Ezzzzzzzzzzzzzz/Games-with-Pygame/blob/master/Part%204/Images/Diagrams/DictionariesAndLists.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODA3ODUyLC0xOTM3NDI5ODExLC0xOT
+eyJoaXN0b3J5IjpbNTkyNjg2NjkyLC0xOTM3NDI5ODExLC0xOT
 M3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgxMDIwNzgsLTgxNjI2
 MTkzNiwxMTc1MjIwODcxXX0=
 -->
