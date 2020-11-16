@@ -107,11 +107,11 @@ Son las variables que usaremos para realizar un seguimiento del estado de nuestr
 
 En practicas anteriores, casi siempre hemos usado variables que tienen un valor, pero hay otras variables que pueden contener múltiples valores,**- como tuplas, por ejemplo -**, y estas son muy útiles para nosotros a medida que comenzamos a hacer programas más grandes y poderosos. Cuando escribimos programas pequeños, tener variables con un solo valor es genial, porque podemos ver qué variables están haciendo qué.
 
-Sin embargo, a medida que los programas crecen, puede resultar más difícil nombrar las variables de una manera que se relacione con lo que intentamos hacer. Imaginemos un juego en el que hay más de un jugador, como un MMO; si escribimos código como lo hemos hecho antes, necesitaríamos crear varios conjuntos de variables para cada jugador. No hace falta ser un genio para darse cuenta de que el código se volverá inmanejable y muy rápido.
+Sin embargo, a medida que los programas crecen, puede resultar más difícil nombrar las variables de una manera que se relacione con lo que intentamos hacer. Imaginemos un juego en el que hay más de un jugador, como un [MMO (Multijugador Online Masivo)](https://es.wikipedia.org/wiki/Videojuego_multijugador_masivo_en_l%C3%ADnea); si escribimos código como lo hemos hecho antes, necesitaríamos crear varios conjuntos de variables para cada jugador. **No hace falta ser un genio para darse cuenta de que el código se volverá inmanejable y muy rápido**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDkwOTY5NywtMTkzNzQyOTgxMSwtMT
+eyJoaXN0b3J5IjpbMTcwMDY0MzgxNywtMTkzNzQyOTgxMSwtMT
 kzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAyMDc4LC04MTYy
 NjE5MzYsMTE3NTIyMDg3MV19
 -->
