@@ -49,6 +49,9 @@ o = 10
 p = 0
 q = 0
 q = (o != 0) and (p != 0) # q = 0 (falso)
+r = not q 	# r = 1 (verdadero)
+g = not r 	# g = 0 (falso)
+q = (o != 0) or (p != 0) # q = 0 (verdadero)
 ```
 Los operandos del operador **and** son: **o != 0** y **p != 0**. El resultado de la expresión **o != 0 es verdadero** porque **o** vale **10** y **p != 0 es falso** porque **p** es **0**. Por lo tanto, **el resultado de verdadero and falso es falso**.
 
@@ -83,6 +86,7 @@ Viendo esta tabla de verdad comprenderemos mucho mejor e funcionamiento de la pu
 
 ![](https://aristoteles2pc.files.wordpress.com/2011/03/not1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzI4NDExMywxNzM2NTUwNjEwLDEyOD
-I2ODQzMzAsLTMwNzg5MjE4NCwtMTU1MzIwNzgyOV19
+eyJoaXN0b3J5IjpbNjg0NjE5NDAwLC00MTE1NDEwNjksLTUzNz
+I4NDExMywxNzM2NTUwNjEwLDEyODI2ODQzMzAsLTMwNzg5MjE4
+NCwtMTU1MzIwNzgyOV19
 -->

@@ -80,8 +80,32 @@ def checkGravity():
         squareY = windowHeight - squareSize
         gravity = 5.0
 ```
+
+Nuestra función final es `drawSquare()`:
+
+### drawSquare()
+```python
+def drawSquare():
+
+    global squareColor, squareX, squareY, draggingSquare
+
+    if draggingSquare == True:
+
+        squareColor = (0, 255, 0)
+        squareX = mousePosition[0] - squareSize / 2
+        squareY = mousePosition[1] - squareSize / 2
+
+    pygame.draw.rect(surface, squareColor, (squareX, squareY, squareSize, squareSize))
+```
+
+ su propósito es bastante fácil de adivinar. Según los ajustes de `checkBounds()` y `checkGravity()`, `drawSquare()` dibujará el cuadrado para nosotros. Si nuestro cuadrado está siendo movido por nuestro mouse, dibujará el cuadrado en las coordenadas del mouse.
+
+Pero si no estamos arrastrando el cuadrado, dibujará un elegante descenso impulsado por la gravedad hasta la parte inferior de nuestra ventana. `drawSquare()` tiene un pequeño truco bajo la manga: además de afectar la posición de nuestro cuadrado, también cambia su color: rojo cuando no se arrastra y verde cuando se arrastra. 
+### Este código podría ser útil si, en lugar de un cuadrado, tuviéramos un carácter y quisiéramos cambiar su gráfico para que parezca que está sosteniendo nuestro cursor.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODU1MTM4MSwtMTMyNTg3MDM3OCwtMT
-U3NzE4OTA0NSwtNDYzMjAzODk5LDU1MDkyOTIzNCwtNzE4NTkw
-NzAzXX0=
+eyJoaXN0b3J5IjpbNjM4MTIzNzczLC0yNjQwMDAyNTcsOTY1ND
+A2NjQzLDE2NTg1NTEzODEsLTEzMjU4NzAzNzgsLTE1NzcxODkw
+NDUsLTQ2MzIwMzg5OSw1NTA5MjkyMzQsLTcxODU5MDcwM119
 -->
