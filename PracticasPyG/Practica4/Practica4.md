@@ -103,8 +103,11 @@ player = {
 ```
 Son las variables que usaremos para realizar un seguimiento del estado de nuestro juego, como dónde están las cosas, qué tan grandes son y cómo deben moverse. Dos de estas pueden destacar como un poco diferentes de las variables que hemos usado anteriormente: `gamePlatforms` y `player`. **Uno de estos parece vacío y el otro tiene varios valores. `gamePlatforms`es un tipo de variable conocido como lista, mientras que `player` es un tipo conocido como diccionario y no funcionan como lo hacen otras variables. Dediquemos un poco de tiempo a comprender cómo funcionan.**
 
+## Diccionarios y listas
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4MTQ4NzA1LC0xOTM3NDI5ODExLC0xOT
-M3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgxMDIwNzgsLTgxNjI2
-MTkzNiwxMTc1MjIwODcxXX0=
+eyJoaXN0b3J5IjpbLTU4NjA1NTI4MywtMTkzNzQyOTgxMSwtMT
+kzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAyMDc4LC04MTYy
+NjE5MzYsMTE3NTIyMDg3MV19
 -->
