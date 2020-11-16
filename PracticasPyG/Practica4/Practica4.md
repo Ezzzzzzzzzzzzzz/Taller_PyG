@@ -109,9 +109,10 @@ En practicas anteriores, casi siempre hemos usado variables que tienen un valor,
 
 Sin embargo, a medida que los programas crecen, puede resultar más difícil nombrar las variables de una manera que se relacione con lo que intentamos hacer. Imaginemos un juego en el que hay más de un jugador, como un [MMO (Multijugador Online Masivo)](https://es.wikipedia.org/wiki/Videojuego_multijugador_masivo_en_l%C3%ADnea); si escribimos código como lo hemos hecho antes, necesitaríamos crear varios conjuntos de variables para cada jugador. **No hace falta ser un genio para darse cuenta de que el código se volverá inmanejable y muy rápido**.
 
+¿Y si quisiéramos manejar a cuatro o 100 o 1,000 jugadores al mismo tiempo? ¿Escribimos a mano variables para cada uno? **No**. **En su lugar, podemos utilizar diccionarios y listas**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDY0MzgxNywtMTkzNzQyOTgxMSwtMT
-kzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAyMDc4LC04MTYy
-NjE5MzYsMTE3NTIyMDg3MV19
+eyJoaXN0b3J5IjpbNTcxMTQ3NzY1LC0xOTM3NDI5ODExLC0xOT
+M3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgxMDIwNzgsLTgxNjI2
+MTkzNiwxMTc1MjIwODcxXX0=
 -->
