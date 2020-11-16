@@ -129,9 +129,11 @@ Si quisiéramos realizar un seguimiento de los jugadores de nuestro juego, no ne
 
 En este ejemplo **`1` se llama índice. Es importante notar que los índices de lista comienzan a contar desde 0, por lo que si queremos acceder al primer elemento de una lista, usamos el índice 0; si queremos obtener el cuarto elemento de una lista, usamos el índice 3**. 
 
+![](https://media.geeksforgeeks.org/wp-content/uploads/CommonArticleDesign1-min.png)
+
 En nuestro juego, no usamos listas y diccionarios para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTkyMzI0MCw1OTI2ODY2OTIsLTE5Mz
+eyJoaXN0b3J5IjpbMTk3MTE2ODAyNCw1OTI2ODY2OTIsLTE5Mz
 c0Mjk4MTEsLTE5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEw
 MjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ==
 -->
