@@ -15,9 +15,10 @@ Antes de escribir cualquier código, es importante tener un conocimiento sólido
    parte inferior de la pantalla; si nuestro personaje aterriza en una
    de estas plataformas, comenzará a subir junto con ella. 
  - Si salimos de la parte superior de la pantalla del juego, se acabó el juego.
+ - Podemos mover a nuestro personaje con las teclas de flecha izquierda y derecha para que pueda caer a través de los huecos colocados aleatoriamente en las plataformas. El objetivo del juego es sobrevivir el mayor tiempo posible. Suena fácil, pero las cosas se ponen más difíciles a medida que pasa el tiempo, porque las plataformas comenzarán a aparecer después de un retraso más corto.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjYwMTg1MiwxMTc1MjIwODcxXX0=
+eyJoaXN0b3J5IjpbNjMxNTg0NDA4LDExNzUyMjA4NzFdfQ==
 -->
