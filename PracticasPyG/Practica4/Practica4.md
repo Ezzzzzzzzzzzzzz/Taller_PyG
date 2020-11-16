@@ -19,8 +19,9 @@ Antes de escribir cualquier código, es importante tener un conocimiento sólido
 
 El objetivo del juego es sobrevivir el mayor tiempo posible. **Suena fácil, pero las cosas se ponen más difíciles a medida que pasa el tiempo, porque las plataformas comenzarán a aparecer después de un retraso más corto.**
 
+## Variables y requisitos previos
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzY0MTIwNCwxMTc1MjIwODcxXX0=
+eyJoaXN0b3J5IjpbLTgxNjI2MTkzNiwxMTc1MjIwODcxXX0=
 -->
