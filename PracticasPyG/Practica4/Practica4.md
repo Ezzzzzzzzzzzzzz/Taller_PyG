@@ -68,7 +68,7 @@ están cargando imágenes que usaremos para nuestras pantallas de inicio y final
 
 ### Podríamos dibujar la interfaz gráfica de usuario (GUI) con código, pero al usar imágenes nos ahorramos tiempo y esfuerzo al costo de unos pocos kilobytes.
 
-Hemos visto las líneas 11 a 16 antes:
+Hemos visto estas líneas antes:
 ```python
 
 windowWidth = 400
@@ -111,9 +111,13 @@ Sin embargo, a medida que los programas crecen, puede resultar más difícil nom
 
 ¿Y si quisiéramos manejar a cuatro o 100 o 1,000 jugadores al mismo tiempo? ¿Escribimos a mano variables para cada uno? **No**. **En su lugar, podemos utilizar diccionarios y listas**.
 
-La variable `player` es un diccionario. Un diccionario es una variable con varias claves que tienen valores. Puede pensar en un diccionario como lo haría en su contraparte del mundo real: si quiere saber qué es algo, busque hasta encontrar la definición.
+La variable `player` es un diccionario. Un diccionario es una variable con varias claves que tienen valores.
+
+### Puede pensar en un diccionario como lo haría en su contraparte del mundo real: si quiere saber qué es algo, busque hasta encontrar la definición.
+
+Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario del reproductor; todo lo que tenemos que hacer es solicitar jugador ["x"]. Podemos hacer lo mismo con cualquier otro valor que esté almacenado en él, y también podemos guardar o cambiar valores.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ2ODg2NjAsLTE5Mzc0Mjk4MTEsLT
-E5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEwMjA3OCwtODE2
-MjYxOTM2LDExNzUyMjA4NzFdfQ==
+eyJoaXN0b3J5IjpbOTE5MjEwNjQ0LC0xOTM3NDI5ODExLC0xOT
+M3NDI5ODExLC00MDEwMzg0MDgsLTEwOTgxMDIwNzgsLTgxNjI2
+MTkzNiwxMTc1MjIwODcxXX0=
 -->
