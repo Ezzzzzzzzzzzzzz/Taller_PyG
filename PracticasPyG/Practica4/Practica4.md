@@ -125,9 +125,9 @@ Si revisamos nuestro ejercicio mental de juego MMO, nos daremos cuenta rápidame
 
 ## Las listas son variables que pueden almacenar grupos de otras variables. 
 
-Si quisiéramos realizar un seguimiento de los jugadores de nuestro juego, no necesitaríamos crear una variable para cada jugador. **Podríamos simplemente agregar un diccionario de jugador a una lista y trabajar con ellos cuando sea necesario.** Si, por ejemplo, quisiéramos obtener la información del segundo jugador en nuestro MMO imaginario, ingresaríamos algo como `players[1]` y eso devolvería un diccionario para nuestro segundo jugador del cual podríamos obtener valores, así : players[1][“x”]`.
+Si quisiéramos realizar un seguimiento de los jugadores de nuestro juego, no necesitaríamos crear una variable para cada jugador. **Podríamos simplemente agregar un diccionario de jugador a una lista y trabajar con ellos cuando sea necesario.** Si, por ejemplo, quisiéramos obtener la información del segundo jugador en nuestro MMO imaginario, ingresaríamos algo como `players[1]` y eso devolvería un diccionario para nuestro segundo jugador del cual podríamos obtener valores, así : `players[1][“x”]`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0NDAyMTM0LDU5MjY4NjY5MiwtMTkzNz
+eyJoaXN0b3J5IjpbMzYwMjQ0OTkwLDU5MjY4NjY5MiwtMTkzNz
 QyOTgxMSwtMTkzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAy
 MDc4LC04MTYyNjE5MzYsMTE3NTIyMDg3MV19
 -->
