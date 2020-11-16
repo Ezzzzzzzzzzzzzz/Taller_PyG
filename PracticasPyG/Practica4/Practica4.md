@@ -22,8 +22,16 @@ Antes de escribir cualquier código, es importante tener un conocimiento sólido
 El objetivo del juego es sobrevivir el mayor tiempo posible. **Suena fácil, pero las cosas se ponen más difíciles a medida que pasa el tiempo, porque las plataformas comenzarán a aparecer después de un retraso más corto.**
 
 ## Variables y requisitos previos
-Las líneas 1 a 39 de nuestro código contienen las declaraciones de importación y las variables que vamos a necesitar para que nuestro juego despegue. A estas alturas, gran parte de esto debería parecer bastante familiar. En la parte superior tenemos nuestras declaraciones de importación, que nos permiten incluir módulos para ayudar con el desarrollo de nuestro juego. Toma nota de la importación GAME_TIME, ya que se usará bastante más adelante.
+
+Las primeras 39 líneas de nuestro código contienen las declaraciones de importación y las variables que vamos a necesitar para que nuestro juego despegue. A estas alturas, **gran parte de esto debería parecer bastante familiar. En la parte superior tenemos nuestras declaraciones de importación, que nos permiten incluir módulos para ayudar con el desarrollo de nuestro juego. Toma nota de la importación GAME_TIME, ya que se usará bastante más adelante.**
+
+```python 
+
+
+```
+
+Las líneas 8 y 9 están cargando imágenes que usaremos para nuestras pantallas de inicio y finalización del juego. Podríamos dibujar la interfaz gráfica de usuario (GUI) con código, pero al usar imágenes nos ahorramos tiempo y esfuerzo al costo de unos pocos kilobytes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTQzNjQxMCwtMTA5ODEwMjA3OCwtOD
+eyJoaXN0b3J5IjpbLTQwMTAzODQwOCwtMTA5ODEwMjA3OCwtOD
 E2MjYxOTM2LDExNzUyMjA4NzFdfQ==
 -->
