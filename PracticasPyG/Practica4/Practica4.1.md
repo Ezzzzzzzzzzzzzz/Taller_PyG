@@ -166,7 +166,12 @@ while True:
   clock.tick(60)
   pygame.display.update()
 ```
-Al igual que nuestros programas anteriores, en las líneas 153-176 escuchamos varios eventos en el juego en nuestro bucle principal y cambios en función de los eventos enviados por nuestra compu (teclado, eventos de salida, etc.). Las líneas 178-196 son donde se determina el estado de nuestro juego y las funciones se llaman en consecuencia.
+Al igual que nuestros programas anteriores, en las líneas 153-176
+```python
+
+```
+
+ escuchamos varios eventos en el juego en nuestro bucle principal y cambios en función de los eventos enviados por nuestra computadora (teclado, mouse, eventos de salida, etc.). Las líneas 178-196 son donde se determina el estado de nuestro juego y las funciones se llaman en consecuencia.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNDAxNTAzLDkwMjQxNzY0MV19
+eyJoaXN0b3J5IjpbLTU5MjczMTc5NSw5MDI0MTc2NDFdfQ==
 -->
