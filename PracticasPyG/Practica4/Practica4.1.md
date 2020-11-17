@@ -236,10 +236,12 @@ title_image = pygame.image.load("assets/title.jpg")
 ```
 de nuestra lista de códigos. En el otro extremo de nuestra lista, en la línea
 ```python
-title_image = pygame.image.load("assets/title.jpg")
+    # Welcome Screen
+    surface.blit(title_image, (0, 150))
 ```
 dibujamos esa imagen en nuestra superficie. Está en la declaración final if-elif de nuestro bucle principal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzE3NjE4LDEzNTMyODYzNTEsMjAxNz
-EwMjEwNSwxOTAwNDg0NzM0LDkwMjQxNzY0MV19
+eyJoaXN0b3J5IjpbMzkyODQzMTY4LDE1MTcxNzYxOCwxMzUzMj
+g2MzUxLDIwMTcxMDIxMDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFd
+fQ==
 -->
