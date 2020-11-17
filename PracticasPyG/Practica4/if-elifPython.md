@@ -1,5 +1,5 @@
 # Sentencia else if `elif`
-Esta estructura **elif** es una estructura consecuente de la sentencia **if**, en la cual se evalúan diferentes casos.
+Esta estructura `elif` es una estructura consecuente de la sentencia  `if`, en la cual se evalúan diferentes casos.
 
 En Python no existe una orden `switch` o `case`, sino que se deben realizar enlazando varios casos con `elif`.
 
@@ -16,7 +16,7 @@ elif(condición 3):
 else:
 	sentencia n
 ```
-La estructura **elif** se evalúa así: 
+La estructura `elif` se evalúa así: 
 
 Si se cumple el primer caso **(condición 1)**, se ejecuta lo que se encuentra en la **sentencia 1** y **si no se cumple se examina secuencialmente los siguientes casos (condiciones) hasta llegar al último elif**. Si ninguna condición es verdadera entonces se ejecutara la sentencia **n** que corresponde al último **else**. 
 
@@ -39,5 +39,5 @@ else:
 ```
 En este ejemplo podemos observar que las condiciones son falsas porque así lo hemos hecho, pero primero se evalúa la **condición 1** que es **a < b** y si no se cumple sigue con la **condición 2** que es **a == b** hasta llegar a una **condición verdadera** que es el último **else** ya que las anteriores han sido falsas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Nzc3MTUwLDIxMzAwMTgzXX0=
+eyJoaXN0b3J5IjpbMjA0NzY3MzcxNiwyMTMwMDE4M119
 -->
