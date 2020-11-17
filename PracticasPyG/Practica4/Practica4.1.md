@@ -239,9 +239,9 @@ de nuestra lista de códigos. En el otro extremo de nuestra lista, en la línea
     # Welcome Screen
     surface.blit(title_image, (0, 150))
 ```
-dibujamos esa imagen en nuestra superficie. Está en la declaración final `if-elif` de nuestro bucle principal.
+dibujamos esa imagen en nuestra superficie con [`blit()`](https://www.pygame.org/docs/ref/surface.html?highlight=blit#pygame.Surface.blit). Está en la declaración final `if-elif` de nuestro bucle principal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MDE4NTA0LDE1MTcxNzYxOCwxMzUzMj
-g2MzUxLDIwMTcxMDIxMDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFd
-fQ==
+eyJoaXN0b3J5IjpbLTE4MDQ5NDU4MTIsMTUxNzE3NjE4LDEzNT
+MyODYzNTEsMjAxNzEwMjEwNSwxOTAwNDg0NzM0LDkwMjQxNzY0
+MV19
 -->
