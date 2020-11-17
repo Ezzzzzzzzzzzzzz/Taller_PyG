@@ -64,9 +64,9 @@ Pero, ¿de dónde vienen estas plataformas? En la línea 196, encontramos la res
     createPlatform()
 ```
 
-Queremos lanzar una plataforma cada 2 segundos; entonces, en cada bucle, verificamos cuánto tiempo ha pasado desde que creamos una nueva plataforma restando el tiempo en que creamos una plataforma por última vez del tiempo actual del juego, al que accedemos con `GAME_TIME.get_ticks ().
+Queremos lanzar una plataforma cada 2 segundos; entonces, en cada bucle, verificamos cuánto tiempo ha pasado desde que creamos una nueva plataforma restando el tiempo en que creamos una plataforma por última vez del tiempo actual del juego, al que accedemos con [`GAME_TIME.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA3NDY4NzcsMjAyNDU2MjAyOSwtMT
-U1ODIxMjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0MTAsMzcxNTUz
-MDM0LC0xNzY5MzQ1MzU3LC0xNzkzMTU4NDc0XX0=
+eyJoaXN0b3J5IjpbMzcyODc2OTA4LDIwMjQ1NjIwMjksLTE1NT
+gyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAz
+NCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
 -->
