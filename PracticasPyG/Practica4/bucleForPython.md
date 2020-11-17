@@ -92,9 +92,28 @@ for c, v in mi_diccionario.items():
 >>> Clave: tres, Valor: 3
 ```
 
+## Función  _range()_
 
+La función  _range()_  es una función integrada en Python que crea una secuencia ordenada de enteros que podemos utilizar para crear iteraciones similares a las que hemos visto para otros lenguajes de programación. Por ello la función  _range()_  acepta tres números enteros de los cuales dos son opcionales.
+
+**range(inicio, fin, paso)**
+
+-   **Inicio**: es el valor inicial de la secuencia (0 si no se especifica).
+-   **Fin**: es el valor final de la secuencia, el cual no se incluye en el resultado.
+-   **Paso**: indica el incremento entre elementos de la secuencia (1 si no se especifica).
+
+La función  _range()_  retorna objetos de tipo  _range_  los cuales podemos convertir en una lista o tupla.
+```python
+r = range(1,10,2)
+>>>  type(r)
+<class  'range'>
+>>>  list(r)
+[1, 3, 5, 7, 9]
+>>>  tuple(r)
+(1, 3, 5, 7, 9)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTU0NDA4MSwxNjI4MDQxNzYxLC03NT
-UyNjAzNzksMTE3MTc1Nzg1LC0zMjUxMzQzOTAsNDE0MzgxMjAw
-LC00NTY5MzEwNjddfQ==
+eyJoaXN0b3J5IjpbMjk1MjI4NjQ3LC01Mjk1NDQwODEsMTYyOD
+A0MTc2MSwtNzU1MjYwMzc5LDExNzE3NTc4NSwtMzI1MTM0Mzkw
+LDQxNDM4MTIwMCwtNDU2OTMxMDY3XX0=
 -->
