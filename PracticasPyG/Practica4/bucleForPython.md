@@ -37,14 +37,24 @@ En este caso, en cada nueva iteración el «elemento» toma el valor del siguien
 Para recorrer los elementos de una lista con un bucle  **for**, hay que dar un nombre a la variable que va tomando los elementos de la lista en cada iteración. En el siguiente ejemplo se itera sobre los elementos de la lista «mi_lista» mediante la variable «n».
 
 ```python
->>> mi_lista = [1, 2, 3]
->>> for n in mi_lista:
-		print(n)
-1
-2
-3
+mi_lista = [1, 2, 3]
+for n in mi_lista:
+	print(n)
+# Interprete
+>>> 1
+>>> 2
+>>> 3
 ```
+
+## Iterar un diccionario
+
+Iterar los elementos de un diccionario se puede realizar de distintas formas. Si lo hacemos del mismo modo que recorremos los elementos una lista estamos iterando directamente sobre las claves del diccionario, tal y como refleja el siguiente bloque de código.
+
+```python
+mi_diccionario = [´uno´]
+
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTEzNDM5MCw0MTQzODEyMDAsLTQ1Nj
-kzMTA2N119
+eyJoaXN0b3J5IjpbMTQxODEzNzY3MiwtMzI1MTM0MzkwLDQxND
+M4MTIwMCwtNDU2OTMxMDY3XX0=
 -->
