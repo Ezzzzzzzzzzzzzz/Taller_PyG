@@ -43,6 +43,9 @@ La función `pop` elimina un elemento de una lista en un punto dado; si quisiér
 Una vez que hayamos determinado dónde deben ir las plataformas y cuáles deben desaparecer, podemos dibujarlas. 
 
 ### drawPlatforms()
+
+Hacemos esto con `drawPlatforms`.
+
 ```python
 def drawPlatforms():
 
@@ -51,9 +54,12 @@ def drawPlatforms():
     pygame.draw.rect(surface, (255,255,255), (platform["pos"][0], platform["pos"][1], windowWidth, 10))
     pygame.draw.rect(surface, (0,0,0), (platform["gap"], platform["pos"][1], 40, 10) )
 ```
-Hacemos esto con `drawPlatforms` en las líneas 118-123. Nada de lujos aquí; simplemente estamos dibujando un rectángulo blanco que es el ancho de la pantalla, y luego un rectángulo negro para el espacio por el que el personaje puede pasar a la siguiente plataforma.
+
+Nada de lujos aquí; **simplemente estamos dibujando un rectángulo blanco que es el ancho de la pantalla, y luego un rectángulo negro para el espacio por el que el personaje puede pasar a la siguiente plataforma.**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY1OTcxMjcsLTE1NTgyMTIyMjYsMj
-Q5ODcxODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAzNCwtMTc2OTM0
-NTM1NywtMTc5MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbMjAyNDU2MjAyOSwtMTU1ODIxMjIyNiwyND
+k4NzE4MDYsLTIwMzYwMjI0MTAsMzcxNTUzMDM0LC0xNzY5MzQ1
+MzU3LC0xNzkzMTU4NDc0XX0=
 -->
