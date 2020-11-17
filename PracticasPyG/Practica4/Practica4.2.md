@@ -58,8 +58,13 @@ def drawPlatforms():
 Nada de lujos aquí; **simplemente estamos dibujando un rectángulo blanco que es el ancho de la pantalla, y luego un rectángulo negro para el espacio por el que el personaje puede pasar a la siguiente plataforma.**
 
 Pero, ¿de dónde vienen estas plataformas? En la línea 196, encontramos la respuesta. Pygame realiza un seguimiento de cuánto tiempo ha estado funcionando el juego con su función `get_ticks()`.
+
+```python 
+  if GAME_TIME.get_ticks() - lastPlatform > platformDelay:
+    createPlatform()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODY3OTgzMCwyMDI0NTYyMDI5LC0xNT
-U4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMCwzNzE1NTMw
-MzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
+eyJoaXN0b3J5IjpbNTc1MDg4ODk1LDIwMjQ1NjIwMjksLTE1NT
+gyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAz
+NCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
 -->
