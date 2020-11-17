@@ -7,7 +7,7 @@ En Python existen muchos objetos como por ejemplo las  [cadenas de texto (string
 En lenguajes como C, C++ y Java entre otros, los bucles  _for_  se realizan mediante una variable de control y constan de tres partes:
 
 -   Inicialización: es donde se asigna el valor inicial a la variable de control.
--   Condición de terminación: es una expresión booleana en realación a la variable de control que determina al final de cada iteración si se termina el bucle.
+-   Condición de terminación: es una expresión booleana en relación a la variable de control que determina al final de cada iteración si se termina el bucle.
 -   Iteración: determina el cambio que se realiza a la variable de control al final de cada iteración.
 
 Este tipo de bucles se expresa de la siguiente forma:
@@ -36,6 +36,6 @@ En este caso, en cada nueva iteración el «elemento» toma el valor del siguien
 
 Para recorrer los elementos de una lista con un bucle  _for_, hay que dar un nombre a la variable que va tomando los elementos de la lista en cada iteración. En el siguiente ejemplo se itera sobre los elementos de la lista «mi_lista» mediante la variable «n».
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODczNTgzNjIsNDE0MzgxMjAwLC00NT
-Y5MzEwNjddfQ==
+eyJoaXN0b3J5IjpbMTQ4NzgzMDU2NSw0MTQzODEyMDAsLTQ1Nj
+kzMTA2N119
 -->
