@@ -28,11 +28,13 @@ def movePlatforms():
 
 `movePlatforms` también comprueba si la plataforma ha alcanzado o no la parte superior de nuestra ventana de juego; si lo ha hecho, eliminará esa plataforma de nuestra lista de plataformas de juegos.
 
-Puede notar que el bucle `for` en la línea 
+Puede notar que el bucle `for` en la línea:
+
 ```python
 for idx, platform in enumerate(gamePlatforms):
 ```
- es un poco diferente de los que usamos en el pasado. A diferencia de la mayoría de los bucles `for` en Python, este pasa el índice del bucle con el valor `idx`.
+es un poco diferente de los que usamos en el pasado. A diferencia de la mayoría de los bucles `for` en Python, este pasa el índice del bucle con el valor `idx`.
+
 ```python
 # Ejemplo
 gameplatforms = [1,2,3,4]
@@ -40,6 +42,7 @@ gameplatforms = [1,2,3,4]
 for idx, platform in enumerate(gameplatforms):
     print('Clave:', idx, 'Valor:', platform)
 ```
+
 Necesitamos este índice para poder eliminar la plataforma correcta de la lista de `gamePlatforms` de lo contrario, tendríamos que trabajar en la lista e intentar averiguar cuál se necesita ir cada vez, y eso no sería bueno para la velocidad de fotogramas. 
 
 La función `pop` elimina un elemento de una lista en un punto dado; si quisiéramos eliminar la segunda plataforma de la lista, por ejemplo, pasaríamos `gamePlatforms.pop(1)`; recuerde, las listas comienzan en 0, por lo que 1 es el segundo elemento de nuestra lista.
@@ -70,7 +73,7 @@ Pero, ¿de dónde vienen estas plataformas? En la línea 196, encontramos la res
 
 Queremos lanzar una plataforma cada 2 segundos; entonces, en cada bucle, verificamos cuánto tiempo ha pasado desde que creamos una nueva plataforma restando el tiempo en que creamos una plataforma por última vez del tiempo actual del juego, al que accedemos con [`GAME_TIME.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzEzMzEyMCwyMDI0NTYyMDI5LC0xNT
+eyJoaXN0b3J5IjpbLTM5NzcxMzMxNiwyMDI0NTYyMDI5LC0xNT
 U4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMCwzNzE1NTMw
 MzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
 -->
