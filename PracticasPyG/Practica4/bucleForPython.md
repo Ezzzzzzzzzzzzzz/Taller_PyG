@@ -24,6 +24,7 @@ En este bloque de código  **i**  es la variable de control, la cual:
 -   Al final de cada iteración incrementa su valor en 1.
 
 En Python, en cambio, no se especifica ninguna variable de control para realizar bucles for. En lugar de ello se itera sobre una colección de objetos.
+
 ```python
 # Python
 for elemento in iterable:
@@ -31,5 +32,6 @@ for elemento in iterable:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0MzgxMjAwLC00NTY5MzEwNjddfQ==
+eyJoaXN0b3J5IjpbNjAyODEyNzcwLDQxNDM4MTIwMCwtNDU2OT
+MxMDY3XX0=
 -->
