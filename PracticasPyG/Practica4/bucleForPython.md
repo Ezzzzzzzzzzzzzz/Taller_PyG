@@ -2,7 +2,7 @@
 
 En Python existen muchos objetos como por ejemplo las  [cadenas de texto (strings)](https://www.programaenpython.com/fundamentos/strings-en-python), las  [listas](https://www.programaenpython.com/fundamentos/listas-en-python), los  [diccionarios](https://www.programaenpython.com/fundamentos/diccionarios-en-python), y las  [tuplas](https://www.programaenpython.com/fundamentos/tuplas-en-python)  que son «iterables». Esto significa que podemos iterar sobre sus elementos: cada uno de los caracteres de una cadena de texto, cada uno de los elemento de una lista, etc. Esta operación se realiza con un bloque de código llamado bucle  **for** que indica las operaciones a realizar en cada iteración.
 
-## Estructura básica de un bucle for
+## Estructura básica de un bucle For
 
 En lenguajes como C, C++ y Java entre otros, los bucles  _for_  se realizan mediante una variable de control y constan de tres partes:
 
@@ -30,8 +30,12 @@ En Python, en cambio, no se especifica ninguna variable de control para realizar
 for elemento in iterable:
 # Hacer algo con el elemento
 ```
+En este caso, en cada nueva iteración el «elemento» toma el valor del siguiente elemento del objeto «iterable». Además como ocurre con las [sentencias if](https://www.programaenpython.com/fundamentos/sentencias-condicionales-en-python), se requiere el uso de los dos puntos (:) al final de la sentencia y el cuerpo del bucle se tiene que indentar.
 
+## Iterar una lista
+
+Para recorrer los elementos de una lista con un bucle  _for_, hay que dar un nombre a la variable que va tomando los elementos de la lista en cada iteración. En el siguiente ejemplo se itera sobre los elementos de la lista «mi_lista» mediante la variable «n».
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyODEyNzcwLDQxNDM4MTIwMCwtNDU2OT
-MxMDY3XX0=
+eyJoaXN0b3J5IjpbLTE3NjY2MjExNDAsNDE0MzgxMjAwLC00NT
+Y5MzEwNjddfQ==
 -->
