@@ -33,13 +33,13 @@ Puede notar que el bucle `for` en la línea 110 es un poco diferente de los que 
 # Ejemplo
 gameplatforms = [1,2,3,4]
 
-for idx, platforms in enumerate(gameplatforms):
-    print('Clave:', idx, 'Valor:', platforms)
+for idx, platform in enumerate(gameplatforms):
+    print('Clave:', idx, 'Valor:', platform)
 ```
 Necesitamos este índice para poder eliminar la plataforma correcta de la lista de `gamePlatforms` de lo contrario, tendríamos que trabajar en la lista e intentar averiguar cuál se necesita ir cada vez, y eso no sería bueno para la velocidad de fotogramas. 
 
 La función `pop` elimina un elemento de una lista en un punto dado; si quisiéramos eliminar la segunda plataforma de la lista, por ejemplo, pasaríamos `gamePlatforms.pop(1)`; recuerde, las listas comienzan en 0, por lo que 1 es el segundo elemento de nuestra lista.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYwMjI0MTAsMzcxNTUzMDM0LC0xNz
-Y5MzQ1MzU3LC0xNzkzMTU4NDc0XX0=
+eyJoaXN0b3J5IjpbMjQ5ODcxODA2LC0yMDM2MDIyNDEwLDM3MT
+U1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
 -->
