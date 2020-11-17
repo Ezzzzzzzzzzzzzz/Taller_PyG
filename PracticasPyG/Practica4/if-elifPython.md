@@ -22,6 +22,7 @@ Si se cumple el primer caso **(condición 1)**, se ejecuta lo que se encuentra e
 
 ![](https://media.giphy.com/media/YqbMIoq0b2cZIn1FUi/giphy.gif)																																								
 El siguiente ejemplo se muestra cómo funciona:
+
 ```python
 a = 10
 b = 5
@@ -38,5 +39,5 @@ else:
 ```
 En este ejemplo podemos observar que las condiciones son falsas porque así lo hemos hecho, pero primero se evalúa la **condición 1** que es **a < b** y si no se cumple sigue con la **condición 2** que es **a == b** hasta llegar a una **condición verdadera** que es el último **else** ya que las anteriores han sido falsas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxNzYzNTI2LDIxMzAwMTgzXX0=
+eyJoaXN0b3J5IjpbODQ4MzIxNzgwLDIxMzAwMTgzXX0=
 -->
