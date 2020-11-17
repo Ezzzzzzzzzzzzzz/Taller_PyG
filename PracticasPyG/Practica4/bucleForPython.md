@@ -11,7 +11,7 @@ En lenguajes como C, C++ y Java entre otros, los bucles  _for_  se realizan medi
 -   Iteración: determina el cambio que se realiza a la variable de control al final de cada iteración.
 
 Este tipo de bucles se expresa de la siguiente forma:
-```python 
+```java 
 // Código Java
 for(i=0; i<10; i++)  {
 // Hacer algo
@@ -36,6 +36,6 @@ En este caso, en cada nueva iteración el «elemento» toma el valor del siguien
 
 Para recorrer los elementos de una lista con un bucle  _for_, hay que dar un nombre a la variable que va tomando los elementos de la lista en cada iteración. En el siguiente ejemplo se itera sobre los elementos de la lista «mi_lista» mediante la variable «n».
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY2MjExNDAsNDE0MzgxMjAwLC00NT
+eyJoaXN0b3J5IjpbLTE5ODczNTgzNjIsNDE0MzgxMjAwLC00NT
 Y5MzEwNjddfQ==
 -->
