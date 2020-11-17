@@ -74,11 +74,17 @@ for c in mi_diccionario:
 Otra opción es iterar directamente sobre los valores usando el método **values()** del diccionario.
 ```python
 mi_diccionario = [´uno´:1, ´dos´: 2, ´tres´:3]
-
+for v in mi_diccionario.values():
+	print(v)
+# Interprete
+>>> 1
+>>> 2
+>>> 3
 ```
+También podemos iterar simultáneamente sobre las claves y valores de un diccionario. En concreto, el método **items()** retorna una lista de tuplas con los pares clave-valor del diccionario las cuales podemos desembalar.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQxMTAzMDMsMTE3MTc1Nzg1LC0zMj
-UxMzQzOTAsNDE0MzgxMjAwLC00NTY5MzEwNjddfQ==
+eyJoaXN0b3J5IjpbLTYyOTUwMjMzNCwxMTcxNzU3ODUsLTMyNT
+EzNDM5MCw0MTQzODEyMDAsLTQ1NjkzMTA2N119
 -->
