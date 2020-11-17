@@ -270,8 +270,19 @@ elif gameEnded is True:
     surface.blit(game_over_image, (0, 150))
 ```
 en cuyo caso queremos mostrar la puntuación del jugador en la pantalla de finalización del juego y ofrecerles la opción de volver a jugar. Si un juego no se ha iniciado ni terminado, podemos inferir que acabamos de iniciar el juego y, por lo tanto, podemos renderizar la pantalla de inicio.
+
+Para iniciar el juego, buscamos una barra espaciadora que presione el teclado en la línea:
+
+```python
+      if event.key == pygame.K_SPACE:
+        if gameStarted == False:
+          restartGame()
+          gameStarted = True
+```
+
+Si un juego no se ha iniciado (o acaba de terminar), se llama a la función `restartGame`  Todo lo que hace esta función es restablecer todas las variables para un nuevo juego. En el siguiente ciclo de nuestro ciclo principal, la configuración estará en su lugar para un nuevo juego y se iniciará uno.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTU3NDA4MiwtMTc1NDkyNjk4MiwtMT
-gwNDk0NTgxMiwxNTE3MTc2MTgsMTM1MzI4NjM1MSwyMDE3MTAy
-MTA1LDE5MDA0ODQ3MzQsOTAyNDE3NjQxXX0=
+eyJoaXN0b3J5IjpbNjkyODg2MzU0LC0xNzU0OTI2OTgyLC0xOD
+A0OTQ1ODEyLDE1MTcxNzYxOCwxMzUzMjg2MzUxLDIwMTcxMDIx
+MDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFdfQ==
 -->
