@@ -80,10 +80,14 @@ platformDelay = 2000
 ```
 El tiempo de juego se registra en milisegundos, por lo que si han pasado 2000 milisegundos (1000 milisegundos = 1 segundo) desde que generamos una plataforma, es hora de crear una nueva; lo hacemos con `createPlatform`. 
 
+### createPlatform()
+
+En la línea 96, usamos global para decirle a nuestro código que queremos usar variables que existen en el alcance global, no crear nuevas con el mismo nombre en el alcance de la función. En las líneas 98-99 estamos creando variables que definirán la posición de la plataforma (plataformaY) y la ubicación del hueco a través del cual caer junto con ella (gapPosition). Queremos que nuestra plataforma se eleve siempre desde la parte inferior de la ventana, pero el espacio puede estar en cualquier punto a lo largo de la plataforma.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODI1MTExNiwtMzk3NzEzMzE2LDIwMj
-Q1NjIwMjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIy
-NDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF
-19
+eyJoaXN0b3J5IjpbNjczNTQyMTk5LC0zOTc3MTMzMTYsMjAyND
+U2MjAyOSwtMTU1ODIxMjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0
+MTAsMzcxNTUzMDM0LC0xNzY5MzQ1MzU3LC0xNzkzMTU4NDc0XX
+0=
 -->
