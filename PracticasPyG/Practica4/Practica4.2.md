@@ -72,16 +72,15 @@ Pero, ¿de dónde vienen estas plataformas? En la línea
 ```
 encontramos la respuesta. Pygame realiza un seguimiento de cuánto tiempo ha estado funcionando el juego con su función `get_ticks()`.
 
-Queremos lanzar una plataforma cada 2 segundos
+Queremos lanzar una plataforma cada 2 segundos entonces, en cada bucle, verificamos cuánto tiempo ha pasado desde que creamos una nueva plataforma restando el tiempo en que creamos una plataforma por última vez del tiempo actual del juego, al que accedemos con [`GAME_TIME.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks). El tiempo de juego se registra en milisegundos, por lo que si han pasado 2000 milisegundos (1000 milisegundos = 1 segundo) desde que generamos una plataforma, es hora de crear una nueva; lo hacemos con `createPlatform` en la linea: 
 
 ```python 
 # milisegundos [1000 ms = 1 s]
 platformDelay = 2000 
 ```
-entonces, en cada bucle, verificamos cuánto tiempo ha pasado desde que creamos una nueva plataforma restando el tiempo en que creamos una plataforma por última vez del tiempo actual del juego, al que accedemos con [`GAME_TIME.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjYyMTY0NiwtMzk3NzEzMzE2LDIwMj
-Q1NjIwMjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIy
-NDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF
-19
+eyJoaXN0b3J5IjpbLTE3MDc5ODgwNzUsLTM5NzcxMzMxNiwyMD
+I0NTYyMDI5LC0xNTU4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAy
+MjQxMCwzNzE1NTMwMzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0Nz
+RdfQ==
 -->
