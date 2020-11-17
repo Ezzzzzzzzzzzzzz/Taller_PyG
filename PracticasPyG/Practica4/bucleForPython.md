@@ -83,8 +83,17 @@ for v in mi_diccionario.values():
 ```
 También podemos iterar simultáneamente sobre las claves y valores de un diccionario. En concreto, el método **items()** retorna una lista de tuplas con los pares clave-valor del diccionario las cuales podemos desembalar.
 
+```python
+mi_diccionario = [´uno´:1, ´dos´: 2, ´tres´:3]
+for c, v in mi_diccionario.items():
+	print(´Clave:´, c, ´Valor:´, v)
+# Interprete
+>>> Clave: uno, Valor: 1
+>>> Clave: dos, Valor: 2
+>>> Clave: tres, Valor: 1
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTUwMjMzNCwxMTcxNzU3ODUsLTMyNT
-EzNDM5MCw0MTQzODEyMDAsLTQ1NjkzMTA2N119
+eyJoaXN0b3J5IjpbLTIxNDE0NjM3NzMsMTE3MTc1Nzg1LC0zMj
+UxMzQzOTAsNDE0MzgxMjAwLC00NTY5MzEwNjddfQ==
 -->
