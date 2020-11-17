@@ -36,9 +36,9 @@ elif(a == b):
 elif(a > c):
 	print(“a es mayor que c”)
 else:
-	print(“Ningún caso es verdadero”)
+	print(“Ningun caso es verdadero”)
 ```
 En este ejemplo podemos observar que las condiciones son falsas porque así lo hemos hecho, pero primero se evalúa la **condición 1** que es **a < b** y si no se cumple sigue con la **condición 2** que es **a == b** hasta llegar a una **condición verdadera** que es el último **else** ya que las anteriores han sido falsas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTIwNDM2MTQsMjEzMDAxODNdfQ==
+eyJoaXN0b3J5IjpbLTkzNDIwODk1MywyMTMwMDE4M119
 -->
