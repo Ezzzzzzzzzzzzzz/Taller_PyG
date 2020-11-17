@@ -63,8 +63,10 @@ Pero, ¿de dónde vienen estas plataformas? En la línea 196, encontramos la res
   if GAME_TIME.get_ticks() - lastPlatform > platformDelay:
     createPlatform()
 ```
+
+Queremos lanzar una plataforma cada 2 segundos; entonces, en cada bucle, verificamos cuánto tiempo ha pasado desde que creamos una nueva plataforma restando el tiempo en que creamos una plataforma por última vez del tiempo actual del juego, al que accedemos con GAME_TIME.get_ticks ().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MDg4ODk1LDIwMjQ1NjIwMjksLTE1NT
-gyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAz
-NCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbLTQ4OTE1MDk3MSwyMDI0NTYyMDI5LC0xNT
+U4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMCwzNzE1NTMw
+MzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
 -->
