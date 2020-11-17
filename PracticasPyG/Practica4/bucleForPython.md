@@ -53,13 +53,27 @@ Iterar los elementos de un diccionario se puede realizar de distintas formas. Si
 ```python
 mi_diccionario = [´uno´:1, ´dos´:2, ´tres´:3]
 for c in mi_diccionario:
+	print(c)
+# Interprete
+>>> uno
+>>> dos
+>>> tres
+``` 
+
+En caso que nos interese realizar alguna operación con los valores del diccionario, podemos acceder directamente a ellos como de costumbre.
+
+```python
+mi_diccionario = [´uno´:1, ´dos´:2, ´tres´:3]
+for c in mi_diccionario:
 	print(mi_diccionario[c])
 # Interprete
 >>> 1
 >>> 2
 >>> 3
 ``` 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI3NTQyMjcsLTMyNTEzNDM5MCw0MT
-QzODEyMDAsLTQ1NjkzMTA2N119
+eyJoaXN0b3J5IjpbMTE3MTc1Nzg1LC0zMjUxMzQzOTAsNDE0Mz
+gxMjAwLC00NTY5MzEwNjddfQ==
 -->
