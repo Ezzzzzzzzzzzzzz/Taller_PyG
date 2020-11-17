@@ -269,9 +269,9 @@ elif gameEnded is True:
     # Draw game over screen
     surface.blit(game_over_image, (0, 150))
 ```
-en cuyo caso queremos mostrar la puntuación del jugador en la pantalla de finalización del juego y ofrecerles la opción de volver a jugar. Si un juego no se ha iniciado ni terminado, podemos inferir que acabamos de iniciar el juego y, por lo tanto, podemos renderizar la pantalla de inicio.
+en cuyo caso si queremos mostrar la puntuación del jugador en la pantalla de finalización del juego y ofrecerles la opción de volver a jugar. 
 
-Para iniciar el juego, buscamos una barra espaciadora que presione el teclado en la línea:
+Si un juego no se ha iniciado ni terminado, podemos inferir que acabamos de iniciar el juego y, por lo tanto, podemos renderizar la pantalla de inicio. Para iniciar el juego, buscamos una barra espaciadora que presione el teclado en la línea:
 
 ```python
       if event.key == pygame.K_SPACE:
@@ -298,7 +298,7 @@ Para que en el siguiente ciclo de nuestro bucle principal, la configuración est
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk4MTkyNDMsLTE3NTQ5MjY5ODIsLT
-E4MDQ5NDU4MTIsMTUxNzE3NjE4LDEzNTMyODYzNTEsMjAxNzEw
-MjEwNSwxOTAwNDg0NzM0LDkwMjQxNzY0MV19
+eyJoaXN0b3J5IjpbLTUzOTg1ODc3LC0xNzU0OTI2OTgyLC0xOD
+A0OTQ1ODEyLDE1MTcxNzYxOCwxMzUzMjg2MzUxLDIwMTcxMDIx
+MDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFdfQ==
 -->
