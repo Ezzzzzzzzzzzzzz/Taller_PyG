@@ -16,8 +16,10 @@ Primero, llamamos `movePlatforms()`, que funciona en todas las plataformas del j
 
 `movePlatforms` también comprueba si la plataforma ha alcanzado o no la parte superior de nuestra ventana de juego; si lo ha hecho, eliminará esa plataforma de nuestra lista de plataformas de juegos.
 
-Puede notar que el bucle `for` en la línea 110 es un poco diferente de los que usamos en el pasado. A diferencia de la mayoría de los bucles `for` en Python, este pasa el índice al bucle con el valor `idx`. Necesitamos este índice para poder eliminar la plataforma correcta de la lista de `gamePlatforms` de lo contrario, tendríamos que trabajar en la lista e intentar averiguar cuál necesita ir cada vez, y eso no sería bueno para la velocidad de fotogramas. .
+Puede notar que el bucle `for` en la línea 110 es un poco diferente de los que usamos en el pasado. A diferencia de la mayoría de los bucles `for` en Python, este pasa el índice al bucle con el valor `idx`. Necesitamos este índice para poder eliminar la plataforma correcta de la lista de `gamePlatforms` de lo contrario, tendríamos que trabajar en la lista e intentar averiguar cuál necesita ir cada vez, y eso no sería bueno para la velocidad de fotogramas. 
+
+La función `pop` elimina un elemento de una lista en un punto dado; si quisiéramos eliminar la segunda plataforma de la lista, por ejemplo, pasaríamos gamePlatforms.pop (1); recuerde, las listas comienzan en 0, por lo que 1 es el segundo elemento de nuestra lista.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3ODc3MzQ5LC0xNzY5MzQ1MzU3LC0xNz
-kzMTU4NDc0XX0=
+eyJoaXN0b3J5IjpbLTM2MTU4NzI5MiwtMTc2OTM0NTM1NywtMT
+c5MzE1ODQ3NF19
 -->
