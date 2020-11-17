@@ -280,9 +280,25 @@ Para iniciar el juego, buscamos una barra espaciadora que presione el teclado en
           gameStarted = True
 ```
 
-Si un juego no se ha iniciado (o acaba de terminar), se llama a la función `restartGame`  Todo lo que hace esta función es restablecer todas las variables para un nuevo juego. En el siguiente ciclo de nuestro ciclo principal, la configuración estará en su lugar para un nuevo juego y se iniciará uno.
+Si un juego no se ha iniciado (o acaba de terminar), se llama a la función `restartGame` . Todo lo que hace esta función es restablecer todas las variables para un nuevo juego. 
+
+```python
+def restartGame():
+
+  global gamePlatforms, player, gameBeganAt, platformsDroppedThrough, platformDelay
+
+  gamePlatforms = []
+  player["x"] = windowWidth / 2
+  player["y"] = 0
+  gameBeganAt = GAME_TIME.get_ticks()
+  platformsDroppedThrough = -1
+  platformDelay = 2000
+```
+Para que en el siguiente ciclo de nuestro bucle principal, la configuración estará en su lugar para un nuevo juego y se iniciará.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyODg2MzU0LC0xNzU0OTI2OTgyLC0xOD
-A0OTQ1ODEyLDE1MTcxNzYxOCwxMzUzMjg2MzUxLDIwMTcxMDIx
-MDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFdfQ==
+eyJoaXN0b3J5IjpbLTEzNDk4MTkyNDMsLTE3NTQ5MjY5ODIsLT
+E4MDQ5NDU4MTIsMTUxNzE3NjE4LDEzNTMyODYzNTEsMjAxNzEw
+MjEwNSwxOTAwNDg0NzM0LDkwMjQxNzY0MV19
 -->
