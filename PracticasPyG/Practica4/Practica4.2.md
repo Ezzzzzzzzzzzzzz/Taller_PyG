@@ -20,7 +20,7 @@ def movePlatforms():
 
   for idx, platform in enumerate(gamePlatforms):
 
-    platform["pos"][1] -= platformSpeed # 
+    platform["pos"][1] -= platformSpeed  
 
     if platform["pos"][1] < -10:
       gamePlatforms.pop(idx) 
@@ -28,7 +28,11 @@ def movePlatforms():
 
 `movePlatforms` también comprueba si la plataforma ha alcanzado o no la parte superior de nuestra ventana de juego; si lo ha hecho, eliminará esa plataforma de nuestra lista de plataformas de juegos.
 
-Puede notar que el bucle `for` en la línea 110 es un poco diferente de los que usamos en el pasado. A diferencia de la mayoría de los bucles `for` en Python, este pasa el índice del bucle con el valor `idx`.
+Puede notar que el bucle `for` en la línea 
+```python
+for idx, platform in enumerate(gamePlatforms):
+```
+ es un poco diferente de los que usamos en el pasado. A diferencia de la mayoría de los bucles `for` en Python, este pasa el índice del bucle con el valor `idx`.
 ```python
 # Ejemplo
 gameplatforms = [1,2,3,4]
@@ -66,7 +70,7 @@ Pero, ¿de dónde vienen estas plataformas? En la línea 196, encontramos la res
 
 Queremos lanzar una plataforma cada 2 segundos; entonces, en cada bucle, verificamos cuánto tiempo ha pasado desde que creamos una nueva plataforma restando el tiempo en que creamos una plataforma por última vez del tiempo actual del juego, al que accedemos con [`GAME_TIME.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyODc2OTA4LDIwMjQ1NjIwMjksLTE1NT
-gyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAz
-NCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbMTc2MzEzMzEyMCwyMDI0NTYyMDI5LC0xNT
+U4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMCwzNzE1NTMw
+MzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
 -->
