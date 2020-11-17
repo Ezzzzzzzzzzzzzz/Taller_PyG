@@ -227,7 +227,9 @@ Para comprender cada función y aspecto de nuestro juego, vamos a trabajar con e
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica4/gameover.JPG)
 
 Todo esto se maneja en el bucle principal. Vamos a analizarlo.
+
+## La pantalla para comenzar un juego
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzI4NjM1MSwyMDE3MTAyMTA1LDE5MD
-A0ODQ3MzQsOTAyNDE3NjQxXX0=
+eyJoaXN0b3J5IjpbNzg2MTM2Nzg1LDEzNTMyODYzNTEsMjAxNz
+EwMjEwNSwxOTAwNDg0NzM0LDkwMjQxNzY0MV19
 -->
