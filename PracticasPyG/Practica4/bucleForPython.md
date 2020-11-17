@@ -51,8 +51,7 @@ for n in mi_lista:
 Iterar los elementos de un diccionario se puede realizar de distintas formas. Si lo hacemos del mismo modo que recorremos los elementos una lista estamos iterando directamente sobre las claves del diccionario, tal y como refleja el siguiente bloque de código.
 
 ```python
-mi_diccionario = ['uno':1, 'dos': 2, 'tres':3]
-for c in mi_diccionario:
+mi_diccionario = {'uno':1, 'dos':2, 'tres':3}
 	print(c)
 # Interprete
 >>> uno
@@ -94,7 +93,7 @@ for c, v in mi_diccionario.items():
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODA0MTc2MSwtNzU1MjYwMzc5LDExNz
-E3NTc4NSwtMzI1MTM0MzkwLDQxNDM4MTIwMCwtNDU2OTMxMDY3
-XX0=
+eyJoaXN0b3J5IjpbOTUyMDEyNTE1LDE2MjgwNDE3NjEsLTc1NT
+I2MDM3OSwxMTcxNzU3ODUsLTMyNTEzNDM5MCw0MTQzODEyMDAs
+LTQ1NjkzMTA2N119
 -->
