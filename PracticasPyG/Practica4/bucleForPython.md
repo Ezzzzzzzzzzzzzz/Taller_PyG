@@ -11,114 +11,26 @@ En lenguajes como C, C++ y Java entre otros, los bucles  _for_  se realizan medi
 -   Iteración: determina el cambio que se realiza a la variable de control al final de cada iteración.
 
 Este tipo de bucles se expresa de la siguiente forma:
-
+```python 
 // Código Java
-
 for(i=0; i<10; i++)  {
-
 // Hacer algo
-
 }
-
-En este bloque de código  _i_  es la variable de control, la cual:
+```
+En este bloque de código  **i**  es la variable de control, la cual:
 
 -   Se ha inicializado con valor 0.
 -   Continúa iterando mientras su valor sea mas pequeño que 10.
 -   Al final de cada iteración incrementa su valor en 1.
 
 En Python, en cambio, no se especifica ninguna variable de control para realizar bucles for. En lugar de ello se itera sobre una colección de objetos.
-
+```python
 # Python
 
 for elemento in iterable:
 
 # Hacer algo con el elemento
-
-En este caso, en cada nueva iteración el «elemento» toma el valor del siguiente elemento del objeto «iterable». Además como ocurre con las  [sentencias if](https://www.programaenpython.com/fundamentos/sentencias-condicionales-en-python), se requiere el uso de los dos puntos (:) al final de la sentencia y el cuerpo del bucle se tiene que indentar.
-
-## Iterar una lista
-
-Para recorrer los elementos de una lista con un bucle  _for_, hay que dar un nombre a la variable que va tomando los elementos de la lista en cada iteración. En el siguiente ejemplo se itera sobre los elementos de la lista «mi_lista» mediante la variable «n».
-
->>> mi_lista = [1, 2, 3]
-
->>>  for n in mi_lista:
-
-... print(n)
-
-...
-
-1
-
-2
-
-3
-
-## Iterar un diccionario
-
-Iterar los elementos de un diccionario se puede realizar de distintas formas. Si lo hacemos del mismo modo que recorremos los elementos una lista estamos iterando directamente sobre las claves del diccionario, tal y como refleja el siguiente bloque de código.
-
->>> mi_diccionario = {'uno':1, 'dos':2, 'tres':3}
-
->>>  for c in mi_diccionario:
-
-... print(c)
-
-...
-
-uno
-
-dos
-
-tres
-
-En caso que nos interese realizar alguna operación con los valores del diccionario, podemos acceder directamente a ellos como de costumbre.
-
->>> mi_diccionario = {'uno':1, 'dos':2, 'tres':3}
-
->>>  for c in mi_diccionario:
-
-... print(mi_diccionario[c])
-
-...
-
-1
-
-2
-
-3
-
-Otra opción es iterar directamente sobre los valores usando el método  _values()_  del diccionario.
-
->>> mi_diccionario = {'uno':1, 'dos':2, 'tres':3}
-
->>>  for v in mi_diccionario.values():
-
-... print(v)
-
-...
-
-1
-
-2
-
-3
-
-También podemos iterar simultáneamente sobre las claves y valores de un diccionario. En concreto, el método  _items()_  retorna una lista de tuplas con los pares clave-valor del diccionario las cuales podemos desembalar.
-
->>> mi_diccionario = {'uno':1, 'dos':2, 'tres':3}
-
->>>  for c, v in mi_diccionario.items():
-
-... print('Clave:', c, ', Valor:', v)
-
-...
-
-Clave: uno , Valor: 1
-
-Clave: dos , Valor: 2
-
-Clave: tres , Valor: 3
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjkyNTA5MywtNDU2OTMxMDY3XX0=
+eyJoaXN0b3J5IjpbLTcyODkxOTM0LC00NTY5MzEwNjddfQ==
 -->
