@@ -239,9 +239,9 @@ de nuestra lista de códigos. En el otro extremo de nuestra lista, en la línea
     # Welcome Screen
     surface.blit(title_image, (0, 150))
 ```
-dibujamos esa imagen en nuestra superficie con [`blit()`](https://www.pygame.org/docs/ref/surface.html?highlight=blit#pygame.Surface.blit). 
+dibujamos esa imagen en nuestra superficie con [`blit()`](https://www.pygame.org/docs/ref/surface.html?highlight=blit#pygame.Surface.blit). Está en la declaración final `if-elif` de nuestro bucle principal. 
 
-Está en la declaración final `if-elif` de nuestro bucle principal. En la línea: 
+En la línea: 
 
 ```python 
 if gameStarted is True:
@@ -264,7 +264,7 @@ if gameStarted is True:
 	
 nuestro script comprueba si un juego ya está en marcha; si es así, comprobará el juego y renderizará la pantalla según sea necesario. Si no hay un juego en curso, el bucle verifica si un juego ha terminado o no en la línea 187, en cuyo caso queremos mostrar la puntuación del jugador en la pantalla de finalización del juego y ofrecerles la opción de volver a jugar. Si un juego no se ha iniciado ni terminado, podemos inferir que acabamos de iniciar el juego y, por lo tanto, podemos renderizar la pantalla de inicio.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwMDIzNTQwLC0xNzU0OTI2OTgyLC0xOD
+eyJoaXN0b3J5IjpbNzA5MzMwMTA4LC0xNzU0OTI2OTgyLC0xOD
 A0OTQ1ODEyLDE1MTcxNzYxOCwxMzUzMjg2MzUxLDIwMTcxMDIx
 MDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFdfQ==
 -->
