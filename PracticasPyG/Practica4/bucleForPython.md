@@ -90,10 +90,10 @@ for c, v in mi_diccionario.items():
 # Interprete
 >>> Clave: uno, Valor: 1
 >>> Clave: dos, Valor: 2
->>> Clave: tres, Valor: 1
+>>> Clave: tres, Valor: 3
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE0NjM3NzMsMTE3MTc1Nzg1LC0zMj
-UxMzQzOTAsNDE0MzgxMjAwLC00NTY5MzEwNjddfQ==
+eyJoaXN0b3J5IjpbLTc1NTI2MDM3OSwxMTcxNzU3ODUsLTMyNT
+EzNDM5MCw0MTQzODEyMDAsLTQ1NjkzMTA2N119
 -->
