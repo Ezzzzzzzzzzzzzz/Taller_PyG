@@ -40,9 +40,9 @@ Necesitamos este índice para poder eliminar la plataforma correcta de la lista 
 
 La función `pop` elimina un elemento de una lista en un punto dado; si quisiéramos eliminar la segunda plataforma de la lista, por ejemplo, pasaríamos `gamePlatforms.pop(1)`; recuerde, las listas comienzan en 0, por lo que 1 es el segundo elemento de nuestra lista.
 
-Una vez que hayamos determinado dónde deben ir las plataformas y cuáles deben desaparecer, podemos dibujarlas. Hacemos esto con drawPlatforms en las líneas 118-123. Nada de lujos aquí; simplemente estamos dibujando un rectángulo blanco que es el ancho de la pantalla, y luego un rectángulo negro para el espacio por el que el personaje puede pasar a la siguiente plataforma.
+Una vez que hayamos determinado dónde deben ir las plataformas y cuáles deben desaparecer, podemos dibujarlas. Hacemos esto con `drawPlatforms` en las líneas 118-123. Nada de lujos aquí; simplemente estamos dibujando un rectángulo blanco que es el ancho de la pantalla, y luego un rectángulo negro para el espacio por el que el personaje puede pasar a la siguiente plataforma.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Njc4MDkxOCwyNDk4NzE4MDYsLTIwMz
-YwMjI0MTAsMzcxNTUzMDM0LC0xNzY5MzQ1MzU3LC0xNzkzMTU4
-NDc0XX0=
+eyJoaXN0b3J5IjpbLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMD
+M2MDIyNDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1
+ODQ3NF19
 -->
