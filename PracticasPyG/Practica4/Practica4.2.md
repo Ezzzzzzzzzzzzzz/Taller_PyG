@@ -64,16 +64,18 @@ def drawPlatforms():
 
 Nada de lujos aquí; **simplemente estamos dibujando un rectángulo blanco que es el ancho de la pantalla, y luego un rectángulo negro para el espacio por el que el personaje puede pasar a la siguiente plataforma.**
 
-Pero, ¿de dónde vienen estas plataformas? En la línea 196, encontramos la respuesta. Pygame realiza un seguimiento de cuánto tiempo ha estado funcionando el juego con su función `get_ticks()`.
+Pero, ¿de dónde vienen estas plataformas? En la línea
 
 ```python 
   if GAME_TIME.get_ticks() - lastPlatform > platformDelay:
     createPlatform()
 ```
+encontramos la respuesta. Pygame realiza un seguimiento de cuánto tiempo ha estado funcionando el juego con su función `get_ticks()`.
 
 Queremos lanzar una plataforma cada 2 segundos; entonces, en cada bucle, verificamos cuánto tiempo ha pasado desde que creamos una nueva plataforma restando el tiempo en que creamos una plataforma por última vez del tiempo actual del juego, al que accedemos con [`GAME_TIME.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzcxMzMxNiwyMDI0NTYyMDI5LC0xNT
-U4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMCwzNzE1NTMw
-MzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
+eyJoaXN0b3J5IjpbMTE4ODg2NjQ0NiwtMzk3NzEzMzE2LDIwMj
+Q1NjIwMjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIy
+NDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF
+19
 -->
