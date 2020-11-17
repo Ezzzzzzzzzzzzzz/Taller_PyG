@@ -123,7 +123,7 @@ Si el valor `player["y"]` es `20` y queremos cambiarlo a `25`, ingresaremos `pla
 
 Si revisamos nuestro ejercicio mental de juego MMO, nos daremos cuenta rápidamente de que todavía necesitamos 100 variables para manejar a 100 jugadores, a pesar de que hemos hecho las cosas más ordenadas y más útiles. ¿Cuál es la mejor manera de realizar un seguimiento de los diccionarios? Ahí es donde entran las listas.
 
-## Las listas son variables que pueden almacenar grupos de otras variables. 
+### Las listas son variables que pueden almacenar grupos de otras variables. 
 
 Si quisiéramos realizar un seguimiento de los jugadores de nuestro juego, no necesitaríamos crear una variable para cada jugador. **Podríamos simplemente agregar un diccionario de jugador a una lista y trabajar con ellos cuando sea necesario.** Si, por ejemplo, quisiéramos obtener la información del segundo jugador en nuestro MMO imaginario, ingresaríamos algo como `players[1]` y eso devolvería un diccionario para nuestro segundo jugador del cual podríamos obtener valores, así : `players[1][“x”]`.
 
@@ -134,7 +134,7 @@ En este ejemplo **`1` se llama índice. Es importante notar que los índices de 
 En nuestro juego, no usamos **listas** y **diccionarios** para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU1NzE3OCw1OTI2ODY2OTIsLTE5Mz
-c0Mjk4MTEsLTE5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEw
-MjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ==
+eyJoaXN0b3J5IjpbMjU0MTgyODQxLDU5MjY4NjY5MiwtMTkzNz
+QyOTgxMSwtMTkzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAy
+MDc4LC04MTYyNjE5MzYsMTE3NTIyMDg3MV19
 -->
