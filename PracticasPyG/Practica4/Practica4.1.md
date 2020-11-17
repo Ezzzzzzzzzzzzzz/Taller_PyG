@@ -239,9 +239,9 @@ de nuestra lista de códigos. En el otro extremo de nuestra lista, en la línea
     # Welcome Screen
     surface.blit(title_image, (0, 150))
 ```
-dibujamos esa imagen en nuestra superficie. Está en la declaración final if-elif de nuestro bucle principal.
+dibujamos esa imagen en nuestra superficie. Está en la declaración final `if-elif` de nuestro bucle principal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyODQzMTY4LDE1MTcxNzYxOCwxMzUzMj
+eyJoaXN0b3J5IjpbNTI2MDE4NTA0LDE1MTcxNzYxOCwxMzUzMj
 g2MzUxLDIwMTcxMDIxMDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFd
 fQ==
 -->
