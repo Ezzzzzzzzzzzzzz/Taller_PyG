@@ -191,7 +191,7 @@ Al igual que nuestros programas anteriores, en las líneas:
           restartGame()
           gameStarted = True
 ```
- escuchamos varios eventos en el juego en nuestro bucle principal y cambios en función de los eventos enviados por nuestra computadora (teclado, mouse, eventos de salida, etc.). 
+escuchamos varios eventos en el juego en nuestro bucle principal y cambios en función de los eventos enviados por nuestra computadora (teclado, mouse, eventos de salida, etc.). 
 
 Las líneas:
 
@@ -298,7 +298,7 @@ Para que en el siguiente ciclo de nuestro bucle principal, la configuración est
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTg1ODc3LC0xNzU0OTI2OTgyLC0xOD
-A0OTQ1ODEyLDE1MTcxNzYxOCwxMzUzMjg2MzUxLDIwMTcxMDIx
-MDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFdfQ==
+eyJoaXN0b3J5IjpbMjMwNTg4MjMsLTE3NTQ5MjY5ODIsLTE4MD
+Q5NDU4MTIsMTUxNzE3NjE4LDEzNTMyODYzNTEsMjAxNzEwMjEw
+NSwxOTAwNDg0NzM0LDkwMjQxNzY0MV19
 -->
