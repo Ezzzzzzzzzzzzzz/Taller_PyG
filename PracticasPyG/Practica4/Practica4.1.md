@@ -232,10 +232,14 @@ Todo esto se maneja en el bucle principal. Vamos a analizarlo.
 
 Cuando comienza nuestro juego, se nos presenta la pantalla de inicio del juego. Esta pantalla es una imagen simple que cargamos en la línea 
 ```python
-
+title_image = pygame.image.load("assets/title.jpg")
 ```
-de nuestra lista de códigos. En el otro extremo de nuestra lista, en la línea 189, dibujamos esa imagen en nuestra superficie. Está en la declaración final if-elif de nuestro bucle principal.
+de nuestra lista de códigos. En el otro extremo de nuestra lista, en la línea
+```python
+title_image = pygame.image.load("assets/title.jpg")
+```
+dibujamos esa imagen en nuestra superficie. Está en la declaración final if-elif de nuestro bucle principal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYwNzU4MiwxMzUzMjg2MzUxLDIwMT
-cxMDIxMDUsMTkwMDQ4NDczNCw5MDI0MTc2NDFdfQ==
+eyJoaXN0b3J5IjpbMTUxNzE3NjE4LDEzNTMyODYzNTEsMjAxNz
+EwMjEwNSwxOTAwNDg0NzM0LDkwMjQxNzY0MV19
 -->
