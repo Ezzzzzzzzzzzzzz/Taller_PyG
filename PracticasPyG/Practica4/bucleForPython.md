@@ -71,9 +71,14 @@ for c in mi_diccionario:
 >>> 2
 >>> 3
 ``` 
+Otra opción es iterar directamente sobre los valores usando el método **values()** del diccionario.
+```python
+mi_diccionario = [´uno´:1, ´dos´: 2, ´tres´:3]
+
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTc1Nzg1LC0zMjUxMzQzOTAsNDE0Mz
-gxMjAwLC00NTY5MzEwNjddfQ==
+eyJoaXN0b3J5IjpbLTE0NzQxMTAzMDMsMTE3MTc1Nzg1LC0zMj
+UxMzQzOTAsNDE0MzgxMjAwLC00NTY5MzEwNjddfQ==
 -->
