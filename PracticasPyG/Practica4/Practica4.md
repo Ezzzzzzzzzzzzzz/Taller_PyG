@@ -103,7 +103,7 @@ player = {
 ```
 Son las variables que usaremos para realizar un seguimiento del estado de nuestro juego, como dónde están las cosas, qué tan grandes son y cómo deben moverse. Dos de estas pueden destacar como un poco diferentes de las variables que hemos usado anteriormente: `gamePlatforms` y `player`. **Uno de estos parece vacío y el otro tiene varios valores. 
 
-`gamePlatforms`es un tipo de variable conocido como lista, mientras que `player` es un tipo conocido como diccionario y no funcionan como lo hacen otras variables. Dediquemos un poco de tiempo a comprender cómo funcionan.**
+### `gamePlatforms`es un tipo de variable conocido como lista, mientras que `player` es un tipo conocido como diccionario y no funcionan como lo hacen otras variables. Dediquemos un poco de tiempo a comprender cómo funcionan.
 
 ## Diccionarios y listas
 
@@ -136,7 +136,7 @@ En este ejemplo **`1` se llama índice. Es importante notar que los índices de 
 En nuestro juego, no usamos **listas** y **diccionarios** para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTQxOTc0MSw1OTI2ODY2OTIsLTE5Mz
-c0Mjk4MTEsLTE5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEw
-MjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ==
+eyJoaXN0b3J5IjpbNDcwMDI0Nzk0LDU5MjY4NjY5MiwtMTkzNz
+QyOTgxMSwtMTkzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAy
+MDc4LC04MTYyNjE5MzYsMTE3NTIyMDg3MV19
 -->
