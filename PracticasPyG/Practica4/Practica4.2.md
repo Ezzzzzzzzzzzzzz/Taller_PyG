@@ -118,11 +118,11 @@ La línea:
 
 ```
 
-es donde creamos nuestras nuevas plataformas. **Como cualquier lista, podemos agregarle nuevos elementos; en Python, podemos hacer esto con `.append()`. En este caso, estamos creando un diccionario con todo lo que necesitamos para crear una plataforma, la posición de la plataforma (almacenada con la tecla pos) y la ubicación del hueco (almacenada con la tecla gap).
+es donde creamos nuestras nuevas plataformas. **Como cualquier lista, podemos agregarle nuevos elementos;** en Python, podemos hacer esto con [`.append()`](). En este caso, estamos creando un diccionario con todo lo que necesitamos para crear una plataforma, la posición de la plataforma (almacenada con la tecla pos) y la ubicación del hueco (almacenada con la tecla gap).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDczNDgyNiwtNDI4MTA1MTU4LC0xMz
+eyJoaXN0b3J5IjpbLTUwNzY2Njk5NywtNDI4MTA1MTU4LC0xMz
 UyNDg5OTM3LC03ODE4ODE3ODEsLTM5NzcxMzMxNiwyMDI0NTYy
 MDI5LC0xNTU4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMC
 wzNzE1NTMwMzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
