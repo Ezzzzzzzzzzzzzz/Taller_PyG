@@ -111,6 +111,8 @@ En practicas anteriores, casi siempre hemos usado variables que tienen un valor,
 
 Sin embargo, a medida que los programas crecen, puede resultar más difícil nombrar las variables de una manera que se relacione con lo que intentamos hacer. Imaginemos un juego en el que hay más de un jugador, como un [MMO (Multijugador Online Masivo)](https://es.wikipedia.org/wiki/Videojuego_multijugador_masivo_en_l%C3%ADnea); si escribimos código como lo hemos hecho antes, necesitaríamos crear varios conjuntos de variables para cada jugador. **No hace falta ser un genio para darse cuenta de que el código se volverá inmanejable y muy rápido**.
 
+![]()
+
 ¿Y si quisiéramos manejar a cuatro o 100 o 1,000 jugadores al mismo tiempo? ¿Escribimos a mano variables para cada uno? **No**. **En su lugar, podemos utilizar diccionarios y listas**.
 
 La variable `player` es un diccionario. 
@@ -136,7 +138,8 @@ En este ejemplo **`1` se llama índice. Es importante notar que los índices de 
 En nuestro juego, no usamos **listas** y **diccionarios** para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMDI0Nzk0LDU5MjY4NjY5MiwtMTkzNz
-QyOTgxMSwtMTkzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMDk4MTAy
-MDc4LC04MTYyNjE5MzYsMTE3NTIyMDg3MV19
+eyJoaXN0b3J5IjpbNDQ4NDI5Mzc4LDQ3MDAyNDc5NCw1OTI2OD
+Y2OTIsLTE5Mzc0Mjk4MTEsLTE5Mzc0Mjk4MTEsLTQwMTAzODQw
+OCwtMTA5ODEwMjA3OCwtODE2MjYxOTM2LDExNzUyMjA4NzFdfQ
+==
 -->
