@@ -45,7 +45,7 @@ for idx, platform in enumerate(gameplatforms):
 
 Necesitamos este índice para poder eliminar la plataforma correcta de la lista de `gamePlatforms` de lo contrario, tendríamos que trabajar en la lista e intentar averiguar cuál se necesita ir cada vez, y eso no sería bueno para la velocidad de fotogramas. 
 
-La función `pop` elimina un elemento de una lista en un punto dado; si quisiéramos eliminar la segunda plataforma de la lista, por ejemplo, pasaríamos `gamePlatforms.pop(1)`; recuerde, las listas comienzan en 0, por lo que 1 es el segundo elemento de nuestra lista.
+La función [`pop`](https://www.geeksforgeeks.org/python-list-pop/#:~:text=pop()%20is%20an%20inbuilt,or%20the%20given%20index%20value.&text=Parameter%20%3A,is%20popped%20out%20and%20removed.) elimina un elemento de una lista en un punto dado; si quisiéramos eliminar la segunda plataforma de la lista, por ejemplo, pasaríamos `gamePlatforms.pop(1)`; recuerde, las listas comienzan en 0, por lo que 1 es el segundo elemento de nuestra lista.
 
 Una vez que hayamos determinado dónde deben ir las plataformas y cuáles deben desaparecer, podemos dibujarlas. 
 
@@ -101,8 +101,8 @@ En las líneas 98-99 estamos creando variables que definirán la posición de la
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI0ODk5MzcsLTc4MTg4MTc4MSwtMz
-k3NzEzMzE2LDIwMjQ1NjIwMjksLTE1NTgyMTIyMjYsMjQ5ODcx
-ODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1Ny
-wtMTc5MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbLTQyODEwNTE1OCwtMTM1MjQ4OTkzNywtNz
+gxODgxNzgxLC0zOTc3MTMzMTYsMjAyNDU2MjAyOSwtMTU1ODIx
+MjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0MTAsMzcxNTUzMDM0LC
+0xNzY5MzQ1MzU3LC0xNzkzMTU4NDc0XX0=
 -->
