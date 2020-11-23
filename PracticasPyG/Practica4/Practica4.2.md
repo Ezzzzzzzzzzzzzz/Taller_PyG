@@ -109,13 +109,13 @@ estamos creando variables que definirán la posición de la plataforma `platform
 
 ### Queremos que nuestra plataforma se eleve siempre desde la parte inferior de la ventana, pero el espacio puede estar en cualquier punto a lo largo de la plataforma.
 
-Así como rastrear jugadores se vuelve difícil cuando tenemos muchos con los que lidiar, lo mismo ocurre con nuestras plataformas aquí. Generamos una plataforma cada 2 segundos y ese retraso es cada vez menor. Si has estado jugando durante más de un minuto, ¡habrás saltado a unas 100 plataformas! No podemos preprogramar todos esos e incluso si pudiéramos, nuestro juego se volvería muy suave después de un par de jugadas. La línea 101 es donde creamos nuestras nuevas plataformas.
+Así como rastrear jugadores se vuelve difícil, cuando tenemos muchos con los que lidiar, lo mismo ocurre con nuestras plataformas aquí. Generamos una plataforma cada 2 segundos y ese retraso es cada vez menor. Si has estado jugando durante más de un minuto, ¡habrás saltado a unas 100 plataformas! No podemos preprogramar todos esos e incluso si pudiéramos, nuestro juego se volvería muy suave después de un par de jugadas. La línea 101 es donde creamos nuestras nuevas plataformas.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzQ0Mzk1OCwtNDI4MTA1MTU4LC0xMz
-UyNDg5OTM3LC03ODE4ODE3ODEsLTM5NzcxMzMxNiwyMDI0NTYy
-MDI5LC0xNTU4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMC
-wzNzE1NTMwMzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
+eyJoaXN0b3J5IjpbLTE2MTY5MTAyNzYsLTQyODEwNTE1OCwtMT
+M1MjQ4OTkzNywtNzgxODgxNzgxLC0zOTc3MTMzMTYsMjAyNDU2
+MjAyOSwtMTU1ODIxMjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0MT
+AsMzcxNTUzMDM0LC0xNzY5MzQ1MzU3LC0xNzkzMTU4NDc0XX0=
 
 -->
