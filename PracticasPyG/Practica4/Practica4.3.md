@@ -77,9 +77,18 @@ if surface.get_at(( int(player["x"]), int(player["y"]) + player["height"])) == (
   if surface.get_at(( int(player["x"]) + player["width"], int(player["y"]) + player["height"])) == (0,0,0,255):
     rightOfPlayerOnPlatform = False
 ```
- hacemos lo mismo para la parte inferior derecha. Si los valores de color que encontramos en la parte inferior izquierda o inferior derecha del avatar son (255,255,255,255) (blanco), entonces sabemos que al menos un borde de nuestro avatar todavía está en una plataforma. Si ambos son cualquier cosa menos blancos, entonces hay un espacio en la plataforma o estamos en un espacio en blanco, por lo que podemos dejar caer nuestro avatar. Todo esto sucede en las líneas 57-68. También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
+hacemos lo mismo para la parte inferior derecha. 
+
+Si los valores de color que encontramos en la parte inferior izquierda o inferior derecha del avatar son **(255,255,255,255) (blanco)**, entonces sabemos que al menos un borde de nuestro avatar todavía está en una plataforma. 
+**Si ambos son cualquier cosa menos blancos**, entonces hay un espacio en la plataforma o estamos en un espacio en blanco, por lo que podemos dejar caer nuestro avatar. 
+
+Todo esto sucede en las líneas: 
+```python
+
+```
+También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzA1Mjg2NCwtOTg3MjE2MTY4LC05NT
+eyJoaXN0b3J5IjpbLTUxNzk3OTQyOSwtOTg3MjE2MTY4LC05NT
 YxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIwNDY4
 NV19
 -->
