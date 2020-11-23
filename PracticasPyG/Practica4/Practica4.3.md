@@ -66,24 +66,20 @@ Para codificar esta lógica, podríamos verificar la posición de todas las plat
 **En cambio, estamos haciendo algo más simple: nuestras plataformas son siempre blancas y nuestro fondo siempre es negro, por lo que si podemos saber el color del píxel justo debajo de nuestro avatar, podemos determinar si necesitamos o no soltar. También debemos verificar que nuestro avatar esté completamente fuera del borde de nuestra plataforma antes de dejarlo caer.** 
 
 Para hacer esto, verificamos los valores justo debajo de nuestro avatar, tanto a la izquierda como a la derecha. Podemos obtener el color de un píxel en un punto determinado con [`surface.get_at((X, Y))`](https://www.pygame.org/docs/ref/surface.html?highlight=get_at#pygame.Surface.get_at); esto devolverá una tupla con cuatro valores `(ROJO, VERDE, AZUL, OPACIDAD)`, cada uno entre **0** y **255**, como si hubiéramos establecido los colores nosotros mismos. 
+
+En las líneas:
 ```python
 if surface.get_at(( int(player["x"]), int(player["y"]) + player["height"])) == (0,0,0,255):
     leftOfPlayerOnPlatform = False
-
+```
+ verificamos el color debajo de la parte inferior izquierda de nuestro avatar, y en las líneas:
+```python
   if surface.get_at(( int(player["x"]) + player["width"], int(player["y"]) + player["height"])) == (0,0,0,255):
     rightOfPlayerOnPlatform = False
-
-  if leftOfPlayerOnPlatform is False and rightOfPlayerOnPlatform is False and (player["y"] + player["height"]) + player["vy"] < windowHeight:
-    player["y"] += player["vy"]
-
-    if dropping is False:
-      dropping = True
-      platformsDroppedThrough += 1
 ```
-
-En las líneas 51-52 verificamos el color debajo de la parte inferior izquierda de nuestro avatar, y en las líneas 54-55 hacemos lo mismo para la parte inferior derecha. Si los valores de color que encontramos en la parte inferior izquierda o inferior derecha del avatar son (255,255,255,255) (blanco), entonces sabemos que al menos un borde de nuestro avatar todavía está en una plataforma. Si ambos son cualquier cosa menos blancos, entonces hay un espacio en la plataforma o estamos en un espacio en blanco, por lo que podemos dejar caer nuestro avatar. Todo esto sucede en las líneas 57-68. También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
+ hacemos lo mismo para la parte inferior derecha. Si los valores de color que encontramos en la parte inferior izquierda o inferior derecha del avatar son (255,255,255,255) (blanco), entonces sabemos que al menos un borde de nuestro avatar todavía está en una plataforma. Si ambos son cualquier cosa menos blancos, entonces hay un espacio en la plataforma o estamos en un espacio en blanco, por lo que podemos dejar caer nuestro avatar. Todo esto sucede en las líneas 57-68. También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzA3Mjg5MywtOTg3MjE2MTY4LC05NT
+eyJoaXN0b3J5IjpbLTYwMzA1Mjg2NCwtOTg3MjE2MTY4LC05NT
 YxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIwNDY4
 NV19
 -->
