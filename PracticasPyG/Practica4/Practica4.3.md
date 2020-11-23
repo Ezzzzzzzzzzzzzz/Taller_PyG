@@ -6,7 +6,55 @@ Nuestro avatar no es una construcción complicada: en su forma más simple, es u
 
 ### movePlayer()
 ```python
+def movePlayer():
+  
+  global platformsDroppedThrough, dropping
 
+  leftOfPlayerOnPlatform = True
+  rightOfPlayerOnPlatform = True
+
+  if surface.get_at(( int(player["x"]), int(player["y"]) + player["height"])) == (0,0,0,255):
+    leftOfPlayerOnPlatform = False
+
+  if surface.get_at(( int(player["x"]) + player["width"], int(player["y"]) + player["height"])) == (0,0,0,255):
+    rightOfPlayerOnPlatform = False
+
+  if leftOfPlayerOnPlatform is False and rightOfPlayerOnPlatform is False and (player["y"] + player["height"]) + player["vy"] < windowHeight:
+    player["y"] += player["vy"]
+
+    if dropping is False:
+      dropping = True
+      platformsDroppedThrough += 1
+
+  else :
+
+    foundPlatformTop = False
+    yOffset = 0
+    dropping = False
+
+    while foundPlatformTop is False:
+
+      if surface.get_at(( int(player["x"]), ( int(player["y"]) + player["height"]) - yOffset )) == (0,0,0,255):
+        player["y"] -= yOffset
+        foundPlatformTop = True
+      elif (player["y"] + player["height"]) - yOffset > 0:
+        yOffset += 1
+      else :
+
+        gameOver()
+        break
+
+  if leftDown is True:
+    if player["x"] > 0 and player["x"] - 5 > 0:
+      player["x"] -= 5
+    elif player["x"] > 0 and player["x"] - 5 < 0:
+      player["x"] = 0
+
+  if rightDown is True:
+    if player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 < windowWidth:
+      player["x"] += 5
+    elif player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 > windowWidth:
+      player["x"] = windowWidth - player["width"]
 ```
 Como verá, la función `movePlayer()` en las líneas es el hogar de la mayor parte de la lógica de nuestro juego. Antes de mirar el código, hablemos de lo que está sucediendo: 
 
@@ -22,7 +70,7 @@ También debemos verificar que nuestro avatar esté completamente fuera del bord
 
 En las líneas 51-52 verificamos el color debajo de la parte inferior izquierda de nuestro avatar, y en las líneas 54-55 hacemos lo mismo para la parte inferior derecha. Si los valores de color que encontramos en la parte inferior izquierda o inferior derecha del avatar son (255,255,255,255) (blanco), entonces sabemos que al menos un borde de nuestro avatar todavía está en una plataforma. Si ambos son cualquier cosa menos blancos, entonces hay un espacio en la plataforma o estamos en un espacio en blanco, por lo que podemos dejar caer nuestro avatar. Todo esto sucede en las líneas 57-68. También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE3NDUzNDQsLTk4NzIxNjE2OCwtOT
-U2MTIwODYsMTA5NDY4OTQ5NCwtMjU5NjE5NDQ5LDEzNDkyMDQ2
-ODVdfQ==
+eyJoaXN0b3J5IjpbLTUzODMxOTE3OSwtOTg3MjE2MTY4LC05NT
+YxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIwNDY4
+NV19
 -->
