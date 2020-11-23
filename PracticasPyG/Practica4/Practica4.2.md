@@ -132,13 +132,13 @@ lastPlatform = GAME_TIME.get_ticks()
   if platformDelay > 800:
     platformDelay -= 50
 ```
-guardamos en la variable `lastPlatform` (ultima plataforma) el valor e tiempo transcurrido desde que inicio el juego [`.getticks()`](https://www.pygame.org/docs/ref/time.html?highlight=get_ticks#pygame.time.get_ticks)
+guardamos en la variable `lastPlatform` (ultima plataforma) el valor e tiempo transcurrido desde que inicio el juego [`.getticks()`](https://www.pygame.org/docs/ref/time.html?highlight=get_ticks#pygame.time.get_ticks). Y posteriormente decrementamos el tiempo que tardan en aparecer las siguientes plataformas con el ciclo
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTIwMDM0NCwtMTc5MDU0ODY4NywtND
+eyJoaXN0b3J5IjpbMTc3MjkxOTIxNywtMTc5MDU0ODY4NywtND
 I0ODY5OTczLC01MDc2NjY5OTcsLTQyODEwNTE1OCwtMTM1MjQ4
 OTkzNywtNzgxODgxNzgxLC0zOTc3MTMzMTYsMjAyNDU2MjAyOS
 wtMTU1ODIxMjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0MTAsMzcx
