@@ -97,12 +97,17 @@ def createPlatform():
 ```
 Usamos global para decirle a nuestro código que queremos usar variables que existen en el alcance global, no crear nuevas con el mismo nombre en el alcance de la función. 
 
-En las líneas 98 estamos creando variables que definirán la posición de la plataforma (plataformaY) y la ubicación del hueco a través del cual caer junto con ella (gapPosition). Queremos que nuestra plataforma se eleve siempre desde la parte inferior de la ventana, pero el espacio puede estar en cualquier punto a lo largo de la plataforma.
+En las líneas:
+
+```python
+
+```
+ estamos creando variables que definirán la posición de la plataforma (plataformaY) y la ubicación del hueco a través del cual caer junto con ella (gapPosition). Queremos que nuestra plataforma se eleve siempre desde la parte inferior de la ventana, pero el espacio puede estar en cualquier punto a lo largo de la plataforma.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NTA3OTE3LC00MjgxMDUxNTgsLTEzNT
-I0ODk5MzcsLTc4MTg4MTc4MSwtMzk3NzEzMzE2LDIwMjQ1NjIw
-MjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLD
-M3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbMzM5NDk0MzgsLTQyODEwNTE1OCwtMTM1Mj
+Q4OTkzNywtNzgxODgxNzgxLC0zOTc3MTMzMTYsMjAyNDU2MjAy
+OSwtMTU1ODIxMjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0MTAsMz
+cxNTUzMDM0LC0xNzY5MzQ1MzU3LC0xNzkzMTU4NDc0XX0=
 -->
