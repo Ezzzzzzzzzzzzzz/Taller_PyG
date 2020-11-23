@@ -118,13 +118,17 @@ La línea:
 gamePlatforms.append({"pos" : [0, platformY], "gap" : gapPosition})
 ```
 
-es donde creamos nuestras nuevas plataformas. **Como cualquier lista, podemos agregarle nuevos elementos;** en Python, podemos hacer esto con [`.append()`](https://www.geeksforgeeks.org/append-extend-python/). En este caso, estamos creando un diccionario con todo lo que necesitamos para crear una plataforma, la posición de la plataforma (almacenada con la tecla pos) y la ubicación del hueco (almacenada con la tecla gap).
+es donde creamos nuestras nuevas plataformas. **Como cualquier lista, podemos agregarle nuevos elementos;** en Python, podemos hacer esto con [`.append()`](https://www.geeksforgeeks.org/append-extend-python/). 
+
+### En este caso, estamos creando un diccionario con todo lo que necesitamos para crear una plataforma, la posición de la plataforma (almacenada con el key `pos`) y la ubicación del hueco (almacenada con el key `gap`).
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDYzNzM4MTIsLTUwNzY2Njk5NywtND
-I4MTA1MTU4LC0xMzUyNDg5OTM3LC03ODE4ODE3ODEsLTM5Nzcx
-MzMxNiwyMDI0NTYyMDI5LC0xNTU4MjEyMjI2LDI0OTg3MTgwNi
-wtMjAzNjAyMjQxMCwzNzE1NTMwMzQsLTE3NjkzNDUzNTcsLTE3
-OTMxNTg0NzRdfQ==
+eyJoaXN0b3J5IjpbLTQyNDg2OTk3MywtNTA3NjY2OTk3LC00Mj
+gxMDUxNTgsLTEzNTI0ODk5MzcsLTc4MTg4MTc4MSwtMzk3NzEz
+MzE2LDIwMjQ1NjIwMjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC
+0yMDM2MDIyNDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5
+MzE1ODQ3NF19
 -->
