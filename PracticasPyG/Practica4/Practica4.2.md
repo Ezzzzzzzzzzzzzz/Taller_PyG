@@ -28,7 +28,7 @@ def movePlatforms():
 
 `movePlatforms` también comprueba si la plataforma ha alcanzado o no la parte superior de nuestra ventana de juego; si lo ha hecho, eliminará esa plataforma de nuestra lista de plataformas de juegos.
 
-Puede notar que el bucle `for` en la línea:
+Puede notar que el bucle [`for`](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica4/bucleForPython.md) en la línea:
 
 ```python
 for idx, platform in enumerate(gamePlatforms):
@@ -101,8 +101,8 @@ En las líneas 98-99 estamos creando variables que definirán la posición de la
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTg4MTc4MSwtMzk3NzEzMzE2LDIwMj
-Q1NjIwMjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIy
-NDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF
-19
+eyJoaXN0b3J5IjpbLTEzNTI0ODk5MzcsLTc4MTg4MTc4MSwtMz
+k3NzEzMzE2LDIwMjQ1NjIwMjksLTE1NTgyMTIyMjYsMjQ5ODcx
+ODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1Ny
+wtMTc5MzE1ODQ3NF19
 -->
