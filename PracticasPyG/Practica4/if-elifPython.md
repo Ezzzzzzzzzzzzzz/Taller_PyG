@@ -22,6 +22,7 @@ Si se cumple el primer caso **(condición 1)**, se ejecuta lo que se encuentra e
 
 https://media.giphy.com/media/YqbMIoq0b2cZIn1FUi/giphy.gif																																							
 
+
 El siguiente ejemplo se muestra cómo funciona:
 
 ```python
@@ -40,6 +41,6 @@ else:
 ```
 En este ejemplo podemos observar que las condiciones son falsas porque así lo hemos hecho, pero primero se evalúa la **condición 1** que es **a < b** y si no se cumple sigue con la **condición 2** que es **a == b** hasta llegar a una **condición verdadera** que es el último **else** ya que las anteriores han sido falsas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTU2MjcsNjE3Nzc5NTY3LC05MzQyMD
-g5NTMsMjEzMDAxODNdfQ==
+eyJoaXN0b3J5IjpbMTQ1MDM0MTI3MywxMDMxNTYyNyw2MTc3Nz
+k1NjcsLTkzNDIwODk1MywyMTMwMDE4M119
 -->
