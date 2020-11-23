@@ -84,11 +84,22 @@ Si los valores de color que encontramos en la parte inferior izquierda o inferio
 
 Todo esto sucede en las líneas: 
 ```python
+if leftOfPlayerOnPlatform is False and rightOfPlayerOnPlatform is False and (player["y"] + player["height"]) + player["vy"] < windowHeight:
+    player["y"] += player["vy"]
 
+    if dropping is False:
+      dropping = True
+      platformsDroppedThrough += 1
+
+  else :
+
+    foundPlatformTop = False
+    yOffset = 0
+    dropping = False
 ```
 También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzk3OTQyOSwtOTg3MjE2MTY4LC05NT
-YxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIwNDY4
-NV19
+eyJoaXN0b3J5IjpbLTEwMjEyMjEzOTEsLTk4NzIxNjE2OCwtOT
+U2MTIwODYsMTA5NDY4OTQ5NCwtMjU5NjE5NDQ5LDEzNDkyMDQ2
+ODVdfQ==
 -->
