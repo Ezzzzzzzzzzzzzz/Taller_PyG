@@ -100,14 +100,18 @@ Usamos global para decirle a nuestro código que queremos usar variables que exi
 En las líneas:
 
 ```python
+  global lastPlatform, platformDelay
 
+  platformY = windowHeight
+  gapPosition = random.randint(0, windowWidth - 40)
 ```
  estamos creando variables que definirán la posición de la plataforma (plataformaY) y la ubicación del hueco a través del cual caer junto con ella (gapPosition). Queremos que nuestra plataforma se eleve siempre desde la parte inferior de la ventana, pero el espacio puede estar en cualquier punto a lo largo de la plataforma.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5NDk0MzgsLTQyODEwNTE1OCwtMTM1Mj
-Q4OTkzNywtNzgxODgxNzgxLC0zOTc3MTMzMTYsMjAyNDU2MjAy
-OSwtMTU1ODIxMjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0MTAsMz
-cxNTUzMDM0LC0xNzY5MzQ1MzU3LC0xNzkzMTU4NDc0XX0=
+eyJoaXN0b3J5IjpbMTc1ODU1NzM4NywtNDI4MTA1MTU4LC0xMz
+UyNDg5OTM3LC03ODE4ODE3ODEsLTM5NzcxMzMxNiwyMDI0NTYy
+MDI5LC0xNTU4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMC
+wzNzE1NTMwMzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
+
 -->
