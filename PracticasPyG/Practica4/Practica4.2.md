@@ -124,13 +124,23 @@ es donde creamos nuestras nuevas plataformas. **Como cualquier lista, podemos ag
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Games-with-Pygame/blob/master/Part%204/Images/Diagrams/append_platform.png)
 
+Las líneas: 
+
+```python
+lastPlatform = GAME_TIME.get_ticks()
+
+  if platformDelay > 800:
+    platformDelay -= 50
+```
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA1NDg2ODcsLTQyNDg2OTk3MywtNT
-A3NjY2OTk3LC00MjgxMDUxNTgsLTEzNTI0ODk5MzcsLTc4MTg4
-MTc4MSwtMzk3NzEzMzE2LDIwMjQ1NjIwMjksLTE1NTgyMTIyMj
-YsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAzNCwtMTc2
-OTM0NTM1NywtMTc5MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbMTUwMjY4MDMxNSwtMTc5MDU0ODY4NywtND
+I0ODY5OTczLC01MDc2NjY5OTcsLTQyODEwNTE1OCwtMTM1MjQ4
+OTkzNywtNzgxODgxNzgxLC0zOTc3MTMzMTYsMjAyNDU2MjAyOS
+wtMTU1ODIxMjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0MTAsMzcx
+NTUzMDM0LC0xNzY5MzQ1MzU3LC0xNzkzMTU4NDc0XX0=
 -->
