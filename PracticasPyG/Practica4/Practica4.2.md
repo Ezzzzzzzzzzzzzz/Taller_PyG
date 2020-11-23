@@ -115,16 +115,16 @@ No podemos preprogramar todas las plataformas e incluso si pudiéramos, nuestro 
 
 La línea:
 ```python
-
+gamePlatforms.append({"pos" : [0, platformY], "gap" : gapPosition})
 ```
 
 es donde creamos nuestras nuevas plataformas. **Como cualquier lista, podemos agregarle nuevos elementos;** en Python, podemos hacer esto con [`.append()`](https://www.geeksforgeeks.org/append-extend-python/). En este caso, estamos creando un diccionario con todo lo que necesitamos para crear una plataforma, la posición de la plataforma (almacenada con la tecla pos) y la ubicación del hueco (almacenada con la tecla gap).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzkwODUyLC01MDc2NjY5OTcsLTQyOD
-EwNTE1OCwtMTM1MjQ4OTkzNywtNzgxODgxNzgxLC0zOTc3MTMz
-MTYsMjAyNDU2MjAyOSwtMTU1ODIxMjIyNiwyNDk4NzE4MDYsLT
-IwMzYwMjI0MTAsMzcxNTUzMDM0LC0xNzY5MzQ1MzU3LC0xNzkz
-MTU4NDc0XX0=
+eyJoaXN0b3J5IjpbLTEyMDYzNzM4MTIsLTUwNzY2Njk5NywtND
+I4MTA1MTU4LC0xMzUyNDg5OTM3LC03ODE4ODE3ODEsLTM5Nzcx
+MzMxNiwyMDI0NTYyMDI5LC0xNTU4MjEyMjI2LDI0OTg3MTgwNi
+wtMjAzNjAyMjQxMCwzNzE1NTMwMzQsLTE3NjkzNDUzNTcsLTE3
+OTMxNTg0NzRdfQ==
 -->
