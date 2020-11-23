@@ -109,14 +109,15 @@ estamos creando variables que definirán la posición de la plataforma `platform
 
 ### Queremos que nuestra plataforma se eleve siempre desde la parte inferior de la ventana, pero el espacio puede estar en cualquier punto a lo largo de la plataforma.
 
-Así como rastrear jugadores se vuelve difícil, cuando tenemos muchos con que lidiar, lo mismo ocurre con nuestras plataformas. Generamos una plataforma cada 2 segundos y ese retraso es cada vez menor. 
+Así como rastrear jugadores se vuelve difícil, cuando tenemos muchos con que lidiar, lo mismo ocurre con nuestras plataformas. Generamos una plataforma cada 2 segundos y ese retraso es cada vez menor. Si has estado jugando durante más de un minuto, ¡habrás saltado a unas 100 plataformas! 
 
-Si has estado jugando durante más de un minuto, ¡habrás saltado a unas 100 plataformas! No podemos preprogramar todos esos e incluso si pudiéramos, nuestro juego se volvería muy suave después de un par de jugadas. La línea 101 es donde creamos nuestras nuevas plataformas.
+No podemos preprogramar todos esos e incluso si pudiéramos, nuestro juego se volvería muy fácil después de un par de jugadas. La línea 101 es donde creamos nuestras nuevas plataformas. Como cualquier lista, podemos agregarle nuevos elementos; en Python, podemos hacer esto con .append (). En este caso, estamos creando un diccionario con todo lo que necesitamos para crear una plataforma, la posición de la plataforma (almacenada con la tecla pos) y la ubicación del hueco (almacenada con la tecla gap).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjMyMTAwLC00MjgxMDUxNTgsLTEzNT
-I0ODk5MzcsLTc4MTg4MTc4MSwtMzk3NzEzMzE2LDIwMjQ1NjIw
-MjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLD
-M3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbLTgxODg0NzU3MiwtNDI4MTA1MTU4LC0xMz
+UyNDg5OTM3LC03ODE4ODE3ODEsLTM5NzcxMzMxNiwyMDI0NTYy
+MDI5LC0xNTU4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMC
+wzNzE1NTMwMzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
+
 -->
