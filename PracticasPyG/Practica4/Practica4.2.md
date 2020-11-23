@@ -110,10 +110,11 @@ estamos creando variables que definirán la posición de la plataforma `platform
 ### Queremos que nuestra plataforma se eleve siempre desde la parte inferior de la ventana, pero el espacio puede estar en cualquier punto a lo largo de la plataforma.
 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTQ0OTc4NywtNDI4MTA1MTU4LC0xMz
-UyNDg5OTM3LC03ODE4ODE3ODEsLTM5NzcxMzMxNiwyMDI0NTYy
-MDI5LC0xNTU4MjEyMjI2LDI0OTg3MTgwNiwtMjAzNjAyMjQxMC
-wzNzE1NTMwMzQsLTE3NjkzNDUzNTcsLTE3OTMxNTg0NzRdfQ==
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzgzNTI4MzUzLC00MjgxMDUxNTgsLTEzNT
+I0ODk5MzcsLTc4MTg4MTc4MSwtMzk3NzEzMzE2LDIwMjQ1NjIw
+MjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLD
+M3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
 -->
