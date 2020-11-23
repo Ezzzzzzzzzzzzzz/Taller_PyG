@@ -123,7 +123,7 @@ Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario 
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Games-with-Pygame/blob/master/Part%204/Images/Diagrams/DictionariesAndLists.png)
 
-Si el valor `player["y"]` es `20` y queremos cambiarlo a `25`, ingresaremos `player["y"] = 25`, al igual que establecer cualquier otra variable. **Los diccionarios son realmente útiles, porque nos permiten agrupar valores de una manera que es fácil de leer y de acceder con código.** 
+### Si el valor `player["y"]` es `20` y queremos cambiarlo a `25`, ingresaremos `player["y"] = 25`, al igual que establecer cualquier otra variable. **Los diccionarios son realmente útiles, porque nos permiten agrupar valores de una manera que es fácil de leer y de acceder con código.** 
 
 Si revisamos nuestro ejercicio mental de juego MMO, nos daremos cuenta rápidamente de que todavía necesitamos 100 variables para manejar a 100 jugadores, a pesar de que hemos hecho las cosas más ordenadas y más útiles. ¿Cuál es la mejor manera de realizar un seguimiento de los diccionarios? Ahí es donde entran las listas.
 
@@ -138,8 +138,8 @@ En este ejemplo **`1` se llama índice. Es importante notar que los índices de 
 En nuestro juego, no usamos **listas** y **diccionarios** para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzA2MTcwNywtMzg1MDI4MDIsNDQ4ND
-I5Mzc4LDQ3MDAyNDc5NCw1OTI2ODY2OTIsLTE5Mzc0Mjk4MTEs
-LTE5Mzc0Mjk4MTEsLTQwMTAzODQwOCwtMTA5ODEwMjA3OCwtOD
-E2MjYxOTM2LDExNzUyMjA4NzFdfQ==
+eyJoaXN0b3J5IjpbMTg3OTA2OTg5NiwyMDEzMDYxNzA3LC0zOD
+UwMjgwMiw0NDg0MjkzNzgsNDcwMDI0Nzk0LDU5MjY4NjY5Miwt
+MTkzNzQyOTgxMSwtMTkzNzQyOTgxMSwtNDAxMDM4NDA4LC0xMD
+k4MTAyMDc4LC04MTYyNjE5MzYsMTE3NTIyMDg3MV19
 -->
