@@ -122,13 +122,15 @@ es donde creamos nuestras nuevas plataformas. **Como cualquier lista, podemos ag
 
 ### En este caso, estamos creando un diccionario con todo lo que necesitamos para crear una plataforma, la posición de la plataforma (almacenada con el key `pos`) y la ubicación del hueco (almacenada con el key `gap`).
 
+![](https://github.com/Ezzzzzzzzzzzzzz/Games-with-Pygame/blob/master/Part%204/Images/Diagrams/append_platform.png)
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDg2OTk3MywtNTA3NjY2OTk3LC00Mj
-gxMDUxNTgsLTEzNTI0ODk5MzcsLTc4MTg4MTc4MSwtMzk3NzEz
-MzE2LDIwMjQ1NjIwMjksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC
-0yMDM2MDIyNDEwLDM3MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5
-MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbLTE3OTA1NDg2ODcsLTQyNDg2OTk3MywtNT
+A3NjY2OTk3LC00MjgxMDUxNTgsLTEzNTI0ODk5MzcsLTc4MTg4
+MTc4MSwtMzk3NzEzMzE2LDIwMjQ1NjIwMjksLTE1NTgyMTIyMj
+YsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLDM3MTU1MzAzNCwtMTc2
+OTM0NTM1NywtMTc5MzE1ODQ3NF19
 -->
