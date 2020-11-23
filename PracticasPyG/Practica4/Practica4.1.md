@@ -239,7 +239,7 @@ de nuestra lista de códigos. En el otro extremo de nuestra lista, en la línea
     # Welcome Screen
     surface.blit(title_image, (0, 150))
 ```
-dibujamos esa imagen en nuestra superficie con [`blit()`](https://www.pygame.org/docs/ref/surface.html?highlight=blit#pygame.Surface.blit). Está en la declaración final `if-elif` de nuestro bucle principal. 
+dibujamos esa imagen en nuestra superficie con [`blit()`](https://www.pygame.org/docs/ref/surface.html?highlight=blit#pygame.Surface.blit). Está en la declaración final [`if-elif`](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica4/if-elifPython.md) de nuestro bucle principal. 
 
 En la línea: 
 
@@ -298,7 +298,7 @@ Para que en el siguiente ciclo de nuestro bucle principal, la configuración est
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNTg4MjMsLTE3NTQ5MjY5ODIsLTE4MD
-Q5NDU4MTIsMTUxNzE3NjE4LDEzNTMyODYzNTEsMjAxNzEwMjEw
-NSwxOTAwNDg0NzM0LDkwMjQxNzY0MV19
+eyJoaXN0b3J5IjpbMTQ3MjQ1NjIyMSwyMzA1ODgyMywtMTc1ND
+kyNjk4MiwtMTgwNDk0NTgxMiwxNTE3MTc2MTgsMTM1MzI4NjM1
+MSwyMDE3MTAyMTA1LDE5MDA0ODQ3MzQsOTAyNDE3NjQxXX0=
 -->
