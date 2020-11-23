@@ -132,15 +132,15 @@ lastPlatform = GAME_TIME.get_ticks()
   if platformDelay > 800:
     platformDelay -= 50
 ```
-[`.getticks()`](https://www.pygame.org/docs/ref/time.html?highlight=get_ticks#pygame.time.get_ticks)
+guardamos en la variable `lastPlatform` (ultima plataforma) el valor e tiempo transcurrido desde que inicio el juego [`.getticks()`](https://www.pygame.org/docs/ref/time.html?highlight=get_ticks#pygame.time.get_ticks)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc0MDQ3OTQsLTE3OTA1NDg2ODcsLT
-QyNDg2OTk3MywtNTA3NjY2OTk3LC00MjgxMDUxNTgsLTEzNTI0
-ODk5MzcsLTc4MTg4MTc4MSwtMzk3NzEzMzE2LDIwMjQ1NjIwMj
-ksLTE1NTgyMTIyMjYsMjQ5ODcxODA2LC0yMDM2MDIyNDEwLDM3
-MTU1MzAzNCwtMTc2OTM0NTM1NywtMTc5MzE1ODQ3NF19
+eyJoaXN0b3J5IjpbMTk2NTIwMDM0NCwtMTc5MDU0ODY4NywtND
+I0ODY5OTczLC01MDc2NjY5OTcsLTQyODEwNTE1OCwtMTM1MjQ4
+OTkzNywtNzgxODgxNzgxLC0zOTc3MTMzMTYsMjAyNDU2MjAyOS
+wtMTU1ODIxMjIyNiwyNDk4NzE4MDYsLTIwMzYwMjI0MTAsMzcx
+NTUzMDM0LC0xNzY5MzQ1MzU3LC0xNzkzMTU4NDc0XX0=
 -->
