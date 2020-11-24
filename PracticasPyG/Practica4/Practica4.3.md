@@ -98,9 +98,9 @@ if leftOfPlayerOnPlatform is False and rightOfPlayerOnPlatform is False and (pla
 ```
 También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
 
-Entonces, ese es el código que maneja qué hacer si no estamos en la cima de una plataforma, pero ¿qué pasa cuando queremos que nuestro avatar viaje con la plataforma? Si nuestro avatar no puede bajar, debemos averiguar dónde se detiene la plataforma y dónde comienza el espacio en blanco. Hacemos esto en las líneas 64-80. En las líneas 66 y 67 establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores para ayudar a nuestro bucle while en las líneas 70-80.
+Entonces, ese es el código que maneja qué hacer si no estamos en la cima de una plataforma, pero ¿qué pasa cuando queremos que nuestro avatar viaje con la plataforma? Si nuestro avatar no puede bajar, debemos averiguar dónde se detiene la plataforma y dónde comienza el espacio en blanco. Hacemos esto en las líneas 64-80. En las líneas 66 y 67 establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores para ayudar a nuestro bucle `while` en las líneas 70-80.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzY5MTc0NSwtMTAyMTIyMTM5MSwtOT
-g3MjE2MTY4LC05NTYxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0
-NDksMTM0OTIwNDY4NV19
+eyJoaXN0b3J5IjpbLTEwNDgzNzIxOTMsLTEwMjEyMjEzOTEsLT
+k4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4OTQ5NCwtMjU5NjE5
+NDQ5LDEzNDkyMDQ2ODVdfQ==
 -->
