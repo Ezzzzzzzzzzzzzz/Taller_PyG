@@ -64,7 +64,14 @@ while a:
 ```
 **Cuando una lista se evalúa en contexto booleano, es verdadera si tiene elementos y falsa si está vacía.** En este ejemplo, a es verdadero siempre que tenga elementos. Una vez que todos los elementos se han eliminado con el método `.pop()` y **la lista está vacía, a es falso y el ciclo termina.**
 
+## Las declaraciones de Python `break` y `continue`
+En cada ejemplo que ha visto hasta ahora, todo el cuerpo del ciclo `while` se ejecuta en cada iteración. Python proporciona dos palabras clave que terminan prematuramente una iteración de bucle:
 
+- **La declaración `break` de Python termina inmediatamente un ciclo por completo**. La ejecución del programa procede a la primera instrucción que sigue al cuerpo del bucle.
+
+La instrucción continue de Python termina inmediatamente la iteración del ciclo actual. La ejecución salta a la parte superior del ciclo y la expresión de control se vuelve a evaluar para determinar si el ciclo se ejecutará de nuevo o terminará.
+
+La distinción entre romper y continuar se demuestra en el siguiente diagrama
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTU1MTQ2LDUxODkxODA2OF19
+eyJoaXN0b3J5IjpbLTEyOTA2NDU4NzEsNTE4OTE4MDY4XX0=
 -->
