@@ -115,9 +115,22 @@ Suponga que escribe un ciclo while que teóricamente nunca termina. Suena raro, 
 
 Considere este ejemplo:
 ```python
-while T
+while True:
+	print('Foo')
+>>> Foo
+>>> Foo
+>>> Foo
+>>> Foo
+>>> Foo
+>>> .
+>>> .
+>>> Foo
+>>> Foo
+KeyboardInterrupt
+Traceback (most recent call last):
+	File ""
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzIyMDIyOCwxMjg0Mjk3NzY3LDUxOD
+eyJoaXN0b3J5IjpbLTU4NjgyMDgxOSwxMjg0Mjk3NzY3LDUxOD
 kxODA2OF19
 -->
