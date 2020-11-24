@@ -79,8 +79,7 @@ if surface.get_at(( int(player["x"]), int(player["y"]) + player["height"])) == (
 ```
 hacemos lo mismo para la parte inferior derecha. 
 
-Si los valores de color que encontramos en la parte inferior izquierda o inferior derecha del avatar son **(255,255,255,255) (blanco)**, entonces sabemos que al menos un borde de nuestro avatar todavía está en una plataforma. 
-**Si ambos son cualquier cosa menos blancos**, entonces hay un espacio en la plataforma o estamos en un espacio en blanco, por lo que podemos dejar caer nuestro avatar. 
+Si los valores de color que encontramos en la parte inferior izquierda o inferior derecha del avatar son **(255,255,255,255) (blanco)**, entonces sabemos que al menos un borde de nuestro avatar todavía está en una plataforma. **Si ambos son cualquier cosa menos blancos**, entonces hay un espacio en la plataforma o estamos en un espacio en blanco, por lo que podemos dejar caer nuestro avatar. 
 
 Todo esto sucede en las líneas: 
 ```python
@@ -127,8 +126,8 @@ Si no encontramos un píxel negro antes de llegar a la parte superior de la supe
 
 Mover nuestro personaje de izquierda a derecha se hace en las líneas 82-92. Si el código te resulta familiar, es porque lo usamos en nuestro último tutorial para mover nuestros cuadrados. Ahora que hemos descubierto dónde puede ir nuestro avatar, podemos dibujarlo llamando a `drawPlayer()` en la línea 203.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjgxNTExNywtNTYxOTU4MDA0LDI1OD
-YxNDY1NywzNTcyMjMwNzQsLTEwNDgzNzIxOTMsLTEwMjEyMjEz
-OTEsLTk4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4OTQ5NCwtMj
-U5NjE5NDQ5LDEzNDkyMDQ2ODVdfQ==
+eyJoaXN0b3J5IjpbLTEzNjgzMTIxODcsLTEyNjgxNTExNywtNT
+YxOTU4MDA0LDI1ODYxNDY1NywzNTcyMjMwNzQsLTEwNDgzNzIx
+OTMsLTEwMjEyMjEzOTEsLTk4NzIxNjE2OCwtOTU2MTIwODYsMT
+A5NDY4OTQ5NCwtMjU5NjE5NDQ5LDEzNDkyMDQ2ODVdfQ==
 -->
