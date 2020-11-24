@@ -117,9 +117,9 @@ Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores
         gameOver()
         break
 ```
-
+Cuando encontramos un píxel blanco debajo de la parte inferior izquierda o derecha de nuestro avatar, tenemos que trabajar hacia atrás para mover nuestro avatar hacia arriba con la plataforma. Nuestro bucle `while` resta 1 de nuestro valor de jugador [“y”] y comprueba el color que encuentra allí.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3MjIzMDc0LC0xMDQ4MzcyMTkzLC0xMD
-IxMjIxMzkxLC05ODcyMTYxNjgsLTk1NjEyMDg2LDEwOTQ2ODk0
-OTQsLTI1OTYxOTQ0OSwxMzQ5MjA0Njg1XX0=
+eyJoaXN0b3J5IjpbNjgzNDQ5NDA1LDM1NzIyMzA3NCwtMTA0OD
+M3MjE5MywtMTAyMTIyMTM5MSwtOTg3MjE2MTY4LC05NTYxMjA4
+NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIwNDY4NV19
 -->
