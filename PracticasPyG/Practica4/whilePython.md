@@ -20,6 +20,12 @@ La condición de control, <cond>, normalmente involucra una o más variables que
 
 **Cuando se encuentra un bucle `while`, <cond> se evalúa primero en contexto booleano. Si es cierto (True), se ejecuta el cuerpo del bucle. Luego, <cond> se vuelve a comprobar y, si sigue siendo cierto (True), el cuerpo se ejecuta de nuevo. Esto continúa hasta que <cond> se vuelve falso (False), momento en el que la ejecución del programa procede a la primera instrucción más allá del cuerpo del bucle.**
 
+Considerando este bucle:
+```python
+n = 5
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4OTE4MDY4XX0=
+eyJoaXN0b3J5IjpbMTgxNDQwMzc4Nyw1MTg5MTgwNjhdfQ==
 -->
