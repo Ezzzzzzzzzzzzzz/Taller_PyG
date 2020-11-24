@@ -73,6 +73,17 @@ En cada ejemplo que ha visto hasta ahora, todo el cuerpo del ciclo `while` se ej
 
 La distinción entre romper y continuar se demuestra en el siguiente diagrama:
 ![](https://files.realpython.com/media/t.899f357dd948.png)
+
+Aquí hay un archivo de secuencia de comandos llamado break.py que demuestra la declaración de ruptura:
+```python
+n = 5
+while n > 0:
+	n -= 1
+ 4    if n == 2:
+ 5        break
+ 6    print(n)
+ 7print('Loop ended.')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTcxMjA1OCw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbMTczNTA3MTc2Niw1MTg5MTgwNjhdfQ==
 -->
