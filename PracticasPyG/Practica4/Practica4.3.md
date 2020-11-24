@@ -97,8 +97,10 @@ if leftOfPlayerOnPlatform is False and rightOfPlayerOnPlatform is False and (pla
     dropping = False
 ```
 También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
+
+Entonces, ese es el código que maneja qué hacer si no estamos en la cima de una plataforma, pero ¿qué pasa cuando queremos que nuestro avatar viaje con la plataforma? Si nuestro avatar no puede bajar, debemos averiguar dónde se detiene la plataforma y dónde comienza el espacio en blanco. Hacemos esto en las líneas 64-80.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4Nzk5NDg1LC0xMDIxMjIxMzkxLC05OD
-cyMTYxNjgsLTk1NjEyMDg2LDEwOTQ2ODk0OTQsLTI1OTYxOTQ0
-OSwxMzQ5MjA0Njg1XX0=
+eyJoaXN0b3J5IjpbMjA4Njk5Mzg1NCwtMTAyMTIyMTM5MSwtOT
+g3MjE2MTY4LC05NTYxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0
+NDksMTM0OTIwNDY4NV19
 -->
