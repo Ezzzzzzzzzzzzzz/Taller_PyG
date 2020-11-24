@@ -150,9 +150,9 @@ if leftDown is True:
     elif player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 > windowWidth:
       player["x"] = windowWidth - player["width"]
 ```
-Si el código te resulta familiar, es porque lo usamos en nuestro último tutorial para mover nuestros cuadrados. Ahora que hemos descubierto dónde puede ir nuestro avatar, podemos dibujarlo llamando a `drawPlayer()` en la línea 203.
+Si el código te resulta familiar, es porque lo usamos en nuestras clases anteriores para mover nuestros cuadrados. Ahora que hemos descubierto dónde puede ir nuestro avatar, podemos dibujarlo llamando a `drawPlayer()`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjU4Nzc1OCwtMTM2ODMxMjE4NywtMT
+eyJoaXN0b3J5IjpbLTg0OTAyNzQ3MSwtMTM2ODMxMjE4NywtMT
 I2ODE1MTE3LC01NjE5NTgwMDQsMjU4NjE0NjU3LDM1NzIyMzA3
 NCwtMTA0ODM3MjE5MywtMTAyMTIyMTM5MSwtOTg3MjE2MTY4LC
 05NTYxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIw
