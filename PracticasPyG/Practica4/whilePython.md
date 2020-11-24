@@ -69,9 +69,10 @@ En cada ejemplo que ha visto hasta ahora, todo el cuerpo del ciclo `while` se ej
 
 - **La declaración `break` de Python termina inmediatamente un ciclo por completo**. La ejecución del programa procede a la primera instrucción que sigue al cuerpo del bucle.
 
-La instrucción continue de Python termina inmediatamente la iteración del ciclo actual. La ejecución salta a la parte superior del ciclo y la expresión de control se vuelve a evaluar para determinar si el ciclo se ejecutará de nuevo o terminará.
+- **La instrucción `continue` de Python termina inmediatamente la iteración del ciclo actual**. La ejecución salta a la parte superior del ciclo y la expresión de control se vuelve a evaluar para determinar si el ciclo se ejecutará de nuevo o terminará.
 
-La distinción entre romper y continuar se demuestra en el siguiente diagrama
+La distinción entre romper y continuar se demuestra en el siguiente diagrama:
+![](https://files.realpython.com/media/t.899f357dd948.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA2NDU4NzEsNTE4OTE4MDY4XX0=
+eyJoaXN0b3J5IjpbMTEzMTcxMjA1OCw1MTg5MTgwNjhdfQ==
 -->
