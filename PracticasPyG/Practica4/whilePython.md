@@ -96,9 +96,18 @@ El siguiente script, es idéntico excepto por una instrucción `continue` en lug
 n = 5 
 while n > 0:
 	n -= 1
-	
+	if n == 2:
+		continue
+	print(n)
+print('Loop ended.')
 
+# Interprete
+>>> 4
+>>> 3
+>>> 1
+>>> 0
+>>> Loop ended.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDYzNDM0OCw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbMTI4NDI5Nzc2Nyw1MTg5MTgwNjhdfQ==
 -->
