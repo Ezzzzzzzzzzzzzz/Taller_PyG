@@ -117,9 +117,9 @@ Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores
         gameOver()
         break
 ```
-**Cuando encontramos un píxel blanco debajo de la parte inferior izquierda o derecha de nuestro avatar, tenemos que trabajar hacia atrás (negativo) para mover nuestro avatar hacia arriba con la plataforma**. Nuestro bucle `while` resta 1 de nuestro valor `player[“y”]` y comprueba el color que encuentra allí. Recuerde, aún no hemos dibujado nuestro avatar, por lo que los únicos colores en nuestra superficie son el negro (fondo) o el blanco (plataformas). Si las coordenadas marcadas son blancas, se agrega 1 al `yOffset` y el bucle `while` continúa buscando un píxel negro.
+**Cuando encontramos un píxel blanco debajo de la parte inferior izquierda o derecha de nuestro avatar, tenemos que trabajar hacia atrás (negativo) para mover nuestro avatar hacia arriba con la plataforma**. Nuestro bucle `while` resta 1 de nuestro valor `player[“y”]` y comprueba el color que encuentra allí. Recuerde, aún no hemos dibujado nuestro avatar, por lo que los únicos colores en nuestra superficie son el negro (fondo) o el blanco (plataformas). Si las coordenadas marcadas son blancas, se agrega 1 al `yOffset` y el bucle `while` continúa buscando un píxel negro. Hará esto hasta que encuentre un píxel negro sobre la coordenada x de nuestro avatar, agregando 1 a la variable `yOffset` cada vez. Una vez que se encuentra un píxel negro, descubrimos dónde termina nuestra plataforma y podemos restar el `yOffset del jugador ["y"] para poner nuestro avatar justo encima de la plataforma; esto se hace en la línea 73. Si no encontramos un píxel negro antes de llegar a la parte superior de la superficie, se acabó el juego: nuestro avatar está atrapado fuera de la pantalla.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Njg1Mzk0OCwtNTYxOTU4MDA0LDI1OD
+eyJoaXN0b3J5IjpbMjA3NDk4NTkxMSwtNTYxOTU4MDA0LDI1OD
 YxNDY1NywzNTcyMjMwNzQsLTEwNDgzNzIxOTMsLTEwMjEyMjEz
 OTEsLTk4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4OTQ5NCwtMj
 U5NjE5NDQ5LDEzNDkyMDQ2ODVdfQ==
