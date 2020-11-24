@@ -106,10 +106,20 @@ else:
 Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores para ayudar a nuestro bucle `while` en las líneas:
 
 ```python 
+    while foundPlatformTop is False:
 
+      if surface.get_at(( int(player["x"]), ( int(player["y"]) + player["height"]) - yOffset )) == (0,0,0,255):
+        player["y"] -= yOffset
+        foundPlatformTop = True
+      elif (player["y"] + player["height"]) - yOffset > 0:
+        yOffset += 1
+      else :
+        gameOver()
+        break
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU2NzAwMTMsLTEwNDgzNzIxOTMsLT
-EwMjEyMjEzOTEsLTk4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4
-OTQ5NCwtMjU5NjE5NDQ5LDEzNDkyMDQ2ODVdfQ==
+eyJoaXN0b3J5IjpbMzU3MjIzMDc0LC0xMDQ4MzcyMTkzLC0xMD
+IxMjIxMzkxLC05ODcyMTYxNjgsLTk1NjEyMDg2LDEwOTQ2ODk0
+OTQsLTI1OTYxOTQ0OSwxMzQ5MjA0Njg1XX0=
 -->
