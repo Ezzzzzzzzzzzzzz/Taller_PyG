@@ -34,16 +34,15 @@ while n > 0:
 >>> 1
 >>> 0
 ```
-Here’s what’s happening in this example:
+Esto es lo que sucede en este ejemplo:
 
--   `n`  is initially  `5`. The expression in the  `while`  statement header on line 2 is  `n > 0`, which is true, so the loop body executes. Inside the loop body on line 3,  `n`  is decremented by  `1`  to  `4`, and then printed.
-    
--   When the body of the loop has finished, program execution returns to the top of the loop at line 2, and the expression is evaluated again. It is still true, so the body executes again, and  `3`  is printed.
-    
--   This continues until  `n`  becomes  `0`. At that point, when the expression is tested, it is false, and the loop terminates. Execution would resume at the first statement following the loop body, but there isn’t one in this case.
-    
+- `n` es inicialmente `5`. La expresión en el encabezado de la instrucción `while` en la línea 2 es `n> 0`, lo cual es verdadero (`True`), por lo que se ejecuta el cuerpo del ciclo. Dentro del cuerpo del bucle en la línea 3, n se reduce en 1 a un valor de 4 y luego se imprime.
 
-Note that the controlling expression of the  `while`  loop is tested first, before anything else happens. If it’s false to start with, the loop body will never be executed at all:
+- Cuando el cuerpo del bucle ha terminado, la ejecución del programa vuelve a la parte superior del bucle en la línea 2 y la expresión se evalúa nuevamente. Sigue siendo cierto, por lo que el cuerpo se ejecuta de nuevo y se imprime 3.
+
+- Esto continúa hasta que n se convierte en 0. En ese punto, cuando se prueba la expresión, es falsa y el ciclo termina. La ejecución se reanudaría en la primera declaración que sigue al cuerpo del bucle, pero no hay ninguna en este caso.
+
+Tenga en cuenta que la expresión de control del ciclo while se prueba primero, antes de que suceda cualquier otra cosa. Si es falso para empezar, el cuerpo del bucle nunca se ejecutará en absoluto:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTc5MDM2Myw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbNjI4ODU3NjIzLDUxODkxODA2OF19
 -->
