@@ -124,8 +124,10 @@ Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores
         yOffset += 1
 ```
 Si no encontramos un píxel negro antes de llegar a la parte superior de la superficie, se acabó el juego: nuestro avatar está atrapado fuera de la pantalla.
+
+Mover nuestro personaje de izquierda a derecha se hace en las líneas 82-92. Si el código te resulta familiar, es porque lo usamos en nuestro último tutorial para mover nuestros cuadrados. Ahora que hemos descubierto dónde puede ir nuestro avatar, podemos dibujarlo llamando a `drawPlayer()` en la línea 203.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTM5NjY0MiwtNTYxOTU4MDA0LDI1OD
+eyJoaXN0b3J5IjpbLTEyNjgxNTExNywtNTYxOTU4MDA0LDI1OD
 YxNDY1NywzNTcyMjMwNzQsLTEwNDgzNzIxOTMsLTEwMjEyMjEz
 OTEsLTk4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4OTQ5NCwtMj
 U5NjE5NDQ5LDEzNDkyMDQ2ODVdfQ==
