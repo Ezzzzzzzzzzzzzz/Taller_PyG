@@ -93,7 +93,7 @@ if leftOfPlayerOnPlatform is False and rightOfPlayerOnPlatform is False and (pla
 ```
 También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
 
-Entonces, ese es el código que maneja qué hacer si no estamos en la cima de una plataforma, pero ¿qué pasa cuando queremos que nuestro avatar viaje con la plataforma? Si nuestro avatar no puede bajar, debemos averiguar dónde se detiene la plataforma y dónde comienza el espacio en blanco. 
+Entonces, ese es el código que maneja qué hacer si no estamos en la cima de una plataforma, pero ¿qué pasa cuando queremos que nuestro avatar viaje con la plataforma? Si nuestro avatar no puede bajar, debemos averiguar dónde termina la plataforma y dónde comienza su espacio en blanco. 
 
 Hacemos esto en las líneas:
 
@@ -119,7 +119,8 @@ Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores
 ```
 **Cuando encontramos un píxel blanco debajo de la parte inferior izquierda o derecha de nuestro avatar, tenemos que trabajar hacia atrás (negativo) para mover nuestro avatar hacia arriba con la plataforma**. Nuestro bucle `while` resta 1 de nuestro valor de jugador [“y”] y comprueba el color que encuentra allí. Recuerde, aún no hemos dibujado nuestro avatar, por lo que los únicos colores en nuestra superficie son el negro (fondo) o el blanco (plataformas). Si las coordenadas marcadas son blancas, se agrega 1 al yOffset y el bucle while continúa buscando un píxel negro.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4NjE0NjU3LDM1NzIyMzA3NCwtMTA0OD
-M3MjE5MywtMTAyMTIyMTM5MSwtOTg3MjE2MTY4LC05NTYxMjA4
-NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIwNDY4NV19
+eyJoaXN0b3J5IjpbLTU2MTk1ODAwNCwyNTg2MTQ2NTcsMzU3Mj
+IzMDc0LC0xMDQ4MzcyMTkzLC0xMDIxMjIxMzkxLC05ODcyMTYx
+NjgsLTk1NjEyMDg2LDEwOTQ2ODk0OTQsLTI1OTYxOTQ0OSwxMz
+Q5MjA0Njg1XX0=
 -->
