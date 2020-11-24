@@ -22,6 +22,8 @@ y le damos al jugador la opción de reiniciar el juego presionando otra barra es
 
 ### ¡Y eso es todo! Utilizando todas las habilidades que ya hemos adquirido (y algunas nuevas), creamos nuestro primer juego completo. Como todos los buenos juegos, tenemos un comienzo, un medio y un final.
 
+![](https://media.giphy.com/media/eJ4j2VnYOZU8qJU3Py/giphy.gif)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTkwNjM5Ml19
+eyJoaXN0b3J5IjpbLTIwOTk2MTY0ODksMjAzMTkwNjM5Ml19
 -->
