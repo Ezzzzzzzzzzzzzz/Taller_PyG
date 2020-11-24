@@ -95,7 +95,7 @@ También comprobamos que no dejamos que nuestro avatar se escape por la parte in
 
 Entonces, ese es el código que maneja qué hacer si no estamos en la cima de una plataforma, pero ¿qué pasa cuando queremos que nuestro avatar viaje con la plataforma? Si nuestro avatar no puede bajar, debemos averiguar dónde se detiene la plataforma y dónde comienza el espacio en blanco. 
 
-Hacemos esto en las líneas, establecemos dos variables, `foundPlatformTop` y `yOffset`;
+Hacemos esto en las líneas:
 
 ```python
 else:
@@ -103,9 +103,13 @@ else:
     yOffset = 0
     dropping = False
 ```
- Usamos estos valores para ayudar a nuestro bucle `while` en las líneas 70-80.
+Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores para ayudar a nuestro bucle `while` en las líneas:
+
+```python 
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODIzODc4MzUsLTEwNDgzNzIxOTMsLT
+eyJoaXN0b3J5IjpbLTExNTU2NzAwMTMsLTEwNDgzNzIxOTMsLT
 EwMjEyMjEzOTEsLTk4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4
 OTQ5NCwtMjU5NjE5NDQ5LDEzNDkyMDQ2ODVdfQ==
 -->
