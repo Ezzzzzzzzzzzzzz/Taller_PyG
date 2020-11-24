@@ -62,6 +62,9 @@ while a:
 >>> bar
 >>> foo	
 ```
+**Cuando una lista se evalúa en contexto booleano, es verdadera si tiene elementos y falsa si está vacía.** En este ejemplo, a es verdadero siempre que tenga elementos. Una vez que todos los elementos se han eliminado con el método `.pop()` y **la lista está vacía, a es falso y el ciclo termina.**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTI1NDczNyw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbLTkxMTU1MTQ2LDUxODkxODA2OF19
 -->
