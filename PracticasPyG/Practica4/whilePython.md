@@ -52,7 +52,16 @@ while n > 0:
 En el ejemplo anterior, cuando se encuentra el bucle, `n` es `0`. La expresión de control `n> 0` ya es **falsa (False), por lo que el cuerpo del bucle nunca se ejecuta.**
 
 Aquí hay otro ciclo `while` que involucra una lista, en lugar de una comparación numérica:
+```python
+a = ['foo', 'bar', 'baz']
+while a:
+	print(a.pop(-1))
 
+# Interprete
+>>> baz
+>>> bar
+>>> foo	
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTQ1ODEzMyw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbMTgxOTI1NDczNyw1MTg5MTgwNjhdfQ==
 -->
