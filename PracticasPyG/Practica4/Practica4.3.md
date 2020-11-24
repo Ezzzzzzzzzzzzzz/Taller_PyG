@@ -151,10 +151,17 @@ if leftDown is True:
       player["x"] = windowWidth - player["width"]
 ```
 Si el código te resulta familiar, es porque lo usamos en nuestras clases anteriores para mover nuestros cuadrados. Ahora que hemos descubierto dónde puede ir nuestro avatar, podemos dibujarlo llamando a `drawPlayer()`. 
+
+### drawPlayer()
+```python
+def drawPlayer():
+
+  pygame.draw.rect(surface, (255,0,0), (player["x"], player["y"], player["width"], player["height"]))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTAyNzQ3MSwtMTM2ODMxMjE4NywtMT
-I2ODE1MTE3LC01NjE5NTgwMDQsMjU4NjE0NjU3LDM1NzIyMzA3
-NCwtMTA0ODM3MjE5MywtMTAyMTIyMTM5MSwtOTg3MjE2MTY4LC
-05NTYxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIw
-NDY4NV19
+eyJoaXN0b3J5IjpbLTcwMjIyNzg0LC0xMzY4MzEyMTg3LC0xMj
+Y4MTUxMTcsLTU2MTk1ODAwNCwyNTg2MTQ2NTcsMzU3MjIzMDc0
+LC0xMDQ4MzcyMTkzLC0xMDIxMjIxMzkxLC05ODcyMTYxNjgsLT
+k1NjEyMDg2LDEwOTQ2ODk0OTQsLTI1OTYxOTQ0OSwxMzQ5MjA0
+Njg1XX0=
 -->
