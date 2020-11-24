@@ -108,6 +108,8 @@ print('Loop ended.')
 >>> 0
 >>> Loop ended.
 ```
+Esta vez, cuando `n` es `2`, la instrucción `continue` provoca la terminación de esa iteración. **Por lo tanto, no se imprime 2**. La ejecución vuelve a la parte superior del ciclo, la condición se vuelve a evaluar y sigue siendo verdadera. **El ciclo se reanuda, terminando cuando `n` se convierte en `0`, como antes**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDI5Nzc2Nyw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbMTM2Mzg0MjQ4NywxMjg0Mjk3NzY3LDUxOD
+kxODA2OF19
 -->
