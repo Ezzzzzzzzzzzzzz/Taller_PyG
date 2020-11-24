@@ -23,9 +23,27 @@ La condición de control, <cond>, normalmente involucra una o más variables que
 Considerando este bucle:
 ```python
 n = 5
+while n > 0:
+	n -= 1
+	print(n)
 
+# Interprete
+>>> 4
+>>> 3
+>>> 2
+>>> 1
+>>> 0
 ```
+Here’s what’s happening in this example:
 
+-   `n`  is initially  `5`. The expression in the  `while`  statement header on line 2 is  `n > 0`, which is true, so the loop body executes. Inside the loop body on line 3,  `n`  is decremented by  `1`  to  `4`, and then printed.
+    
+-   When the body of the loop has finished, program execution returns to the top of the loop at line 2, and the expression is evaluated again. It is still true, so the body executes again, and  `3`  is printed.
+    
+-   This continues until  `n`  becomes  `0`. At that point, when the expression is tested, it is false, and the loop terminates. Execution would resume at the first statement following the loop body, but there isn’t one in this case.
+    
+
+Note that the controlling expression of the  `while`  loop is tested first, before anything else happens. If it’s false to start with, the loop body will never be executed at all:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDQwMzc4Nyw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbMTg1NTc5MDM2Myw1MTg5MTgwNjhdfQ==
 -->
