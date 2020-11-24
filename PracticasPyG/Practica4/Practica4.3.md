@@ -112,7 +112,7 @@ Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores
         foundPlatformTop = True
       elif (player["y"] + player["height"]) - yOffset > 0:
         yOffset += 1
-      else :
+      else:
         gameOver()
         break
 ```
@@ -123,12 +123,16 @@ Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores
         yOffset += 1
 ```
 Si no encontramos un píxel negro antes de llegar a la parte superior de la superficie, se acabó el juego: nuestro avatar está atrapado fuera de la pantalla.
-```pytho
+```python 
+ else:
+        gameOver()
+        break
+```
 Mover nuestro personaje de izquierda a derecha se hace en las líneas 82-92. Si el código te resulta familiar, es porque lo usamos en nuestro último tutorial para mover nuestros cuadrados. Ahora que hemos descubierto dónde puede ir nuestro avatar, podemos dibujarlo llamando a `drawPlayer()` en la línea 203.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg2ODk1NDUsLTEzNjgzMTIxODcsLT
-EyNjgxNTExNywtNTYxOTU4MDA0LDI1ODYxNDY1NywzNTcyMjMw
-NzQsLTEwNDgzNzIxOTMsLTEwMjEyMjEzOTEsLTk4NzIxNjE2OC
-wtOTU2MTIwODYsMTA5NDY4OTQ5NCwtMjU5NjE5NDQ5LDEzNDky
-MDQ2ODVdfQ==
+eyJoaXN0b3J5IjpbMTgwNDAwNDkwOCwtMTM2ODMxMjE4NywtMT
+I2ODE1MTE3LC01NjE5NTgwMDQsMjU4NjE0NjU3LDM1NzIyMzA3
+NCwtMTA0ODM3MjE5MywtMTAyMTIyMTM5MSwtOTg3MjE2MTY4LC
+05NTYxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIw
+NDY4NV19
 -->
