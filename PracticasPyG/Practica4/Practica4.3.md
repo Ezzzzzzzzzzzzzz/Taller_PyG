@@ -117,10 +117,10 @@ Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores
         gameOver()
         break
 ```
-**Cuando encontramos un píxel blanco debajo de la parte inferior izquierda o derecha de nuestro avatar, tenemos que trabajar hacia atrás (negativo) para mover nuestro avatar hacia arriba con la plataforma**. Nuestro bucle `while` resta 1 de nuestro valor `player[“y”]` y comprueba el color que encuentra allí. Recuerde, aún no hemos dibujado nuestro avatar, por lo que los únicos colores en nuestra superficie son el negro (fondo) o el blanco (plataformas). Si las coordenadas marcadas son blancas, se agrega 1 al yOffset y el bucle while continúa buscando un píxel negro.
+**Cuando encontramos un píxel blanco debajo de la parte inferior izquierda o derecha de nuestro avatar, tenemos que trabajar hacia atrás (negativo) para mover nuestro avatar hacia arriba con la plataforma**. Nuestro bucle `while` resta 1 de nuestro valor `player[“y”]` y comprueba el color que encuentra allí. Recuerde, aún no hemos dibujado nuestro avatar, por lo que los únicos colores en nuestra superficie son el negro (fondo) o el blanco (plataformas). Si las coordenadas marcadas son blancas, se agrega 1 al `yOffset` y el bucle `while` continúa buscando un píxel negro.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDg0NzA3MDIsLTU2MTk1ODAwNCwyNT
-g2MTQ2NTcsMzU3MjIzMDc0LC0xMDQ4MzcyMTkzLC0xMDIxMjIx
-MzkxLC05ODcyMTYxNjgsLTk1NjEyMDg2LDEwOTQ2ODk0OTQsLT
-I1OTYxOTQ0OSwxMzQ5MjA0Njg1XX0=
+eyJoaXN0b3J5IjpbMTE5Njg1Mzk0OCwtNTYxOTU4MDA0LDI1OD
+YxNDY1NywzNTcyMjMwNzQsLTEwNDgzNzIxOTMsLTEwMjEyMjEz
+OTEsLTk4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4OTQ5NCwtMj
+U5NjE5NDQ5LDEzNDkyMDQ2ODVdfQ==
 -->
