@@ -121,12 +121,16 @@ Establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores
         player["y"] -= yOffset
         foundPlatformTop = True
 ```
-Recuerde, aún no hemos dibujado nuestro avatar, por lo que los únicos colores en nuestra superficie son el negro (fondo) o el blanco (plataformas). Si las coordenadas marcadas son blancas, se agrega 1 al `yOffset` y el bucle `while` continúa buscando un píxel negro. Hará esto hasta que encuentre un píxel negro sobre la coordenada x de nuestro avatar, agregando 1 a la variable `yOffset` cada vez. Una vez que se encuentra un píxel negro, descubrimos dónde termina nuestra plataforma y podemos restar el `yOffset` del `player["y"]` para poner nuestro avatar justo encima de la plataforma; esto se hace en la línea:
+Recuerde, aún no hemos dibujado nuestro avatar, por lo que los únicos colores en nuestra superficie son el negro (fondo) o el blanco (plataformas). 
+
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica4/1erVideojuego.png)
+
+Si las coordenadas marcadas son blancas, se agrega 1 al `yOffset` y el bucle `while` continúa buscando un píxel negro. Hará esto hasta que encuentre un píxel negro sobre la coordenada x de nuestro avatar, agregando 1 a la variable `yOffset` cada vez. Una vez que se encuentra un píxel negro, descubrimos dónde termina nuestra plataforma y podemos restar el `yOffset` del `player["y"]` para poner nuestro avatar justo encima de la plataforma; esto se hace en la línea:
 ```python
       elif (player["y"] + player["height"]) - yOffset > 0:
         yOffset += 1
 ```
-Si no encontramos un píxel negro antes de llegar a la parte superior de la superficie, se acabó el juego: nuestro avatar está atrapado fuera de la pantalla.
+**Si no encontramos un píxel negro antes de llegar a la parte superior de la superficie, se acabó el juego: nuestro avatar está atrapado fuera de la pantalla.**
 ```python 
  else:
         gameOver()
@@ -139,9 +143,9 @@ Mover nuestro personaje de izquierda a derecha se hace en las líneas:
 ```
 Si el código te resulta familiar, es porque lo usamos en nuestro último tutorial para mover nuestros cuadrados. Ahora que hemos descubierto dónde puede ir nuestro avatar, podemos dibujarlo llamando a `drawPlayer()` en la línea 203.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg5MDk0MzEsLTEzNjgzMTIxODcsLT
-EyNjgxNTExNywtNTYxOTU4MDA0LDI1ODYxNDY1NywzNTcyMjMw
-NzQsLTEwNDgzNzIxOTMsLTEwMjEyMjEzOTEsLTk4NzIxNjE2OC
-wtOTU2MTIwODYsMTA5NDY4OTQ5NCwtMjU5NjE5NDQ5LDEzNDky
-MDQ2ODVdfQ==
+eyJoaXN0b3J5IjpbLTM4OTIzNjc1MywtMTM2ODMxMjE4NywtMT
+I2ODE1MTE3LC01NjE5NTgwMDQsMjU4NjE0NjU3LDM1NzIyMzA3
+NCwtMTA0ODM3MjE5MywtMTAyMTIyMTM5MSwtOTg3MjE2MTY4LC
+05NTYxMjA4NiwxMDk0Njg5NDk0LC0yNTk2MTk0NDksMTM0OTIw
+NDY4NV19
 -->
