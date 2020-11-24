@@ -128,9 +128,16 @@ while True:
 >>> Foo
 KeyboardInterrupt
 Traceback (most recent call last):
-	File ""
+	File "<pyshell#2>", line 2, in <module>
+		print('Foo')
 ```
+
+Este código fue terminado por `Ctrl + C`, lo que genera una interrupción desde el teclado. De lo contrario, habría continuado interminablemente. Muchas líneas de salida de `Foo` han sido eliminadas y reemplazadas por puntos suspensivos verticales en la salida que se muestra.
+
+Claramente, True nunca será falso, o todos estaremos en un gran problema. Por lo tanto, `while True:` inicia un bucle infinito que teóricamente se ejecutará para siempre.
+
+Tal vez eso no suene como algo que le gustaría hacer, pero este patrón es bastante común. Por ejemplo, puede escribir código para un servicio que se inicia y se ejecuta para siempre aceptando solicitudes de servicio. "Para siempre" en este contexto significa hasta que lo apague, o hasta la muerte por calor del universo, lo que ocurra primero.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjgyMDgxOSwxMjg0Mjk3NzY3LDUxOD
-kxODA2OF19
+eyJoaXN0b3J5IjpbNzY2OTE2MzE5LDEyODQyOTc3NjcsNTE4OT
+E4MDY4XX0=
 -->
