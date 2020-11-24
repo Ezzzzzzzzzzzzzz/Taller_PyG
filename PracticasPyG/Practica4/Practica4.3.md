@@ -91,15 +91,14 @@ if leftOfPlayerOnPlatform is False and rightOfPlayerOnPlatform is False and (pla
       dropping = True
       platformsDroppedThrough += 1
 
-  else :
-
+  else:
     foundPlatformTop = False
     yOffset = 0
     dropping = False
 ```
 También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEyMjEzOTEsLTk4NzIxNjE2OCwtOT
-U2MTIwODYsMTA5NDY4OTQ5NCwtMjU5NjE5NDQ5LDEzNDkyMDQ2
-ODVdfQ==
+eyJoaXN0b3J5IjpbNjA4Nzk5NDg1LC0xMDIxMjIxMzkxLC05OD
+cyMTYxNjgsLTk1NjEyMDg2LDEwOTQ2ODk0OTQsLTI1OTYxOTQ0
+OSwxMzQ5MjA0Njg1XX0=
 -->
