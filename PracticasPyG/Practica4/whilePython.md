@@ -43,6 +43,16 @@ Esto es lo que sucede en este ejemplo:
 - Esto continúa hasta que `n` se convierte en `0`. En ese punto, cuando se prueba la expresión, es **falsa (False) y el ciclo termina**. La ejecución se reanudaría en la primera declaración que sigue al cuerpo del bucle, pero no hay ninguna en este caso.
 
 Tenga en cuenta que la expresión de control del ciclo `while` se prueba primero, antes de que suceda cualquier otra cosa. Si es falso para empezar, el cuerpo del bucle nunca se ejecutará en absoluto:
+```python
+n = 0
+while n > 0:
+	n -= 1
+	print(n)
+```
+En el ejemplo anterior, cuando se encuentra el bucle, `n` es `0`. La expresión de control `n> 0` ya es **falsa (False), por lo que el cuerpo del bucle nunca se ejecuta.**
+
+Aquí hay otro ciclo `while` que involucra una lista, en lugar de una comparación numérica:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTA2ODE4OSw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbMTM0OTQ1ODEzMyw1MTg5MTgwNjhdfQ==
 -->
