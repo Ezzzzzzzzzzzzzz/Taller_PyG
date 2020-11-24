@@ -89,7 +89,16 @@ while n > 0:
 >>> 3
 >>> Loop ended.
 ```
+Cuando `n` se convierte en `2`, se ejecuta la instrucción `break`. **El bucle finaliza por completo y la ejecución del programa salta a la instrucción `print()`**.
 
+El siguiente script, es idéntico excepto por una instrucción `continue` en lugar de la ruptura `brake`:
+```python
+n = 5 
+while n > 0:
+	n -= 1
+	
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA5NjgxMjAsNTE4OTE4MDY4XX0=
+eyJoaXN0b3J5IjpbLTk2NDYzNDM0OCw1MTg5MTgwNjhdfQ==
 -->
