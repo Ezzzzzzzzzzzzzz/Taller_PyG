@@ -79,11 +79,17 @@ Aquí hay un archivo de secuencia de comandos llamado break.py que demuestra la 
 n = 5
 while n > 0:
 	n -= 1
- 4    if n == 2:
- 5        break
- 6    print(n)
- 7print('Loop ended.')
+	if n == 2:
+		break
+	print(n)
+ print('Loop ended.')
+
+# Interprete
+>>> 4
+>>> 3
+>>> Loop ended.
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTA3MTc2Niw1MTg5MTgwNjhdfQ==
+eyJoaXN0b3J5IjpbLTE4OTA5NjgxMjAsNTE4OTE4MDY4XX0=
 -->
