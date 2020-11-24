@@ -90,17 +90,22 @@ if leftOfPlayerOnPlatform is False and rightOfPlayerOnPlatform is False and (pla
     if dropping is False:
       dropping = True
       platformsDroppedThrough += 1
+```
+También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
 
-  else:
+Entonces, ese es el código que maneja qué hacer si no estamos en la cima de una plataforma, pero ¿qué pasa cuando queremos que nuestro avatar viaje con la plataforma? Si nuestro avatar no puede bajar, debemos averiguar dónde se detiene la plataforma y dónde comienza el espacio en blanco. 
+
+Hacemos esto en las líneas, establecemos dos variables, `foundPlatformTop` y `yOffset`;
+
+```python
+else:
     foundPlatformTop = False
     yOffset = 0
     dropping = False
 ```
-También comprobamos que no dejamos que nuestro avatar se escape por la parte inferior de nuestra ventana.
-
-Entonces, ese es el código que maneja qué hacer si no estamos en la cima de una plataforma, pero ¿qué pasa cuando queremos que nuestro avatar viaje con la plataforma? Si nuestro avatar no puede bajar, debemos averiguar dónde se detiene la plataforma y dónde comienza el espacio en blanco. Hacemos esto en las líneas 64-80. En las líneas 66 y 67 establecemos dos variables, `foundPlatformTop` y `yOffset`; Usamos estos valores para ayudar a nuestro bucle `while` en las líneas 70-80.
+ Usamos estos valores para ayudar a nuestro bucle `while` en las líneas 70-80.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDgzNzIxOTMsLTEwMjEyMjEzOTEsLT
-k4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4OTQ5NCwtMjU5NjE5
-NDQ5LDEzNDkyMDQ2ODVdfQ==
+eyJoaXN0b3J5IjpbLTE2ODIzODc4MzUsLTEwNDgzNzIxOTMsLT
+EwMjEyMjEzOTEsLTk4NzIxNjE2OCwtOTU2MTIwODYsMTA5NDY4
+OTQ5NCwtMjU5NjE5NDQ5LDEzNDkyMDQ2ODVdfQ==
 -->
