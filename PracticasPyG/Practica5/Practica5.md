@@ -6,11 +6,11 @@ En sesiones anteriores, armamos un videojuego simple en el que intentamos evitar
 
 ![](https://media.giphy.com/media/SXTTVIwYA36XpgfqJW/giphy.gif)
 
-**Aprenderemos a cargar sonidos, reproducirlos, ajustar los controles de sonido y usar el mezclador para detener todo. También crearemos un código para crear los botones de la caja de resonancia; esto se basará en nuestro conocimiento de listas, diccionarios y eventos de mouse que hemos adquirido en sesiones anteriores.**
+### Aprenderemos a cargar sonidos, reproducirlos, ajustar los controles de sonido y usar el mezclador para detener todo. También crearemos un código para crear los botones de la caja de resonancia; esto se basará en nuestro conocimiento de listas, diccionarios y eventos de mouse que hemos adquirido en sesiones anteriores.
 
 Si bien MP3 es un formato muy popular para reproducir música y sonidos (seguramente ustedes tienen miles de archivos en un disco duro en algún lugar), la desventaja es que es una tecnología patentada. **Como tal, Pygame y otras bibliotecas populares no admiten MP3 de fábrica, quizás porque no pueden pagar una licencia.** Por lo tanto, usaremos [**OGG**](https://es.wikipedia.org/wiki/Ogg), un formato de sonido abierto que tu computadora y Pygame reproducirán sin ningún problema.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDAzMzA0OTQsNzQ0MTkxNzA5XX0=
+eyJoaXN0b3J5IjpbLTQ1NDczODA0OSw3NDQxOTE3MDldfQ==
 -->
