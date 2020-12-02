@@ -12,10 +12,16 @@ Si bien MP3 es un formato muy popular para reproducir música y sonidos (seguram
 
 ## Lo primero es lo primero
 
+Al igual que con cualquier proyecto de Pygame, hay un par de cosas que debemos resolver antes de poder ensuciarnos las manos escribiendo código real. 
+
+### sounds.py
+```python
+Las líneas 1-14 deberían parecerle realmente familiares a estas alturas: primero tenemos nuestras declaraciones de importación en las líneas 1-5, luego establecemos las propiedades de nuestras ventanas en las líneas 6-11, y finalmente creamos un par de variables para usar en nuestro programa Pygame un poco más adelante en las líneas 13-17. Si observa la línea 13, verá la variable de botones; cuando estemos listos para comenzar a crear nuestros botones, agregaremos algunos diccionarios a esta lista para que podamos realizar un seguimiento de todos los botones de la caja de resonancia que creamos.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1NTM5OTY2LDU5ODY2ODczMCw3NDQxOT
-E3MDldfQ==
+eyJoaXN0b3J5IjpbLTExOTM2Mzk3OTksNTk4NjY4NzMwLDc0ND
+E5MTcwOV19
 -->
