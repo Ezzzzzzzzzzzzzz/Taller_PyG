@@ -14,7 +14,7 @@ Si bien MP3 es un formato muy popular para reproducir música y sonidos (seguram
 
 Al igual que con cualquier proyecto de Pygame, hay un par de cosas que debemos resolver antes de poder ensuciarnos las manos escribiendo código real. 
 
-### sounds.py
+### [sounds.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica5/sounds.py)
 ```python
 
 
@@ -26,6 +26,6 @@ Las líneas 1-14 deberían parecerle realmente familiares a estas alturas: prime
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjI3Mjc4Nyw1OTg2Njg3MzAsNzQ0MT
-kxNzA5XX0=
+eyJoaXN0b3J5IjpbLTE2MDQxMjYyNjAsLTc2MjI3Mjc4Nyw1OT
+g2Njg3MzAsNzQ0MTkxNzA5XX0=
 -->
