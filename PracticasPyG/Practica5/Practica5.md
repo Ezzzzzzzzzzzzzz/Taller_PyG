@@ -15,17 +15,30 @@ Si bien MP3 es un formato muy popular para reproducir música y sonidos (seguram
 Al igual que con cualquier proyecto de Pygame, hay un par de cosas que debemos resolver antes de poder ensuciarnos las manos escribiendo código real. 
 
 ### [sounds.py](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica5/sounds.py)
+
+Las líneas:
 ```python
+import pygame, sys, random
+import pygame.locals as GAME_GLOBALS
+import pygame.event as GAME_EVENTS
+import pygame.time as GAME_TIME
 
+windowWidth = 600
+windowHeight = 650
 
+pygame.init()
+surface = pygame.display.set_mode((windowWidth, windowHeight))
+pygame.display.set_caption('Soundboard')
 
+buttons = []
+stopButton = { "image" : pygame.image.load("assets/images/stop.png"), "position" : (275, 585)}
 ```
-Las líneas 1-14 deberían parecerle realmente familiares a estas alturas: primero tenemos nuestras declaraciones de importación en las líneas 1-5, luego establecemos las propiedades de nuestras ventanas en las líneas 6-11, y finalmente creamos un par de variables para usar en nuestro programa Pygame un poco más adelante en las líneas 13-17. Si observa la línea 13, verá la variable de botones; cuando estemos listos para comenzar a crear nuestros botones, agregaremos algunos diccionarios a esta lista para que podamos realizar un seguimiento de todos los botones de la caja de resonancia que creamos.
+deberían parecerle realmente familiares a estas alturas: primero tenemos nuestras declaraciones de importación en las líneas 1-5, luego establecemos las propiedades de nuestras ventanas en las líneas 6-11, y finalmente creamos un par de variables para usar en nuestro programa Pygame un poco más adelante en las líneas 13-17. Si observa la línea 13, verá la variable de botones; cuando estemos listos para comenzar a crear nuestros botones, agregaremos algunos diccionarios a esta lista para que podamos realizar un seguimiento de todos los botones de la caja de resonancia que creamos.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQxMjYyNjAsLTc2MjI3Mjc4Nyw1OT
+eyJoaXN0b3J5IjpbLTEyNTExNDMzMzQsLTc2MjI3Mjc4Nyw1OT
 g2Njg3MzAsNzQ0MTkxNzA5XX0=
 -->
