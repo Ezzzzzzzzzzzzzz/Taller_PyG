@@ -40,7 +40,7 @@ deberían parecerle realmente familiares a estas alturas: **primero tenemos nues
 
 Si observa la línea:
 ```python
-buttons = [] # Es
+buttons = [] # Es una Lista
 ``
 verá la variable de `buttons[]`(botones); **cuando estemos listos para comenzar a crear nuestros botones, agregaremos algunos diccionarios a esta lista para que podamos realizar un seguimiento de todos los botones de la caja de resonancia que creamos.**
 
@@ -48,6 +48,6 @@ verá la variable de `buttons[]`(botones); **cuando estemos listos para comenzar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODA0NDEwNiwtNzYyMjcyNzg3LDU5OD
-Y2ODczMCw3NDQxOTE3MDldfQ==
+eyJoaXN0b3J5IjpbLTE5NDM0MDY4NDcsLTc2MjI3Mjc4Nyw1OT
+g2Njg3MzAsNzQ0MTkxNzA5XX0=
 -->
