@@ -24,6 +24,7 @@ import pygame.locals as GAME_GLOBALS
 import pygame.event as GAME_EVENTS
 import pygame.time as GAME_TIME
 
+# Propiedades de nuestra ventana
 windowWidth = 600
 windowHeight = 650
 
@@ -31,15 +32,18 @@ pygame.init()
 surface = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption('Soundboard')
 
+# Un par de variables para usar en nuestro programa
 buttons = []
 stopButton = { "image" : pygame.image.load("assets/images/stop.png"), "position" : (275, 585)}
 ```
-deberían parecerle realmente familiares a estas alturas: **primero tenemos nuestras declaraciones de importación en las líneas 1-5, luego establecemos las propiedades de nuestras ventanas en las líneas 6-11, y finalmente creamos un par de variables para usar en nuestro programa Pygame un poco más adelante en las líneas 13-17**. Si observa la línea 13, verá la variable de botones; cuando estemos listos para comenzar a crear nuestros botones, agregaremos algunos diccionarios a esta lista para que podamos realizar un seguimiento de todos los botones de la caja de resonancia que creamos.
+deberían parecerle realmente familiares a estas alturas: **primero tenemos nuestras declaraciones de importación, luego establecemos las propiedades de nuestras ventanas en las líneas 6-11, y finalmente creamos un par de variables para usar en nuestro programa Pygame un poco más adelante en las líneas 13-17**. 
+
+Si observa la línea 13, verá la variable de botones; cuando estemos listos para comenzar a crear nuestros botones, agregaremos algunos diccionarios a esta lista para que podamos realizar un seguimiento de todos los botones de la caja de resonancia que creamos.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyMDI5NzM0LC03NjIyNzI3ODcsNTk4Nj
+eyJoaXN0b3J5IjpbNDI2Nzc2NDU5LC03NjIyNzI3ODcsNTk4Nj
 Y4NzMwLDc0NDE5MTcwOV19
 -->
