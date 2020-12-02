@@ -1,7 +1,5 @@
 # Pygame Soundbar
 
-En estas sesiones, aprendemos a cargar y reproducir sonidos en sus proyectos de Pygame al hacer una divertida caja de resonancia.
-
 En sesiones anteriores, armamos un videojuego simple en el que intentamos evitar el terrible destino de ser aplastados por un techo cayendo a través de plataformas hacia el espacio de abajo. No tenía los gráficos más elegantes, pero, de nuevo, los gráficos elegantes no lo son todo. 
 
 **Una cosa simple que podemos hacer para mejorar la experiencia de nuestros jugadores es agregar sonidos**, y eso es lo que haremos aquí. Vamos a aprender cómo funcionan los sonidos con Pygame armando una caja de resonancia con algunos controles simples. 
@@ -12,5 +10,5 @@ Si bien MP3 es un formato muy popular para reproducir música y sonidos (seguram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MTkxNzA5XX0=
+eyJoaXN0b3J5IjpbNjI1NTAxNjI0LDc0NDE5MTcwOV19
 -->
