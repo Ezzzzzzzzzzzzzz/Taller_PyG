@@ -10,11 +10,11 @@ En sesiones anteriores, armamos un videojuego simple en el que intentamos evitar
 
 Si bien MP3 es un formato muy popular para reproducir música y sonidos (seguramente ustedes tienen miles de archivos en un disco duro en algún lugar), la desventaja es que es una tecnología patentada. **Como tal, Pygame y otras bibliotecas populares no admiten MP3 de fábrica, quizás porque no pueden pagar una licencia.** Por lo tanto, usaremos [**OGG**](https://es.wikipedia.org/wiki/Ogg), un formato de sonido abierto que tu computadora y Pygame reproducirán sin ningún problema. Todos los sonidos para este proyecto están disponibles en GitHub, en formato OGG y MP3, para que juegues. 
 
-Puedes descargar el código y los sonidos aquí:
+Puedes descargar el código y los sonidos aquí: https://github.com/Ezzzzzzzzzzzzzz/Games-with-Pygame/tree/master/Part%205/Code/assets/sounds
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjgzNjcyNCw3NDQxOTE3MDldfQ==
+eyJoaXN0b3J5IjpbMTczODkyMDg0MSw3NDQxOTE3MDldfQ==
 -->
