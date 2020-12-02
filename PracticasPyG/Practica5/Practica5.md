@@ -2,6 +2,7 @@
 
 En sesiones anteriores, armamos un videojuego simple en el que intentamos evitar el terrible destino de ser aplastados por un techo cayendo a través de plataformas hacia el espacio de abajo. No tenía los gráficos más elegantes, pero, de nuevo, los gráficos elegantes no lo son todo. 
 ![](https://media.giphy.com/media/SXTTVIwYA36XpgfqJW/giphy.gif)
+
 **Una cosa simple que podemos hacer para mejorar la experiencia de nuestros jugadores es agregar sonidos**, y eso es lo que haremos aquí. Vamos a aprender cómo funcionan los sonidos con Pygame armando una caja de resonancia con algunos controles simples. 
 
 **Aprenderemos a cargar sonidos, reproducirlos, ajustar los controles de sonido y usar el mezclador para detener todo. También crearemos un código para crear los botones de la caja de resonancia; esto se basará en nuestro conocimiento de listas, diccionarios y eventos de mouse que hemos adquirido en sesiones anteriores.**
@@ -10,5 +11,5 @@ Si bien MP3 es un formato muy popular para reproducir música y sonidos (seguram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDUyODc2MzIsNzQ0MTkxNzA5XX0=
+eyJoaXN0b3J5IjpbLTE1NzY3NDU4LDc0NDE5MTcwOV19
 -->
