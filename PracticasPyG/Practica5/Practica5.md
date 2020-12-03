@@ -48,13 +48,15 @@ En la siguiente línea:
 ```python
 stopButton = { "image" : pygame.image.load("assets/images/stop.png"), "position" : (275, 585)}
 ```
-tenemos nuestro diccionario `stopButton`; **cuando creamos nuestro botón de parada, se comportará de manera muy parecida al resto de los botones de nuestra caja de resonancia, excepto que detendrá la reproducción de todos los sonidos actuales. Dado que es único, nuestro botón de parada obtiene su propia variable.**
+tenemos nuestro diccionario `stopButton`; **cuando creamos nuestro botón de parada, se comportará de manera muy parecida al resto de los botones de nuestra caja de resonancia, excepto que detendrá la reproducción de todos los sonidos actuales.**
+
+### Dado que es único, nuestro botón de parada obtiene su propia variable.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTE1NTYzMCwtNzYyMjcyNzg3LDU5OD
-Y2ODczMCw3NDQxOTE3MDldfQ==
+eyJoaXN0b3J5IjpbMTAxNDU5OTE5LC01NjUxNTU2MzAsLTc2Mj
+I3Mjc4Nyw1OTg2Njg3MzAsNzQ0MTkxNzA5XX0=
 -->
