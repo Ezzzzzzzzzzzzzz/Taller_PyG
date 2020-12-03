@@ -28,9 +28,11 @@ pygame.mixer.music.load('assets/sounds/OGG/farm.ogg')
 de nuestro programa apuntamos Pygame a nuestro audio de fondo farm.ogg. Esto carga el audio en nuestro mezclador, pero no se reproducirá de inmediato. 
 
 En la línea:
-```py
-llamamos pygame.mixer.music. play (-1), que comienza a reproducir nuestro archivo de sonido.
+```python
+pygame.mixer.music.play(-1)
+```
+llamamos [`pygame.mixer.music.play (-1)`](), que comienza a reproducir nuestro archivo de sonido.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNzA5NzkxLDk2ODIzNzk0Niw2NTE3Mj
-g5MzddfQ==
+eyJoaXN0b3J5IjpbLTE5NDI1NDk1NjcsOTY4MjM3OTQ2LDY1MT
+cyODkzN119
 -->
