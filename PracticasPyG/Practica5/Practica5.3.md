@@ -54,9 +54,13 @@ def drawButtons():
 
   surface.blit(stopButton["image"], stopButton['position'])
 ```
-esto atraerá los botones a nuestra superficie.
+esto dibujara los botones a nuestra superficie.
+
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQzNzg4NjEsLTEzMzA5ODk4NjYsMj
-A0NTI5MjExNCwtMTE0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
+eyJoaXN0b3J5IjpbLTYxNzA3NjM0NywtMTMzMDk4OTg2NiwyMD
+Q1MjkyMTE0LC0xMTQ3ODc2OTMyLDg3Mjc3MjQ3OV19
 -->
