@@ -61,7 +61,9 @@ esto dibujara los botones a nuestra superficie. Te sorprenderá que podamos usar
 for button in buttons:
     surface.blit(button["image"], button["position"])
 ```
-**tenemos un bucle `for` que funciona a través de la lista de botones que miramos directamente al inicio; por cada diccionario que encuentre en la lista, dibujará un botón en nuestra superficie, usando las propiedades que encuentre y un proceso llamado [*blitting*](https://www.pygame.org/docs/ref/surface.html?highlight=blit#pygame.Surface.blit).**  Blitting es algo que puede haber encontrado en el pasado, pero no se preocupe si no lo ha hecho: **es esencialmente una forma elegante de decir 'pegar', y lo usamos en nuestro último juego para dibujar las pantallas de inicio y finalización de nuestro juego de Drop**.
+**tenemos un bucle `for` que funciona a través de la lista de botones que miramos directamente al inicio; por cada diccionario que encuentre en la lista, dibujará un botón en nuestra superficie, usando las propiedades que encuentre y un proceso llamado [*blitting*](https://www.pygame.org/docs/ref/surface.html?highlight=blit#pygame.Surface.blit).**  
+
+Blitting es algo que puede haber encontrado en el pasado, pero no se preocupe si no lo ha hecho: **es esencialmente una forma elegante de decir 'pegar', y lo usamos en nuestro último juego para dibujar las pantallas de inicio y finalización de nuestro juego de Drop**.
 
 **Cuando "Blitteamos" algo, tomamos los píxeles de nuestra superficie y luego cambiamos los píxeles para que sean iguales a la imagen que estamos agregando. Esto significa que todo lo que estaba debajo del área que se estaba blitteada se pierde**. 
 
@@ -74,7 +76,7 @@ for button in buttons:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTc4NzA0NiwxMDczNjA5ODQ3LC0xMz
+eyJoaXN0b3J5IjpbMTY1NTkxNzI1OCwxMDczNjA5ODQ3LC0xMz
 MwOTg5ODY2LDIwNDUyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcy
 NDc5XX0=
 -->
