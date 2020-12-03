@@ -39,9 +39,15 @@ Con el audio de fondo que cargamos anteriormente, pasamos los datos directamente
 
 ## Dibujando nuestros botones
 
+En las líneas anteriores hemos agregado nueve botones diferentes, pero si tuviéramos que ejecutar nuestro programa sin terminarlo, solo veríamos una ventana en blanco. **Esto se debe a que aún no hemos dibujado los botones. Solo hemos cargado el código necesario para que funcionen.**
 
+En nuestro bucle principal en la línea:
+```python
+
+
+ llamamos a la función drawButtons (), que se puede encontrar en las líneas 23-28; esto atraerá los botones a nuestra superficie.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzExMzU1MzgsLTEzMzA5ODk4NjYsMj
-A0NTI5MjExNCwtMTE0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
+eyJoaXN0b3J5IjpbMTc4NDI2NzkxNCwtMTMzMDk4OTg2NiwyMD
+Q1MjkyMTE0LC0xMTQ3ODc2OTMyLDg3Mjc3MjQ3OV19
 -->
