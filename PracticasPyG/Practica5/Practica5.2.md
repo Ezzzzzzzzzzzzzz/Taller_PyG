@@ -19,10 +19,10 @@ Cada forma de reproducir sonido es buena para diferentes instancias. **La transm
 
 **El objeto de sonido encaja mejor en nuestra caja de resonancia que el flujo de sonido, por lo que los usaremos para nuestros botones un poco más adelante.** 
 
-### Primero vamos a agregar algo de ambiente a nuestra caja de resonancia con un poco de audio de fondo de una granja. **El audio de fondo generalmente se repite sin ningún tipo de interacción del usuario, y el audio de transmisión se puede configurar para que se repita sin demasiados problemas, así que eso es lo que vamos a hacer.**
+### Primero vamos a agregar algo de ambiente a nuestra caja de resonancia con un poco de audio de fondo de una granja. El audio de fondo generalmente se repite sin ningún tipo de interacción del usuario, y el audio de transmisión se puede configurar para que se repita sin demasiados problemas, así que eso es lo que vamos a hacer.
 
 Antes de que podamos reproducir música, necesitamos cargarla: en la línea 20 de nuestro programa apuntamos Pygame a nuestro audio de fondo farm.ogg. Esto carga el audio en nuestro mezclador, pero no se reproducirá de inmediato. En la línea 21 llamamos pygame.mixer.music. play (-1), que comienza a reproducir nuestro archivo de sonido.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODg4NDg4ODUsOTY4MjM3OTQ2LDY1MT
-cyODkzN119
+eyJoaXN0b3J5IjpbLTM5NzIzODM4OSw5NjgyMzc5NDYsNjUxNz
+I4OTM3XX0=
 -->
