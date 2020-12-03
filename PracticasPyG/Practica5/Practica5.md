@@ -80,11 +80,13 @@ while True:
 
   pygame.display.update()
 ```
-**tenemos nuestro viejo y familiar bucle "principal". Parece mucho más pequeño que la última vez: eso se debe a que hemos dividido todo el código que pudimos poner en `main` en funciones separadas**. Si no lo hiciéramos, las cosas empezarían a ponerse bastante complicadas y difíciles de seguir. Al tener funciones que manejan muy bien una cosa, podemos escribir un programa que se ejecute bien y también se vea genial.
+**tenemos nuestro viejo y familiar bucle "principal". Parece mucho más pequeño que la última vez: eso se debe a que hemos dividido todo el código que pudimos poner en `main` en funciones separadas**. Si no lo hiciéramos, las cosas empezarían a ponerse bastante complicadas y difíciles de seguir. 
+
+### Al tener funciones que manejan muy bien una cosa, podemos escribir un programa que se ejecute bien y también se vea genial. Al igual que antes, nuestro bucle principal se encarga de limpiar la pantalla; manejo de eventos de mouse, teclado y sistema; y llamar a funciones para dibujar en nuestra ventana.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzMTE2OTA0LDEwMTQ1OTkxOSwtNTY1MT
-U1NjMwLC03NjIyNzI3ODcsNTk4NjY4NzMwLDc0NDE5MTcwOV19
-
+eyJoaXN0b3J5IjpbMTExNTA2MDE5NywxMDE0NTk5MTksLTU2NT
+E1NTYzMCwtNzYyMjcyNzg3LDU5ODY2ODczMCw3NDQxOTE3MDld
+fQ==
 -->
