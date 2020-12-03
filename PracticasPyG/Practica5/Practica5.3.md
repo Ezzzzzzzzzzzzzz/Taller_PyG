@@ -35,9 +35,9 @@ verá que cada línea crea un nuevo diccionario para cada animal. Cada diccionar
 
 Con el audio de fondo que cargamos anteriormente, pasamos los datos directamente al mezclador y los reproducimos a través de este último. 
 
-Un objeto de sonido, sin embargo, tiene funciones que nos permiten controlar el audio por sí mismo. Por ejemplo, podríamos llamar a [`sound.play()`](https://www.pygame.org/docs/ref/mixer.html?highlight=sound%20play#pygame.mixer.Sound.play) y el sonido se reproduciría, o podríamos llamar a [`sound.stop()`](https://www.pygame.org/docs/ref/mixer.html?highlight=sound%20play#pygame.mixer.Sound.stop), pero solo se aplicaría al sonido al que estábamos llamando a esas funciones: si tuviéramos dos sonidos reproduciéndose en el al mismo tiempo y paramos solo uno, el otro seguía tocando.
+### Un objeto de sonido, sin embargo, tiene funciones que nos permiten controlar el audio por sí mismo. Por ejemplo, podríamos llamar a [`sound.play()`](https://www.pygame.org/docs/ref/mixer.html?highlight=sound%20play#pygame.mixer.Sound.play) y el sonido se reproduciría, o podríamos llamar a [`sound.stop()`](https://www.pygame.org/docs/ref/mixer.html?highlight=sound%20play#pygame.mixer.Sound.stop), pero solo se aplicaría al sonido al que estábamos llamando a esas funciones: si tuviéramos dos sonidos reproduciéndose en el al mismo tiempo y paramos solo uno, el otro seguía tocando.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTgyMjY4NCwtMTMzMDk4OTg2NiwyMD
-Q1MjkyMTE0LC0xMTQ3ODc2OTMyLDg3Mjc3MjQ3OV19
+eyJoaXN0b3J5IjpbNTA2NjY5OTg1LC0xMzMwOTg5ODY2LDIwND
+UyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcyNDc5XX0=
 -->
