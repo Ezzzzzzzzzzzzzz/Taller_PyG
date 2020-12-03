@@ -43,11 +43,20 @@ En las líneas anteriores hemos agregado nueve botones diferentes, pero si tuvi�
 
 En nuestro bucle principal en la línea:
 ```python
+drawButtons()
+```
+llamamos a la función `drawButtons()`, que se puede encontrar en las líneas:
+```python
+def drawButtons():
 
+  for button in buttons:
+    surface.blit(button["image"], button["position"])
 
- llamamos a la función drawButtons (), que se puede encontrar en las líneas 23-28; esto atraerá los botones a nuestra superficie.
+  surface.blit(stopButton["image"], stopButton['position'])
+```
+esto atraerá los botones a nuestra superficie.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDI2NzkxNCwtMTMzMDk4OTg2NiwyMD
-Q1MjkyMTE0LC0xMTQ3ODc2OTMyLDg3Mjc3MjQ3OV19
+eyJoaXN0b3J5IjpbLTE2NDQzNzg4NjEsLTEzMzA5ODk4NjYsMj
+A0NTI5MjExNCwtMTE0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
 -->
