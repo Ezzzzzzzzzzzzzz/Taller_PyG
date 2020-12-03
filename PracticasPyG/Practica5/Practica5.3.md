@@ -37,7 +37,11 @@ Con el audio de fondo que cargamos anteriormente, pasamos los datos directamente
 
 ### Un objeto de sonido, sin embargo, tiene funciones que nos permiten controlar el audio por sí mismo. Por ejemplo, podríamos llamar a [`sound.play()`](https://www.pygame.org/docs/ref/mixer.html?highlight=sound%20play#pygame.mixer.Sound.play) y el sonido se reproduciría, o podríamos llamar a [`sound.stop()`](https://www.pygame.org/docs/ref/mixer.html?highlight=sound%20play#pygame.mixer.Sound.stop), pero solo se aplicaría al sonido al que estábamos llamando a esas funciones: si tuviéramos dos sonidos reproduciéndose en el al mismo tiempo y paramos solo uno, el otro seguía tocando.
 
+## Dibujando nuestros botones
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2NjY5OTg1LC0xMzMwOTg5ODY2LDIwND
-UyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcyNDc5XX0=
+eyJoaXN0b3J5IjpbLTE5MzExMzU1MzgsLTEzMzA5ODk4NjYsMj
+A0NTI5MjExNCwtMTE0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
 -->
