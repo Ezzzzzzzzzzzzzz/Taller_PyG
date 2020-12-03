@@ -13,6 +13,8 @@ pygame.mixer.init()
 ```
 ## Nuestro primer sonido
 
+![](https://media.giphy.com/media/cP6EXyM397RDgauGqu/giphy.gif)
+
 ### Puede reproducir sonidos de un par de formas diferentes en Pygame: puede reproducir una secuencia (streaming) de sonido, que puede considerar como sonido que se reproduce mientras se carga, o puede crear y reproducir un objeto de sonido, que carga el sonido, lo almacena en la memoria de nuestra computadora y luego lo reproduce.
 
 Cada forma de reproducir sonido es buena para diferentes instancias. **La transmisión (streaming) de sonido es mejor, por ejemplo, cuando queremos crear música de fondo que se reproduce mientras hacemos otras cosas, mientras que el objeto de sonido es una mejor opción para cuando queremos reproducir sonidos cortos de forma rápida y frecuente.**
@@ -35,6 +37,6 @@ llamamos [`pygame.mixer.music.play (-1)`](https://www.pygame.org/docs/ref/music.
 
 **Pasamos `-1`, lo que significa que se repetirá para siempre o hasta que lo detengamos**. Si ejecutamos nuestra caja de resonancia en este punto, tendríamos una hermosa ventana en blanco con algunos sonidos de granja calmantes, pero eso es un poco simple. **¡Es hora de hacer algunos botones!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTY1MDk1MSw5NjgyMzc5NDYsNjUxNz
-I4OTM3XX0=
+eyJoaXN0b3J5IjpbLTEwMTkzMjQ5NDEsMTExMTY1MDk1MSw5Nj
+gyMzc5NDYsNjUxNzI4OTM3XX0=
 -->
