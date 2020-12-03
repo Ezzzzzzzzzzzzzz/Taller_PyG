@@ -4,7 +4,7 @@ Entonces, **¿Cómo vamos a hacer estos botones?**. Podríamos hacer lo que hemo
 
 ### En su lugar, vamos a hacer nuestros botones con algunas imágenes que se han reunido para cada sonido de animal diferente. 
 
-Si desea echar un vistazo a los botones antes de cargarlos, están incluidos en el código de imágenes
+Si desea echar un vistazo a los botones antes de cargarlos, están incluidos junto con el código en la carpeta de [imágenes (images)]() 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTYzNzMzMjUsODcyNzcyNDc5XX0=
+eyJoaXN0b3J5IjpbLTExNDc4NzY5MzIsODcyNzcyNDc5XX0=
 -->
