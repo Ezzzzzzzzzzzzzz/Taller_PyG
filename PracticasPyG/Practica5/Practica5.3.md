@@ -54,13 +54,18 @@ def drawButtons():
 
   surface.blit(stopButton["image"], stopButton['position'])
 ```
-esto dibujara los botones a nuestra superficie.
+esto dibujara los botones a nuestra superficie. Te sorprenderá que podamos usar una cantidad tan pequeña de código para dibujar nueve botones. 
 
-
+**Esto se debe al hecho de que hemos hecho todo el trabajo duro de encontrar y cargar nuestras imágenes y sonidos antes de que nuestro bucle principal pudiera ejecutarse: tenemos muy poco que hacer cuando realmente dibujamos los botones en nuestra superficie.** En la línea:
+```python
+for button in buttons:
+    surface.blit(button["image"], button["position"])
+```
+**tenemos un bucle `for` que funciona a través de la lista de botones que miramos directamente al inicio; por cada diccionario que encuentre en la lista, dibujará un botón en nuestra superficie, usando las propiedades que encuentre y un proceso llamado blitting.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzA3NjM0NywtMTMzMDk4OTg2NiwyMD
-Q1MjkyMTE0LC0xMTQ3ODc2OTMyLDg3Mjc3MjQ3OV19
+eyJoaXN0b3J5IjpbMjk2NjYyODI0LC0xMzMwOTg5ODY2LDIwND
+UyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcyNDc5XX0=
 -->
