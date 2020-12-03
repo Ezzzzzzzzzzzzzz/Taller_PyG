@@ -52,11 +52,39 @@ tenemos nuestro diccionario `stopButton`; **cuando creamos nuestro botón de par
 
 ### Dado que es único, nuestro botón de parada obtiene su propia variable.
 
+En las líneas:
+```python 
+# 'main' loop
+while True:
 
+  surface.fill((255,255,255))
 
+  mousePosition = pygame.mouse.get_pos()
+
+  for event in GAME_EVENTS.get():
+
+    if event.type == pygame.KEYDOWN:
+
+      if event.key == pygame.K_ESCAPE:
+        quitGame()
+
+    if event.type == GAME_GLOBALS.QUIT:
+      quitGame()
+
+    if event.type == pygame.MOUSEBUTTONUP:
+      handleClick()
+
+  drawButtons()
+  checkVolume()
+  drawVolume()
+
+  pygame.display.update()
+```
+**tenemos nuestro viejo y familiar bucle "principal". Parece mucho más pequeño que la última vez: eso se debe a que hemos dividido todo el código que pudimos poner en main en funciones separadas. Si no lo hiciéramos, las cosas empezarían a ponerse bastante complicadas y difíciles de seguir. Al tener funciones que manejan muy bien una cosa, podemos escribir un programa que se ejecute bien y también se vea genial.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDU5OTE5LC01NjUxNTU2MzAsLTc2Mj
-I3Mjc4Nyw1OTg2Njg3MzAsNzQ0MTkxNzA5XX0=
+eyJoaXN0b3J5IjpbLTM3MTQ4ODg3NCwxMDE0NTk5MTksLTU2NT
+E1NTYzMCwtNzYyMjcyNzg3LDU5ODY2ODczMCw3NDQxOTE3MDld
+fQ==
 -->
