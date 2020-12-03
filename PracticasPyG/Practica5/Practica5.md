@@ -52,7 +52,9 @@ tenemos nuestro diccionario `stopButton`; **cuando creamos nuestro botón de par
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MDU5MTI2LC03NjIyNzI3ODcsNTk4Nj
-Y4NzMwLDc0NDE5MTcwOV19
+eyJoaXN0b3J5IjpbLTU2NTE1NTYzMCwtNzYyMjcyNzg3LDU5OD
+Y2ODczMCw3NDQxOTE3MDldfQ==
 -->
