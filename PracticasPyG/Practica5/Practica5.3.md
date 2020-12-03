@@ -1,5 +1,7 @@
 # ¡Un botón aquí, un botón allá, botones EN TODAS PARTES!
 
+![](https://media.giphy.com/media/naxep4vNBAOL6/giphy.gif)
+
 Entonces, **¿Cómo vamos a hacer estos botones?**. Podríamos hacer lo que hemos hecho en sesiones anteriores y dibujar algunas formas y agregarles texto; eso ciertamente haría el trabajo, pero no se verá muy bien. 
 
 ### En su lugar, vamos a hacer nuestros botones con algunas imágenes que se han reunido para cada sonido de animal diferente. 
@@ -26,6 +28,6 @@ buttons.append({ "image" : pygame.image.load("assets/images/cat.png"), "position
 verá que cada línea crea un nuevo diccionario para cada animal. Cada diccionario tiene tres claves (o propiedades: los términos son intercambiables). La primera es imagen, que nos cargará la imagen de ese botón. En diccionarios anteriores, almacenamos cadenas en diccionarios y luego usamos esas cadenas para cargar imágenes cuando las necesitamos; esta vez, sin embargo, hemos cargado cada imagen en nuestro diccionario con pygame.image.load ().
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODYzOTgzNSwyMDQ1MjkyMTE0LC0xMT
-Q3ODc2OTMyLDg3Mjc3MjQ3OV19
+eyJoaXN0b3J5IjpbLTEzMzA5ODk4NjYsMjA0NTI5MjExNCwtMT
+E0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
 -->
