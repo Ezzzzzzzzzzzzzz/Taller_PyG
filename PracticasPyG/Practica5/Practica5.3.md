@@ -33,7 +33,11 @@ verá que cada línea crea un nuevo diccionario para cada animal. Cada diccionar
 
 >La última propiedad, `sound`(sonido), es como nuestra propiedad de imagen, excepto que, como es de esperar, carga un sonido en lugar de una imagen. Aquí cargamos los sonidos como objetos, lo que significa que son esencialmente autónomos en términos de cómo funcionan.
 
+Con el audio de fondo que cargamos anteriormente, pasamos los datos directamente al mezclador y los reproducimos a través de este último. 
+
+Un objeto de sonido, sin embargo, tiene funciones que nos permiten controlar el audio por sí mismo. Por ejemplo, podríamos llamar a `sound.play()` y el sonido se reproduciría, o podríamos llamar a `sound.stop (), pero solo se aplicaría al sonido al que estábamos llamando a esas funciones: si tuviéramos dos sonidos reproduciéndose en el Al mismo tiempo y paramos solo uno, el otro seguía jugando.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE3MTUwLC0xMzMwOTg5ODY2LDIwND
-UyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcyNDc5XX0=
+eyJoaXN0b3J5IjpbMTcxMTIxMjkxNCwtMTMzMDk4OTg2NiwyMD
+Q1MjkyMTE0LC0xMTQ3ODc2OTMyLDg3Mjc3MjQ3OV19
 -->
