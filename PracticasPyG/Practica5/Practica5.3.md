@@ -61,11 +61,11 @@ esto dibujara los botones a nuestra superficie. Te sorprenderá que podamos usar
 for button in buttons:
     surface.blit(button["image"], button["position"])
 ```
-**tenemos un bucle `for` que funciona a través de la lista de botones que miramos directamente al inicio; por cada diccionario que encuentre en la lista, dibujará un botón en nuestra superficie, usando las propiedades que encuentre y un proceso llamado blitting.
+**tenemos un bucle `for` que funciona a través de la lista de botones que miramos directamente al inicio; por cada diccionario que encuentre en la lista, dibujará un botón en nuestra superficie, usando las propiedades que encuentre y un proceso llamado ### blitting.**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2NjYyODI0LC0xMzMwOTg5ODY2LDIwND
+eyJoaXN0b3J5IjpbMzMzMjczMTg5LC0xMzMwOTg5ODY2LDIwND
 UyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcyNDc5XX0=
 -->
