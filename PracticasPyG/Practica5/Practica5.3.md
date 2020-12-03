@@ -27,13 +27,13 @@ buttons.append({ "image" : pygame.image.load("assets/images/cat.png"), "position
 ```
 verá que cada línea crea un nuevo diccionario para cada animal. Cada diccionario tiene tres claves (o propiedades: los términos son intercambiables). 
 
-> La primera es `image:`(imagen), que nos cargará la imagen de ese botón. En diccionarios anteriores, almacenamos cadenas en diccionarios y luego usamos esas cadenas para cargar imágenes cuando las necesitamos; esta vez, sin embargo, hemos cargado cada imagen en nuestro diccionario con [`pygame.image.load()`](https://www.pygame.org/docs/ref/image.html?highlight=image%20load#pygame.image.load).
+> La primera es `image:`(imagen), que nos cargará la imagen de ese botón. En diccionarios anteriores, almacenamos cadenas en diccionarios y luego usamos esas cadenas para cargar imágenes cuando las necesitamos; esta vez, sin embargo, hemos cargado cada imagen en nuestro diccionario con [`pygame.image.load()`](https://www.pygame.org/docs/ref/image.html?highlight=image%20load#pygame.image.load). Esto ahorra tiempo cuando tenemos que dibujar algo muchas veces, y dado que la imagen nunca cambia, tiene sentido tenerla ahí. 
 
-Esto ahorra tiempo cuando tenemos que dibujar algo muchas veces, y dado que la imagen nunca cambia, tiene sentido tenerla ahí. 
+>Nuestra siguiente clave es la `position:`(posición); esta es una tupla simple que contiene las coordenadas `x` y `y` de donde se dibujarán nuestros botones. 
 
->Nuestra siguiente clave es la `position:`posición; esta es una tupla simple que contiene las coordenadas xey de donde se dibujarán nuestros botones. La última propiedad, sonido, es como nuestra propiedad de imagen, excepto que, como es de esperar, carga un sonido en lugar de una imagen. Aquí cargamos los sonidos como objetos, lo que significa que son esencialmente autónomos en términos de cómo funcionan.
+>La última propiedad, `sound`(sonido), es como nuestra propiedad de imagen, excepto que, como es de esperar, carga un sonido en lugar de una imagen. Aquí cargamos los sonidos como objetos, lo que significa que son esencialmente autónomos en términos de cómo funcionan.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzA5ODg4NywtMTMzMDk4OTg2NiwyMD
-Q1MjkyMTE0LC0xMTQ3ODc2OTMyLDg3Mjc3MjQ3OV19
+eyJoaXN0b3J5IjpbLTE2NDE3MTUwLC0xMzMwOTg5ODY2LDIwND
+UyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcyNDc5XX0=
 -->
