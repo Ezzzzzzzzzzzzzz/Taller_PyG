@@ -31,8 +31,10 @@ En la línea:
 ```python
 pygame.mixer.music.play(-1)
 ```
-llamamos [`pygame.mixer.music.play (-1)`](https://www.pygame.org/docs/ref/music.html?highlight=play#pygame.mixer.music.play), que comienza a reproducir nuestro archivo de sonido. El número que pasamos es el número de veces que queremos que nuestro sonido se repita antes de que deje de reproducirse. Pasamos -1, lo que significa que se repetirá para siempre o hasta que lo detengamos. Si ejecutamos nuestra caja de resonancia en este punto, tendríamos una hermosa ventana en blanco con algunos sonidos de granja calmantes, pero eso es un poco simple. ¡Es hora de hacer algunos botones!
+llamamos [`pygame.mixer.music.play (-1)`](https://www.pygame.org/docs/ref/music.html?highlight=play#pygame.mixer.music.play), que comienza a reproducir nuestro archivo de sonido. El número que pasamos es el número de veces que queremos que nuestro sonido se repita antes de que deje de reproducirse. 
+
+**Pasamos `-1`, lo que significa que se repetirá para siempre o hasta que lo detengamos**. Si ejecutamos nuestra caja de resonancia en este punto, tendríamos una hermosa ventana en blanco con algunos sonidos de granja calmantes, pero eso es un poco simple. **¡Es hora de hacer algunos botones!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDI2NjM4OSw5NjgyMzc5NDYsNjUxNz
+eyJoaXN0b3J5IjpbMTExMTY1MDk1MSw5NjgyMzc5NDYsNjUxNz
 I4OTM3XX0=
 -->
