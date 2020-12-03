@@ -14,7 +14,9 @@ pygame.mixer.init()
 ## Nuestro primer sonido
 
 **Puede reproducir sonidos de un par de formas diferentes en Pygame: puede reproducir una secuencia de sonido, que puede considerar como sonido que se reproduce mientras se carga, o puede crear y reproducir un objeto de sonido, que carga el sonido, lo almacena en la memoria de nuestra computadora y luego lo reproduce.**
+
+Cada forma de reproducir sonido es buena para diferentes instancias. La transmisión de sonido es mejor, por ejemplo, cuando queremos crear música de fondo que se reproduce mientras hacemos otras cosas, mientras que el objeto de sonido es una mejor opción para cuando queremos reproducir sonidos cortos de forma rápida y frecuente.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjQ3NjU4OSw5NjgyMzc5NDYsNjUxNz
+eyJoaXN0b3J5IjpbMjEzMTAwNzc2MCw5NjgyMzc5NDYsNjUxNz
 I4OTM3XX0=
 -->
