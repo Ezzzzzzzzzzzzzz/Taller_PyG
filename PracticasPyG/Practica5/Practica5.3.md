@@ -25,9 +25,11 @@ buttons.append({ "image" : pygame.image.load("assets/images/cow.png"), "position
 buttons.append({ "image" : pygame.image.load("assets/images/chicken.png"), "position" : (225, 425), "sound" : pygame.mixer.Sound('assets/sounds/OGG/chicken.ogg')})
 buttons.append({ "image" : pygame.image.load("assets/images/cat.png"), "position" : (425, 425), "sound" : pygame.mixer.Sound('assets/sounds/OGG/cat.ogg')})
 ```
-verá que cada línea crea un nuevo diccionario para cada animal. Cada diccionario tiene tres claves (o propiedades: los términos son intercambiables). La primera es imagen, que nos cargará la imagen de ese botón. En diccionarios anteriores, almacenamos cadenas en diccionarios y luego usamos esas cadenas para cargar imágenes cuando las necesitamos; esta vez, sin embargo, hemos cargado cada imagen en nuestro diccionario con pygame.image.load ().
+verá que cada línea crea un nuevo diccionario para cada animal. Cada diccionario tiene tres claves (o propiedades: los términos son intercambiables). 
+
+> La primera es `image:`(imagen), que nos cargará la imagen de ese botón. En diccionarios anteriores, almacenamos cadenas en diccionarios y luego usamos esas cadenas para cargar imágenes cuando las necesitamos; esta vez, sin embargo, hemos cargado cada imagen en nuestro diccionario con `pygame.image.load()`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA5ODk4NjYsMjA0NTI5MjExNCwtMT
-E0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
+eyJoaXN0b3J5IjpbLTEwMTUzMzY5ODQsLTEzMzA5ODk4NjYsMj
+A0NTI5MjExNCwtMTE0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
 -->
