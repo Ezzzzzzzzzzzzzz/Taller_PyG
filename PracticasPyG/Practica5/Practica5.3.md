@@ -27,9 +27,9 @@ buttons.append({ "image" : pygame.image.load("assets/images/cat.png"), "position
 ```
 verá que cada línea crea un nuevo diccionario para cada animal. Cada diccionario tiene tres claves (o propiedades: los términos son intercambiables). 
 
-> La primera es `image:`(imagen), que nos cargará la imagen de ese botón. En diccionarios anteriores, almacenamos cadenas en diccionarios y luego usamos esas cadenas para cargar imágenes cuando las necesitamos; esta vez, sin embargo, hemos cargado cada imagen en nuestro diccionario con `pygame.image.load()`.
+> La primera es `image:`(imagen), que nos cargará la imagen de ese botón. En diccionarios anteriores, almacenamos cadenas en diccionarios y luego usamos esas cadenas para cargar imágenes cuando las necesitamos; esta vez, sin embargo, hemos cargado cada imagen en nuestro diccionario con [`pygame.image.load()`](https://www.pygame.org/docs/ref/image.html?highlight=image%20load#pygame.image.load).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTUzMzY5ODQsLTEzMzA5ODk4NjYsMj
-A0NTI5MjExNCwtMTE0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
+eyJoaXN0b3J5IjpbMjI2MzM3OTIyLC0xMzMwOTg5ODY2LDIwND
+UyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcyNDc5XX0=
 -->
