@@ -10,8 +10,22 @@ Cada botón tiene la silueta de un animal. Emitirá el sonido que hace este anim
 
 **Vamos a utilizar listas y diccionarios de nuevo: ¿recuerdas la variable de botones que vimos al principio de este capítulo? Pudimos ver que actualmente estaba vacío, pero ahora es el momento de agregar algunos diccionarios que describen nuestros botones.**
 
+Si observa las líneas:
+```python
+# Create Buttons
+buttons.append({ "image" : pygame.image.load("assets/images/sheep.png"), "position" : (25, 25), "sound" : pygame.mixer.Sound('assets/sounds/OGG/sheep.ogg')})
+buttons.append({ "image" : pygame.image.load("assets/images/rooster.png"), "position" : (225, 25), "sound" : pygame.mixer.Sound('assets/sounds/OGG/rooster.ogg')})
+buttons.append({ "image" : pygame.image.load("assets/images/pig.png"), "position" : (425, 25), "sound" : pygame.mixer.Sound('assets/sounds/OGG/pig.ogg')})
+buttons.append({ "image" : pygame.image.load("assets/images/mouse.png"), "position" : (25, 225), "sound" : pygame.mixer.Sound('assets/sounds/OGG/mouse.ogg')})
+buttons.append({ "image" : pygame.image.load("assets/images/horse.png"), "position" : (225, 225), "sound" : pygame.mixer.Sound('assets/sounds/OGG/horse.ogg')})
+buttons.append({ "image" : pygame.image.load("assets/images/dog.png"), "position" : (425, 225), "sound" : pygame.mixer.Sound('assets/sounds/OGG/dog.ogg')})
+buttons.append({ "image" : pygame.image.load("assets/images/cow.png"), "position" : (25, 425), "sound" : pygame.mixer.Sound('assets/sounds/OGG/cow.ogg')})
+buttons.append({ "image" : pygame.image.load("assets/images/chicken.png"), "position" : (225, 425), "sound" : pygame.mixer.Sound('assets/sounds/OGG/chicken.ogg')})
+buttons.append({ "image" : pygame.image.load("assets/images/cat.png"), "position" : (425, 425), "sound" : pygame.mixer.Sound('assets/sounds/OGG/cat.ogg')})
+```
+verá que cada línea crea un nuevo diccionario para cada animal. Cada diccionario tiene tres claves (o propiedades: los términos son intercambiables). La primera es imagen, que nos cargará la imagen de ese botón. En diccionarios anteriores, almacenamos cadenas en diccionarios y luego usamos esas cadenas para cargar imágenes cuando las necesitamos; esta vez, sin embargo, hemos cargado cada imagen en nuestro diccionario con pygame.image.load ().
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ2MDkwMTQsMjA0NTI5MjExNCwtMT
-E0Nzg3NjkzMiw4NzI3NzI0NzldfQ==
+eyJoaXN0b3J5IjpbLTk2ODYzOTgzNSwyMDQ1MjkyMTE0LC0xMT
+Q3ODc2OTMyLDg3Mjc3MjQ3OV19
 -->
