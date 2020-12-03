@@ -4,12 +4,14 @@ Si vas a usar sonidos en Pygame, es más que probable que uses el mezclador inco
 
 Cuando hay un sonido en el mezclador, se puede ajustar de varias formas, siendo el volumen el primero. Cuando nuestro mezclador está terminado, pasa el sonido a través de una salida, que, en este caso, son nuestros altavoces. 
 
-**Entonces, antes de comenzar a cargar o reproducir cualquier sonido, necesitamos inicializar el mezclador, al igual que necesitamos inicializar Pygame antes de dibujar cosas; lo hacemos en la línea:
+**Entonces, antes de comenzar a cargar o reproducir cualquier sonido, necesitamos inicializar el mezclador, al igual que necesitamos inicializar Pygame antes de dibujar cosas; lo hacemos en la línea:**
 
 ```python
 pygame.mixer.init()
 ```
+## Nuestro primer sonido
 
+Puede reproducir sonidos de un par de formas diferentes en Pygame: puede reproducir una secuencia de sonido, que puede considerar como sonido que se reproduce mientras se carga, o puede crear y reproducir un objeto de sonido, que carga el sonido, lo almacena en la memoria de nuestra Raspberry Pi y luego lo reproduce.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNzI4OTM3XX0=
+eyJoaXN0b3J5IjpbMTAwNTEzOTE3Niw2NTE3Mjg5MzddfQ==
 -->
