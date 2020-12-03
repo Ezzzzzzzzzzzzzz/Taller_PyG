@@ -31,8 +31,8 @@ En la línea:
 ```python
 pygame.mixer.music.play(-1)
 ```
-llamamos [`pygame.mixer.music.play (-1)`](), que comienza a reproducir nuestro archivo de sonido.
+llamamos [`pygame.mixer.music.play (-1)`](https://www.pygame.org/docs/ref/music.html?highlight=play#pygame.mixer.music.play), que comienza a reproducir nuestro archivo de sonido.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI1NDk1NjcsOTY4MjM3OTQ2LDY1MT
-cyODkzN119
+eyJoaXN0b3J5IjpbMTY0MjQ2MjY1OSw5NjgyMzc5NDYsNjUxNz
+I4OTM3XX0=
 -->
