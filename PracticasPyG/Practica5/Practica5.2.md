@@ -19,8 +19,8 @@ Cada forma de reproducir sonido es buena para diferentes instancias. **La transm
 
 **El objeto de sonido encaja mejor en nuestra caja de resonancia que el flujo de sonido, por lo que los usaremos para nuestros botones un poco más adelante.** 
 
-Primero vamos a agregar algo de ambiente a nuestra caja de resonancia con un poco de audio de fondo de una granja. El audio de fondo generalmente se repite sin ningún tipo de interacción del usuario, y el audio de transmisión se puede configurar para que se repita sin demasiados problemas, así que eso es lo que vamos a hacer.
+> Primero vamos a agregar algo de ambiente a nuestra caja de resonancia con un poco de audio de fondo de una granja. **El audio de fondo generalmente se repite sin ningún tipo de interacción del usuario, y el audio de transmisión se puede configurar para que se repita sin demasiados problemas, así que eso es lo que vamos a hacer.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjkxNDI0OSw5NjgyMzc5NDYsNjUxNz
-I4OTM3XX0=
+eyJoaXN0b3J5IjpbNjI1OTIxMDAzLDk2ODIzNzk0Niw2NTE3Mj
+g5MzddfQ==
 -->
