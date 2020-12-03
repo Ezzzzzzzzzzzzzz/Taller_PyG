@@ -11,7 +11,7 @@ pygame.mixer.init()
 ```
 ## Nuestro primer sonido
 
-Puede reproducir sonidos de un par de formas diferentes en Pygame: puede reproducir una secuencia de sonido, que puede considerar como sonido que se reproduce mientras se carga, o puede crear y reproducir un objeto de sonido, que carga el sonido, lo almacena en la memoria de nuestra Raspberry Pi y luego lo reproduce.
+**Puede reproducir sonidos de un par de formas diferentes en Pygame: puede reproducir una secuencia de sonido, que puede considerar como sonido que se reproduce mientras se carga, o puede crear y reproducir un objeto de sonido, que carga el sonido, lo almacena en la memoria de nuestra computadora y luego lo reproduce.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTEzOTE3Niw2NTE3Mjg5MzddfQ==
+eyJoaXN0b3J5IjpbOTY4MjM3OTQ2LDY1MTcyODkzN119
 -->
