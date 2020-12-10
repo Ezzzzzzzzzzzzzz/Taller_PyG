@@ -88,15 +88,15 @@ Las comprobaciones se realizan en las líneas:
     if mousePosition[0] > buttonPosition[0] and mousePosition[0] < buttonPosition[0] + buttonSize[0]:
 
       if mousePosition[1] > buttonPosition[1] and mousePosition[1] < buttonPosition[1] + buttonSize[1]:
+```
+ Si se determina que cualquiera de las declaraciones es `Falsa`, no pasará nada, pero si ambas son correctas, reproducimos el sonido con la línea:
+```python
         button['sound'].set_volume(volume)
         button['sound'].play()
 ```
- Si se determina que cualquiera de las declaraciones es `Falsa`, no pasará nada, pero si ambas son correctas, reproducimos el sonido con la línea:
-``
-
 Recuerde, este es un objeto de sonido, no un flujo de sonido. , así que cuando tocamos este sonido, se reproduce a través del mezclador, ya que todos los sonidos pasan para poder reproducirse. Sin embargo, tenga en cuenta que el mezclador no tiene control sobre ese sonido específico porque se reproduce en su propio canal separado.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODk1NTE3NCw1Mjk4MDE2MDksOTk5Mj
+eyJoaXN0b3J5IjpbMTIzMzU2ODg1OCw1Mjk4MDE2MDksOTk5Mj
 ExMDJdfQ==
 -->
