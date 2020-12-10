@@ -52,7 +52,9 @@ Si se ha hecho clic con el mouse, llamamos a la función `handleClick()`, que es
 Para comprobar si se hizo clic o no en un botón, necesitamos saber tres cosas: 
 > 1) La posición de cada botón 
 > 2) El tamaño de ese botón 
-> 3) Dónde estaba el mouse cuando se hizo clic. Si las coordenadas de nuestro mouse son mayores que las coordenadas `x` y `y`
+> 3) Dónde estaba el mouse cuando se hizo clic. Si las coordenadas de nuestro mouse son mayores que las coordenadas `x` y `y` de la imagen del botón, pero menores que las coordenadas `x`y `y` más el ancho y alto de la imagen, entonces podemos estar seguros de que se hizo clic en el botón que estamos revisando y por lo tanto, podemos reproducir el sonido de ese botón; de lo contrario, el mouse estaba fuera del botón.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTU0MTE0Miw5OTkyMTEwMl19
+eyJoaXN0b3J5IjpbMTE1MTQzOTQ1Niw5OTkyMTEwMl19
 -->
