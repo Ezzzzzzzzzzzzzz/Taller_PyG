@@ -61,7 +61,10 @@ def checkVolume():
         volume = float((mousePosition[0] - 450)) / 100
 ```
 
+Luego, cuando se llame a nuestra función `drawVolume()`, el indicador se dibujará en la posición correcta. 
 
+Ahora, la próxima vez que hagamos clic en un sonido, se establecerá en el nivel que hemos elegido con la función `set_volume() en nuestro objeto de sonido, que puede ver en la línea 50.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2NDMwMDk1LC0yMDA1NDc1MTA4XX0=
+eyJoaXN0b3J5IjpbMjIyMjI1MTQsNTk2NDMwMDk1LC0yMDA1ND
+c1MTA4XX0=
 -->
