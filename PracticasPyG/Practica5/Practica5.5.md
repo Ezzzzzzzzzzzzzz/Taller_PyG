@@ -69,7 +69,10 @@ Ahora, la próxima vez que hagamos clic en un sonido, se establecerá en el nive
         button['sound'].set_volume(volume)
 ```
 
+Y eso es. 
+
+Hemos aprendido todo lo que necesitamos saber sobre cómo hacer que los sonidos se reproduzcan en nuestro juego. Hemos cubierto el audio de fondo, el mezclador de sonido, el sonido de transmisión y los objetos de sonido. También hemos utilizado listas y diccionarios para crear y manipular botones, basándonos en lo que aprendimos en el capítulo anterior. Ahora tenemos una caja de resonancia en pleno funcionamiento que podría formar parte de un juego.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDczNTE1Miw1OTY0MzAwOTUsLTIwMD
-U0NzUxMDhdfQ==
+eyJoaXN0b3J5IjpbMTk1MDQ0ODg1LDU5NjQzMDA5NSwtMjAwNT
+Q3NTEwOF19
 -->
