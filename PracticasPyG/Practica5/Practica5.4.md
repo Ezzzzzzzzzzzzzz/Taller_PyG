@@ -47,8 +47,8 @@ tenemos código que maneja algunos de los eventos que suceden en Pygame. Tambié
 ``` 
  notará que estamos buscando un evento `MOUSEBUTTONUP`.  **Si se está preguntando por qué buscamos `MOUSEBUTTONUP` y no algo como `MOUSECLICK`, recuerde que para que un botón del mouse suba, debe haber bajado primero, lo que significa que se debe haber hecho clic en el mouse.** 
 
-Si se ha hecho clic con el mouse, llamamos a la función handleClick (), que está en las líneas 38-55. Al igual que cuando dibujamos nuestros botones, vamos a trabajar en la lista de botones para averiguar dónde están en nuestra superficie. Si nuestro mouse hace clic donde está el botón 0a, reproduciremos ese sonido; de lo contrario, no haremos nada.
+Si se ha hecho clic con el mouse, llamamos a la función `handleClick()`, que está en las líneas 38-55. Al igual que cuando dibujamos nuestros botones, vamos a trabajar en la lista de botones para averiguar dónde están en nuestra superficie. **Si nuestro mouse hace clic donde está el botón, reproduciremos ese sonido; de lo contrario, no haremos nada.**
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5MjExMDJdfQ==
+eyJoaXN0b3J5IjpbNzIwNTkzNzUzLDk5OTIxMTAyXX0=
 -->
