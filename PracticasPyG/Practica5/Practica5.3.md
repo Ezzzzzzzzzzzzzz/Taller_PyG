@@ -67,16 +67,12 @@ Blitting es algo que puede haber encontrado en el pasado, pero no se preocupe si
 
 **Cuando "Blitteamos" algo, tomamos los píxeles de nuestra superficie y luego cambiamos los píxeles para que sean iguales a la imagen que estamos agregando. Esto significa que todo lo que estaba debajo del área que se estaba blitteada se pierde**. 
 
-### Es muy parecido a cortar letras de un periódico y pegarlas en un trozo de papel: lo que estaba debajo del recorte del periódico se ha ido para siempre, pero podemos ver perfectamente lo que recortamos del periódico.
-
-
-
-
+### Es muy parecido a cortar letras de un periódico y pegarlas en un trozo de papel: lo que estaba debajo del recorte del periódico se ha ido para siempre, pero podemos ver perfectamente lo que recortamos del periódico
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTkxNzI1OCwxMDczNjA5ODQ3LC0xMz
-MwOTg5ODY2LDIwNDUyOTIxMTQsLTExNDc4NzY5MzIsODcyNzcy
-NDc5XX0=
+eyJoaXN0b3J5IjpbMjk4NDMxNzg0LDE2NTU5MTcyNTgsMTA3Mz
+YwOTg0NywtMTMzMDk4OTg2NiwyMDQ1MjkyMTE0LC0xMTQ3ODc2
+OTMyLDg3Mjc3MjQ3OV19
 -->
