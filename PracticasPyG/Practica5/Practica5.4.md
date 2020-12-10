@@ -58,10 +58,10 @@ Para comprobar si se hizo clic o no en un botón, necesitamos saber tres cosas:
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica5/Pant.JPG)
 
-Verificar de esta manera es un poco engañoso: nuestros botones son círculos, pero verificamos si se ha producido un clic dentro de un cuadrado que rodea el botón. Hacemos esto porque el resultado es casi exactamente el mismo y el código para verificar un clic en un cuadrado es mucho más rápido que para verificar un círculo o una forma irregular. Este cuadrado a menudo se denomina cuadro delimitador y se utiliza a menudo para comprobar los clics.
+### Verificar de esta manera es un poco engañoso: nuestros botones son círculos, pero verificamos si se ha producido un clic dentro de un cuadrado que rodea el botón. Hacemos esto porque el resultado es casi exactamente el mismo y el código para verificar un clic en un cuadrado es mucho más rápido que para verificar un círculo o una forma irregular. Este cuadrado a menudo se denomina cuadro delimitador y se utiliza a menudo para comprobar los clics.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc5OTEzNzYsNTI5ODAxNjA5LDk5OT
+eyJoaXN0b3J5IjpbLTE4MDM0MzI5MTUsNTI5ODAxNjA5LDk5OT
 IxMTAyXX0=
 -->
