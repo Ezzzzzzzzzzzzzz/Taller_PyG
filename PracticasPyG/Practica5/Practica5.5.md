@@ -1,4 +1,4 @@
-# Stopping todos nuestros sonidos
+# Deteniendo todos nuestros sonidos
 Hemos hecho un gran trabajo al lograr que nuestro código produzca una variedad de ruidos de corral, pero ¿qué podemos hacer si queremos detener estos ruidos?.
 
 Afortunadamente, tenemos un botón para encargarse de esto por nosotros. En la línea 14 tenemos un diccionario llamado `stopButton`:
@@ -63,5 +63,5 @@ def checkVolume():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU0NzUxMDhdfQ==
+eyJoaXN0b3J5IjpbNTk2NDMwMDk1LC0yMDA1NDc1MTA4XX0=
 -->
