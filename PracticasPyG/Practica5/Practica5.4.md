@@ -49,6 +49,10 @@ tenemos código que maneja algunos de los eventos que suceden en Pygame. Tambié
 
 Si se ha hecho clic con el mouse, llamamos a la función `handleClick()`, que está en las líneas 38-55. Al igual que cuando dibujamos nuestros botones, vamos a trabajar en la lista de botones para averiguar dónde están en nuestra superficie. **Si nuestro mouse hace clic donde está el botón, reproduciremos ese sonido; de lo contrario, no haremos nada.**
  
+Para comprobar si se hizo clic o no en un botón, necesitamos saber tres cosas: 
+> 1) La posición de cada botón 
+> 2) El tamaño de ese botón 
+> 3) Dónde estaba el mouse cuando se hizo clic. Si las coordenadas de nuestro mouse son mayores que las coordenadas x y `y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwNTkzNzUzLDk5OTIxMTAyXX0=
+eyJoaXN0b3J5IjpbOTY5NzYzNjYyLDk5OTIxMTAyXX0=
 -->
