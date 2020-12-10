@@ -94,9 +94,11 @@ Las comprobaciones se realizan en las líneas:
         button['sound'].set_volume(volume)
         button['sound'].play()
 ```
-Recuerde, este es un objeto de sonido, no un flujo de sonido. , así que cuando tocamos este sonido, se reproduce a través del mezclador, ya que todos los sonidos pasan para poder reproducirse. Sin embargo, tenga en cuenta que el mezclador no tiene control sobre ese sonido específico porque se reproduce en su propio canal separado.
+Recuerde, este es un objeto de sonido, no un flujo de sonido , así que cuando tocamos este sonido, se reproduce a través del mezclador, ya que todos los sonidos pasan para poder reproducirse. Sin embargo, tenga en cuenta que el mezclador no tiene control sobre ese sonido específico porque se reproduce en su propio canal separado.
+
+Dicho esto, podemos controlar ciertos aspectos de los sonidos con nuestro mezclador. *Por ejemplo, podemos pausar la reproducción de todo el sonido o detenerlo por completo, lo que nos lleva muy bien a la siguiente sección.***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzU2ODg1OCw1Mjk4MDE2MDksOTk5Mj
+eyJoaXN0b3J5IjpbMTA2Nzc4NzA1MCw1Mjk4MDE2MDksOTk5Mj
 ExMDJdfQ==
 -->
