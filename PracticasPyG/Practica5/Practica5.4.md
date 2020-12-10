@@ -60,6 +60,7 @@ Para comprobar si se hizo clic o no en un botón, necesitamos saber tres cosas:
 
 ### Verificar de esta manera es un poco engañoso: nuestros botones son círculos, pero verificamos si se ha producido un clic dentro de un cuadrado que rodea el botón. Hacemos esto porque el resultado es casi exactamente el mismo y el código para verificar un clic en un cuadrado es mucho más rápido que para verificar un círculo o una forma irregular. Este cuadrado a menudo se denomina cuadro delimitador y se utiliza a menudo para comprobar los clics.
 
+## handleClick()
 ```python
 def handleClick():
 
@@ -85,6 +86,6 @@ def handleClick():
 Las comprobaciones se realizan en las líneas 47 y 49. Si se determina que cualquiera de las declaraciones es Falsa, no pasará nada, pero si ambas son correctas, reproducimos el sonido con la línea 50. Recuerde, este es un objeto de sonido, no un flujo de sonido. , así que cuando tocamos este sonido, se reproduce a través del mezclador, ya que todos los sonidos pasan para poder reproducirse. Sin embargo, tenga en cuenta que el mezclador no tiene control sobre ese sonido específico porque se reproduce en su propio canal separado.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzA0NzcxMSw1Mjk4MDE2MDksOTk5Mj
-ExMDJdfQ==
+eyJoaXN0b3J5IjpbOTc0NDA1NjgyLDUyOTgwMTYwOSw5OTkyMT
+EwMl19
 -->
