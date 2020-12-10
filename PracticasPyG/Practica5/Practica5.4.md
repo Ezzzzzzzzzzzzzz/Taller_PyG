@@ -52,7 +52,7 @@ Si se ha hecho clic con el mouse, llamamos a la función `handleClick()`, que es
 Para comprobar si se hizo clic o no en un botón, necesitamos saber tres cosas: 
 > 1) La posición de cada botón 
 > 2) El tamaño de ese botón 
-> 3) Dónde estaba el mouse cuando se hizo clic. Si las coordenadas de nuestro mouse son mayores que las coordenadas x y `y
+> 3) Dónde estaba el mouse cuando se hizo clic. Si las coordenadas de nuestro mouse son mayores que las coordenadas `x` y `y`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5NzYzNjYyLDk5OTIxMTAyXX0=
+eyJoaXN0b3J5IjpbMTYxMTU0MTE0Miw5OTkyMTEwMl19
 -->
