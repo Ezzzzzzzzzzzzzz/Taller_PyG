@@ -41,7 +41,7 @@ volume = 1.0
 ```
 por lo que nuestro indicador debería estar completamente a la derecha, pero eso no nos sirve de mucho si queremos para las cosas mas suaves.
 
-![]()
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica5/Volmumebar.JPG)
 
 Justo antes de llamar a `drawVolume()` en la línea 104 llamamos `checkVolume()` en la línea 103. 
 ```python
@@ -75,6 +75,6 @@ Y eso es.
 
 Hemos aprendido todo lo que necesitamos saber sobre cómo hacer que los sonidos se reproduzcan en nuestro juego. Hemos cubierto el audio de fondo, el mezclador de sonido, el sonido de transmisión y los objetos de sonido. También hemos utilizado listas y diccionarios para crear y manipular botones, basándonos en lo que aprendimos en el capítulo anterior. Ahora tenemos una caja de resonancia en pleno funcionamiento que podría formar parte de un juego.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTMxODIzNywxOTUwNDQ4ODUsNTk2ND
-MwMDk1LC0yMDA1NDc1MTA4XX0=
+eyJoaXN0b3J5IjpbNzA0NTgwNDA3LDE5NTA0NDg4NSw1OTY0Mz
+AwOTUsLTIwMDU0NzUxMDhdfQ==
 -->
