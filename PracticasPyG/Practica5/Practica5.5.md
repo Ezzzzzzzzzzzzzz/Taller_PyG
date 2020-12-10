@@ -63,12 +63,13 @@ def checkVolume():
 
 Luego, cuando se llame a nuestra función `drawVolume()`, el indicador se dibujará en la posición correcta. 
 
-Ahora, la próxima vez que hagamos clic en un sonido, se establecerá en el nivel que hemos elegido con la función [`set_volume()` ]() en nuestro objeto de sonido, en la línea:
+Ahora, la próxima vez que hagamos clic en un sonido, se establecerá en el nivel que hemos elegido con la función [`set_volume()` ](https://www.pygame.org/docs/ref/mixer.html?highlight=set_volume#pygame.mixer.Sound.set_volume) en nuestro objeto de sonido, en la línea:
 
 ```python
-
+        button['sound'].set_volume(volume)
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1MzUxMTA3LDU5NjQzMDA5NSwtMjAwNT
-Q3NTEwOF19
+eyJoaXN0b3J5IjpbMTI5MDczNTE1Miw1OTY0MzAwOTUsLTIwMD
+U0NzUxMDhdfQ==
 -->
