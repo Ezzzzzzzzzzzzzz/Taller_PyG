@@ -56,9 +56,12 @@ Para comprobar si se hizo clic o no en un botón, necesitamos saber tres cosas:
 
 ### Si las coordenadas de nuestro mouse son mayores que las coordenadas `x` y `y` de la imagen del botón, pero menores que las coordenadas `x`y `y` más el ancho y alto de la imagen, entonces podemos estar seguros de que se hizo clic en el botón que estamos revisando y por lo tanto, podemos reproducir el sonido de ese botón; de lo contrario, el mouse estaba fuera del botón.
 
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica5/Pant.JPG)
+
 Verificar de esta manera es un poco engañoso: nuestros botones son círculos, pero verificamos si se ha producido un clic dentro de un cuadrado que rodea el botón. Hacemos esto porque el resultado es casi exactamente el mismo y el código para verificar un clic en un cuadrado es mucho más rápido que para verificar un círculo o una forma irregular. Este cuadrado a menudo se denomina cuadro delimitador y se utiliza a menudo para comprobar los clics.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5ODAxNjA5LDk5OTIxMTAyXX0=
+eyJoaXN0b3J5IjpbLTExNjc5OTEzNzYsNTI5ODAxNjA5LDk5OT
+IxMTAyXX0=
 -->
