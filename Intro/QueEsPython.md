@@ -22,7 +22,7 @@ El creador del lenguaje es un europeo llamado Guido Van Rossum. Hace ya más de 
   
 El desarrollo de Python duró varios años, durante los que trabajó en diversas compañías de Estados Unidos. En el 2000 ya disponía de un producto bastante completo y un equipo de desarrollo con el que se había asociado incluso en proyectos empresariales. Actualmente trabaja en Zope, una plataforma de gestión de contenidos y servidor de aplicaciones para el web, por supuesto, programada por completo en Python.  
  
-[Python 2004-2020](https://www.youtube.com/watch?v=T4JkCkfvKwg)
+[Python 2004-2020](https://youtu.be/UNSoPa-XQN0)
  
 ## Características del lenguaje  
   
@@ -51,7 +51,7 @@ Por último, destacar que Python tiene una **sintaxis muy visual**, gracias a un
 ![](https://qph.fs.quoracdn.net/main-qimg-b4d8dfe1de991041fdaf15df8549de93-c)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDIwODkyOCwtMTY3NDk2OTgyNCwtMT
-k5MzQ5MzA4NCwxMjM0ODA1NDQwLC0xNjkxNDU2OTcyLC0xNzQ2
-NzUzMzk0LC0yNDc0ODQ1MDZdfQ==
+eyJoaXN0b3J5IjpbNzQ1NDg1NzYzLDEyNTAyMDg5MjgsLTE2Nz
+Q5Njk4MjQsLTE5OTM0OTMwODQsMTIzNDgwNTQ0MCwtMTY5MTQ1
+Njk3MiwtMTc0Njc1MzM5NCwtMjQ3NDg0NTA2XX0=
 -->
