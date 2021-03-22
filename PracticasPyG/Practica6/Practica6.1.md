@@ -14,10 +14,13 @@ Entonces, con los vectores podemos describir la dirección, pero también podemo
 
 Cuando usamos vectores para describir la dirección, a menudo ayuda normalizarlos. **Esto significa que tomamos un vector, como (1, 3), y convertimos cada valor en un valor entre -1 y 1 dividiéndolo por la magnitud.** 
 
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/pyg_partII/PracticasPyG/Practica6/Normalization.JPG)
+
 >- Por ejemplo, **el vector (1, 3) se normalizaría a (0.316, 0.948), mientras que (-8, 2.4) se normalizaría a (-0.957, 0.287)**. 
 
 **Normalizar nuestros valores de esta manera hace que sea mucho más fácil afectar las cosas con fuerza y dirección. Al tener un valor entre -1 y 1, solo tenemos una indicación de dirección.** Cuando tenemos eso, somos libres de ajustarlo por cualquier valor para satisfacer nuestras necesidades; por ejemplo, podríamos multiplicar los valores por un valor de velocidad para dar movimiento a algo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg4OTcxNTcsLTIwMjUzMzI4MzMsLT
-M1MTg1NzA1OCwtNzQ0NzQ3MTIzLDE2Mzg5OTU5NzJdfQ==
+eyJoaXN0b3J5IjpbOTUwOTI5NzU3LC0xNzQ4ODk3MTU3LC0yMD
+I1MzMyODMzLC0zNTE4NTcwNTgsLTc0NDc0NzEyMywxNjM4OTk1
+OTcyXX0=
 -->
