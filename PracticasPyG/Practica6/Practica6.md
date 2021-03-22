@@ -11,7 +11,7 @@ Debemos reconocer una deuda de gratitud con Daniel Shiffman por la inspiración 
 Quizás esté pensando que ya hemos cubierto el tema de la gravedad en el capítulo tres. Este es solo el caso en parte. **Allí, agregamos una fuerza que llamamos gravedad a ciertos objetos para hacerlos caer al fondo de la ventana. Sin embargo, esa fuerza no era particularmente dinámica: sin importar el tamaño o la velocidad del objeto, simplemente se sumaría al valor Y de un objeto hasta que alcanzara la parte inferior de la pantalla, lo cual no es muy interesante.**
 
 ### Para este nuevo tipo de gravedad, usaremos algo llamado vectores.
-![](http://gph.is/2xA02rb)
+![](https://media.giphy.com/media/3o7aDa022Z5JIgsKkg/giphy.gif)
 Un vector es un valor que describe dos cosas: **dirección y magnitud**. 
 
 
@@ -48,5 +48,5 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODE2MjQxNyw4Njc2OTE3MDFdfQ==
+eyJoaXN0b3J5IjpbNzI1MDAxMzU5LDg2NzY5MTcwMV19
 -->
