@@ -33,7 +33,7 @@ En realidad, es muy simple:
 
 ### Significa que la fuerza que actúa sobre algo se reduce a medida que aumenta la distancia.
 
-Por lo tanto, por fuerte que sea el tirón de la gravedad sobre algo, como, por ejemplo, *la Tierra tirando de una pelota de fútbol a 1 [m] en el aire, si moviéramos el mismo objeto de modo que estuviera a 3 [m] de distancia de la fuente de gravedad, la la fuerza será 1/9 de la fuerza, es decir, 1/3 al cuadrado o 1 / distancia^2^.*
+Por lo tanto, por fuerte que sea el tirón de la gravedad sobre algo, como, por ejemplo, *la Tierra tirando de una pelota de fútbol a 1 [m] en el aire, si moviéramos el mismo objeto de modo que estuviera a 3 [m] de distancia de la fuente de gravedad, la la fuerza será ***1/9 de la fuerza, es decir, 1/3 al cuadrado o 1 / distancia^2^.***
 
 **La misma ley se aplica a algo más que a la gravedad, también afecta a la luz y al sonido, pero eso no es relevante aquí.** 
 
@@ -52,6 +52,6 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDc1OTE5NiwtNTM3ODU2MjM1LDg2Nz
-Y5MTcwMV19
+eyJoaXN0b3J5IjpbLTExOTYxMDg5MzYsLTUzNzg1NjIzNSw4Nj
+c2OTE3MDFdfQ==
 -->
