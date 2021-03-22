@@ -49,9 +49,9 @@ Igualmente importante es la oración final de esa declaración:
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica6/eart.JPG)
 
-Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
+**Es por esta verdad que vamos a utilizar vectores para simular la gravedad.** Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTU2MzI1NSwtMTE5NjEwODkzNiwtNT
+eyJoaXN0b3J5IjpbLTM4MzU4MjEzNSwtMTE5NjEwODkzNiwtNT
 M3ODU2MjM1LDg2NzY5MTcwMV19
 -->
