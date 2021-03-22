@@ -21,7 +21,7 @@ La mayoría de las cosas, como dibujar imágenes o manejar pulsaciones de teclas
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica6/MathsAhead.JPG)
 
-## Entonces, ¿qué es este asunto de la "gravedad", de todos modos?
+## Entonces, ¿qué es este asunto de la "gravedad"?
 
 En el mundo real, la gravedad sigue una regla llamada , **["Ley del cuadrado inverso"](https://es.wikipedia.org/wiki/Ley_de_la_inversa_del_cuadrado)** que es la siguiente: 
 
@@ -48,5 +48,5 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTM1MjI0Myw4Njc2OTE3MDFdfQ==
+eyJoaXN0b3J5IjpbLTUzNzg1NjIzNSw4Njc2OTE3MDFdfQ==
 -->
