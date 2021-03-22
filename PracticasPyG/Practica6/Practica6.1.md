@@ -22,8 +22,10 @@ Cuando usamos vectores para describir la dirección, a menudo ayuda normalizarlo
 ### Normalizar nuestros valores de esta manera hace que sea mucho más fácil afectar las cosas con fuerza y dirección. 
 
 Al tener un valor entre -1 y 1, solo tenemos una indicación de dirección. Cuando tenemos eso, somos libres de ajustarlo por cualquier valor para satisfacer nuestras necesidades; por ejemplo, podríamos multiplicar los valores por un valor de velocidad para dar movimiento a algo.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM3NTAyNDcsLTE3NDg4OTcxNTcsLT
-IwMjUzMzI4MzMsLTM1MTg1NzA1OCwtNzQ0NzQ3MTIzLDE2Mzg5
-OTU5NzJdfQ==
+eyJoaXN0b3J5IjpbLTE1NTM4MDI3NjMsLTIwMjM3NTAyNDcsLT
+E3NDg4OTcxNTcsLTIwMjUzMzI4MzMsLTM1MTg1NzA1OCwtNzQ0
+NzQ3MTIzLDE2Mzg5OTU5NzJdfQ==
 -->
