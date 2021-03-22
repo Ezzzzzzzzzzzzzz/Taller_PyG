@@ -27,7 +27,7 @@ En el mundo real, la gravedad sigue una regla llamada , **["Ley del cuadrado inv
 
 ### "La atracción gravitacional entre dos masas puntuales es directamente proporcional al producto de sus masas e inversamente proporcional al cuadrado de la distancia de separación. La fuerza siempre es atractiva y actúa a lo largo de la línea que los une ”.
 
-Parece un concepto muy complicado, ¿Qué significa?
+### Parece un concepto muy complicado, ¿Qué significa?
 
 En realidad, es muy simple: 
 
@@ -52,6 +52,6 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTYxMDg5MzYsLTUzNzg1NjIzNSw4Nj
-c2OTE3MDFdfQ==
+eyJoaXN0b3J5IjpbMTEzNjQ5MDAxMSwtMTE5NjEwODkzNiwtNT
+M3ODU2MjM1LDg2NzY5MTcwMV19
 -->
