@@ -19,11 +19,11 @@ Cuando usamos vectores para describir la dirección, a menudo ayuda normalizarlo
 >- Por ejemplo, **el vector (1, 3) se normalizaría a (0.316, 0.948)**
 >- mientras que **(-8, 2.4) se normalizaría a (-0.957, 0.287)**
 
-### Normalizar nuestros valores de esta manera hace que sea mucho más fácil afectar las cosas con fuerza y dirección. Al tener un valor entre -1 y 1, solo tenemos una indicación de dirección.
+### Normalizar nuestros valores de esta manera hace que sea mucho más fácil afectar las cosas con fuerza y dirección. 
 
-Cuando tenemos eso, somos libres de ajustarlo por cualquier valor para satisfacer nuestras necesidades; por ejemplo, podríamos multiplicar los valores por un valor de velocidad para dar movimiento a algo.
+Al tener un valor entre -1 y 1, solo tenemos una indicación de dirección. Cuando tenemos eso, somos libres de ajustarlo por cualquier valor para satisfacer nuestras necesidades; por ejemplo, podríamos multiplicar los valores por un valor de velocidad para dar movimiento a algo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDExMDY4MDEsLTE3NDg4OTcxNTcsLT
+eyJoaXN0b3J5IjpbLTIwMjM3NTAyNDcsLTE3NDg4OTcxNTcsLT
 IwMjUzMzI4MzMsLTM1MTg1NzA1OCwtNzQ0NzQ3MTIzLDE2Mzg5
 OTU5NzJdfQ==
 -->
