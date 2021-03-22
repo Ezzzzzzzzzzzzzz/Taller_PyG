@@ -3,7 +3,7 @@ Entonces, ahora que comprendemos cómo funciona la gravedad, es hora de echar un
 
 ### Tiene dos valores, una X y una Y, y juntos apuntan en una dirección. 
 
->- Por ejemplo, si dibujáramos una línea desde (0,0) a lo largo de un vector de (8, 4) en una cuadrícula, apuntaría hacia abajo y hacia la derecha; por cada unidad recorrida a lo largo del eje X (píxeles, centímetros, pulgadas, brazas, el tipo de unidad no importa), se viajarían 0,5 unidades a lo largo del eje Y.
+>- Por ejemplo, si dibujáramos una línea desde **(0,0) a lo largo de un vector de (8, 4) en una cuadrícula, apuntaría hacia abajo y hacia la derecha; por cada unidad recorrida a lo largo del eje X (píxeles, centímetros, pulgadas, brazas, el tipo de unidad no importa), se viajarían 0,5 unidades a lo largo del eje Y.
 >- Si tuviéramos que dibujar otra línea desde (0,0) a lo largo de un vector de (-1, -2), la línea viajaría hacia la izquierda y hacia arriba; por cada unidad recorrida a lo largo del eje X, se atravesarían dos a lo largo del eje Y.
 
 ![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/pyg_partII/PracticasPyG/Practica6/vectors.JPG)
@@ -16,6 +16,6 @@ Cuando usamos vectores para describir la dirección, a menudo ayuda normalizarlo
 
 >- Por ejemplo, el vector (1, 3) se normalizaría a (0.316, 0.948), mientras que (-8, 2.4) se normalizaría a (-0.957, 0.287). Normalizar nuestros valores de esta manera hace que sea mucho más fácil afectar las cosas con fuerza y dirección. Al tener un valor entre -1 y 1, solo tenemos una indicación de dirección. Cuando tenemos eso, somos libres de ajustarlo por cualquier valor para satisfacer nuestras necesidades; por ejemplo, podríamos multiplicar los valores por un valor de velocidad para dar movimiento a algo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIxNTY0OSwtMjAyNTMzMjgzMywtMz
-UxODU3MDU4LC03NDQ3NDcxMjMsMTYzODk5NTk3Ml19
+eyJoaXN0b3J5IjpbLTE2OTI1NzMyODEsLTIwMjUzMzI4MzMsLT
+M1MTg1NzA1OCwtNzQ0NzQ3MTIzLDE2Mzg5OTU5NzJdfQ==
 -->
