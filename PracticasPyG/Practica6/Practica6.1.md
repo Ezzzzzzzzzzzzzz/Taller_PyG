@@ -6,7 +6,9 @@ Entonces, ahora que comprendemos cómo funciona la gravedad, es hora de echar un
 >- Por ejemplo, si dibujáramos una línea desde (0,0) a lo largo de un vector de (8, 4) en una cuadrícula, apuntaría hacia abajo y hacia la derecha; por cada unidad recorrida a lo largo del eje X (píxeles, centímetros, pulgadas, brazas, el tipo de unidad no importa), se viajarían 0,5 unidades a lo largo del eje Y.
 >- Si tuviéramos que dibujar otra línea desde (0,0) a lo largo de un vector de (-1, -2), la línea viajaría hacia la izquierda y hacia arriba; por cada unidad recorrida a lo largo del eje X, se atravesarían dos a lo largo del eje Y.
 
-Entonces, con los vectores podemos describir la dirección, pero también podemos expresar algo llamado magnitud. La magnitud del vector es la longitud de la línea trazada entre (0,0) y el vector en una cuadrícula, pero también podemos pensar en la magnitud como una cantidad o tamaño de algo; por ejemplo, podríamos usarlo como velocidad.
+Entonces, con los vectores podemos describir la dirección, pero también podemos expresar algo llamado **magnitud**. 
+
+### La magnitud del vector es la longitud de la línea trazada entre (0,0) y el vector en una cuadrícula, pero también podemos pensar en la magnitud como una cantidad o tamaño de algo; por ejemplo, podríamos usarlo como velocidad. Cuando usamos vectores para describir la dirección, a menudo ayuda normalizarlos. Esto significa que tomamos un vector, como (1, 3), y convertimos cada valor en un valor entre -1 y 1 dividiéndolo por la magnitud.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5NDg3MjgxLDE2Mzg5OTU5NzJdfQ==
+eyJoaXN0b3J5IjpbLTc0NDc0NzEyMywxNjM4OTk1OTcyXX0=
 -->
