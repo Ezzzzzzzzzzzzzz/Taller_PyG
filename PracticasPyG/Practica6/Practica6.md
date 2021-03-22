@@ -47,12 +47,12 @@ Igualmente importante es la oración final de esa declaración:
 
 **La gravedad siempre atrae y nunca repele. Siempre tira en la dirección de los objetos que tira**. 
 
-![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica6/eart.JPG)
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/pyg_partII/PracticasPyG/Practica6/earth.JPG)
 
 **Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDY5ODU2OSwtMTE5NjEwODkzNiwtNT
-M3ODU2MjM1LDg2NzY5MTcwMV19
+eyJoaXN0b3J5IjpbMTk4NTUwNTkyNSwtNTc0Njk4NTY5LC0xMT
+k2MTA4OTM2LC01Mzc4NTYyMzUsODY3NjkxNzAxXX0=
 -->
