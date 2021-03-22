@@ -2,6 +2,8 @@
 
 En sesiones anteriores, hemos reunido código que nos permite tomar el control de los elementos de nuestro programa cada vez que interactuamos con ellos, ya sea haciendo clic, arrastrando o escribiendo. La dificultad es que hay mucho que podemos hacer con estas interacciones; pase lo que pase, todo lo que hagamos será determinado por nosotros mismos de alguna manera, y eso puede volverse un poco aburrido después de un tiempo. 
 
+![](https://media.giphy.com/media/LRxbk6xYZzHSVrwHd5/giphy.gif)
+
 Siendo este el caso, **en estas sesiones le daremos a ciertos elementos de nuestro programa la capacidad de interactuar con las cosas que los rodean sin que tengamos que hacer nada: vamos a agregar gravedad (o mejor dicho, movimiento que se asemeja mucho gravedad) a algunos planetas que vamos a hacer como parte de un simulador del sistema solar**.
 
 Debemos reconocer una deuda de gratitud con Daniel Shiffman por la inspiración detrás de estos ejemplos. Su libro [**The Nature of Code**](https://natureofcode.com/) explica los conceptos que se encuentran aquí y más con mucho mayor detalle. Todo su código está escrito en Java (Processing), pero debería poder convertirlo a Python con un poco de trabajo.
@@ -13,10 +15,7 @@ Quizás esté pensando que ya hemos cubierto el tema de la gravedad en el capít
 ### Para este nuevo tipo de gravedad, usaremos algo llamado vectores.
 ![](https://media.giphy.com/media/3o7aDa022Z5JIgsKkg/giphy.gif)
 
-Un vector es un valor que describe dos cosas: **dirección y magnitud**. 
-
-
-Con estos, podemos calcular el efecto de un objeto con masa sobre la velocidad (la velocidad y la dirección) de otro objeto con masa. 
+Un vector es un valor que describe dos cosas: **dirección y magnitud**. Con estos, podemos calcular el efecto de un objeto con masa sobre la velocidad (la velocidad y la dirección) de otro objeto con masa. 
 
 La mayoría de las cosas, como dibujar imágenes o manejar pulsaciones de teclas, las hemos hecho antes, por lo que no las volveremos a revisar; en su lugar, **nos centraremos en describir la gravedad e implementarla en nuestro código**. Esto va a requerir un pensamiento serio, así que si no entiende todo la primera vez, no se preocupe: casi todos los que lean esto probablemente sentirán que deben volver a leerlo.
 
@@ -49,5 +48,5 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxMjIxNjI5LDg2NzY5MTcwMV19
+eyJoaXN0b3J5IjpbLTg5OTM1MjI0Myw4Njc2OTE3MDFdfQ==
 -->
