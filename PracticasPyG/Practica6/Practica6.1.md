@@ -8,7 +8,12 @@ Entonces, ahora que comprendemos cómo funciona la gravedad, es hora de echar un
 
 Entonces, con los vectores podemos describir la dirección, pero también podemos expresar algo llamado **magnitud**. 
 
-### La magnitud del vector es la longitud de la línea trazada entre (0,0) y el vector en una cuadrícula, pero también podemos pensar en la magnitud como una cantidad o tamaño de algo; por ejemplo, podríamos usarlo como velocidad. Cuando usamos vectores para describir la dirección, a menudo ayuda normalizarlos. Esto significa que tomamos un vector, como (1, 3), y convertimos cada valor en un valor entre -1 y 1 dividiéndolo por la magnitud.
+### La magnitud del vector es la longitud de la línea trazada entre (0,0) y el vector en una cuadrícula, pero también podemos pensar en la magnitud como una cantidad o tamaño de algo; por ejemplo, podríamos usarlo como velocidad. 
+
+Cuando usamos vectores para describir la dirección, a menudo ayuda normalizarlos. Esto significa que tomamos un vector, como (1, 3), y convertimos cada valor en un valor entre -1 y 1 dividiéndolo por la magnitud. 
+
+>- Por ejemplo, el vector (1, 3) se normalizaría a (0.316, 0.948), mientras que (-8, 2.4) se normalizaría a (-0.957, 0.287). Normalizar nuestros valores de esta manera hace que sea mucho más fácil afectar las cosas con fuerza y dirección. Al tener un valor entre -1 y 1, solo tenemos una indicación de dirección. Cuando tenemos eso, somos libres de ajustarlo por cualquier valor para satisfacer nuestras necesidades; por ejemplo, podríamos multiplicar los valores por un valor de velocidad para dar movimiento a algo.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDc0NzEyMywxNjM4OTk1OTcyXX0=
+eyJoaXN0b3J5IjpbLTM1MTg1NzA1OCwtNzQ0NzQ3MTIzLDE2Mz
+g5OTU5NzJdfQ==
 -->
