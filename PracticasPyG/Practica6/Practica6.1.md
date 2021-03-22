@@ -23,9 +23,15 @@ Cuando usamos vectores para describir la dirección, a menudo ayuda normalizarlo
 
 Al tener un valor entre -1 y 1, solo tenemos una indicación de dirección. Cuando tenemos eso, somos libres de ajustarlo por cualquier valor para satisfacer nuestras necesidades; por ejemplo, podríamos multiplicar los valores por un valor de velocidad para dar movimiento a algo.
 
+## Una visión general rápida
 
+Para resumir el material que acabamos de cubrir:
+>- La gravedad siempre atrae en la dirección de algo con masa
+>- Los vectores describen una dirección y una magnitud que es una cantidad de algo, como la velocidad; y los vectores se pueden reducir a un valor entre -1 y 1 para describir solo una dirección, a través de un proceso llamado **normalización**. 
+
+Ahora que hemos revisado y entendido estos conceptos clave, es hora de empezar a buscar código con Pygame.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM4MDI3NjMsLTIwMjM3NTAyNDcsLT
-E3NDg4OTcxNTcsLTIwMjUzMzI4MzMsLTM1MTg1NzA1OCwtNzQ0
-NzQ3MTIzLDE2Mzg5OTU5NzJdfQ==
+eyJoaXN0b3J5IjpbLTE1NTUyNzkwNywtMjAyMzc1MDI0NywtMT
+c0ODg5NzE1NywtMjAyNTMzMjgzMywtMzUxODU3MDU4LC03NDQ3
+NDcxMjMsMTYzODk5NTk3Ml19
 -->
