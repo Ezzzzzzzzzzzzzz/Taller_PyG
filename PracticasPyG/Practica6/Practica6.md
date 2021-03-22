@@ -8,11 +8,14 @@ Debemos reconocer una deuda de gratitud con Daniel Shiffman por la inspiración 
 
 ## Entendiendo la gravedad
 
-**Quizás esté pensando que ya hemos cubierto el tema de la gravedad en el capítulo tres. Este es solo el caso en parte. Allí, agregamos una fuerza que llamamos gravedad a ciertos objetos para hacerlos caer al fondo de la ventana. Sin embargo, esa fuerza no era particularmente dinámica: sin importar el tamaño o la velocidad del objeto, simplemente se sumaría al valor Y de un objeto hasta que alcanzara la parte inferior de la pantalla, lo cual no es muy interesante.**
+Quizás esté pensando que ya hemos cubierto el tema de la gravedad en el capítulo tres. Este es solo el caso en parte. **Allí, agregamos una fuerza que llamamos gravedad a ciertos objetos para hacerlos caer al fondo de la ventana. Sin embargo, esa fuerza no era particularmente dinámica: sin importar el tamaño o la velocidad del objeto, simplemente se sumaría al valor Y de un objeto hasta que alcanzara la parte inferior de la pantalla, lo cual no es muy interesante.**
 
 ### Para este nuevo tipo de gravedad, usaremos algo llamado vectores.
 
-Un vector es un valor que describe dos cosas: **dirección y magnitud**. Con estos, podemos calcular el efecto de un objeto con masa sobre la velocidad (la velocidad y la dirección) de otro objeto con masa. 
+Un vector es un valor que describe dos cosas: **dirección y magnitud**. 
+
+
+Con estos, podemos calcular el efecto de un objeto con masa sobre la velocidad (la velocidad y la dirección) de otro objeto con masa. 
 
 La mayoría de las cosas, como dibujar imágenes o manejar pulsaciones de teclas, las hemos hecho antes, por lo que no las volveremos a revisar; en su lugar, **nos centraremos en describir la gravedad e implementarla en nuestro código**. Esto va a requerir un pensamiento serio, así que si no entiende todo la primera vez, no se preocupe: casi todos los que lean esto probablemente sentirán que deben volver a leerlo.
 
@@ -45,5 +48,5 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Mzg0OTg5OCw4Njc2OTE3MDFdfQ==
+eyJoaXN0b3J5IjpbNjQ2ODI5MDQ0LDg2NzY5MTcwMV19
 -->
