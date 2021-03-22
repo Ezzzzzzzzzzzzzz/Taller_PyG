@@ -12,6 +12,7 @@ Quizás esté pensando que ya hemos cubierto el tema de la gravedad en el capít
 
 ### Para este nuevo tipo de gravedad, usaremos algo llamado vectores.
 ![](https://media.giphy.com/media/3o7aDa022Z5JIgsKkg/giphy.gif)
+
 Un vector es un valor que describe dos cosas: **dirección y magnitud**. 
 
 
@@ -48,5 +49,5 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MDAxMzU5LDg2NzY5MTcwMV19
+eyJoaXN0b3J5IjpbOTUxMjIxNjI5LDg2NzY5MTcwMV19
 -->
