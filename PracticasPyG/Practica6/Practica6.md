@@ -4,7 +4,7 @@ En sesiones anteriores, hemos reunido código que nos permite tomar el control d
 
 Siendo este el caso, **en estas sesiones le daremos a ciertos elementos de nuestro programa la capacidad de interactuar con las cosas que los rodean sin que tengamos que hacer nada: vamos a agregar gravedad (o mejor dicho, movimiento que se asemeja mucho gravedad) a algunos planetas que vamos a hacer como parte de un simulador del sistema solar**.
 
-Debemos reconocer una deuda de gratitud con Daniel Shiffman por la inspiración detrás de estos ejemplos. Su libro **The Nature of Code** explica los conceptos que se encuentran aquí y más con mucho mayor detalle. Todo su código está escrito en Java (Processing), pero debería poder convertirlo a Python con un poco de trabajo.
+Debemos reconocer una deuda de gratitud con Daniel Shiffman por la inspiración detrás de estos ejemplos. Su libro [**The Nature of Code**](https://natureofcode.com/) explica los conceptos que se encuentran aquí y más con mucho mayor detalle. Todo su código está escrito en Java (Processing), pero debería poder convertirlo a Python con un poco de trabajo.
 
 ## Entendiendo la gravedad
 
@@ -45,5 +45,5 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3NjkxNzAxXX0=
+eyJoaXN0b3J5IjpbMTk2Mzg0OTg5OCw4Njc2OTE3MDFdfQ==
 -->
