@@ -25,7 +25,7 @@ La mayoría de las cosas, como dibujar imágenes o manejar pulsaciones de teclas
 
 En el mundo real, la gravedad sigue una regla llamada , **["Ley del cuadrado inverso"](https://es.wikipedia.org/wiki/Ley_de_la_inversa_del_cuadrado)** que es la siguiente: 
 
-### "La atracción gravitacional entre dos masas puntuales es directamente proporcional al producto de sus masas e inversamente proporcional al cuadrado de la distancia de separación. La fuerza siempre es atractiva y actúa a lo largo de la línea que los une ”.
+### *"La atracción gravitacional entre dos masas puntuales es directamente proporcional al producto de sus masas e inversamente proporcional al cuadrado de la distancia de separación. La fuerza siempre es atractiva y actúa a lo largo de la línea que los une ”.*
 
 ### Parece un concepto muy complicado, ¿Qué significa?
 
@@ -43,7 +43,7 @@ Por lo tanto, por fuerte que sea el tirón de la gravedad sobre algo, como, por 
 
 Igualmente importante es la oración final de esa declaración:
 
-### "La fuerza es siempre atractiva y actúa a lo largo de la línea que une [las masas puntuales]". 
+### *"La fuerza es siempre atractiva y actúa a lo largo de la línea que une [las masas puntuales]".* 
 
 **La gravedad siempre atrae y nunca repele. Siempre tira en la dirección de los objetos que tira**. 
 
@@ -52,6 +52,6 @@ Igualmente importante es la oración final de esa declaración:
 Es por esta verdad que vamos a utilizar vectores para simular la gravedad. Usando vectores, podemos calcular la dirección de cada objeto en relación con otro y ajustarlo a la fuerza de atracción gravitacional en consecuencia. El resultado es que ocurre la gravedad.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjQ5MDAxMSwtMTE5NjEwODkzNiwtNT
+eyJoaXN0b3J5IjpbLTI3MTU2MzI1NSwtMTE5NjEwODkzNiwtNT
 M3ODU2MjM1LDg2NzY5MTcwMV19
 -->
