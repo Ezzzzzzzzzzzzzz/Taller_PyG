@@ -191,9 +191,18 @@ while True:
 	clock.tick(60)
 	pygame.display.update()
 ```
-Es nuestro conocido bucle "principal". Al igual que en nuestros programas anteriores, es desde aquí que llamamos a funciones para manejar las interacciones del usuario y actualizar nuestra superficie. Las llamadas de función en las líneas 146-157 son donde actualizamos y dibujamos nuestros planetas.
+Es nuestro conocido bucle "principal". Al igual que en nuestros programas anteriores, es desde aquí que llamamos a funciones para manejar las interacciones del usuario y actualizar nuestra superficie. 
+
+Las llamadas de función en las líneas:
+```python
+# Draw the UI; Update the movement of the planets; Draw the planets in their new positions.
+	drawUI()
+	calculateMovement()
+	drawPlanets()
+```
+son donde actualizamos y dibujamos nuestros planetas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MTEzMDcxLDE5NDg5OTkxNzksNjk4OT
-c2MDA4LC0xNTk1ODY0MDMzLDUwOTc3OTYyNSw0ODYxNzk4OTcs
-LTY1ODI4OTA5Niw3NzU4MTIyNl19
+eyJoaXN0b3J5IjpbMTQ0MjIwMDU1MiwxOTQ4OTk5MTc5LDY5OD
+k3NjAwOCwtMTU5NTg2NDAzMyw1MDk3Nzk2MjUsNDg2MTc5ODk3
+LC02NTgyODkwOTYsNzc1ODEyMjZdfQ==
 -->
