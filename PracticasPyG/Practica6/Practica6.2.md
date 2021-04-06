@@ -65,9 +65,9 @@ def drawCurrentBody():
 	surface.blit(solarsystem.images[currentBody["name"]], (currentBody["position"][0] - currentBody["radius"], currentBody["position"][1] - currentBody["radius"]))
 ```
 
-Contienen las funciones `drawUI()` , `drawPlanet ()` y `drawCurrentBody()`. Estos son los responsables de dibujar los elementos de nuestro programa en nuestra ventana. Todos estos se llaman una vez cada vez que se ejecuta el bucle principal, en el orden `drawUI()`, `drawPlanets()` y luego `drawCurrentBody()`.
+Contienen las funciones `drawUI()` , `drawPlanet()` y `drawCurrentBody()`. Estos son los responsables de dibujar los elementos de nuestro programa en nuestra ventana. Todos estos se llaman una vez cada vez que se ejecuta el bucle principal, en el orden `drawUI()`, `drawPlanets()` y luego `drawCurrentBody()`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODk5OTE3OSw2OTg5NzYwMDgsLTE1OT
-U4NjQwMzMsNTA5Nzc5NjI1LDQ4NjE3OTg5NywtNjU4Mjg5MDk2
-LDc3NTgxMjI2XX0=
+eyJoaXN0b3J5IjpbLTgwNzc5MDU3MSwxOTQ4OTk5MTc5LDY5OD
+k3NjAwOCwtMTU5NTg2NDAzMyw1MDk3Nzk2MjUsNDg2MTc5ODk3
+LC02NTgyODkwOTYsNzc1ODEyMjZdfQ==
 -->
