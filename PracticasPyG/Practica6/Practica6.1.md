@@ -30,8 +30,10 @@ Para resumir el material que acabamos de cubrir:
 >- Los vectores describen una dirección y una magnitud que es una cantidad de algo, como la velocidad; y los vectores se pueden reducir a un valor entre -1 y 1 para describir solo una dirección, a través de un proceso llamado **normalización**. 
 
 Ahora que hemos revisado y entendido estos conceptos clave, es hora de empezar a buscar código con Pygame.
+
+Como dijimos anteriormente, vamos a omitir la explicación de gran parte del código de este tutorial, es todo el material que hemos visto antes, pero en aras de la claridad, haremos un repaso rápido de las funciones, ¿qué lo hacen, y el orden en que se llaman. Con el conocimiento que hemos adquirido anteriormente, vamos a construir un simulador del sistema solar que mueve los planetas con la gravedad, en función de su masa y velocidad.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUyNzkwNywtMjAyMzc1MDI0NywtMT
-c0ODg5NzE1NywtMjAyNTMzMjgzMywtMzUxODU3MDU4LC03NDQ3
-NDcxMjMsMTYzODk5NTk3Ml19
+eyJoaXN0b3J5IjpbLTczMjIyMTEzNiwtMTU1NTI3OTA3LC0yMD
+IzNzUwMjQ3LC0xNzQ4ODk3MTU3LC0yMDI1MzMyODMzLC0zNTE4
+NTcwNTgsLTc0NDc0NzEyMywxNjM4OTk1OTcyXX0=
 -->
