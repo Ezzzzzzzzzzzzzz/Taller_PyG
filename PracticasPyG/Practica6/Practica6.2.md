@@ -34,8 +34,9 @@ currentBody = None
 drawAttractions = True
 gravity = 10.0
 ```
-**Este no es un módulo como las otras declaraciones de importación, sino un script personalizado escrito para este tutorial, y puede obtenerlo de [Aqui](). Simplemente colóquelo en la misma carpeta que el `simulador.py`; simplemente crea nuevos planetas para nuestro simulador y no necesita estar en el código `simulator.py` principal, ya que nuestros juegos comenzarán a complicarse si todo está en un solo script.**
+**Este no es un módulo como las otras declaraciones de importación, sino un script personalizado escrito para este tutorial, y puede obtenerlo de [Aqui](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/pyg_partII/PracticasPyG/Practica6/solarsystem.py). Simplemente colóquelo en la misma carpeta que el `simulador.py`; simplemente crea nuevos planetas para nuestro simulador y no necesita estar en el código `simulator.py` principal, ya que nuestros juegos comenzarán a complicarse si todo está en un solo script.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU4NjQwMzMsNTA5Nzc5NjI1LDQ4Nj
-E3OTg5NywtNjU4Mjg5MDk2LDc3NTgxMjI2XX0=
+eyJoaXN0b3J5IjpbLTQ0NzA5NzM2OCwtMTU5NTg2NDAzMyw1MD
+k3Nzk2MjUsNDg2MTc5ODk3LC02NTgyODkwOTYsNzc1ODEyMjZd
+fQ==
 -->
