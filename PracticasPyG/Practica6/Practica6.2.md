@@ -101,8 +101,16 @@ def calculateMovement():
 ```
 
 Involucran la función `calculateMovement()`. Es aquí donde hacemos que suceda toda la magia de la gravedad. Se llama en el bucle principal, justo antes de `drawPlanets()`. **Esta es la parte inteligente de nuestro programa y trabajaremos en cada línea en un momento.**
+
+Las líneas:
+```python
+
+
+
+
+manejan los eventos del mouse y del sistema. Cuando nuestro reproductor hace clic en algún lugar de nuestra ventana, handleMouseDown () se ejecuta y comprueba si nuestro usuario hizo clic en una de las pestañas del planeta en la parte inferior de nuestra ventana con checkUIForClick (). Si es así, checkUIForClick () devolverá el nombre de ese planeta y se creará con solarsystem.makeNewPlanet (), la única función que importamos con import solarsystem al inicio de nuestro script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2OTU5NzQ3LDE5NDg5OTkxNzksNjk4OT
-c2MDA4LC0xNTk1ODY0MDMzLDUwOTc3OTYyNSw0ODYxNzk4OTcs
-LTY1ODI4OTA5Niw3NzU4MTIyNl19
+eyJoaXN0b3J5IjpbLTE5MDU1MjQ4MjIsMTk0ODk5OTE3OSw2OT
+g5NzYwMDgsLTE1OTU4NjQwMzMsNTA5Nzc5NjI1LDQ4NjE3OTg5
+NywtNjU4Mjg5MDk2LDc3NTgxMjI2XX0=
 -->
