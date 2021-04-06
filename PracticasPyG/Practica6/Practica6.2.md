@@ -68,8 +68,13 @@ def drawCurrentBody():
 Contienen las funciones `drawUI()` , `drawPlanet()` y `drawCurrentBody()`. Estos son los responsables de dibujar los elementos de nuestro programa en nuestra ventana. Todos estos se llaman una vez cada vez que se ejecuta el bucle principal, en el orden `drawUI()`, `drawPlanets()` y luego `drawCurrentBody()`.
 
 La función `currentBody()` se encarga de dibujar el planeta que el usuario está arrastrando actualmente por la ventana, antes de dejar que afecte a otros planetas con su gravedad.
+
+Las líneas:
+
+
+Involucran la función `calculateMovement()`. Es aquí donde hacemos que suceda toda la magia de la gravedad. Se llama en el bucle principal, justo antes de `drawPlanets()`. *Esta es la parte inteligente de nuestro programa y trabajaremos en cada línea en un momento.*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzM0NzM2NCwxOTQ4OTk5MTc5LDY5OD
-k3NjAwOCwtMTU5NTg2NDAzMyw1MDk3Nzk2MjUsNDg2MTc5ODk3
-LC02NTgyODkwOTYsNzc1ODEyMjZdfQ==
+eyJoaXN0b3J5IjpbLTE2NTIzNjc4OTUsMTk0ODk5OTE3OSw2OT
+g5NzYwMDgsLTE1OTU4NjQwMzMsNTA5Nzc5NjI1LDQ4NjE3OTg5
+NywtNjU4Mjg5MDk2LDc3NTgxMjI2XX0=
 -->
