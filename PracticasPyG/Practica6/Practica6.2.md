@@ -2,7 +2,9 @@
 
 ![](https://media.giphy.com/media/3o6ZtlX2L2kuaO1rhu/giphy.gif)
 
-En las líneas de la **1 a la 30** de `simulator.py` tenemos todas las variables que necesitamos para ejecutar nuestro programa. Las declaraciones de importación en la parte superior de nuestro script son casi idénticas a nuestros programas anteriores, con una excepción: `import solarsystem` en la **línea 5**. **Este no es un módulo como las otras declaraciones de importación, sino un script personalizado escrito para este tutorial, y puede obtenerlo de [Aqui](). **Simplemente colóquelo en la misma carpeta que el `simulador.py`; simplemente crea nuevos planetas para nuestro simulador y no necesita estar en el código `simulator.py` principal, ya que nuestros juegos comenzarán a complicarse si todo está en un solo script.**
+En las líneas de la **1 a la 30** de `simulator.py` tenemos todas las variables que necesitamos para ejecutar nuestro programa. Las declaraciones de importación en la parte superior de nuestro script son casi idénticas a nuestros programas anteriores, con una excepción: `import solarsystem` en la **línea 5**. 
+
+**Este no es un módulo como las otras declaraciones de importación, sino un script personalizado escrito para este tutorial, y puede obtenerlo de [Aqui](). Simplemente colóquelo en la misma carpeta que el `simulador.py`; simplemente crea nuevos planetas para nuestro simulador y no necesita estar en el código `simulator.py` principal, ya que nuestros juegos comenzarán a complicarse si todo está en un solo script.**
 
 ```python 
 import pygame, sys, random, math
@@ -36,6 +38,6 @@ gravity = 10.0
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5Nzc5NjI1LDQ4NjE3OTg5NywtNjU4Mj
-g5MDk2LDc3NTgxMjI2XX0=
+eyJoaXN0b3J5IjpbMzE2NTYxMTAxLDUwOTc3OTYyNSw0ODYxNz
+k4OTcsLTY1ODI4OTA5Niw3NzU4MTIyNl19
 -->
