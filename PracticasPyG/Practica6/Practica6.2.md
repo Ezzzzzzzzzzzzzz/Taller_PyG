@@ -39,10 +39,35 @@ gravity = 10.0
 Las líneas:
 ```python
 
+def drawUI():
+	surface.blit(UITab, (131,687))
+	surface.blit(solarsystem.images["mercury"], (158,714))
+	surface.blit(solarsystem.images["venus"], (247,706))
+	surface.blit(solarsystem.images["earth"], (344,704))
+	surface.blit(solarsystem.images["mars"], (451,714))
+	surface.blit(solarsystem.images["jupiter"], (524,692))
+	surface.blit(solarsystem.images["saturn"], (620,695))
+	surface.blit(solarsystem.images["neptune"], (724,697))
+	surface.blit(solarsystem.images["uranus"], (822,697))
+
+def drawPlanets():
+
+	for planet in celestialBodies:
+		planet["position"][0] += planet["velocity"][0]
+		planet["position"][1] += planet["velocity"][1]
+		surface.blit(solarsystem.images[planet["name"]], (planet["position"][0] - planet["radius"], planet["position"][1] - planet["radius"]))
+
+def drawCurrentBody():
+
+	currentBody["position"][0] = mousePosition[0]
+	currentBody["position"][1] = mousePosition[1]
+
+	surface.blit(solarsystem.images[currentBody["name"]], (currentBody["position"][0] - currentBody["radius"], currentBody["position"][1] - currentBody["radius"]))
 ```
-contienen las funciones `drawUI()` , `drawPlanet ()` y `drawCurrentBody()`. Estos son los responsables de dibujar los elementos de nuestro programa en nuestra ventana. Todos estos se llaman una vez cada vez que se ejecuta el bucle principal, en el orden `drawUI()`, `drawPlanets()` y luego `drawCurrentBody()`.
+
+Contienen las funciones `drawUI()` , `drawPlanet ()` y `drawCurrentBody()`. Estos son los responsables de dibujar los elementos de nuestro programa en nuestra ventana. Todos estos se llaman una vez cada vez que se ejecuta el bucle principal, en el orden `drawUI()`, `drawPlanets()` y luego `drawCurrentBody()`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTczMTQ2MjgsNjk4OTc2MDA4LC0xNT
-k1ODY0MDMzLDUwOTc3OTYyNSw0ODYxNzk4OTcsLTY1ODI4OTA5
-Niw3NzU4MTIyNl19
+eyJoaXN0b3J5IjpbMTk0ODk5OTE3OSw2OTg5NzYwMDgsLTE1OT
+U4NjQwMzMsNTA5Nzc5NjI1LDQ4NjE3OTg5NywtNjU4Mjg5MDk2
+LDc3NTgxMjI2XX0=
 -->
