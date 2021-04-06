@@ -31,9 +31,13 @@ Para resumir el material que acabamos de cubrir:
 
 Ahora que hemos revisado y entendido estos conceptos clave, es hora de empezar a buscar código con Pygame.
 
-Como dijimos anteriormente, vamos a omitir la explicación de gran parte del código de este tutorial, es todo el material que hemos visto antes, pero en aras de la claridad, haremos un repaso rápido de las funciones, ¿qué lo hacen, y el orden en que se llaman. Con el conocimiento que hemos adquirido anteriormente, vamos a construir un simulador del sistema solar que mueve los planetas con la gravedad, en función de su masa y velocidad.
+**Vamos a omitir la explicación de gran parte del código de este tutorial, es todo el material que hemos visto antes, pero en aras de la claridad, haremos un repaso rápido de las funciones, ¿qué es lo que hacen, y el orden en que se llaman**. 
+
+### Con el conocimiento que hemos adquirido anteriormente, vamos a construir un simulador del sistema solar que mueve los planetas con la gravedad, en función de su masa y velocidad.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjIyMTEzNiwtMTU1NTI3OTA3LC0yMD
+eyJoaXN0b3J5IjpbLTU5ODg3Mjk0MCwtMTU1NTI3OTA3LC0yMD
 IzNzUwMjQ3LC0xNzQ4ODk3MTU3LC0yMDI1MzMyODMzLC0zNTE4
 NTcwNTgsLTc0NDc0NzEyMywxNjM4OTk1OTcyXX0=
 -->
