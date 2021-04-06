@@ -35,12 +35,14 @@ Ahora que hemos revisado y entendido estos conceptos clave, es hora de empezar a
 
 ### Con el conocimiento que hemos adquirido anteriormente, vamos a construir un simulador del sistema solar que mueve los planetas con la gravedad, en función de su masa y velocidad.
 
+![](https://media.giphy.com/media/Xf1Zj5nYsoTcBE4BIN/giphy.gif)
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTE4NTc1MSwtNTk4ODcyOTQwLC0xNT
-U1Mjc5MDcsLTIwMjM3NTAyNDcsLTE3NDg4OTcxNTcsLTIwMjUz
-MzI4MzMsLTM1MTg1NzA1OCwtNzQ0NzQ3MTIzLDE2Mzg5OTU5Nz
-JdfQ==
+eyJoaXN0b3J5IjpbMTY5Mjk3ODcwNCwtNDMxMTg1NzUxLC01OT
+g4NzI5NDAsLTE1NTUyNzkwNywtMjAyMzc1MDI0NywtMTc0ODg5
+NzE1NywtMjAyNTMzMjgzMywtMzUxODU3MDU4LC03NDQ3NDcxMj
+MsMTYzODk5NTk3Ml19
 -->
