@@ -70,11 +70,39 @@ Contienen las funciones `drawUI()` , `drawPlanet()` y `drawCurrentBody()`. Estos
 La función `currentBody()` se encarga de dibujar el planeta que el usuario está arrastrando actualmente por la ventana, antes de dejar que afecte a otros planetas con su gravedad.
 
 Las líneas:
+```python
+def calculateMovement():
 
+	for planet in celestialBodies:
 
-Involucran la función `calculateMovement()`. Es aquí donde hacemos que suceda toda la magia de la gravedad. Se llama en el bucle principal, justo antes de `drawPlanets()`. *Esta es la parte inteligente de nuestro programa y trabajaremos en cada línea en un momento.*
+		for otherPlanet in celestialBodies:
+
+			if otherPlanet is not planet:
+				
+				direction = (otherPlanet["position"][0] - planet["position"][0], otherPlanet["position"][1] - planet["position"][1]) # The difference in the X, Y coordinates of the objects
+				magnitude = math.hypot(otherPlanet["position"][0] - planet["position"][0], otherPlanet["position"][1] - planet["position"][1]) # The distance between the two objects
+				nDirection = (direction[0] / magnitude, direction[1] / magnitude) # Normalised Vector pointing in the direction of the force
+
+				## We need to limit the gravity to stop things flying off to infinity... and beyond!
+				if magnitude < 5:
+					magnitude = 5
+				elif magnitude > 30:
+					magnitude = 30
+
+				strength = ((gravity * planet["mass"] * otherPlanet["mass"]) / (magnitude * magnitude)) / otherPlanet["mass"] # How strong should the attraction be?
+
+				appliedForce = (nDirection[0] * strength, nDirection[1] * strength)
+
+				otherPlanet["velocity"][0] -= appliedForce[0]
+				otherPlanet["velocity"][1] -= appliedForce[1]
+
+				if drawAttractions is True:
+					pygame.draw.line(surface, (255,255,255), (planet["position"][0],planet["position"][1]), (otherPlanet["position"][0],otherPlanet["position"][1]), 1)
+```
+
+Involucran la función `calculateMovement()`. Es aquí donde hacemos que suceda toda la magia de la gravedad. Se llama en el bucle principal, justo antes de `drawPlanets()`. **Esta es la parte inteligente de nuestro programa y trabajaremos en cada línea en un momento.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTIzNjc4OTUsMTk0ODk5OTE3OSw2OT
-g5NzYwMDgsLTE1OTU4NjQwMzMsNTA5Nzc5NjI1LDQ4NjE3OTg5
-NywtNjU4Mjg5MDk2LDc3NTgxMjI2XX0=
+eyJoaXN0b3J5IjpbMzM2OTU5NzQ3LDE5NDg5OTkxNzksNjk4OT
+c2MDA4LC0xNTk1ODY0MDMzLDUwOTc3OTYyNSw0ODYxNzk4OTcs
+LTY1ODI4OTA5Niw3NzU4MTIyNl19
 -->
