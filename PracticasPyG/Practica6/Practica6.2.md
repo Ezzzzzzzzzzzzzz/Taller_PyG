@@ -1,5 +1,7 @@
 # Simulador.py
 
+![](https://media.giphy.com/media/3o6ZtlX2L2kuaO1rhu/giphy.gif)
+
 En las líneas de la **1 a la 30** de `simulator.py` tenemos todas las variables que necesitamos para ejecutar nuestro programa. Las declaraciones de importación en la parte superior de nuestro script son casi idénticas a nuestros programas anteriores, con una excepción: `import solarsystem` en la línea 5.
 
 ```python 
@@ -33,5 +35,6 @@ drawAttractions = True
 gravity = 10.0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODI4OTA5Niw3NzU4MTIyNl19
+eyJoaXN0b3J5IjpbNDg2MTc5ODk3LC02NTgyODkwOTYsNzc1OD
+EyMjZdfQ==
 -->
