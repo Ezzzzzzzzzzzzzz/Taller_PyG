@@ -1,4 +1,4 @@
-# V es para vector
+# V es por vector
 Entonces, ahora que comprendemos cómo funciona la gravedad, es hora de echar un vistazo a lo que es un vector. Puedes pensar en un vector como una flecha:
 
 ### Tiene dos valores, una X y una Y, y juntos apuntan en una dirección. 
@@ -36,8 +36,11 @@ Ahora que hemos revisado y entendido estos conceptos clave, es hora de empezar a
 ### Con el conocimiento que hemos adquirido anteriormente, vamos a construir un simulador del sistema solar que mueve los planetas con la gravedad, en función de su masa y velocidad.
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODg3Mjk0MCwtMTU1NTI3OTA3LC0yMD
-IzNzUwMjQ3LC0xNzQ4ODk3MTU3LC0yMDI1MzMyODMzLC0zNTE4
-NTcwNTgsLTc0NDc0NzEyMywxNjM4OTk1OTcyXX0=
+eyJoaXN0b3J5IjpbLTQzMTE4NTc1MSwtNTk4ODcyOTQwLC0xNT
+U1Mjc5MDcsLTIwMjM3NTAyNDcsLTE3NDg4OTcxNTcsLTIwMjUz
+MzI4MzMsLTM1MTg1NzA1OCwtNzQ0NzQ3MTIzLDE2Mzg5OTU5Nz
+JdfQ==
 -->
