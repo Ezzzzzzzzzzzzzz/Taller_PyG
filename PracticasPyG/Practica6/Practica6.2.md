@@ -104,12 +104,28 @@ Involucran la función `calculateMovement()`. Es aquí donde hacemos que suceda 
 
 Las líneas:
 ```python
+def checkUIForClick(coordinates):
 
+	for tab in UICoordinates:
+		tabX = tab["coordinates"][0]
 
+		if coordinates[0] > tabX and coordinates[0] < tabX + 82:
+			return tab["name"]
+
+	return False
+
+def handleMouseDown():
+	global mousePosition, currentBody
+
+	if(mousePosition[1] >= 687):
+		newPlanet = checkUIForClick(mousePosition)
+
+		if newPlanet is not False:
+			currentBody = solarsystem.makeNewPlanet(newPlanet)
 ```
 manejan los eventos del mouse y del sistema. Cuando nuestro jugador hace clic en algún lugar de nuestra ventana, `handleMouseDown()` se ejecuta y comprueba si nuestro usuario hizo clic en una de las pestañas del planeta en la parte inferior de nuestra ventana con `checkUIForClick()`. Si es así, `checkUIForClick()` devolverá el nombre de ese planeta y se creará con `solarsystem.makeNewPlanet()`, la única función que importamos con `import solarsystem` al inicio de nuestro script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjAyMTM5NjUsMTk0ODk5OTE3OSw2OT
+eyJoaXN0b3J5IjpbLTIwNTk2NjY0ODQsMTk0ODk5OTE3OSw2OT
 g5NzYwMDgsLTE1OTU4NjQwMzMsNTA5Nzc5NjI1LDQ4NjE3OTg5
 NywtNjU4Mjg5MDk2LDc3NTgxMjI2XX0=
 -->
