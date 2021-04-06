@@ -4,7 +4,7 @@
 
 En las líneas de la **1 a la 30** de `simulator.py` tenemos todas las variables que necesitamos para ejecutar nuestro programa. Las declaraciones de importación en la parte superior de nuestro script son casi idénticas a nuestros programas anteriores, con una excepción:
 
- `import solarsystem` en la línea 5.
+ `import solarsystem` en la **línea 5**.
 
 ```python 
 import pygame, sys, random, math
@@ -37,6 +37,6 @@ drawAttractions = True
 gravity = 10.0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyNTk4NTQ5LDQ4NjE3OTg5NywtNjU4Mj
-g5MDk2LDc3NTgxMjI2XX0=
+eyJoaXN0b3J5IjpbLTY4MTg4MzM3MSw0ODYxNzk4OTcsLTY1OD
+I4OTA5Niw3NzU4MTIyNl19
 -->
