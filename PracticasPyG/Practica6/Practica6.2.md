@@ -36,9 +36,9 @@ gravity = 10.0
 ```
 **Este no es un módulo como las otras declaraciones de importación, sino un script personalizado escrito para este tutorial, y puede obtenerlo de [Aqui](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/pyg_partII/PracticasPyG/Practica6/solarsystem.py). Simplemente colóquelo en la misma carpeta que el `simulador.py`; simplemente crea nuevos planetas para nuestro simulador y no necesita estar en el código `simulator.py` principal, ya que nuestros juegos comenzarán a complicarse si todo está en un solo script.**
 
-Las líneas 31-54 contienen las funciones `drawUI()` , `drawPlanet ()` y `drawCurrentBody()`. Estos son los responsables de dibujar los elementos de nuestro programa en nuestra ventana. Todos estos se llaman una vez cada vez que se ejecuta el bucle principal, en el orden `drawUI()`, `drawPlanets()` y luego `drawCurrentBody ()`.
+Las líneas 31-54 contienen las funciones `drawUI()` , `drawPlanet ()` y `drawCurrentBody()`. Estos son los responsables de dibujar los elementos de nuestro programa en nuestra ventana. Todos estos se llaman una vez cada vez que se ejecuta el bucle principal, en el orden `drawUI()`, `drawPlanets()` y luego `drawCurrentBody()`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc0NTE5ODYsLTE1OTU4NjQwMzMsNT
-A5Nzc5NjI1LDQ4NjE3OTg5NywtNjU4Mjg5MDk2LDc3NTgxMjI2
-XX0=
+eyJoaXN0b3J5IjpbNjk4OTc2MDA4LC0xNTk1ODY0MDMzLDUwOT
+c3OTYyNSw0ODYxNzk4OTcsLTY1ODI4OTA5Niw3NzU4MTIyNl19
+
 -->
