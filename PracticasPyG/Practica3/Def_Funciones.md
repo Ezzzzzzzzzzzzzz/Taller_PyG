@@ -12,14 +12,14 @@ def mi_funcion():
 **Una función, no es ejecutada hasta tanto no sea invocada.** Para invocar una función, simplemente se la llama por su nombre:
 ```python
 def mi_funcion(): 
-    print "Hola Mundo" 
+    print("Hola Mundo") 
 
 mi_funcion()
 ```
 Cuando una función, haga un  **retorno de datos**, éstos, pueden ser asignados a una variable:
 ```python
 def funcion(): 
-    return "Hola Mundo" 
+    return("Hola Mundo") 
 
 frase = funcion() 
 print frase
@@ -41,16 +41,16 @@ Los parámetros que una función espera, serán utilizados por ésta, dentro de 
 ```python
 def mi_funcion(nombre, apellido): 
     nombre_completo = nombre, apellido 
-    print nombre_completo
+    print(nombre_completo)
 ```
 Si quisiéramos acceder a esas variables locales, fuera de la función, obtendríamos un error:
 ```python
 def mi_funcion(nombre, apellido): 
     nombre_completo = nombre, apellido 
-    print nombre_completo 
+    print(nombre_completo) 
 
 # Retornará el error: NameError: name 'nombre' is not defined
-print nombre
+print(nombre)
 ```
 Al llamar a una función, **siempre se le deben pasar sus argumentos en el mismo orden en el que los espera**. Pero esto puede evitarse, haciendo uso del paso de argumentos como keywords (ver más abajo: _"Keywords como parámetros"_).
 
@@ -59,7 +59,7 @@ Al llamar a una función, **siempre se le deben pasar sus argumentos en el mismo
 En Python, también es posible, asignar valores por defecto a los parámetros de las funciones. Esto significa, que la función podrá ser llamada con menos argumentos de los que espera:
 ```python
 def saludar(nombre, mensaje='Hola'): 
-    print mensaje, nombre 
+    print(mensaje, nombre) 
 
 saludar('Pepe Grillo') # Imprime: Hola Pepe Grillo
 ```
@@ -69,7 +69,7 @@ saludar('Pepe Grillo') # Imprime: Hola Pepe Grillo
 En Python, también es posible llamar a una función, pasándole los argumentos esperados, como pares de  `claves=valor`:
 ```python
 def saludar(nombre, mensaje='Hola'): 
-    print mensaje, nombre
+    print(mensaje, nombre)
 
 saludar(mensaje="Buen día", nombre="Juancho")
 ```
@@ -80,7 +80,7 @@ Al igual que en otros lenguajes de alto nivel, es posible que una función, espe
 Para definir argumentos arbitrarios en una función, se antecede al parámetro un asterisco (`*`):
 ```python
 def recorrer_parametros_arbitrarios(parametro_fijo, *arbitrarios): 
-    print parametro_fijo 
+    print(parametro_fijo) 
 
     # Los parámetros arbitrarios se corren como tuplas
     for argumento in arbitrarios: 
@@ -123,6 +123,6 @@ datos = {"descuento": 10, "importe": 1500}
 print calcular(**datos)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2NzEzMTY0LDc3MTgxNDU5MywtMjA2OT
-kxNjg4Ml19
+eyJoaXN0b3J5IjpbMTQ4NjE4ODM1Niw5NjY3MTMxNjQsNzcxOD
+E0NTkzLC0yMDY5OTE2ODgyXX0=
 -->
