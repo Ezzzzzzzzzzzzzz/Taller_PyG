@@ -32,6 +32,9 @@ else:
 	print(“a no es menor que b”)
 ```
 En este ejemplo, la condición esta impuesta por una expresión de relación. Si al evaluar la condición se cumple que **a es menor que b** (lo cual es falso), entonces **imprimirá** un mensaje el cual es **“a es menor que b”**, **como sabemos que la condición es falsa se ejecuta la sentencia dos que imprime el mensaje “a no es menor que b”**. 
+
+![](https://github.com/Ezzzzzzzzzzzzzz/Taller_PyG/blob/master/PracticasPyG/Practica3/IFELSE.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxMjk2MTA2LDY3NTg2ODI2N119
+eyJoaXN0b3J5IjpbLTEyOTMyODM5OTYsMjUxMjk2MTA2LDY3NT
+g2ODI2N119
 -->
