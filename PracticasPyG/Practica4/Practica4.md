@@ -129,6 +129,8 @@ Si revisamos nuestro ejercicio mental de juego MMO, nos daremos cuenta rápidame
 
 ### Las listas son variables que pueden almacenar grupos de otras variables. 
 
+![](https://www.codeitbro.com/wp-content/uploads/2020/07/python-funny-meme-6-lists.jpg)
+
 Si quisiéramos realizar un seguimiento de los jugadores de nuestro juego, no necesitaríamos crear una variable para cada jugador. **Podríamos simplemente agregar un diccionario de jugador a una lista y trabajar con ellos cuando sea necesario.** Si, por ejemplo, quisiéramos obtener la información del segundo jugador en nuestro MMO imaginario, ingresaríamos algo como `players[1]` y eso devolvería un diccionario para nuestro segundo jugador del cual podríamos obtener valores, así : `players[1][“x”]`.
 
 En este ejemplo **`1` se llama índice. Es importante notar que los índices de lista comienzan a contar desde 0, por lo que si queremos acceder al primer elemento de una lista, usamos el índice 0; si queremos obtener el cuarto elemento de una lista, usamos el índice 3**. 
@@ -138,8 +140,9 @@ En este ejemplo **`1` se llama índice. Es importante notar que los índices de 
 En nuestro juego, no usamos **listas** y **diccionarios** para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzMTk1MDE2LDIwMTMwNjE3MDcsLTM4NT
-AyODAyLDQ0ODQyOTM3OCw0NzAwMjQ3OTQsNTkyNjg2NjkyLC0x
-OTM3NDI5ODExLC0xOTM3NDI5ODExLC00MDEwMzg0MDgsLTEwOT
-gxMDIwNzgsLTgxNjI2MTkzNiwxMTc1MjIwODcxXX0=
+eyJoaXN0b3J5IjpbMjE2Mzc2MTcsNTgzMTk1MDE2LDIwMTMwNj
+E3MDcsLTM4NTAyODAyLDQ0ODQyOTM3OCw0NzAwMjQ3OTQsNTky
+Njg2NjkyLC0xOTM3NDI5ODExLC0xOTM3NDI5ODExLC00MDEwMz
+g0MDgsLTEwOTgxMDIwNzgsLTgxNjI2MTkzNiwxMTc1MjIwODcx
+XX0=
 -->
