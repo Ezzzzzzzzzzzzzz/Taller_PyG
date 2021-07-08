@@ -127,7 +127,7 @@ Entonces, digamos que queremos saber cuál es el valor de `x` en el diccionario 
 
 Si revisamos nuestro ejercicio mental de juego MMO, nos daremos cuenta rápidamente de que todavía necesitamos 100 variables para manejar a 100 jugadores, a pesar de que hemos hecho las cosas más ordenadas y más útiles. ¿Cuál es la mejor manera de realizar un seguimiento de los diccionarios? Ahí es donde entran las listas.
 
-[Complementario Diccionarios](https://devcode.la/tutoriales/diccionarios-en-python/)
+[Complementario "Diccionarios en Python"](https://devcode.la/tutoriales/diccionarios-en-python/)
 
 ### Las listas son variables que pueden almacenar grupos de otras variables. 
 
@@ -141,8 +141,9 @@ En este ejemplo **`1` se llama índice. Es importante notar que los índices de 
 
 En nuestro juego, no usamos **listas** y **diccionarios** para rastrear a los jugadores, sino para rastrear las plataformas por las que nos moveremos y atravesamos. Veremos eso en un momento, una vez que hayamos examinado la lógica del juego.
 
+[Complementario "Listas en Python"](https://devcode.la/tutoriales/listas-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MjA0MDExNywyMTYzNzYxNyw1ODMxOT
+eyJoaXN0b3J5IjpbLTM1MjU1MTgyNSwyMTYzNzYxNyw1ODMxOT
 UwMTYsMjAxMzA2MTcwNywtMzg1MDI4MDIsNDQ4NDI5Mzc4LDQ3
 MDAyNDc5NCw1OTI2ODY2OTIsLTE5Mzc0Mjk4MTEsLTE5Mzc0Mj
 k4MTEsLTQwMTAzODQwOCwtMTA5ODEwMjA3OCwtODE2MjYxOTM2
